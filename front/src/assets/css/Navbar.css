@@ -8,11 +8,24 @@ background: #191921;
 }
 
 .logo_text{
-    padding-top: 25px;
-    padding-right: 94;
-    padding-left: 32px;
+    
+    margin-left: 32px;
+    margin-top: 25px;
     font-size: 20px;
     color: #ffffff;
-    width : 114px;
-    height: 30px;
+   
+}
+
+.home_btn{
+    margin-left: 35px;
+    width: 87px;
+    height: 21px;
+    margin-top:104px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.home_text{
+    
+    
 }
