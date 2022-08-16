@@ -1,90 +1,113 @@
-import "./sidebar.css";
+import "../../assets/css/sidebar.css";
 import {
   Timeline,
   TrendingUp,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import home from '../../assets/icon/ping/home.svg'
+import Stream from '../../assets/icon/graw/video.svg'
+import Metaverse from '../../assets/icon/graw/globe.svg'
+import Artist from '../../assets/icon/graw/headphones.svg'
+import Store from '../../assets/icon/graw/shopping-bag.svg'
+import Favorite from '../../assets/icon/graw/star.svg'
+import Calendar from '../../assets/icon/graw/calendar.svg'
+import MyAvatar from '../../assets/icon/graw/edit.svg'
+import MyRoom from '../../assets/icon/graw/codepen.svg'
+import Settings from '../../assets/icon/graw/settings.svg'
+import Help from '../../assets/icon/graw/help-circle.svg'
 
 export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
-          <ul className="sidebarList">
+          <div className="sidebarList">
+
+
             <Link to="/" className="link">
-            <li className="sidebarListItem active">
-            <img className="sidebarIcon" src={home} alt="home" />
-            Home
-            </li>
+              <div className="sidebarListItem active">
+                <img className="sidebarIcon" src={home} alt="home" />
+                Home
+              </div>
             </Link>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Stream
-            </li>
-            <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Metaverse
-            </li>
-          </ul>
-        </div>
-        {/* <div className="sidebarMenu">
-          <ul className="sidebarList">
-            <Link to="/users" className="link">
-              <li className="sidebarListItem">
-                <PermIdentity className="sidebarIcon" />
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem1  active">
+                <img className="sidebarIcon" src={Stream} alt="Stream" />
+                Stream
+              </div>
+            </Link>
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem1  active">
+                <img className="sidebarIcon" src={Metaverse} alt="Metaverse" />
+                Metaverse
+              </div>
+            </Link>
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem1  active">
+                <img className="sidebarIcon" src={Artist} alt="Artist" />
                 Artist
-              </li>
+              </div>
             </Link>
-            <Link to="/products" className="link">
-              <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem1  active">
+                <img className="sidebarIcon" src={Store} alt="Store" />
                 Store
-              </li>
+              </div>
             </Link>
-            <hr />
-            <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
-              Favorite
-            </li>
-            <li className="sidebarListItem">
-              <BarChart className="sidebarIcon" />
-              Reports
-            </li>
-          </ul>
+
+            <hr className="hr" />
+
+            <Link to="/" className="link">
+              <div className="sidebarListItemFavorite active">
+                <img className="sidebarIcon" src={Favorite} alt="Favorite" />
+                Favorite
+              </div>
+            </Link>
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem2 active">
+                <img className="sidebarIcon" src={Calendar} alt="Calendar" />
+                Calendar
+              </div>
+            </Link>
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem2 active">
+                <img className="sidebarIcon" src={MyAvatar} alt="MyAvatar" />
+                My Avatar
+              </div>
+            </Link>
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem2 active">
+                <img className="sidebarIcon" src={MyRoom} alt="MyRoom" />
+                My Room
+              </div>
+            </Link>
+
+            <hr className="hr2" />
+
+            <Link to="/" className="link">
+              <div className="sidebarListItemSettings active">
+                <img className="sidebarIcon" src={Settings} alt="Settings" />
+                Settings
+              </div>
+            </Link>
+
+            <Link to="/" className="link">
+              <div className="sidebarListItem3 active">
+                <img className="sidebarIcon" src={Help} alt="Help" />
+                Help
+              </div>
+            </Link>
+
+          </div>
         </div>
-        <div className="sidebarMenu">
-          <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <MailOutline className="sidebarIcon" />
-              Mail
-            </li>
-            <li className="sidebarListItem">
-              <DynamicFeed className="sidebarIcon" />
-              Feedback
-            </li>
-            <li className="sidebarListItem">
-              <ChatBubbleOutline className="sidebarIcon" />
-              Messages
-            </li>
-          </ul>
-        </div>
-        <div className="sidebarMenu">
-          <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <WorkOutline className="sidebarIcon" />
-              Manage
-            </li>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <Report className="sidebarIcon" />
-              Reports
-            </li>
-          </ul>
-        </div> */}
+
       </div>
     </div>
   );
