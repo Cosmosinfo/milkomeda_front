@@ -7,6 +7,7 @@ height: 1117px;
 background: #191921;
 }
 
+
 .logo_text{
     
     margin-left: 32px;
@@ -17,15 +18,17 @@ background: #191921;
 }
 
 .home_btn{
-    margin-left: 35px;
+    /* margin-left: 35px;
     width: 87px;
     height: 21px;
-    margin-top:104px;
+    margin-top:104px; */
     color: #ffffff;
-    text-align: right;
+    
+    
 }
 
+
 .home_text{
-    
+    text-align: right;
     
 }

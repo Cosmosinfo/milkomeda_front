@@ -1,20 +1,24 @@
-/*eslint-disable */
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MainPage from './views/MainPage';
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* exact는 path 속성에 넣은 경로값이 정확히 URL의 경로값과 일치할 때만 렌더링 */}
-        <Route path="/" exact={true} element={<MainPage />} />
-
-
-
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
