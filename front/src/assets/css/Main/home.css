@@ -1,0 +1,41 @@
+.home{
+    flex: 4;
+    
+    background-color: #15141B;
+    margin-top: -10px;
+    padding: 30px;
+    
+}
+
+.HomeCarousel{
+    /* display: flex;
+    margin: 30px; */
+}
+
+.HomeArtist{
+    font-weight: 600px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height : 30px;
+    color: #ffffff;
+}
+
+.ArtistItem{
+    
+    margin-top: 12px;
+}
+
+.LiveStage{
+    margin-top: 30px;
+    font-size : 20px;
+    font-weight : 600;
+}
+
+.Live{
+    color : #f3017f;
+    font-weight : 800;
+}
+.Stage{
+    color : #ffffff;
+    font-weight : 600;
+}

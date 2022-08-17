@@ -1,0 +1,52 @@
+.Artist {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.ArtistImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+  
+  .featuredItem {
+    flex: 1;
+    margin-right: 24px;
+    
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #191922;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  
+  .featuredMoneyContainer{
+      margin: 10px 0px;
+      margin-left: 12px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .ArtistUser{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .ArtistName{
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+
+.MusicGenre{
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 400;
+    color : #8b8999
+}
+  
