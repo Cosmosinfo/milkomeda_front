@@ -21,17 +21,17 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
-          
+
           <div className="sidebarList1">
 
-          <Link to="/" className="link">
+            <Link to="/" className="link">
               <div className="sidebarListItem active">
                 <img className="sidebarIcon" src={home} alt="home" />
                 Home
               </div>
             </Link>
 
-            <Link to="/" className="link">
+            <Link to="/stream" className="link">
               <div className="sidebarListItem1  active">
                 <img className="sidebarIcon" src={Stream} alt="Stream" />
                 Stream
@@ -65,8 +65,8 @@ export default function Sidebar() {
 
           <div className="sidebarList2">
 
-          
-          <Link to="/" className="link">
+
+            <Link to="/" className="link">
               <div className="sidebarListItemFavorite active">
                 <img className="sidebarIcon" src={Favorite} alt="Favorite" />
                 Favorite
@@ -100,7 +100,7 @@ export default function Sidebar() {
 
           <div className="sidebarList3">
 
-          <Link to="/" className="link">
+            <Link to="/" className="link">
               <div className="sidebarListItemSettings active">
                 <img className="sidebarIcon" src={Settings} alt="Settings" />
                 Settings
