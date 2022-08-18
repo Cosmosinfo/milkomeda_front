@@ -5,13 +5,14 @@
   }
 
 .StageBox{
-    flex: 1;
+    /* flex: 1; */
+
     
     
 }
 
 .StageBoxItem{
-    width: 380px;
+    width: 325px;
     height: 200px;
     margin-right: 24px;
     border-radius: 6px;

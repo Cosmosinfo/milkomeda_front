@@ -31,20 +31,20 @@ export default function Home() {
 
       <div className="StageItem">
 
-      <LiveStage />
+        <LiveStage />
 
       </div>
 
       <div className="hr-sect">
         More
         <img className="chevron" src={chevron} alt="chevron" />
-        </div>
-        <div className="UpcomingStage">
-                <h3>Upcoming Stage</h3>
-            </div>
+      </div>
+      <div className="UpcomingStage">
+        <h3>Upcoming Stage</h3>
+      </div>
       <div className="UpcomingStageItem">
-            
-      <UpcomingStage />
+
+        <UpcomingStage />
 
       </div>
     </div>
