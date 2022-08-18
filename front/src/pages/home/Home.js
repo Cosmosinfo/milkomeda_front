@@ -47,6 +47,12 @@ export default function Home() {
         <UpcomingStage />
 
       </div>
+
+      <div className="UpcomingStageItem">
+
+        <UpcomingStage />
+
+      </div>
     </div>
 
   );

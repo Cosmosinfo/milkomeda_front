@@ -10,11 +10,13 @@ import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Home from "./pages/home/Home";
 import StreamMain from "./pages/stream/StreamMain";
+import StreamLive from "./pages/stream/StreamLive";
 
 function App() {
   return (
     <Router>
       <Topbar />
+      
       <div className="container">
         <Sidebar />
         <Switch>
@@ -23,6 +25,9 @@ function App() {
           </Route>
           <Route exact={true} path="/stream">
             <StreamMain />
+          </Route>
+          <Route exact={true} path="/streamLive">
+            <StreamLive />
           </Route>
           {/* <Route path="/users">
             <UserList />

@@ -1,0 +1,73 @@
+.StreamMain{
+    margin-left: 240px;
+    background-color: #15141B;
+    padding: 30px;
+}
+
+
+.StreamLiveStage{
+    display: flex;
+    font-size : 20px;
+    font-weight : 600;
+}
+
+
+
+.StreamLive{
+    color : #f3017f;
+    font-weight : 800;
+}
+.StreamStage{
+    color : #ffffff;
+    font-weight : 600;
+}
+
+.StreamStageUS{
+margin-left: 32px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+
+
+color: #8B8999;
+}
+
+.StreamStagePS{
+    margin-left: 32px;
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8B8999;
+}
+
+
+
+.Streamfilter{
+    margin-left: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.StreamIcon{
+    
+    margin-left: 1040px;
+    margin-right: 12px;
+}
+
+.StageItem{
+    display:  flex;
+    /* justify-content: space-between; */
+    margin-top: 12px;
+}
+
+
