@@ -16,9 +16,9 @@ function App() {
   return (
     <Router>
       <Topbar />
-      
+      <Sidebar />
       <div className="container">
-        <Sidebar />
+        
         <Switch>
           <Route exact={true} path="/">
             <Home />

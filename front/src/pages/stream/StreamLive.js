@@ -8,11 +8,21 @@ import "../../assets/css/Stream/StreamLive.css"
 function StreamLive() {
     return (
         <>
-<div className="StreamContanier">
+<div className="StreamLive_Contanier">
+
+    <div className='Live_box'>
 
     
+    </div>
 
 </div>
+
+<div className='Live_chat'>
+
+
+</div>
+
+
 
        
         
