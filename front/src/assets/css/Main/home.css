@@ -1,5 +1,5 @@
 .home{
-    flex: 4;
+    margin-left: 240px;
     
     background-color: #15141B;
     margin-top: -10px;
@@ -12,13 +12,6 @@
     margin: 30px; */
 }
 
-.HomeArtist{
-    font-weight: 600px;
-    margin-top: 30px;
-    font-size: 20px;
-    line-height : 30px;
-    color: #ffffff;
-}
 
 .ArtistItem{
     
@@ -38,4 +31,47 @@
 .Stage{
     color : #ffffff;
     font-weight : 600;
+}
+
+.StageItem{
+    display:  flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+  .hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #F3017F;
+	font-size: 14px;
+	margin-top: 24px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: #8B8999;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 30px;
+}
+
+.chevron{
+    margin-left: 12px;
+}
+
+.UpcomingStage{
+    font-weight: 600px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height : 30px;
+    color: #ffffff;
+  }
+
+.UpcomingStageItem{
+    display:  flex;
+    justify-content: space-between;
+    margin-top: 12px;
 }

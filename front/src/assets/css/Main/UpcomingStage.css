@@ -1,50 +1,50 @@
-.Artist {
+.UpComingStageList {
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
+    list-style: none;
   }
 
-.ArtistImg{
-    width: 60px;
-    height: 60px;
-    border-radius: 100px;
-    cursor: pointer;
-}
-
-.HomeArtist{
-  font-weight: 600px;
-  margin-top: 30px;
-  font-size: 20px;
-  line-height : 30px;
-  color: #ffffff;
-}
-
-  
-  .featuredItem {
+.UpStageBox{
     flex: 1;
-    margin-right: 24px;
     
+    
+}
+
+.UpStageBoxItem{
+    width: 380px;
+    height: 200px;
+    margin-right: 24px;
     border-radius: 6px;
     cursor: pointer;
     background-color: #191922;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-  }
-  
-  
-  .featuredMoneyContainer{
-      margin: 10px 0px;
-      margin-left: 12px;
+}
+  .UpStageTitle{
       display: flex;
+      margin-top: 12px;
       align-items: center;
   }
+
+.UpStageArtistImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
   
-  .ArtistUser{
+  
+
+  
+  .UpStageContainer{
       display: flex;
       flex-direction: column;
   }
 
-  .ArtistName{
+  .ex{
     margin-left: 12px;
     font-size: 14px;
     font-weight: 400;
@@ -52,10 +52,11 @@
   }
 
 
-.MusicGenre{
+.ex2{
     margin-left: 12px;
     font-size: 13px;
     font-weight: 400;
     color : #8b8999
 }
+
   

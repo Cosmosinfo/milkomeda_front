@@ -6,6 +6,9 @@ import Carousel from "../../components/MainPage/Carousel/Carousel";
 import WidgetSm from "../../components/widgetSm/WidgetSm";
 import WidgetLg from "../../components/widgetLg/WidgetLg";
 import NewArtist from "../../components/MainPage/NewArtist/NewArtist";
+import LiveStage from "../../components/MainPage/LiveStage/LiveStage";
+import chevron from '../../assets/icon/ping/chevron-down.svg'
+import UpcomingStage from "../../components/MainPage/UpcomingStage/UpcomingStage"
 
 export default function Home() {
   return (
@@ -15,10 +18,6 @@ export default function Home() {
       <div className="HomeCarousel">
 
         <Carousel />
-      </div>
-
-      <div className="HomeArtist">
-        <h3>New Artist</h3>
       </div>
 
       <div className="ArtistItem">
@@ -32,11 +31,22 @@ export default function Home() {
 
       <div className="StageItem">
 
-
+      <LiveStage />
 
       </div>
 
-      <WidgetSm />
+      <div className="hr-sect">
+        More
+        <img className="chevron" src={chevron} alt="chevron" />
+        </div>
+        <div className="UpcomingStage">
+                <h3>Upcoming Stage</h3>
+            </div>
+      <div className="UpcomingStageItem">
+            
+      <UpcomingStage />
+
+      </div>
     </div>
 
   );

@@ -1,9 +1,13 @@
 import React from 'react'
-import { ArrowDownward, ArrowUpward } from "@material-ui/icons";
 import "../../../assets/css/Main/NewArtist.css"
 
 function NewArtist() {
     return (
+
+        <>
+            <div className="HomeArtist">
+                <h3>New Artist</h3>
+            </div>
         <div className="Artist">
             <div className="featuredItem">
                 <div className="featuredMoneyContainer">
@@ -63,6 +67,8 @@ function NewArtist() {
 
 
         </div>
+        
+        </>
     )
 }
 

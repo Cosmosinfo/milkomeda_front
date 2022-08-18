@@ -21,10 +21,10 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
-          <div className="sidebarList">
+          
+          <div className="sidebarList1">
 
-
-            <Link to="/" className="link">
+          <Link to="/" className="link">
               <div className="sidebarListItem active">
                 <img className="sidebarIcon" src={home} alt="home" />
                 Home
@@ -59,9 +59,14 @@ export default function Sidebar() {
               </div>
             </Link>
 
-            <hr className="hr" />
+          </div>
 
-            <Link to="/" className="link">
+          <hr className="hr" />
+
+          <div className="sidebarList2">
+
+          
+          <Link to="/" className="link">
               <div className="sidebarListItemFavorite active">
                 <img className="sidebarIcon" src={Favorite} alt="Favorite" />
                 Favorite
@@ -89,9 +94,13 @@ export default function Sidebar() {
               </div>
             </Link>
 
-            <hr className="hr2" />
+          </div>
 
-            <Link to="/" className="link">
+          <hr className="hr2" />
+
+          <div className="sidebarList3">
+
+          <Link to="/" className="link">
               <div className="sidebarListItemSettings active">
                 <img className="sidebarIcon" src={Settings} alt="Settings" />
                 Settings
@@ -106,6 +115,7 @@ export default function Sidebar() {
             </Link>
 
           </div>
+
         </div>
 
       </div>
