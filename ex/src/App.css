@@ -1,18 +1,12 @@
-.App-header{
-  width: 100%;
-  height: 60px;
-  background-color: #191921;
-}
-
 .App-content{
   display: flex;
 }
 
+
 .App-left{
   width: 240px;
   height: 100%;
-  background-color: aqua;
-  color: aliceblue;
+  background-color: #191921;
 }
 
 .App-left .mnu{

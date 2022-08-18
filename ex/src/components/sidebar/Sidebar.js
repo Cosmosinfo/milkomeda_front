@@ -20,100 +20,101 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
-        <div className="sidebarMenu">
 
-          <div className="sidebarList1">
+        <div className="side_item_1">
 
-            <Link to="/" className="link">
-              <div className="sidebarListItem active">
-                <img className="sidebarIcon" src={home} alt="home" />
-                Home
-              </div>
+          <div className="item_name">
+            <img className="sidebarIcon" src={home} alt="home" />
+            <Link to="/" className="item_link">
+              Home
             </Link>
-
-            <Link to="/stream" className="link">
-              <div className="sidebarListItem1  active">
-                <img className="sidebarIcon" src={Stream} alt="Stream" />
-                Stream
-              </div>
-            </Link>
-
-            <Link to="/" className="link">
-              <div className="sidebarListItem1  active">
-                <img className="sidebarIcon" src={Metaverse} alt="Metaverse" />
-                Metaverse
-              </div>
-            </Link>
-
-            <Link to="/" className="link">
-              <div className="sidebarListItem1  active">
-                <img className="sidebarIcon" src={Artist} alt="Artist" />
-                Artist
-              </div>
-            </Link>
-
-            <Link to="/" className="link">
-              <div className="sidebarListItem1  active">
-                <img className="sidebarIcon" src={Store} alt="Store" />
-                Store
-              </div>
-            </Link>
-
           </div>
 
-          <hr className="hr" />
-
-          <div className="sidebarList2">
-
-
-            <Link to="/" className="link">
-              <div className="sidebarListItemFavorite active">
-                <img className="sidebarIcon" src={Favorite} alt="Favorite" />
-                Favorite
-              </div>
+          <div className="item_name">
+            <img className="sidebarIcon" src={Stream} alt="Stream" />
+            <Link to="/" className="item_link">
+              Stream
             </Link>
-
-            <Link to="/" className="link">
-              <div className="sidebarListItem2 active">
-                <img className="sidebarIcon" src={Calendar} alt="Calendar" />
-                Calendar
-              </div>
-            </Link>
-
-            <Link to="/" className="link">
-              <div className="sidebarListItem2 active">
-                <img className="sidebarIcon" src={MyAvatar} alt="MyAvatar" />
-                My Avatar
-              </div>
-            </Link>
-
-            <Link to="/" className="link">
-              <div className="sidebarListItem2 active">
-                <img className="sidebarIcon" src={MyRoom} alt="MyRoom" />
-                My Room
-              </div>
-            </Link>
-
           </div>
 
-          <hr className="hr2" />
-
-          <div className="sidebarList3">
-
-            <Link to="/" className="link">
-              <div className="sidebarListItemSettings active">
-                <img className="sidebarIcon" src={Settings} alt="Settings" />
-                Settings
-              </div>
+          <div className="item_name">
+            <img className="sidebarIcon" src={Metaverse} alt="Metaverse" />
+            <Link to="/" className="item_link">
+              Metaverse
             </Link>
+          </div>
 
-            <Link to="/" className="link">
-              <div className="sidebarListItem3 active">
-                <img className="sidebarIcon" src={Help} alt="Help" />
-                Help
-              </div>
+          <div className="item_name">
+            <img className="sidebarIcon" src={Artist} alt="Artist" />
+            <Link to="/" className="item_link">
+              Artist
             </Link>
+          </div>
 
+          <div className="item_name">
+            <img className="sidebarIcon" src={Store} alt="Store" />
+            <Link to="/" className="item_link">
+              Store
+            </Link>
+          </div>
+
+        </div>
+
+        <hr className="hr" />
+
+        <div className="side_item_2">
+
+          <div className="item_Favorite">
+            <img className="sidebarIcon" src={Favorite} alt="Favorite" />
+            <Link to="/" className="item_link">
+              Favorite
+            </Link>
+          </div>
+
+          <div className="Favorite_artist">
+            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Artist_logo" />
+          </div>
+
+
+          <div className="item_name">
+            <img className="sidebarIcon" src={Calendar} alt="Calendar" />
+            <Link to="/" className="item_link">
+              Calendar
+            </Link>
+          </div>
+
+          <div className="item_name">
+            <img className="sidebarIcon" src={MyAvatar} alt="MyAvatar" />
+            <Link to="/" className="item_link">
+              MyAvatar
+            </Link>
+          </div>
+
+          <div className="item_name">
+            <img className="sidebarIcon" src={MyRoom} alt="MyRoom" />
+            <Link to="/" className="item_link">
+              MyRoom
+            </Link>
+          </div>
+
+        </div>
+
+        <hr className="hr" />
+
+        <div className="side_item_3">
+
+          <div className="item_name">
+            <img className="sidebarIcon" src={Settings} alt="Settings" />
+            <Link to="/" className="item_link">
+              Settings
+            </Link>
+          </div>
+
+          <div className="item_name">
+            <img className="sidebarIcon" src={Help} alt="Help" />
+            <Link to="/" className="item_link">
+              Help
+            </Link>
           </div>
 
         </div>
