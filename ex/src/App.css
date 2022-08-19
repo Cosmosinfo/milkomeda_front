@@ -1,5 +1,9 @@
 .App-content{
   display: flex;
+  width: auto;
+  height: 100%;
+  padding-left: 240px;
+  padding-top: 60px;
 }
 
 

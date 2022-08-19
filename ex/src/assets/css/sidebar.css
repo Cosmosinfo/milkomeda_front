@@ -1,14 +1,17 @@
 .sidebar {
-  /* position: fixed; */
+  position: fixed;
   width: 240px;
-  height: 100%;
-  background-color: #191921;
+  height: 1020px;
+  background-color: #191922;
   color : #ffff;
+  top: 60px;
+  z-index: 1;
   /* margin-top: -10px; */
 }
 
 .sidebarWrapper {
   width: 176px;
+  height: 1020px;
   padding: 0 32px;
 }
 
@@ -30,7 +33,7 @@
 .side_item_2{
   width: 176px;
   height: 265px;
-  padding: 26px 0 244px 0;
+  padding: 26px 0 100px 0;
 
 }
 
@@ -76,6 +79,17 @@
   font-size: 14px;
   line-height: 21px;
 
+}
+
+.item_help{
+  width : 120px;
+  height : 21px;
+  display: flex;
+  color: #ffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .Favorite_artist{

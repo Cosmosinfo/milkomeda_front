@@ -16,10 +16,10 @@ function App() {
         <Topbar />
 
 
-
+        <Sidebar />
         <div className="App-content">
 
-          <Sidebar />
+          
 
           <Home />
 

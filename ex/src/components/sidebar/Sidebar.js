@@ -110,7 +110,7 @@ export default function Sidebar() {
             </Link>
           </div>
 
-          <div className="item_name">
+          <div className="item_help">
             <img className="sidebarIcon" src={Help} alt="Help" />
             <Link to="/" className="item_link">
               Help
