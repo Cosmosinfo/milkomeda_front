@@ -1,36 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Topbar from './components/topbar/Topbar';
+import Sidebar from './components/sidebar/Sidebar'
+import Home from './pages/home/Home'
 
 function App() {
   return (
 
     <>
-    
-    <Router>
 
-      
-
-         <Topbar />
-      
-     
-      
-      <div className="App-content">
-
-        <div className='App-left'>
-          
-        
-
-      </div>
-
-        <div className='App-right'>
+      <Router>
 
 
 
-        </div>
-        
-        {/* <Switch>
+        <Topbar />
+
+
+
+        <div className="App-content">
+
+          <Sidebar />
+
+          <Home />
+
+
+
+
+          {/* <Switch>
           <Route exact={true} path="/">
             <Home />
           </Route>
@@ -59,10 +55,10 @@ function App() {
             <NewProduct />
           </Route>
         </Switch> */}
-      </div>
-    </Router>
-    
-    
+        </div>
+      </Router>
+
+
     </>
 
     // <div className="App">
@@ -71,7 +67,7 @@ function App() {
     //   </header>
 
     // <div className='App-content'>
-      
+
     //   <div className='App-left'>
     //     <div className='mnu'>
     //       <div className='mnu-1'>123</div>
@@ -89,7 +85,7 @@ function App() {
 
 
     // </div>
-      
+
 
 
 
