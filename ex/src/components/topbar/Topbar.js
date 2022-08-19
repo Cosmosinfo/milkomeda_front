@@ -30,7 +30,7 @@ export default function Topbar() {
           </div>
 
           <div className="topbarRight">
-            <img className="Light" src={Light} alt="Light" />
+            {/* <img className="Light" src={Light} alt="Light" /> */}
 
             <img className="more" src={more} alt="more" />
 

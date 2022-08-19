@@ -37,12 +37,12 @@ export default function Sidebar() {
             </Link>
           </div>
 
-          <div className="item_name">
+          {/* <div className="item_name">
             <img className="sidebarIcon" src={Metaverse} alt="Metaverse" />
             <Link to="/" className="item_link">
               Metaverse
             </Link>
-          </div>
+          </div> */}
 
           <div className="item_name">
             <img className="sidebarIcon" src={Artist} alt="Artist" />
@@ -83,7 +83,7 @@ export default function Sidebar() {
             </Link>
           </div>
 
-          <div className="item_name">
+          {/* <div className="item_name">
             <img className="sidebarIcon" src={MyAvatar} alt="MyAvatar" />
             <Link to="/" className="item_link">
               MyAvatar
@@ -95,7 +95,7 @@ export default function Sidebar() {
             <Link to="/" className="item_link">
               MyRoom
             </Link>
-          </div>
+          </div> */}
 
         </div>
 
