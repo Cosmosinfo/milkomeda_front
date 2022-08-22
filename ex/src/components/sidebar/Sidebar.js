@@ -32,7 +32,7 @@ export default function Sidebar() {
 
           <div className="item_name">
             <img className="sidebarIcon" src={Stream} alt="Stream" />
-            <Link to="/" className="item_link">
+            <Link to="/stream" className="item_link">
               Stream
             </Link>
           </div>
@@ -99,6 +99,9 @@ export default function Sidebar() {
 
         </div>
 
+        {/* <div className="side_hr">
+
+        </div> */}
         <hr className="hr" />
 
         <div className="side_item_3">

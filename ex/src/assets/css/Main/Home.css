@@ -6,7 +6,7 @@
 }
 
 .homeWrapper{
-  width: 100%;
+  width: 1600px;
   height: 1020px;
   /*padding: 30px 30px;*/
   
@@ -82,7 +82,7 @@ color: #FFFFFF;
   width : 93px;
   height : 21px;
   /* margin: 20px 62px 0px 13px; */
-  margin-top: 19px;
+  margin-top: 16px;
   
 }
 
@@ -110,8 +110,238 @@ color: #FFFFFF;
 /* ====================  Live Stage  ======================== */
 
 .home_LiveStage{
-  width : 1620px;
+  width : 1600px;
   height : 281px;
 
   padding-top : 30px;
 }
+
+.home_LiveStage_Title{
+width: 1600px;
+height: 30px;
+}
+
+.Live{
+  color : #f3017f;
+  font-weight : 600;
+}
+.Stage{
+  color : #ffffff;
+  font-weight : 600;
+}
+
+.home_LiveStage_Container{
+width: 1600px;
+height: 240px;
+display: flex;
+margin-top: 12px;
+}
+
+.home_LiveStage_Item{
+  width: 100%;
+  height: 240px;
+
+  margin-right: 24px;
+}
+
+.home_LiveStage_Top{
+  width : 382px;
+  height : 187px;
+
+  border-radius: 6px;
+  background-color : #191922;
+
+}
+
+.home_LiveStage_btm{
+  width : 382px;
+  height : 40px;
+  
+  display: flex;
+  margin-top: 12px;
+}
+
+.home_LiveStage_btm_Left{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.home_LiveStage_Artist_img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.home_LiveStage_btm_Right{
+  width: 90px;
+  height: 40px;
+  margin-left: 12px;
+
+}
+
+.home_LiveStage_NameBox{
+  width : 93px;
+  height : 21px;
+  
+  
+  
+}
+
+.home_LiveStage_NameBox_ArtistTitle{
+  width : 93px;
+  width : 21px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.home_LiveStage_NameBox_ArtistName_Box{
+  width : 93px;
+  height : 21px;
+}
+
+
+.home_LiveStage_NameBox_ArtistName{
+  width : 93px;
+  width : 21px;
+  font-size: 13px;
+  font-weight: 400;
+  color : #8b8999
+}
+
+.hr-sect {
+  width : 1600px;
+  height : 21px;
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #F3017F;
+	font-size: 14px;
+	margin-top: 24px;
+}
+.hr-sect::before{
+	content: "";
+	flex-grow: 1;
+	background: #8B8999;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 44px 0px 0px;
+  opacity: 20%;
+}
+
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: #8B8999;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 0px 0px 44px;
+  opacity: 20%;
+}
+
+.chevron{
+  width : 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+
+/* ====================  Upcoming Stage  ======================== */
+.home_UpComing_Stage{
+  width : 1600px;
+  height : 281px;
+
+  padding-top : 24px;
+}
+
+.home_UpComing_Stage_title{
+  width: 1600px;
+  height: 30px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.home_UpComingStage_Container{
+  width: 1600px;
+  height: 240px;
+  display: flex;
+  margin-top: 12px;
+  }
+  .home_UpComingStage_Item{
+    width: 100%;
+    height: 240px;
+  
+    margin-right: 24px;
+  }
+  
+  .home_UpComingStage_Top{
+    width : 382px;
+    height : 187px;
+  
+    border-radius: 6px;
+    background-color : #191922;
+  
+  }
+  
+  .home_UpComingStage_btm{
+    width : 382px;
+    height : 40px;
+    
+    display: flex;
+    margin-top: 12px;
+  }
+  
+  .home_UpComingStage_btm_Left{
+    width: 40px;
+    height: 40px;
+    
+  }
+  
+  .home_UpComingStage_Artist_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .home_UpComingStage_btm_Right{
+    width: 90px;
+    height: 40px;
+    margin-left: 12px;
+  
+  }
+  
+  .home_UpComingStage_NameBox{
+    width : 93px;
+    height : 21px;
+    
+    
+    
+  }
+  
+  .home_UpComingStage_NameBox_ArtistTitle{
+    width : 93px;
+    width : 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .home_UpComingStage_NameBox_ArtistName_Box{
+    width : 93px;
+    height : 21px;
+  }
+  
+  
+  .home_UpComingStage_NameBox_ArtistName{
+    width : 93px;
+    width : 21px;
+    font-size: 13px;
+    font-weight: 400;
+    color : #8b8999
+  }
