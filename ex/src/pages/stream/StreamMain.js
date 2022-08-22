@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 function StreamMain() {
     return (
         <>
-asdsa
+            asdsa
 
-       
-        
+
+
         </>
     )
 }

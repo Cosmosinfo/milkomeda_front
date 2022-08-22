@@ -11,27 +11,27 @@ function App() {
 
     <>
 
-<BrowserRouter>
-<Topbar />
-<Sidebar />
-<div className="App-content">
+      <BrowserRouter>
+        <Topbar />
+        <Sidebar />
+        <div className="App-content">
 
-<Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/stream" element={<StreamMain />} />
-        <Route path="/streamlive" element={<StreamLive />} />
-        {/* <Route path="/page2/*" element={<Page2 />} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/stream" element={<StreamMain />} />
+            <Route path="/streamlive" element={<StreamLive />} />
+            {/* <Route path="/page2/*" element={<Page2 />} />
         <Route path="/*" element={<NotFound />} /> */}
-      </Routes>
+          </Routes>
 
 
-<Home />
+          <Home />
 
-</div>
-      
-    </BrowserRouter>
-      
-      
+        </div>
+
+      </BrowserRouter>
+
+
 
     </>
   );
