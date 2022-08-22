@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import '../../assets/css/Main/Home.css'
 import Carousel from "../../components/MainPage/Carousel/Carousel"
 
@@ -19,162 +18,144 @@ function Home() {
           </div>
 
           <div className="home_newArtistItem">
+            <div className="home_newArtistItemContainer">
+              <div className="home_newArtistItemContainerLeft">
 
-            <Link to="/" className="link">
-              <div className="home_newArtistItemContainer">
-                <div className="home_newArtistItemContainerLeft">
+                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
+              </div>
+              <div className="home_newArtistItemContainerRight">
+
+                <div className="home_newArtistItemContainerNameBox">
+
+                  <span className="home_newArtistItemContainerArtistName">Artist Name</span>
 
                 </div>
-                <div className="home_newArtistItemContainerRight">
+                <div className="home_newArtistItemContainerMusicGenreBox">
 
-                  <div className="home_newArtistItemContainerNameBox">
-
-                    <span className="home_newArtistItemContainerArtistName">Artist Name</span>
-
-                  </div>
-                  <div className="home_newArtistItemContainerMusicGenreBox">
-
-                    <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
-                  </div>
+                  <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
                 </div>
               </div>
-            </Link>
+            </div>
 
-            <Link to="/" className="link">
-              <div className="home_newArtistItemContainer">
-                <div className="home_newArtistItemContainerLeft">
+            <div className="home_newArtistItemContainer">
+              <div className="home_newArtistItemContainerLeft">
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
+                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
+
+              </div>
+              <div className="home_newArtistItemContainerRight">
+
+                <div className="home_newArtistItemContainerNameBox">
+
+                  <span className="home_newArtistItemContainerArtistName">Artist Name</span>
 
                 </div>
-                <div className="home_newArtistItemContainerRight">
+                <div className="home_newArtistItemContainerMusicGenreBox">
 
-                  <div className="home_newArtistItemContainerNameBox">
-
-                    <span className="home_newArtistItemContainerArtistName">Artist Name</span>
-
-                  </div>
-                  <div className="home_newArtistItemContainerMusicGenreBox">
-
-                    <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
-                  </div>
+                  <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
                 </div>
               </div>
-            </Link>
+            </div>
 
-            <Link to="/" className="link">
-              <div className="home_newArtistItemContainer">
-                <div className="home_newArtistItemContainerLeft">
+            <div className="home_newArtistItemContainer">
+              <div className="home_newArtistItemContainerLeft">
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
+                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
+
+              </div>
+              <div className="home_newArtistItemContainerRight">
+
+                <div className="home_newArtistItemContainerNameBox">
+
+                  <span className="home_newArtistItemContainerArtistName">Artist Name</span>
 
                 </div>
-                <div className="home_newArtistItemContainerRight">
+                <div className="home_newArtistItemContainerMusicGenreBox">
 
-                  <div className="home_newArtistItemContainerNameBox">
-
-                    <span className="home_newArtistItemContainerArtistName">Artist Name</span>
-
-                  </div>
-                  <div className="home_newArtistItemContainerMusicGenreBox">
-
-                    <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
-                  </div>
+                  <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
                 </div>
               </div>
-            </Link>
+            </div>
 
-            <Link to="/" className="link">
-              <div className="home_newArtistItemContainer">
-                <div className="home_newArtistItemContainerLeft">
+            <div className="home_newArtistItemContainer">
+              <div className="home_newArtistItemContainerLeft">
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
+                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
+
+              </div>
+              <div className="home_newArtistItemContainerRight">
+
+                <div className="home_newArtistItemContainerNameBox">
+
+                  <span className="home_newArtistItemContainerArtistName">Artist Name</span>
 
                 </div>
-                <div className="home_newArtistItemContainerRight">
+                <div className="home_newArtistItemContainerMusicGenreBox">
 
-                  <div className="home_newArtistItemContainerNameBox">
-
-                    <span className="home_newArtistItemContainerArtistName">Artist Name</span>
-
-                  </div>
-                  <div className="home_newArtistItemContainerMusicGenreBox">
-
-                    <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
-                  </div>
+                  <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
                 </div>
               </div>
-            </Link>
+            </div>
 
-            <Link to="/" className="link">
-              <div className="home_newArtistItemContainer">
-                <div className="home_newArtistItemContainerLeft">
+            <div className="home_newArtistItemContainer">
+              <div className="home_newArtistItemContainerLeft">
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
+                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
+
+              </div>
+              <div className="home_newArtistItemContainerRight">
+
+                <div className="home_newArtistItemContainerNameBox">
+
+                  <span className="home_newArtistItemContainerArtistName">Artist Name</span>
 
                 </div>
-                <div className="home_newArtistItemContainerRight">
+                <div className="home_newArtistItemContainerMusicGenreBox">
 
-                  <div className="home_newArtistItemContainerNameBox">
-
-                    <span className="home_newArtistItemContainerArtistName">Artist Name</span>
-
-                  </div>
-                  <div className="home_newArtistItemContainerMusicGenreBox">
-
-                    <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
-                  </div>
+                  <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
                 </div>
               </div>
-            </Link>
+            </div>
 
-            <Link to="/" className="linkList">
-              <div className="home_newArtistItemContainer">
-                <div className="home_newArtistItemContainerLeft">
+            <div className="home_newArtistItemContainerLast">
+              <div className="home_newArtistItemContainerLeft">
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
+                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_Aritist_img" />
 
+
+              </div>
+              <div className="home_newArtistItemContainerRight">
+
+                <div className="home_newArtistItemContainerNameBox">
+
+                  <span className="home_newArtistItemContainerArtistName">Artist Name</span>
 
                 </div>
-                <div className="home_newArtistItemContainerRight">
+                <div className="home_newArtistItemContainerMusicGenreBox">
 
-                  <div className="home_newArtistItemContainerNameBox">
-
-                    <span className="home_newArtistItemContainerArtistName">Artist Name</span>
-
-                  </div>
-                  <div className="home_newArtistItemContainerMusicGenreBox">
-
-                    <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
-                  </div>
+                  <span className="home_newArtistItemContainerMusicGenre">Music Genre</span>
                 </div>
               </div>
-            </Link>
+            </div>
 
           </div>
-
         </div>
+
         {/* ====================  Live Stage  ======================== */}
 
         <div className="home_LiveStage">
-          <div className="home_LiveStageTitle">
-            Live Stage
-          </div>
-          <div className="home_LiveStageItem">
 
-          </div>
         </div>
 
 
       </div>
-    </div >
+    </div>
   )
 }
 
