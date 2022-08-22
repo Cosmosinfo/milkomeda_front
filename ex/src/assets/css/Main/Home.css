@@ -41,6 +41,20 @@ color: #FFFFFF;
   display: flex;
 }
 
+.link{
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 24px;
+}
+.linkList{
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
 .home_newArtistItemContainer{
   width: 250px;
   height: 100%;
