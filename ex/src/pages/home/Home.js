@@ -159,11 +159,10 @@ function Home() {
 
           <div className="home_LiveStage_Container">
             <div className="home_LiveStage_Item">
-
+              <Link to="/stream">
               <div className="home_LiveStage_Top">
-
               </div>
-
+              </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
 
@@ -187,11 +186,10 @@ function Home() {
             </div>
 
             <div className="home_LiveStage_Item">
-
+              <Link to="/stream">
               <div className="home_LiveStage_Top">
-
               </div>
-
+              </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
 
@@ -215,11 +213,10 @@ function Home() {
             </div>
 
             <div className="home_LiveStage_Item">
-
+              <Link to="/stream">
               <div className="home_LiveStage_Top">
-
               </div>
-
+              </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
 
@@ -243,11 +240,10 @@ function Home() {
             </div>
 
             <div className="home_LiveStage_Item">
-
+              <Link to="/stream">
               <div className="home_LiveStage_Top">
-
               </div>
-
+              </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
 
@@ -289,11 +285,11 @@ function Home() {
 
           <div className="home_UpComingStage_Container">
             <div className="home_UpComingStage_Item">
-
+            <Link to="/stream">
               <div className="home_UpComingStage_Top">
 
               </div>
-
+            </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -317,11 +313,11 @@ function Home() {
             </div>
 
             <div className="home_UpComingStage_Item">
-
+            <Link to="/stream">
               <div className="home_UpComingStage_Top">
 
               </div>
-
+            </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -345,11 +341,11 @@ function Home() {
             </div>
 
             <div className="home_UpComingStage_Item">
-
+            <Link to="/stream">
               <div className="home_UpComingStage_Top">
 
               </div>
-
+            </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -373,11 +369,243 @@ function Home() {
             </div>
 
             <div className="home_UpComingStage_Item">
-
+            <Link to="/stream">
               <div className="home_UpComingStage_Top">
 
               </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
 
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div className="home_UpComingStage_Container">
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div className="home_UpComingStage_Container">
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
+              <div className="home_UpComingStage_btm">
+                <div className="home_UpComingStage_btm_Left">
+
+                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_UpComingStage_Artist_img" />
+
+
+                </div>
+                <div className="home_UpComingStage_btm_Right">
+
+                  <div className="home_UpComingStage_NameBox">
+
+                    <span className="home_UpComingStage_NameBox_ArtistTitle">Title</span>
+
+                  </div>
+                  <div className="home_UpComingStage_NameBox_ArtistName_Box">
+
+                    <span className="home_UpComingStage_NameBox_ArtistName">Artist Name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="home_UpComingStage_Item">
+            <Link to="/stream">
+              <div className="home_UpComingStage_Top">
+
+              </div>
+            </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 

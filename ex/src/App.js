@@ -24,9 +24,6 @@ function App() {
         <Route path="/*" element={<NotFound />} /> */}
           </Routes>
 
-
-          <Home />
-
         </div>
 
       </BrowserRouter>
