@@ -1,0 +1,80 @@
+.StreamLive{
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    
+  }
+  
+  .StreamLive_Wrapper{
+    width: 1600px;
+    height: 1020px;
+   
+    padding: 30px 30px;
+    display: flex;
+    
+  }
+
+  .StreamLive_left{
+    width: 1193px;
+    height : 1020px;
+
+    margin-right: 27px;
+  }
+
+  .StreamLive_LiveView{
+    width : 100%;
+    height : 626px;
+    border-radius: 6px;
+    background-color : #191922;
+    
+    
+    text-align: center;
+
+  }
+
+  .StreamLive_Right{
+    width: 380px;
+    height: 1020px;
+
+  }
+
+  .StreamLive_LiveDetails{
+    width : 100%;
+    height : 369px;
+
+    margin-top: 24px;
+  }
+
+  .StreamLive_Title{
+    width : 100%;
+    height : 30px;
+  }
+
+  .StreamLive_Title_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+
+  .StreamLive_content{
+    width : 100%;
+    height : 312px;
+  }
+
+  .StreamLive_Content_Info{
+    
+  }
+
+
+
+  
+
+  .StreamLive_Right{
+    border-radius: 6px;
+    background-color : #191922;
+    
+    
+    text-align: center;
+  }

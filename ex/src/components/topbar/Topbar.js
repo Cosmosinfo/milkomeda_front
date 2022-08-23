@@ -3,6 +3,7 @@ import "../../assets/css/Topbar.css";
 import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import { Link } from "react-router-dom";
 import bell from '../../assets/icon/graw/bell.svg'
 import hexagon from '../../assets/icon/ping/hexagon.svg'
 import search from '../../assets/icon/graw/search.svg'
@@ -17,7 +18,11 @@ export default function Topbar() {
       <div className="topbar">
         <div className="topbarWrapper">
           <div className="logo_name">
-            milkomeda
+          
+           
+            <Link to="/" className="link">
+               milkomeda
+            </Link>
           </div>
 
           <div className="searchbar">

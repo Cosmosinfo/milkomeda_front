@@ -1,95 +1,36 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar'
 import Home from './pages/home/Home'
+import StreamMain from './pages/stream/StreamMain'
+import StreamLive from './pages/stream/StreamLive'
 
 function App() {
   return (
 
     <>
 
-      <Router>
-
-
-
+      <BrowserRouter>
         <Topbar />
-
-
         <Sidebar />
         <div className="App-content">
 
-          
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/stream" element={<StreamMain />} />
+            <Route path="/streamlive" element={<StreamLive />} />
+            {/* <Route path="/page2/*" element={<Page2 />} />
+        <Route path="/*" element={<NotFound />} /> */}
+          </Routes>
 
-          <Home />
-
-
-
-
-          {/* <Switch>
-          <Route exact={true} path="/">
-            <Home />
-          </Route>
-          <Route exact={true} path="/stream">
-            <StreamMain />
-          </Route>
-          <Route exact={true} path="/streamLive">
-            <StreamLive />/
-          </Route>
-          <Route path="/users">
-            <UserList />
-          </Route>
-          <Route path="/user/:userId">
-            <User />
-          </Route>
-          <Route path="/newUser">
-            <NewUser />
-          </Route>
-          <Route path="/products">
-            <ProductList />
-          </Route>
-          <Route path="/product/:productId">
-            <Product />
-          </Route>
-          <Route path="/newproduct">
-            <NewProduct />
-          </Route>
-        </Switch> */}
         </div>
-      </Router>
+
+      </BrowserRouter>
+
 
 
     </>
-
-    // <div className="App">
-    //   <header className="App-header">
-    //     Header
-    //   </header>
-
-    // <div className='App-content'>
-
-    //   <div className='App-left'>
-    //     <div className='mnu'>
-    //       <div className='mnu-1'>123</div>
-    //     </div>
-    //   </div>
-
-    //   <div className='App-right'>
-    //     <div className='cont'>
-    //       <div className='cont-1'>1234</div>
-    //       <div className='cont-1'>1234</div>
-    //       <div className='cont-1'>1234</div>
-    //     </div>
-    //   </div>
-
-
-
-    // </div>
-
-
-
-
-    // </div>
   );
 }
 
