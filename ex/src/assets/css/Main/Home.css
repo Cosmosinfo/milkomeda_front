@@ -220,6 +220,7 @@ margin-top: 12px;
 	color: #F3017F;
 	font-size: 14px;
 	margin-top: 24px;
+  margin-bottom: 24px;
 }
 .hr-sect::before{
 	content: "";
@@ -254,7 +255,7 @@ margin-top: 12px;
   width : 1600px;
   height : 281px;
 
-  padding-top : 24px;
+  
 }
 
 .home_UpComing_Stage_title{
