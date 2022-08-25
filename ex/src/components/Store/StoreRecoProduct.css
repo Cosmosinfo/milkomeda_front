@@ -1,0 +1,57 @@
+
+   .StoreDetail_Right_Btm_Contanier{
+    width: 100%;
+    height: 144px;
+
+    padding: 12px 0;
+   
+   }
+
+   .StoreDetail_Right_Btm_Contanier_Item{
+    border-radius: 6px;
+    background-color : #191922;
+   }
+
+   .StoreDetail_Right_Btm_Contanier_Item_innerBox{
+    width: 356px;
+    height: 120px;
+    padding: 12px 12px;
+
+    display: flex;
+    
+   }
+
+   .StoreDetail_Right_Btm_Contanier_Item_innerBox_img{
+    width: 135px;
+height: 120px;
+
+background: #8B8999;
+border-radius: 6px;
+   }
+
+   .StoreDetail_Right_Btm_Contanier_Item_innerBox_text{
+    width: 207px;
+    margin-left: 12px;
+    display: grid;
+   }
+
+   .StoreDetail_Right_Btm_Contanier_Item_innerBox_text_description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+   }
+
+   .StoreDetail_Right_Btm_Contanier_Item_innerBox_text_Amount{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+   }
+

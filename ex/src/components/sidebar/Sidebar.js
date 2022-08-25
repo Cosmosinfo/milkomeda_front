@@ -1,4 +1,4 @@
-import "../../assets/css/sidebar.css";
+import "../../assets/css/Side/sidebar.css";
 import {
   Timeline,
   TrendingUp,
@@ -53,7 +53,7 @@ export default function Sidebar() {
 
           <div className="item_name">
             <img className="sidebarIcon" src={Store} alt="Store" />
-            <Link to="/" className="item_link">
+            <Link to="/store" className="item_link">
               Store
             </Link>
           </div>
