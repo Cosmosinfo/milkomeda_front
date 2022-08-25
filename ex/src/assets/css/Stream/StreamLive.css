@@ -1,7 +1,7 @@
 .StreamLive{
     width: 100%;
     height: auto;
-    color: aliceblue;
+    color: #FFFFFF;
     
   }
   
@@ -82,10 +82,10 @@
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 21px;
+line-height: 30px;
 
 color: #FFFFFF;
-margin-top: 4px;
+
     margin-right: 33px;
   }
 
@@ -104,8 +104,8 @@ margin-top: 4px;
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 21px;
-margin-top: 4px;
+line-height: 30px;
+
 color: #FFFFFF;
   }
 
@@ -264,7 +264,7 @@ color: #8B8999;
   }
 
   .StreamLive_Content_Info_ArtistName_contanierBox{
-    width: 192px;
+    width: 172px;
     height: 40px;
     display: flex;
     border-radius: 100px;
@@ -274,7 +274,7 @@ color: #8B8999;
   }
 
   .StreamLive_Content_Info_ArtistName_contanierBoxLast{
-    width: 162px;
+    width: 172px;
     height: 40px;
     display: flex;
     border-radius: 100px;
@@ -290,15 +290,15 @@ color: #8B8999;
 
   .StreamLive_Content_Info_ArtistName_contanier_textBox{
     width: 94px;
-    height: 22px;
-    padding: 6px 9px 9px;
+    height: 100%;
+    margin-left: 12px;
   }
 
   .StreamLive_Content_Info_ArtistName_contanier_text{
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 21px;
+line-height: 40px;
 
 color: #FFFFFF;
   }
@@ -343,6 +343,7 @@ color: #FFFFFF;
     height: 971px;
     
     padding : 25px 36px 24px 36px;
+    
   }
 
   .StreamLive_Right_top{
@@ -351,6 +352,8 @@ color: #FFFFFF;
 
     margin-bottom: 12px;
   }
+
+
 
   .StreamLive_ChatBtn{
   width: 308px;
@@ -397,6 +400,16 @@ line-height: 21px;
 text-align: center;
 
 color: #FFFFFF;
+  }
+
+  .StreamLive_Right_middle{
+    width:100%;
+    height: 895px;
+    overflow: overlay;
+  }
+
+  .StreamLive_Right_middle::-webkit-scrollbar{
+    display: none;
   }
 
   .StreamLive_Right_btm{
@@ -487,7 +500,7 @@ color: #8B8999;
     height: 22px;
 
     
-    margin-top: 100px;
+    /* margin-top: 100px; */
   }
 
   .StreamLive_MessageBox_textContainer{
