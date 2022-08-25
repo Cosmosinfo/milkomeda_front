@@ -7,6 +7,7 @@ import StreamMain from './pages/stream/StreamMain'
 import StreamLive from './pages/stream/StreamLive'
 import StoreMain from './pages/store/StoreMain'
 import StoreDetail from './pages/store/StoreDetail'
+import Error from './pages/Error/ErrorPage'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/streamlive" element={<StreamLive />} />
             <Route path="/store" element={<StoreMain />} />
             <Route path="/storeDetail" element={<StoreDetail />} />
+            <Route path="/error" element={<Error />} />
             {/* <Route path="/page2/*" element={<Page2 />} />
         <Route path="/*" element={<NotFound />} /> */}
           </Routes>
