@@ -19,9 +19,9 @@ function ArtistMain() {
           <div className='ex'>
             <Terms />
           </div>
-          
+
         </div>
-        
+
 
       </div>
 
