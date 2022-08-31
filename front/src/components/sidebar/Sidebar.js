@@ -46,7 +46,7 @@ export default function Sidebar() {
 
           <div className="item_name">
             <img className="sidebarIcon" src={Artist} alt="Artist" />
-            <Link to="/" className="item_link">
+            <Link to="/artist" className="item_link">
               Artist
             </Link>
           </div>

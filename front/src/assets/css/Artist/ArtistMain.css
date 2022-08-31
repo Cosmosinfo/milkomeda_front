@@ -1,0 +1,18 @@
+.ArtistMain{
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.ArtistMain_Wrapper{
+    width: 1600px;
+    height: 1020px;
+   
+    padding: 30px 30px;
+
+    display: flex;
+}
+
+.ex{
+    margin-left: 20px;
+}
