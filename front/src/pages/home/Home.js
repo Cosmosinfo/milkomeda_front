@@ -160,8 +160,8 @@ function Home() {
           <div className="home_LiveStage_Container">
             <div className="home_LiveStage_Item">
               <Link to="/stream">
-              <div className="home_LiveStage_Top">
-              </div>
+                <div className="home_LiveStage_Top">
+                </div>
               </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
@@ -187,8 +187,8 @@ function Home() {
 
             <div className="home_LiveStage_Item">
               <Link to="/stream">
-              <div className="home_LiveStage_Top">
-              </div>
+                <div className="home_LiveStage_Top">
+                </div>
               </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
@@ -214,8 +214,8 @@ function Home() {
 
             <div className="home_LiveStage_Item">
               <Link to="/stream">
-              <div className="home_LiveStage_Top">
-              </div>
+                <div className="home_LiveStage_Top">
+                </div>
               </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
@@ -241,8 +241,8 @@ function Home() {
 
             <div className="home_LiveStage_Item">
               <Link to="/stream">
-              <div className="home_LiveStage_Top">
-              </div>
+                <div className="home_LiveStage_Top">
+                </div>
               </Link>
               <div className="home_LiveStage_btm">
                 <div className="home_LiveStage_btm_Left">
@@ -285,11 +285,11 @@ function Home() {
 
           <div className="home_UpComingStage_Container">
             <div className="home_UpComingStage_Item">
-            <Link to="/stream">
-              <div className="home_UpComingStage_Top">
+              <Link to="/stream">
+                <div className="home_UpComingStage_Top">
 
-              </div>
-            </Link>
+                </div>
+              </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -313,11 +313,11 @@ function Home() {
             </div>
 
             <div className="home_UpComingStage_Item">
-            <Link to="/stream">
-              <div className="home_UpComingStage_Top">
+              <Link to="/stream">
+                <div className="home_UpComingStage_Top">
 
-              </div>
-            </Link>
+                </div>
+              </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -341,11 +341,11 @@ function Home() {
             </div>
 
             <div className="home_UpComingStage_Item">
-            <Link to="/stream">
-              <div className="home_UpComingStage_Top">
+              <Link to="/stream">
+                <div className="home_UpComingStage_Top">
 
-              </div>
-            </Link>
+                </div>
+              </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -369,11 +369,11 @@ function Home() {
             </div>
 
             <div className="home_UpComingStage_Item">
-            <Link to="/stream">
-              <div className="home_UpComingStage_Top">
+              <Link to="/stream">
+                <div className="home_UpComingStage_Top">
 
-              </div>
-            </Link>
+                </div>
+              </Link>
               <div className="home_UpComingStage_btm">
                 <div className="home_UpComingStage_btm_Left">
 
@@ -400,9 +400,9 @@ function Home() {
           </div>
 
           <div className="hr-sect">
-          More
-          <img className="chevron" src={chevron} alt="chevron" />
-        </div>
+            More
+            <img className="chevron" src={chevron} alt="chevron" />
+          </div>
 
 
 

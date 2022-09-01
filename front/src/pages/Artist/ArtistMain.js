@@ -25,6 +25,7 @@ function ArtistMain() {
               </div>
           </div>
 
+
           <ArtistMainCard />
 
           <ArtistMainCard />
@@ -34,8 +35,9 @@ function ArtistMain() {
           <ArtistMainCard />
 
           
+
         </div>
-        
+
 
       </div>
 
