@@ -1,0 +1,69 @@
+.ArtistMain_Contents{
+    width: 100%;
+    height: 251px;
+
+    padding: 12px 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.ArtistMain_ContentItem{
+    width: 380px;
+    height: 100%;
+    background: #191922;
+    border-radius: 6px;
+    margin-right: 27px;
+}
+
+.ArtistMain_ContentItem2{
+    width: 380px;
+    height: 100%;
+    background: #191922;
+    border-radius: 6px;
+    
+}
+
+.ArtistMain_ContentItemContainer{
+    width: 108px;
+    height: 163px;
+
+    padding: 32px 136px;
+}
+
+.ArtistMain_ContentItemContainerTop{
+    width: 108px;
+    height: 97px;
+    border-radius: 100%;
+    background: #8B8999;
+}
+
+.ArtistMain_ContentItemContainerBtm{
+    width: 91.88px;
+    height: 21px;
+
+    margin-top: 24px;
+}
+
+.ArtistMain_ContentItemContainerBtmArtistName{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ArtistMain_ContentItemContainerBtmMusic{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8B8999;
+}

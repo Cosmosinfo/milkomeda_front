@@ -1,9 +1,12 @@
 import React from 'react'
 import '../../assets/css/Artist/ArtistMain.css'
+import filter from '../../assets/icon/graw/filter.svg'
+import ArtistMainCard from '../../components/Artist/ArtistMainCard'
 
-import MyPage from '../../components/Popup/MyPage'
-import Notification from '../../components/Popup/Notification'
-import Terms from '../../components/Popup/terms'
+
+// import MyPage from '../../components/Popup/MyPage'
+// import Notification from '../../components/Popup/Notification'
+// import Terms from '../../components/Popup/terms'
 
 function ArtistMain() {
   return (
@@ -11,14 +14,25 @@ function ArtistMain() {
 
       <div className='ArtistMain'>
         <div className='ArtistMain_Wrapper'>
-          < MyPage />
-          <div className='ex'>
-            <Notification />
+          <div className='ArtistMain_top'>
+              <div className='ArtistMain_topText'> 
+                  Artist
+              </div>
+
+              <div className='ArtistMain_imgBox'>
+                <img className="ArtistMain_sortimg" src={filter} alt="filter" />
+                Sort
+              </div>
           </div>
 
-          <div className='ex'>
-            <Terms />
-          </div>
+          <ArtistMainCard />
+
+          <ArtistMainCard />
+
+          <ArtistMainCard />
+
+          <ArtistMainCard />
+
           
         </div>
         

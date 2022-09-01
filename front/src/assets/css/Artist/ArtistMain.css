@@ -10,9 +10,41 @@
    
     padding: 30px 30px;
 
-    display: flex;
+    
 }
 
-.ex{
-    margin-left: 20px;
+
+.ArtistMain_top{
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+
 }
+
+.ArtistMain_topText{
+    width: 62px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.ArtistMain_imgBox{
+    width: 100%;
+    height: 30px;
+    
+    margin-left: 1446px;
+}
+
+.ArtistMain_sortimg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
