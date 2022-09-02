@@ -1,11 +1,14 @@
 import React from 'react'
 import './ArtistMainCard.css'
+import { Link } from "react-router-dom";
 
 function ArtistMainCard() {
   return (
     <>
         <div className='ArtistMain_Contents'>
+              
               <div className='ArtistMain_ContentItem'>
+                <Link to="/artisthome" className="link">
                 <div className='ArtistMain_ContentItemContainer'>
                   <div className='ArtistMain_ContentItemContainerTop'></div>
                   <div className='ArtistMain_ContentItemContainerBtm'>
@@ -18,7 +21,9 @@ function ArtistMainCard() {
                       </div>
                   </div>
                 </div>
+                </ Link >
               </div>
+              
 
               <div className='ArtistMain_ContentItem'>
                 <div className='ArtistMain_ContentItemContainer'>
