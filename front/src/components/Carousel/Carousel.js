@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../assets/css/Main/Carousel.css'
+import './Carousel.css'
 
 function Carousel() {
     return (

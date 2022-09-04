@@ -1,0 +1,71 @@
+.Stage_Item{
+    width: 382px;
+    height: 240px;
+  }
+  
+  .Stage_Top{
+    width : 382px;
+    height : 187px;
+  
+    border-radius: 6px;
+    background-color : #191922;
+  
+  }
+  
+  .Stage_btm{
+    width : 382px;
+    height : 40px;
+    
+    display: flex;
+    margin-top: 12px;
+  }
+  
+  .Stage_btm_Left{
+    width: 40px;
+    height: 40px;
+    
+  }
+  
+  .Stage_Artist_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .Stage_btm_Right{
+    width: 90px;
+    height: 40px;
+    margin-left: 12px;
+  
+  }
+  
+  .Stage_NameBox{
+    width : 93px;
+    height : 21px;
+    
+    
+    
+  }
+  
+  .Stage_NameBox_ArtistTitle{
+    width : 93px;
+    width : 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .Stage_NameBox_ArtistName_Box{
+    width : 93px;
+    height : 21px;
+  }
+  
+  
+  .Stage_NameBox_ArtistName{
+    width : 93px;
+    width : 21px;
+    font-size: 13px;
+    font-weight: 400;
+    color : #8b8999
+  }

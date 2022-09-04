@@ -28,6 +28,10 @@ export default function Sidebar() {
             <Link to="/" className="item_link">
               Home
             </Link>
+
+            <div className="item_nameBar">
+
+              </div>
           </div>
 
           <div className="item_name">
@@ -36,13 +40,6 @@ export default function Sidebar() {
               Stream
             </Link>
           </div>
-
-          {/* <div className="item_name">
-            <img className="sidebarIcon" src={Metaverse} alt="Metaverse" />
-            <Link to="/" className="item_link">
-              Metaverse
-            </Link>
-          </div> */}
 
           <div className="item_name">
             <img className="sidebarIcon" src={Artist} alt="Artist" />
@@ -64,7 +61,7 @@ export default function Sidebar() {
 
         <div className="side_item_2">
 
-          <div className="item_Favorite">
+          <div className="item_name">
             <img className="sidebarIcon" src={Favorite} alt="Favorite" />
             <Link to="/" className="item_link">
               Favorite
@@ -81,6 +78,8 @@ export default function Sidebar() {
             <Link to="/" className="item_link">
               Calendar
             </Link>
+
+              
           </div>
 
           {/* <div className="item_name">
@@ -102,7 +101,7 @@ export default function Sidebar() {
         {/* <div className="side_hr">
 
         </div> */}
-        <hr className="hr" />
+        <hr className="hr2" />
 
         <div className="side_item_3">
 
@@ -113,7 +112,7 @@ export default function Sidebar() {
             </Link>
           </div>
 
-          <div className="item_help">
+          <div className="item_name">
             <img className="sidebarIcon" src={Help} alt="Help" />
             <Link to="/" className="item_link">
               Help

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import "../../assets/css/Stream/StreamMain.css"
 import filter from '../../assets/icon/graw/filter.svg'
+import StageCard from '../../components/StageCard/StageCard';
 
 function StreamMain() {
     return (
@@ -30,449 +31,53 @@ function StreamMain() {
 
                     </div>
 
-                    <div className="home_LiveStage_Container">
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
+                    <div className="StreamMain_LiveStage_Container">
+                        <StageCard />
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
+                        <StageCard />
 
+                        <StageCard />
 
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
+                        <StageCard />
 
                     </div>
 
-                    <div className="home_LiveStage_Container">
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
+                    <div className="StreamMain_LiveStage_Container">
+                        <StageCard />
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
+                        <StageCard />
 
+                        <StageCard />
 
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
+                        <StageCard />
 
                     </div>
 
-                    <div className="home_LiveStage_Container">
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
+                    <div className="StreamMain_LiveStage_Container">
+                        <StageCard />
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
+                        <StageCard />
 
+                        <StageCard />
 
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
+                        <StageCard />
 
                     </div>
 
-                    <div className="home_LiveStage_Container">
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
+                    <div className="StreamMain_LiveStage_Container">
+                        <StageCard />
 
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
+                        <StageCard />
 
+                        <StageCard />
 
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
-
-                        <div className="home_LiveStage_Item">
-              <Link to="/streamlive">
-              <div className="home_LiveStage_Top">
-              </div>
-              </Link>
-              <div className="home_LiveStage_btm">
-                <div className="home_LiveStage_btm_Left">
-
-                  <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="home_LiveStage_Artist_img" />
-
-
-                </div>
-                <div className="home_LiveStage_btm_Right">
-
-                  <div className="home_LiveStage_NameBox">
-
-                    <span className="home_LiveStage_NameBox_ArtistTitle">Title</span>
-
-                  </div>
-                  <div className="home_LiveStage_NameBox_ArtistName_Box">
-
-                    <span className="home_LiveStage_NameBox_ArtistName">Artist Name</span>
-                  </div>
-                </div>
-              </div>
-                        </div>
+                        <StageCard />
 
                     </div>
+
+                   
+
+                    
 
                     
                 </div>

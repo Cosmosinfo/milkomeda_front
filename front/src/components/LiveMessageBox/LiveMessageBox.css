@@ -1,0 +1,83 @@
+.StreamLive_Right_btm{
+    width: 308px;
+    height: 108px;
+    
+    padding: 12px 0;
+    
+  }
+
+  .StreamLive_ChatBox{
+    width: 308px;
+    height: 100%;
+    
+  
+  }
+
+  .StreamLive_ChatBox_UserName{
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    
+  }
+
+  .StreamLive_ChatBox_UserName_img{
+    width: 30px;
+    height: 100%;
+    
+    margin-right: 12px;
+  }
+
+  .StreamLive_UserName_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .StreamLive_ChatBox_UserName_text{
+    width : 100%;
+    height: 100%;
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    
+/* identical to box height */
+
+
+color: #FFFFFF;
+  }
+
+  .StreamLive_ChatBox_time_text{
+    width : 100%;
+    
+    font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+/* identical to box height */
+
+text-align: right;
+
+color: #8B8999;
+  }
+
+  .StreamLive_ChatBox_chatContainer{
+    width: 100%;
+    height: 70px;
+    margin-top: 12px;
+
+    background: #15141B;
+    border-radius: 6px;
+  }
+
+  .StreamLive_ChatBox_chatContainer_text{
+    box-sizing: border-box;
+    padding: 12px 56px 12px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+  }

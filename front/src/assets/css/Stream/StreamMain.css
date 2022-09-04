@@ -86,13 +86,16 @@
     .Stream_LiveStage_filterIcon{
         width : 24px;
         height: 24px;
+        margin-right: 12px;
     }
   
-  .home_LiveStage_Container{
+  .StreamMain_LiveStage_Container{
   width: 1600px;
   height: 240px;
   display: flex;
   margin-top: 12px;
+  justify-content: space-between;
+
   }
   
   .home_LiveStage_Item{
