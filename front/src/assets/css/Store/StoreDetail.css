@@ -21,6 +21,7 @@
 
     margin-right: 24px;
     overflow: scroll;
+    
   }
 
   .StoreDetail_left_top{
@@ -70,7 +71,7 @@
     font-style: normal;
 font-weight: 400;
 font-size: 13px;
-text-align: center;
+
 
 
 
@@ -191,6 +192,7 @@ color: #FFFFFF;
   }
 
   .StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text{
+    width : 100%;
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -202,10 +204,10 @@ color: #FFFFFF;
   }
 
   .StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_Icon{
-    width: 120px;
+    width: 114px;
     height: 100%;
     line-height: 21px;
-    margin-left: 12px;
+    
     
   }
 

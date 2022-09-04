@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../assets/css/Artist/ArtistMain.css'
 import filter from '../../assets/icon/graw/filter.svg'
-import ArtistMainCard from '../../components/Artist/ArtistMainCard'
+import ArtistMainCard from '../../components/ArtistMainCard/ArtistMainCard'
 
 
 // import MyPage from '../../components/Popup/MyPage'

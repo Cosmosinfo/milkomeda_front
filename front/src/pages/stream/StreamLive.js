@@ -6,6 +6,7 @@ import "../../assets/css/Stream/StreamLive.css"
 import Gift from '../../assets/icon/graw/gift.svg'
 import Smile from '../../assets/icon/graw/smile.svg'
 import Send from '../../assets/icon/ping/send.svg'
+import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 
 function StreamLive() {
     return (
@@ -78,6 +79,7 @@ function StreamLive() {
                                     <div className='StreamLive_Content_Info_ArtistName'>
 
                                         <div className='StreamLive_Content_Info_ArtistName_top'>
+                                            <Link to="/artisthome" className="link">
                                             <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
@@ -87,7 +89,9 @@ function StreamLive() {
 
                                             
                                             </div>
+                                            </Link>
 
+                                            <Link to="/artisthome" className="link">
                                             <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
@@ -97,8 +101,10 @@ function StreamLive() {
 
                                             
                                             </div>
+                                            </Link>
 
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBoxLast'>
+                                            <Link to="/artisthome" className="link">
+                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
@@ -107,9 +113,13 @@ function StreamLive() {
 
                                             
                                             </div>
+                                            </Link>
+                                            
+
                                         </div>
 
-                                        <div className='StreamLive_Content_Info_ArtistName_btm'>
+                                        <div className='StreamLive_Content_Info_ArtistName_top'>
+                                            <Link to="/artisthome" className="link">
                                             <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
@@ -119,7 +129,9 @@ function StreamLive() {
 
                                             
                                             </div>
+                                            </Link>
 
+                                            <Link to="/artisthome" className="link">
                                             <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
@@ -129,8 +141,10 @@ function StreamLive() {
 
                                             
                                             </div>
+                                            </Link>
 
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBoxLast'>
+                                            <Link to="/artisthome" className="link">
+                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
@@ -139,7 +153,12 @@ function StreamLive() {
 
                                             
                                             </div>
+                                            </Link>
+                                            
+
                                         </div>
+
+                                        
                            
 
                                         
@@ -175,181 +194,22 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 
                            <div className="StreamLive_Right_middle">
 
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
+                            <LiveMessageBox />
 
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
+                            <LiveMessageBox />
 
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
+                            <LiveMessageBox />
 
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
+                            <LiveMessageBox />
 
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
+                            <LiveMessageBox />
 
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
+                            <LiveMessageBox />
 
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
+                            <LiveMessageBox />
 
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
-
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
-
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
-
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
-
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
-
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
-
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
-
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
-
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
-
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
-
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
-
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
-
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
-
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
-
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
-
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
-
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
-
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
-
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
-
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
-
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
-
-                           <div className='StreamLive_Right_btm'>
-                                <div className='StreamLive_ChatBox'>
-                                    <div className='StreamLive_ChatBox_UserName'>
-                                        <div className="StreamLive_ChatBox_UserName_img">
-
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_UserName_img" />
-                                            
-                                        </div>
-                                        <div className="StreamLive_ChatBox_UserName_text">User Name</div>
-                                        <div className="StreamLive_ChatBox_time_text">17:00</div>
-                                    </div>  
-
-                                    <div className='StreamLive_ChatBox_chatContainer'>
-                                    <div className='StreamLive_ChatBox_chatContainer_text'>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit
-
-                                    </div>
-                                    </div>
-                                                                
-                                </div>
-                           </div>
+                            <LiveMessageBox />
+                           
 
                            </div>
 
