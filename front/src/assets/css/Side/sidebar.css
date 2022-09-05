@@ -101,34 +101,6 @@
   opacity: 20%;
 }
 
-.item_Favorite{
-  width : 120px;
-  height : 21px;
-  display: flex;
-  color: #ffff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-
-}
-
-.item_help{
-  width : 120px;
-  height : 21px;
-  display: flex;
-  color: #ffff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.Favorite_artist{
-  width : 176px;
-  height : 40px;
-  padding : 21px 0 34px 0;
-}
 
 .Artist_logo{
   width: 40px;

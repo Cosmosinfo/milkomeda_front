@@ -98,9 +98,7 @@ export default function Sidebar() {
 
         </div>
 
-        {/* <div className="side_hr">
-
-        </div> */}
+       
         <hr className="hr2" />
 
         <div className="side_item_3">

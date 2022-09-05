@@ -7,8 +7,230 @@
 .AritstHome_Wrapper{
     width: 1600px;
     height: 1020px;
-   
+    display: flex;
     padding: 30px 30px;
 
     
 }
+
+.AritstHome_Lf{
+    width: 340px;
+    height: 100%;
+
+    background: #191922;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+.AritstHome_Lf_Wrapper{
+    width: 276px;
+    height: 970px;
+    
+    padding: 25px 32px;
+
+}
+
+.AritstHome_ArtistImg{
+    width: 276px;
+    height: 176px;
+    
+    background: #8B8999;
+    border-radius: 6px;
+    margin-bottom: 12.5px;
+}
+
+.AritstHome_ArtistNameBox{
+    width: 100%;
+    height: 84px;
+
+    padding: 12.5px 0;
+}
+
+.AritstHome_ArtistName{
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.AritstHome_ArtistName2{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #8B8999;
+    margin-bottom: 12px;
+}
+
+.AritstHome_MusicGenre{
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #8B8999;
+}
+
+.AritstHome_ArtistSnsBox{
+    width: 249px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12.5px 14px;
+}
+
+.AritstHome_ArtistSns{
+    width: 40px;
+    height: 40px;
+    background: #15141B;
+}
+
+.ArtistSnsIcon{
+    width: 20px;
+    height: 20px;
+
+    padding: 10px 10px;
+}
+
+.AritstHome_ArtistFollwer{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #8B8999;
+    padding: 12.5px 0;
+}
+
+.AritstHome_ArtistFavoriteBox{
+    width: 138px;
+    height: 42px;
+    
+    
+    padding: 12.5px 69px;
+
+}
+
+.AritstHome_ArtistFavoriteText{
+    width: 57px;
+    height: 22px;
+    background: #15141B;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 40px;
+    color: #FFFFFF;
+}
+
+.AritstHome_Artist_Line{
+    width: 100%;
+    height: 0px;
+    
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    margin: 12.5px 0;
+}
+
+.AritstHome_Artistdescription{
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 12.5px 0;
+    color: #FFFFFF;
+
+}
+
+.AritstHome_ArtistMetaBox{
+    width: 100%;
+    height: 42px;
+    background: #F3017F;
+    border-radius: 100px;
+    margin-top: 169px;
+}
+
+.AritstHome_ArtistMetaText{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px 76px;
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh{
+    width: 100%;
+    height: 100%;
+    
+    margin-left: 27px;
+}
+
+.AritstHome_Rh_Memu{
+    width: 100%;
+    height: 42px;
+
+    background: #191922;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.AritstHome_Rh_MemuBox{
+    width: 1035px;
+    height: 22px;
+    padding: 10px 82px 10px 76px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh_MemuBoxHome{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+   
+    
+    
+}
+
+.AritstHome_Rh_MemuBoxText:hover{
+    color: #F3017F;
+    
+}
+
+.AritstHome_Rh_MemuBox_Line{
+    width: 19px;
+    height: 0px;
+    margin: 10px 0;
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    transform: rotate(90deg);
+}
+
+.AritstHome_Rh_Container{
+    width: 100%;
+    height: 966px;
+}
+
+
+
