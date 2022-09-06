@@ -13,13 +13,13 @@
   color: inherit;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   width: 18px;
 }
 
 ::-webkit-scrollbar-thumb {
-  height: 80%; /* 스크롤바의 길이 */
-  background: #191922; /* 스크롤바의 색상 */
+  height: 80%; 
+  background: #191922; 
   
   border-radius: 10px;
-}
+} */

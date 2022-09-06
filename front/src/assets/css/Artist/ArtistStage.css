@@ -1,0 +1,287 @@
+.ArtistStage{
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.ArtistStage_Wrapper{
+    width: 1600px;
+    height: 1020px;
+    display: flex;
+    padding: 30px 30px;
+
+    
+}
+
+.ArtistStage_Lf{
+    width: 340px;
+    height: 100%;
+
+    background: #191922;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+.ArtistStage_Lf_Wrapper{
+    width: 276px;
+    height: 970px;
+    
+    padding: 25px 32px;
+
+}
+
+.ArtistStage_ArtistImg{
+    width: 276px;
+    height: 176px;
+    
+    background: #8B8999;
+    border-radius: 6px;
+    margin-bottom: 12.5px;
+}
+
+.ArtistStage_ArtistNameBox{
+    width: 100%;
+    height: 84px;
+
+    padding: 12.5px 0;
+}
+
+.ArtistStage_ArtistName{
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ArtistStage_ArtistName2{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #8B8999;
+    margin-bottom: 12px;
+}
+
+.ArtistStage_MusicGenre{
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #8B8999;
+}
+
+.ArtistStage_ArtistSnsBox{
+    width: 249px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12.5px 14px;
+}
+
+.ArtistStage_ArtistSns{
+    width: 40px;
+    height: 40px;
+    background: #15141B;
+}
+
+.ArtistSnsIcon{
+    width: 20px;
+    height: 20px;
+
+    padding: 10px 10px;
+}
+
+.ArtistStage_ArtistFollwer{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #8B8999;
+    padding: 12.5px 0;
+}
+
+.ArtistStage_ArtistFavoriteBox{
+    width: 138px;
+    height: 42px;
+    
+    
+    padding: 12.5px 69px;
+
+}
+
+.ArtistStage_ArtistFavoriteText{
+    width: 57px;
+    height: 22px;
+    background: #15141B;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 40px;
+    color: #FFFFFF;
+}
+
+.ArtistStage_Artist_Line{
+    width: 100%;
+    height: 0px;
+    
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    margin: 12.5px 0;
+}
+
+.ArtistStage_Artistdescription{
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 12.5px 0;
+    color: #FFFFFF;
+
+}
+
+.ArtistStage_ArtistMetaBox{
+    width: 100%;
+    height: 42px;
+    background: #F3017F;
+    border-radius: 100px;
+    margin-top: 169px;
+}
+
+.ArtistStage_ArtistMetaText{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px 76px;
+    color: #FFFFFF;
+}
+
+.ArtistStage_Rh{
+    width: 100%;
+    height: 100%;
+    
+    margin-left: 27px;
+}
+
+.ArtistStage_Rh_Memu{
+    width: 100%;
+    height: 42px;
+
+    background: #191922;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.ArtistStage_Rh_MemuBox{
+    width: 1035px;
+    height: 22px;
+    padding: 10px 82px 10px 76px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.ArtistStage_Rh_MemuBoxHome{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+   
+    
+    
+}
+
+.ArtistStage_Rh_MemuBoxText:hover{
+    color: #F3017F;
+    
+}
+
+.ArtistStage_Rh_MemuBox_Line{
+    width: 19px;
+    height: 0px;
+    margin: 10px 0;
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    transform: rotate(90deg);
+}
+
+.ArtistStage_Rh_Container{
+    width: 100%;
+    height: 966px;
+    
+}
+
+.ArtistStage_Rh_top{
+    width: 524px;
+    height: 30px;
+
+    padding : 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ArtistStage_Rh_top_live{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #8B8999;
+}
+
+.ArtistStage_Rh_top_Upcoming{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #8B8999;
+}
+
+.ArtistStage_Rh_top_Stage{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.ArtistStage_Rh_btm{
+    width: 100%;
+    height:auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
