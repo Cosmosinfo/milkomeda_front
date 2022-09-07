@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistHome.css'
 import Instagram from '../../assets/icon/graw/instagram.svg'
 import Facebook from '../../assets/icon/graw/facebook.svg'
@@ -77,22 +78,35 @@ function ArtistHome() {
               <div className='AritstHome_Rh'>
                   <div className='AritstHome_Rh_Memu'>
                         <div className='AritstHome_Rh_MemuBox'>
-                            <div className='AritstHome_Rh_MemuBoxText'>Home</div>
-                            <div className='AritstHome_Rh_MemuBox_Line'></div>
-                            <div className='AritstHome_Rh_MemuBoxText'>Notice</div>
-                            <div className='AritstHome_Rh_MemuBox_Line'></div>
-                            <div className='AritstHome_Rh_MemuBoxText'>Stage</div>
-                            <div className='AritstHome_Rh_MemuBox_Line'></div>
-                            <div className='AritstHome_Rh_MemuBoxText'>Schedule</div>
-                            <div className='AritstHome_Rh_MemuBox_Line'></div>
-                            <div className='AritstHome_Rh_MemuBoxText'>Store</div>
-                            <div className='AritstHome_Rh_MemuBox_Line'></div>
-                            <div className='AritstHome_Rh_MemuBoxText'>Post</div>
+                            
+                        <Link to="/artisthome" className="link">
+                          <div className='AritstHome_Rh_MemuBoxText'>Home</div>
+                        </Link>
+                        <div className='AritstHome_Rh_MemuBox_Line'></div>       
+                        <Link to="/artistnotice" className="link">
+                          <div className='AritstHome_Rh_MemuBoxText'>Notice</div>
+                        </Link> 
+                        <div className='AritstHome_Rh_MemuBox_Line'></div>
+                        <Link to="/artiststage" className="link">
+                          <div className='AritstHome_Rh_MemuBoxText'>Stage</div>
+                        </Link>
+                        <div className='AritstHome_Rh_MemuBox_Line'></div>
+                        <Link to="/artistschedule" className="link">
+                          <div className='AritstHome_Rh_MemuBoxText'>Schedule</div>
+                        </Link>
+                        <div className='AritstHome_Rh_MemuBox_Line'></div>
+                        <Link to="/artiststore" className="link">
+                          <div className='AritstHome_Rh_MemuBoxText'>Store</div>
+                        </Link>
+                        <div className='AritstHome_Rh_MemuBox_Line'></div>
+                        <Link to="/artistpost" className="link">
+                          <div className='AritstHome_Rh_MemuBoxText'>Post</div>
+                        </Link>
                         </div>
                   </div>
 
                   <div className='AritstHome_Rh_Container'>
-asd
+                      home
                   </div>
 
 

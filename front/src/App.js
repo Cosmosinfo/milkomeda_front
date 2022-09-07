@@ -10,6 +10,8 @@ import StoreDetail from './pages/store/StoreDetail'
 import Error from './pages/Error/ErrorPage'
 import ArtistMain from './pages/Artist/ArtistMain'
 import ArtistHome from './pages/Artist/ArtistHome'
+import ArtistStage from './pages/Artist/ArtistStage';
+import ArtistStore from './pages/Artist/ArtistStore';
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
             <Route path="/error" element={<Error />} />
             <Route path="/artist" element={<ArtistMain />} />
             <Route path="/artisthome" element={<ArtistHome />} />
+            <Route path="/artisthome" element={<ArtistHome />} />
+            <Route path="/artiststage" element={<ArtistStage />} />
+            <Route path="/artiststore" element={<ArtistStore />} />
             {/* <Route path="/page2/*" element={<Page2 />} />
         <Route path="/*" element={<NotFound />} /> */}
           </Routes>
