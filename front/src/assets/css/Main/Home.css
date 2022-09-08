@@ -6,8 +6,7 @@
 }
 
 .homeWrapper{
-  width: 1600px;
-  height: 1020px;
+  height: auto;
   padding: 30px 30px;
   
 }
@@ -17,7 +16,7 @@
 .home_newArtist{
   width: 100%;
   height: 122px;
-  padding: 15px 0;
+  padding: 12px 0;
 }
 
 .home_newArtistTitle{
@@ -48,21 +47,26 @@ color: #FFFFFF;
   width : 1600px;
   height : 281px;
 
-  padding : 15px 0;
+  padding : 12px 0;
 }
 
 .home_LiveStage_Title{
-width: 1600px;
+width: 100%;
 height: 30px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
 }
 
-.Live{
+.home_Live{
   color : #f3017f;
-  font-weight : 600;
+  
 }
-.Stage{
+.home_Stage{
   color : #ffffff;
-  font-weight : 600;
+  
 }
 
 .home_LiveStage_Container{
@@ -82,9 +86,20 @@ justify-content: space-between;
 	align-items: center;
 	color: #F3017F;
 	font-size: 14px;
-	margin-top: 24px;
-  margin-bottom: 24px;
+	margin: 12px 0;
 }
+
+.hr-sect:last-of-type{
+  width : 100%;
+  height : 21px;
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #F3017F;
+	font-size: 14px;
+  margin-bottom: 0;
+}
+
 .hr-sect::before{
 	content: "";
 	flex-grow: 1;
@@ -112,6 +127,8 @@ justify-content: space-between;
   height: 24px;
   margin-left: 12px;
 }
+
+
 
 /* ====================  Upcoming Stage  ======================== */
 .home_UpComing_Stage{

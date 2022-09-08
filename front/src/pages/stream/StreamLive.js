@@ -24,10 +24,14 @@ function StreamLive() {
 
                             {/* Streaming 타이틀 */}
                             <div className="StreamLive_Title">
-                                    <div className="StreamLive_Title_text">
-                                        Title
+                                    <div className="ew">
+                                        <spen className='StreamLive_Title_text'>
+                                            Title
+                                        </spen>
+
                                     </div>
-                                    {/* 코드 리뷰 필요 */}
+                                   
+                                    
                                     <div className='StreamLive_Title_right'>
                                         <div className="StreamLive_Title_right_Share">
                                              <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />

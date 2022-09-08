@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar'
+import Sidebarex from './components/sidebar copy/Sidebarex';
 import Home from './pages/home/Home'
 import StreamMain from './pages/stream/StreamMain'
 import StreamLive from './pages/stream/StreamLive'

@@ -52,8 +52,14 @@
     display: flex;
   }
 
+  .ew{
+
+  }
+  
+ 
+
   .StreamLive_Title_text{
-    width: 46px;
+    
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -62,11 +68,10 @@
   }
 
   .StreamLive_Title_right{
-    width: 200px;
-    height: 100%;
-
+    width: 100%;
     display:  flex;
-    margin-left: 950px;
+    justify-content: flex-end;
+    
   }
   .StreamLive_Title_right_ShareIcon{
     width : 20px;
@@ -76,7 +81,6 @@
   }
 
   .StreamLive_Title_right_Share{
-    width: 80px;
     height: 100%;
 
     font-style: normal;
@@ -98,7 +102,7 @@ color: #FFFFFF;
   }
 
   .StreamLive_Title_right_Report{
-    width: 90px;
+    
     height: 100%;
 
     font-style: normal;

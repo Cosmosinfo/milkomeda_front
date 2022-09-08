@@ -9,25 +9,29 @@ function StreamMain() {
         <>
             <div className="StreamMain">
                 <div className="StreamMain_Wrapper">
-                    <div className="StreamMain_Top">
-                        <div className="StreamMain_LiveStage_Title_left">
-                            <span className="Live">Live</span>&nbsp;
-                            <span className="Stage">Stage</span>
-                        {/* 코드 리뷰 필요 */}
-                            <div className="StreamMain_LiveStage_Title_middle">
-                                <div className="Stream_LiveStage_us">Upcoming Stage</div>
-                                <div className="Stream_LiveStage_ps">Previous Stage</div>
-                            
-                            </div>
-                        </div>
 
-                        <div className="Stream_LiveStage_Title_Right">
-                        
+                    
+
+                    <div className="StreamMain_Top">
+
+                        <ul className='StreamMain_Top_lf'>
+
+                            <li className="StreamMain_Stage"><span className="StreamMain_Live">Live</span>&nbsp;Stage</li>
+                            <li className="Stream_LiveStage_us">Upcoming&nbsp;Stage</li>
+                            <li className="Stream_LiveStage_ps">Previous&nbsp;Stage</li>
+
+                        </ul>
+                        <div className='StreamMain_Top_Rh'>
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
-                                    Sort
+                                    <div className='Stream_LiveStage_filter_text'>
+                                        Sort
+                                    </div>
+                                    
                             </div>
                         </div>
+                       
+                        
 
                     </div>
 

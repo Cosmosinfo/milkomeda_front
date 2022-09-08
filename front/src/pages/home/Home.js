@@ -40,8 +40,7 @@ function Home() {
 
         <div className="home_LiveStage">
           <div className="home_LiveStage_Title">
-            <span className="Live">Live</span>&nbsp;
-            <span className="Stage">Stage</span>
+            <p className='home_Stage'><span className="home_Live">Live</span> Stage</p>
           </div>
 
           <div className="home_LiveStage_Container">
@@ -83,17 +82,12 @@ function Home() {
 
 
           </div>
+        </div>
 
-          <div className="hr-sect">
+        <div className="hr-sect">
             More
             <img className="chevron" src={chevron} alt="chevron" />
           </div>
-
-
-
-
-        </div>
-
       </div>
     </div>
   )
