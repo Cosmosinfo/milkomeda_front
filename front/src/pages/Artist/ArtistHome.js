@@ -77,32 +77,33 @@ function ArtistHome() {
 
               <div className='AritstHome_Rh'>
                   <div className='AritstHome_Rh_Memu'>
-                        <div className='AritstHome_Rh_MemuBox'>
+                        <ul className='AritstHome_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Home</div>
+                          <li className='AritstHome_Rh_MemuBoxText'>Home</li>
                         </Link>
                         <div className='AritstHome_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Notice</div>
+                          <li className='AritstHome_Rh_MemuBoxText'>Notice</li>
                         </Link> 
                         <div className='AritstHome_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Stage</div>
+                          <li className='AritstHome_Rh_MemuBoxText'>Stage</li>
                         </Link>
                         <div className='AritstHome_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Schedule</div>
+                          <li className='AritstHome_Rh_MemuBoxText'>Schedule</li>
                         </Link>
                         <div className='AritstHome_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Store</div>
+                          <li className='AritstHome_Rh_MemuBoxText'>Store</li>
                         </Link>
                         <div className='AritstHome_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Post</div>
+                          <li className='AritstHome_Rh_MemuBoxText'>Post</li>
                         </Link>
-                        </div>
+                        
+                        </ul>
                   </div>
 
                   <div className='AritstHome_Rh_Container'>
