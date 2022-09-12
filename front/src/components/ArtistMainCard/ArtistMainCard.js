@@ -26,6 +26,7 @@ function ArtistMainCard() {
               
 
               <div className='ArtistMain_ContentItem'>
+                <Link to="/artisthome" className="link">
                 <div className='ArtistMain_ContentItemContainer'>
                   <div className='ArtistMain_ContentItemContainerTop'></div>
                   <div className='ArtistMain_ContentItemContainerBtm'>
@@ -38,9 +39,11 @@ function ArtistMainCard() {
                       </div>
                   </div>
                 </div>
+                </ Link >
               </div>
 
               <div className='ArtistMain_ContentItem'>
+                <Link to="/artisthome" className="link">
                 <div className='ArtistMain_ContentItemContainer'>
                   <div className='ArtistMain_ContentItemContainerTop'></div>
                   <div className='ArtistMain_ContentItemContainerBtm'>
@@ -53,9 +56,11 @@ function ArtistMainCard() {
                       </div>
                   </div>
                 </div>
+                </ Link >
               </div>
 
-              <div className='ArtistMain_ContentItem2'>
+              <div className='ArtistMain_ContentItem'>
+                <Link to="/artisthome" className="link">
                 <div className='ArtistMain_ContentItemContainer'>
                   <div className='ArtistMain_ContentItemContainerTop'></div>
                   <div className='ArtistMain_ContentItemContainerBtm'>
@@ -68,6 +73,7 @@ function ArtistMainCard() {
                       </div>
                   </div>
                 </div>
+                </ Link >
               </div>
 
              

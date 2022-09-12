@@ -187,6 +187,14 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 
                     <div className="StreamLive_Right">
                         <div className='StreamLive_Right_Wrapper'>
+                            
+
+                            
+
+                        
+
+
+                            
                            <div className='StreamLive_Right_top'>
                                 <div className='StreamLive_ChatBtn'>
                                     <div className='StreamLive_ChatBtn_LiveChat'>
@@ -195,6 +203,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                                     </div>
                                 </div>
                            </div>
+                          
+                          
 
                            <div className="StreamLive_Right_middle">
 
@@ -217,12 +227,13 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 
                            </div>
 
+                            
                            
-                           
-                           
+                          
                             <div className='StreamLive_MessageBox'>
+                                <input className='StreamLive_MessageBox_inputbox' type='text' placeholder='text'></input>
                                 <div className='StreamLive_MessageBox_textContainer'>
-                                     <div className="StreamLive_MessageBox_text">Message</div>
+                                     <span className="StreamLive_MessageBox_text">Message</span>
 
                                      <div className="StreamLive_MessageBox_IconContainer">
                                         <img className="StreamLive_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
@@ -231,6 +242,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                                     </div>
                                 </div>
                             </div>
+
+                            
+
 
 
                         </div>

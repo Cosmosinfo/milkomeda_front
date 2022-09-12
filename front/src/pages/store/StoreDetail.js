@@ -89,6 +89,7 @@ function StoreDetail() {
                         
                     </div>
 
+                    
                     <div className='StoreDetail_left_Btm'>
                         <div className='StoreDetail_left_Btm_Detail_Line'></div>
 
@@ -137,6 +138,16 @@ function StoreDetail() {
                          <StoreRecoProduct />
 
                          <StoreRecoProduct />
+
+                         <StoreRecoProduct />
+
+                         <StoreRecoProduct />
+
+                         <StoreRecoProduct />
+
+                         <StoreRecoProduct />
+
+                         
                     </div>
                    
                     

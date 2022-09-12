@@ -20,6 +20,9 @@ function StoreMain() {
 
                 {/* 추후 링크 연결 필요? */}
                 <div className='StoreMain_Category'>
+                    <div className='StoreMain_Category_lf'>
+
+
                     <div className='StoreMain_Category_Item'>
                         <span className='StoreMain_Category_Item_text'>Category</span>
                     </div>
@@ -44,12 +47,19 @@ function StoreMain() {
                         <span className='StoreMain_Category_Item_text'>Category</span>
                     </div>
 
-                    
+
+                    </div>
+                   
+
+                    <div className='StoreMain_Category_Rh'>
                     <div className="StoreMain_Category_filter">
                         <img className="StoreMain_Category_filterIcon" src={filter} alt="filter" />
-                        Sort
+                        <span className="StoreMain_Category_filter_text">Sort</span>
                     </div>
-                                        
+                             
+                        </div>
+                    
+                              
                     
 
                     
@@ -57,10 +67,10 @@ function StoreMain() {
                     
                 </div>
 
-                <div className='StoreMain_Contents'>
+                <div className='StoreMain_Content'>
                     
                     <StoreCategory />
-
+                    
                     <StoreCategory />
 
                     <StoreCategory />

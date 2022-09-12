@@ -4,9 +4,6 @@ import filter from '../../assets/icon/graw/filter.svg'
 import ArtistMainCard from '../../components/ArtistMainCard/ArtistMainCard'
 
 
-// import MyPage from '../../components/Popup/MyPage'
-// import Notification from '../../components/Popup/Notification'
-// import Terms from '../../components/Popup/terms'
 
 function ArtistMain() {
   return (
@@ -15,14 +12,23 @@ function ArtistMain() {
       <div className='ArtistMain'>
         <div className='ArtistMain_Wrapper'>
           <div className='ArtistMain_top'>
-              <div className='ArtistMain_topText'> 
+              <div className='ArtistMain_top_lf'>
+                <span className='ArtistMain_topText'> 
                   Artist
+                </span>
+
+              </div>
+              
+              
+
+              <div className='ArtistMain_top_rh'>
+                <img className="ArtistMain_sortimg" src={filter} alt="filter" />
+                <span className='ArtistMain_imgBox_text'>Sort</span>
+                
               </div>
 
-              <div className='ArtistMain_imgBox'>
-                <img className="ArtistMain_sortimg" src={filter} alt="filter" />
-                Sort
-              </div>
+              
+              
           </div>
 
 

@@ -6,9 +6,8 @@
   }
   
   .StoreDetail_Wrapper{
-    width: 1600px;
-    height: 1020px;
-   
+    width: 1618px;
+    height: 857px;
     padding: 30px 30px;
     display: flex;
     
@@ -16,7 +15,7 @@
   }
 
   .StoreDetail_left{
-    width: 1194px;
+    width: 1212px;
     height: auto;
 
     margin-right: 24px;
@@ -39,7 +38,7 @@
 
 
   .StoreDetail_left_top_img{
-    width: 787px;
+    width: 805px;;
     height: 100%;
     margin-right: 24px;
     border-radius: 6px;
@@ -309,19 +308,15 @@ color: #FFFFFF;
 
   .StoreDetail_left_top_Detail_BuyBox_Btm{
     width: 100%;
-    height: 39px;
+    height: 40px;
     background: #F3017F;
     border-radius: 100px;
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 39px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
     margin-top: 10px;
   }
 
@@ -388,7 +383,7 @@ border: 1px solid rgba(139, 137, 153, 0.2);
 
   .StoreDetail_Right{
     width: 380px;
-    height: 1020px;
+  
   }
 
   .StoreDetail_Right_Top{
@@ -410,6 +405,11 @@ color: #FFFFFF;
 
   .StoreDetail_Right_Btm{
     width: 100%;
-    height: 990px;
+    height: 827px;
+    overflow: auto;
     
    }
+
+   .StoreDetail_Right_Btm::-webkit-scrollbar{
+    display: none;
+  }
