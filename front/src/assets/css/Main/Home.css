@@ -44,14 +44,13 @@ color: #FFFFFF;
 /* ====================  Live Stage  ======================== */
 
 .home_LiveStage{
-  width : 1600px;
-  height : 281px;
+  
 
   padding : 12px 0;
 }
 
 .home_LiveStage_Title{
-width: 100%;
+
 height: 30px;
 
 font-style: normal;
@@ -70,8 +69,8 @@ line-height: 30px;
 }
 
 .home_LiveStage_Container{
-width: 1600px;
-height: 240px;
+/* width: 1600px;
+height: 240px; */
 display: flex;
 margin-top: 12px;
 justify-content: space-between;
@@ -79,7 +78,7 @@ justify-content: space-between;
 
 
 .hr-sect {
-  width : 1600px;
+  width: 100%;
   height : 21px;
 	display: flex;
 	flex-basis: 100%;
@@ -132,14 +131,14 @@ justify-content: space-between;
 
 /* ====================  Upcoming Stage  ======================== */
 .home_UpComing_Stage{
-  width : 1600px;
-  height : 281px;
+  width : 100%;
+  height : auto;
 
   
 }
 
 .home_UpComing_Stage_title{
-  width: 1600px;
+  /* width: 1600px; */
   height: 30px;
 
   font-weight: 600;
@@ -148,8 +147,8 @@ justify-content: space-between;
 }
 
 .home_UpComingStage_Container{
-  width: 1600px;
-  height: 240px;
+  /* width: 1600px;
+  height: 240px; */
   display: flex;
   margin-top: 12px;
   justify-content: space-between;
