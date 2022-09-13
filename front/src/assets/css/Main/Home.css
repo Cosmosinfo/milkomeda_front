@@ -133,6 +133,7 @@ justify-content: space-between;
 .home_UpComing_Stage{
   width : 100%;
   height : auto;
+  padding-bottom: 12px;
 
   
 }

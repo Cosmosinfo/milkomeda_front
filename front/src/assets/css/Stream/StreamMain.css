@@ -95,7 +95,7 @@
   
   .StreamMain_LiveStage_Container{
  
-  height: 240px;
+  /* height: 240px; */
   display: flex;
   margin: 12px 0 24px ;
   justify-content: space-between;

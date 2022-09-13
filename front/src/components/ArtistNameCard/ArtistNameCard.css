@@ -14,10 +14,11 @@
   
 
   .Aritist_img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 100px;
     cursor: pointer;
+    align-self: center;
   }
 
     .newArtistItemContainerRight{

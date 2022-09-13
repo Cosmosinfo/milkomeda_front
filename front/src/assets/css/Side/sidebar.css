@@ -46,8 +46,9 @@
   width: 20px;
   height: 20px;
   margin-right: 26px;
-
+  background-size: contain;
 }
+
 
 .item_name{
   height : 20px;
@@ -62,6 +63,14 @@
   
     
 }
+
+.home.active{
+  /* background-image: url(/Icon/home.svg); */
+  
+
+}
+
+
 
 .item_nameBar{
   width: 4px;
@@ -86,7 +95,7 @@
   width: 176px;
   height: 0px;
   opacity: 20%;
-  margin : 380px 32px 10px 32px;
+  margin : 10px 32px;
 }
 
 
