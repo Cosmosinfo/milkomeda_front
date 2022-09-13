@@ -1,0 +1,165 @@
+
+.ArtistInfoCard_Lf{
+    width: 340px;
+    height: 100%;
+
+    background: #191922;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+.ArtistInfoCard_Lf_Wrapper{
+    height : 807px;
+   
+    
+    padding: 25px 32px;
+
+}
+
+.ArtistInfoCard_ArtistImg{
+    width: 276px;
+    height: 176px;
+    
+    background: #8B8999;
+    border-radius: 6px;
+    margin: 0 0 12px 0;
+}
+
+.ArtistInfoCard_ArtistNameBox{
+    width: 100%;
+    height: 84px;
+
+    padding: 0 0 12px 0;;
+}
+
+.ArtistInfoCard_ArtistName{
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ArtistInfoCard_ArtistName2{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #8B8999;
+    margin: 0 0 12px 0;
+}
+
+.ArtistInfoCard_MusicGenre{
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #8B8999;
+}
+
+.ArtistInfoCard_ArtistSnsBox{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding:0 12px 14px;
+}
+
+.ArtistInfoCard_ArtistSns{
+    width: 40px;
+    height: 40px;
+    background: #15141B;
+}
+
+.ArtistSnsIcon{
+    width: 20px;
+    height: 20px;
+
+    padding: 10px 10px;
+}
+
+.ArtistInfoCard_ArtistFollwer{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #8B8999;
+    padding: 0 0 12px 0;
+}
+
+.ArtistInfoCard_ArtistFavoriteBox{
+    width: 138px;
+    height: 42px;
+    
+    
+    padding: 0 70px 12px;
+
+}
+
+.ArtistInfoCard_ArtistFavoriteText{
+    width: 57px;
+    height: 22px;
+    background: #15141B;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 40px;
+    color: #FFFFFF;
+}
+
+.ArtistInfoCard_Artist_Line{
+    width: 100%;
+    height: 0px;
+    
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    margin: 0 0 12px 0;
+}
+
+.ArtistInfoCard_Artistdescription{
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 0 12px 0;
+    color: #FFFFFF;
+
+}
+
+.ArtistInfoCard_ArtistMetaBox{
+    width: 100%;
+    height: 42px;
+    background: #F3017F;
+    border-radius: 100px;
+    margin-top: 83px;
+    
+}
+
+.ArtistInfoCard_ArtistMetaText{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px 76px;
+    color: #FFFFFF;
+}

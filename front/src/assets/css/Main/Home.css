@@ -14,13 +14,13 @@
 /* ====================  New Artist  ======================== */
 
 .home_newArtist{
-  width: 100%;
+  /* width: 100%; */
   height: 122px;
   padding: 12px 0;
 }
 
 .home_newArtistTitle{
-  width: 118px;
+  /* width: 118px; */
   height: 30px;
 
   font-style: normal;
@@ -35,7 +35,7 @@ color: #FFFFFF;
 
 .home_newArtistItem{
   width: 100%;
-  height: 80px;
+  height: 93px;
   margin-top: 12px;
   display: flex;
   justify-content: space-between;

@@ -5,178 +5,14 @@
 }
 
 .ArtistStore_Wrapper{
-    width: 1600px;
-    height: 1020px;
-    display: flex;
+    width: 1618px;
+    height: 857px;
     padding: 30px 30px;
-
-    
-}
-
-.ArtistStore_Lf{
-    width: 340px;
-    height: 100%;
-
-    background: #191922;
-    border-radius: 10px;
-
-    box-sizing: border-box;
-}
-
-.ArtistStore_Lf_Wrapper{
-    width: 276px;
-    height: 970px;
-    
-    padding: 25px 32px;
-
-}
-
-.ArtistStore_ArtistImg{
-    width: 276px;
-    height: 176px;
-    
-    background: #8B8999;
-    border-radius: 6px;
-    margin-bottom: 12.5px;
-}
-
-.ArtistStore_ArtistNameBox{
-    width: 100%;
-    height: 84px;
-
-    padding: 12.5px 0;
-}
-
-.ArtistStore_ArtistName{
-    height: 30px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    
-    color: #FFFFFF;
-}
-
-.ArtistStore_ArtistName2{
-    height: 22px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    
-    color: #8B8999;
-    margin-bottom: 12px;
-}
-
-.ArtistStore_MusicGenre{
-    height: 18px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-    
-    color: #8B8999;
-}
-
-.ArtistStore_ArtistSnsBox{
-    width: 249px;
-    height: 40px;
     display: flex;
-    justify-content: space-between;
-    padding: 12.5px 14px;
-}
 
-.ArtistStore_ArtistSns{
-    width: 40px;
-    height: 40px;
-    background: #15141B;
-}
-
-.ArtistSnsIcon{
-    width: 20px;
-    height: 20px;
-
-    padding: 10px 10px;
-}
-
-.ArtistStore_ArtistFollwer{
-    height: 21px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
     
-    color: #8B8999;
-    padding: 12.5px 0;
 }
 
-.ArtistStore_ArtistFavoriteBox{
-    width: 138px;
-    height: 42px;
-    
-    
-    padding: 12.5px 69px;
-
-}
-
-.ArtistStore_ArtistFavoriteText{
-    width: 57px;
-    height: 22px;
-    background: #15141B;
-    border-radius: 100px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    padding: 10px 40px;
-    color: #FFFFFF;
-}
-
-.ArtistStore_Artist_Line{
-    width: 100%;
-    height: 0px;
-    
-    border: 1px solid rgba(139, 137, 153, 0.2);
-    margin: 12.5px 0;
-}
-
-.ArtistStore_Artistdescription{
-    width: 100%;
-    height: auto;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    padding: 12.5px 0;
-    color: #FFFFFF;
-
-}
-
-.ArtistStore_ArtistMetaBox{
-    width: 100%;
-    height: 42px;
-    background: #F3017F;
-    border-radius: 100px;
-    margin-top: 169px;
-}
-
-.ArtistStore_ArtistMetaText{
-    height: 21px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    padding: 10px 76px;
-    color: #FFFFFF;
-}
 
 .ArtistStore_Rh{
     width: 100%;
@@ -195,12 +31,12 @@
 }
 
 .ArtistStore_Rh_MemuBox{
-    width: 1035px;
     height: 22px;
-    padding: 10px 82px 10px 76px;
+    padding: 10px 80px;;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+    list-style: none;
 }
 
 .ArtistStore_Rh_MemuBoxHome{
@@ -209,7 +45,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-   
+    
     
     
 }
@@ -227,9 +63,12 @@
     transform: rotate(90deg);
 }
 
+
+
+
 .ArtistStore_Rh_Container{
     width: 100%;
-    height: 966px;
+    
 }
 
 

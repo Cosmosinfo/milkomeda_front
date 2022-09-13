@@ -21,9 +21,9 @@
     margin-right: 27px;
   }
 
-  .StreamLive_left::-webkit-scrollbar {
+  /* .StreamLive_left::-webkit-scrollbar {
     display: none;
-    }
+    } */
 
   
 
@@ -420,9 +420,9 @@ color: #FFFFFF;
     overflow: overlay;
   }
 
-  .StreamLive_Right_middle::-webkit-scrollbar{
+  /* .StreamLive_Right_middle::-webkit-scrollbar{
     display: none;
-  }
+  } */
 
  
 

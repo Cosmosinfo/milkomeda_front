@@ -7,6 +7,7 @@ import Twitter from '../../assets/icon/graw/twitter.svg'
 import Youtube from '../../assets/icon/graw/youtube.svg'
 import Global from '../../assets/icon/graw/globe-w.svg'
 import StageCard from '../../components/StageCard/StageCard';
+import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 
 function ArtistStage() {
   return (
@@ -14,67 +15,7 @@ function ArtistStage() {
 
         <div className='ArtistStage'>
             <div className='ArtistStage_Wrapper'>
-              <div className='ArtistStage_Lf'>
-
-                <div className='ArtistStage_Lf_Wrapper'>
-                  <div className='ArtistStage_ArtistImg'>
-
-                  </div>
-
-                  <div className='ArtistStage_ArtistNameBox'>
-                      <div className='ArtistStage_ArtistName'>Artist Name</div>
-                      <div className='ArtistStage_ArtistName2'>Name, Name, Name, Name</div>
-                      <div className='ArtistStage_MusicGenre'>Music Genre</div>
-                  </div>
-
-                  <div className='ArtistStage_ArtistSnsBox'>
-                      <div className='ArtistStage_ArtistSns'>
-                          <img className="ArtistSnsIcon" src={Instagram} alt="Instargram" />
-                      </div>
-
-                      <div className='ArtistStage_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Facebook} alt="Instargram" />
-                      </div>
-
-                      <div className='ArtistStage_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Twitter} alt="Instargram" />
-                      </div>
-
-                      <div className='ArtistStage_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Youtube} alt="Instargram" />
-                      </div>
-
-                      <div className='ArtistStage_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Global} alt="Instargram" />
-                      </div>
-
-                      
-                  </div>
-
-                  <div className='ArtistStage_ArtistFollwer'>Follower 0,000</div>
-
-                  <div className='ArtistStage_ArtistFavoriteBox'>
-                    <div className='ArtistStage_ArtistFavoriteText'>Favorite</div>
-
-                  </div>
-
-                  <div className='ArtistStage_Artist_Line'></div>
-
-                  <div className='ArtistStage_Artistdescription'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  </div>
-
-                  <div className='ArtistStage_ArtistMetaBox'>
-                    <div className='ArtistStage_ArtistMetaText'>
-                    Artist’s Metaverse
-                    </div>
-                  </div>
-
-                </div>
-                
-
-                  
-              </div>
+              < ArtistInfoCard />
 
               <div className='ArtistStage_Rh'>
                   <div className='ArtistStage_Rh_Memu'>
@@ -107,19 +48,61 @@ function ArtistStage() {
                   </div>
 
                   <div className='ArtistStage_Rh_Container'>
-                        <div className='ArtistStage_Rh_top'>
-                            <div className='ArtistStage_Rh_top_live'>Live Stage</div>
-                            <div className='ArtistStage_Rh_top_Upcoming'>Upcoming Stage</div>
-                            <div className='ArtistStage_Rh_top_Stage'>Previous Stage</div>
+                        <ul className='ArtistStage_Rh_top'>
+                            <li className='ArtistStage_Rh_top_live'>Live Stage</li>
+                            <li className='ArtistStage_Rh_top_Upcoming'>Upcoming Stage</li>
+                            <li className='ArtistStage_Rh_top_Stage'>Previous Stage</li>
+                        </ul>
+
+                        <div className='ArtistStage_Rh_btm_box'>
+
+                        <div className='ArtistStage_Rh_btm'>
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        
                         </div>
 
                         <div className='ArtistStage_Rh_btm'>
                         <StageCard />
 
-<StageCard />
+                        <StageCard />
 
-<StageCard />
+                        <StageCard />
+
+                        
                         </div>
+
+                        <div className='ArtistStage_Rh_btm'>
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        
+                        </div>
+
+                        <div className='ArtistStage_Rh_btm'>
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        
+                        </div>
+
+                        
+                          
+                        </div>
+
+                        
+
+                       
 
                         
 

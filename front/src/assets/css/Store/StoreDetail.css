@@ -32,9 +32,9 @@
     
   }
 
-  .StoreDetail_left::-webkit-scrollbar{
+  /* .StoreDetail_left::-webkit-scrollbar{
     display: none;
-  }
+  } */
 
 
   .StoreDetail_left_top_img{
@@ -410,6 +410,6 @@ color: #FFFFFF;
     
    }
 
-   .StoreDetail_Right_Btm::-webkit-scrollbar{
+   /* .StoreDetail_Right_Btm::-webkit-scrollbar{
     display: none;
-  }
+  } */

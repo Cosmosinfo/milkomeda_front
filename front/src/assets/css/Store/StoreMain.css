@@ -131,6 +131,6 @@ margin-right : 12px;
     overflow: auto
   }
 
- .StoreMain_Content::-webkit-scrollbar{
+ /* .StoreMain_Content::-webkit-scrollbar{
   display: none;
-}
+} */

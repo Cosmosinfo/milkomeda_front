@@ -8,24 +8,27 @@ function ArtistNameCard() {
         <>  
           <Link to="/artisthome" className="link">
             <div className="newArtistItemContainer">
+              <div className="newArtistItemContainerBox">
               <div className="newArtistItemContainerLeft">
 
-                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Aritist_img" />
+<img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Aritist_img" />
 
 
+</div>
+<div className="newArtistItemContainerRight">
+
+<div className="newArtistItemContainerNameBox">
+
+  <span className="newArtistItemContainerArtistName">Artist Name</span>
+
+</div>
+<div className="newArtistItemContainerMusicGenreBox">
+
+  <span className="newArtistItemContainerMusicGenre">Music Genre</span>
+</div>
+</div>
               </div>
-              <div className="newArtistItemContainerRight">
-
-                <div className="newArtistItemContainerNameBox">
-
-                  <span className="newArtistItemContainerArtistName">Artist Name</span>
-
-                </div>
-                <div className="newArtistItemContainerMusicGenreBox">
-
-                  <span className="newArtistItemContainerMusicGenre">Music Genre</span>
-                </div>
-              </div>
+              
             </div>
             </Link>
 

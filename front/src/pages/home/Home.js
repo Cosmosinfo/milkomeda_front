@@ -16,9 +16,7 @@ function Home() {
         {/* ====================  New Artist  ======================== */}
 
         <div className="home_newArtist">
-          <div className="home_newArtistTitle">
-            New Artist
-          </div>
+          <span className="home_newArtistTitle">New Artist</span>
 
           <div className="home_newArtistItem">
             <ArtistNameCard />
