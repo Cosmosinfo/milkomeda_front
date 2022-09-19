@@ -1,11 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistStage.css'
-import Instagram from '../../assets/icon/graw/instagram.svg'
-import Facebook from '../../assets/icon/graw/facebook.svg'
-import Twitter from '../../assets/icon/graw/twitter.svg'
-import Youtube from '../../assets/icon/graw/youtube.svg'
-import Global from '../../assets/icon/graw/globe-w.svg'
 import StageCard from '../../components/StageCard/StageCard';
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 
