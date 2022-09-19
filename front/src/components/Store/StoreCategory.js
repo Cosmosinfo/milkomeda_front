@@ -113,7 +113,7 @@ function StoreCategory() {
                     </Link>
                 </div>
 
-                <div className='StoreMain_Contents_ItemLast'>
+                <div className='StoreMain_Contents_Item'>
                     <Link to="/storeDetail" className="store_link">
                         <div className='StoreMain_Contents_Item_img'>
 

@@ -1,13 +1,14 @@
 .newArtistItemContainer{
-    width: 253px;
-    height: 100%;
-    border-radius: 6px;
-    background-color : #191922;
-    display: flex;
+  width: 249.5px;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #191922;
+  display: flex;
     /* margin-right: 24px; */
   }
 
   .newArtistItemContainerBox{
+    width : 100%;
     display: flex;
       padding : 12px 60px 12px 14px;
   }
@@ -22,8 +23,7 @@
   }
 
     .newArtistItemContainerRight{
-    /* width: 93px;
-    height: 80px; */
+      width : 100%;
     margin-left: 13px;
   }
 

@@ -35,7 +35,42 @@ function StreamMain() {
 
                     </div>
 
-                    <div className="StreamMain_LiveStage_Container">
+
+                    <div className='StreamMain_btm'>
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+                    </div>
+
+                    {/* <div className="StreamMain_LiveStage_Container">
                         <StageCard />
 
                         <StageCard />
@@ -77,7 +112,7 @@ function StreamMain() {
 
                         <StageCard />
 
-                    </div>
+                    </div> */}
 
                    
 

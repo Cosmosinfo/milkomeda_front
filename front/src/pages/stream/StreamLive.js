@@ -192,10 +192,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                             
 
                         
-
-
-                            
-                           <div className='StreamLive_Right_top'>
+                            <div className='StreamLive_Right_flexbox'>
+                            <div className='StreamLive_Right_top'>
                                 <div className='StreamLive_ChatBtn'>
                                     <div className='StreamLive_ChatBtn_LiveChat'>
                                         <div className="StreamLive_ChatBtn_LiveChat_text">Live Chat</div>
@@ -204,7 +202,7 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                                 </div>
                            </div>
                           
-                          
+                            
 
                            <div className="StreamLive_Right_middle">
 
@@ -227,13 +225,18 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 
                            </div>
 
+                            </div>
+
+                            
+                           
+
                             
                            
                           
                             <div className='StreamLive_MessageBox'>
-                                <input className='StreamLive_MessageBox_inputbox' type='text' placeholder='text'></input>
+                                {/* <input className='StreamLive_MessageBox_inputbox' type='text' placeholder='text'></input> */}
                                 <div className='StreamLive_MessageBox_textContainer'>
-                                     <span className="StreamLive_MessageBox_text">Message</span>
+                                     <input className="StreamLive_MessageBox_text" type='text' placeholder='Message'></input>
 
                                      <div className="StreamLive_MessageBox_IconContainer">
                                         <img className="StreamLive_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />

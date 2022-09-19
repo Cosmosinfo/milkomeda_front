@@ -148,8 +148,7 @@
     height: 42px;
     background: #F3017F;
     border-radius: 100px;
-    /* margin-top: 83px; */
-    bottom: 0;
+    bottom: 25px;
     position: absolute;
     
 }

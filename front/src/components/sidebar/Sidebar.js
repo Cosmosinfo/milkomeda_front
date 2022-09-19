@@ -20,7 +20,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
-
+        
         <ul className="side_item_1">
 
           <li className="item_name">
@@ -67,11 +67,7 @@ export default function Sidebar() {
               Favorite
             </Link>
           </li>
-{/*
-          <div className="Favorite_artist">
-            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Artist_logo" />
-          </div>
-*/}
+
 
           <li className="item_name">
             <img className="sidebarIcon" src={Calendar} alt="Calendar" />
@@ -82,35 +78,24 @@ export default function Sidebar() {
               
           </li>
 
-          {/* <div className="item_name">
-            <img className="sidebarIcon" src={MyAvatar} alt="MyAvatar" />
-            <Link to="/" className="item_link">
-              MyAvatar
-            </Link>
-          </div>
-
-          <div className="item_name">
-            <img className="sidebarIcon" src={MyRoom} alt="MyRoom" />
-            <Link to="/" className="item_link">
-              MyRoom
-            </Link>
-          </div> */}
 
         </ul>
 
        
-        <hr className="hr2" />
+       
 
         <ul className="side_item_3">
 
-          <li className="item_name">
+        <hr className="hr2" />
+
+          <li className="item3_name">
             <img className="sidebarIcon" src={Settings} alt="Settings" />
             <Link to="/" className="item_link">
               Settings
             </Link>
           </li>
 
-          <li className="item_name">
+          <li className="item3_name">
             <img className="sidebarIcon" src={Help} alt="Help" />
             <Link to="/" className="item_link">
               Help

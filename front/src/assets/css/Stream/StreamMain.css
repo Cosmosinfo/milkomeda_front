@@ -92,6 +92,16 @@
       color: #ffffff;
       margin-left: 12px;
     }
+
+    .StreamMain_btm{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 12px;
+        
+    }
   
   .StreamMain_LiveStage_Container{
  

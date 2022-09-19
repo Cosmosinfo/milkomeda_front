@@ -21,9 +21,8 @@
     margin-right: 24px;
   }
 
-  .StoreMain_Contents_ItemLast{
-    width: 246px;
-    height: 100%;
+  .StoreMain_Contents_Item:last-of-type{
+    margin: 0;
   }
 
   .StoreMain_Contents_Item_img{

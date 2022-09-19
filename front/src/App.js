@@ -32,7 +32,6 @@ function App() {
             <Route path="/error" element={<Error />} />
             <Route path="/artist" element={<ArtistMain />} />
             <Route path="/artisthome" element={<ArtistHome />} />
-            <Route path="/artisthome" element={<ArtistHome />} />
             <Route path="/artiststage" element={<ArtistStage />} />
             <Route path="/artiststore" element={<ArtistStore />} />
             {/* <Route path="/page2/*" element={<Page2 />} />

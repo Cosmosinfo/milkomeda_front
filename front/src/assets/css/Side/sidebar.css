@@ -1,20 +1,22 @@
 .sidebar {
   position: fixed;
   width: 240px;
-  height: 1020px;
+  height: 917px;
   background-color: #191922;
-  color : #ffff;
+  color: #ffff;
   top: 60px;
   z-index: 1;
-  box-sizing: border-box;
+
   
 }
 
 .sidebarWrapper {
-  /* width: 176px; */
-  /* height: 1020px; */
+  height: 885px;
   padding-bottom: 32px;
+  position: relative;
 }
+
+
 
 .item_link{
   /* width : 87px;
@@ -40,6 +42,8 @@
 .side_item_3{
   width: 100%;
   height: auto;
+  position: absolute;
+  bottom: 32px;
 }
 
 .sidebarIcon{
@@ -62,6 +66,24 @@
   margin-left: 32px;
   
     
+}
+
+
+.item3_name{
+  height : 20px;
+  display: flex;
+  color: #ffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding : 20px 0;
+  margin-left: 32px;
+  
+}
+
+.item3_name:last-of-type{
+  padding-bottom: 0;
 }
 
 .home.active{

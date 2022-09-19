@@ -6,7 +6,7 @@
   }
   
   .StreamLive_Wrapper{
-    /* width: 1618px; */
+    width: 1620px;
     height: 857px;
    
     padding: 30px 30px;
@@ -351,10 +351,15 @@ color: #FFFFFF;
 
   .StreamLive_Right_Wrapper{
     height : 807px;
-   
-    padding: 25px 36px 24px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 24px 36px;
     
   }
+
+  
 
  
 
@@ -430,7 +435,7 @@ color: #FFFFFF;
 
   .StreamLive_MessageBox{
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
 
     
     margin-top: 17px;
@@ -456,17 +461,19 @@ color: #FFFFFF;
 
   .StreamLive_MessageBox_text{
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-
-color: #8B8999;
+    font-weight: 400;
+    font-size: 14px;
+    flex: 1;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #191922;
+    border: none;
   }
 
   .StreamLive_MessageBox_IconContainer{
-    width: 100%;
+
     display: flex;
-    justify-content: flex-end;
+
     
   }
 
