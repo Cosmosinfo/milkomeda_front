@@ -12,6 +12,9 @@ import ArtistMain from './pages/Artist/ArtistMain'
 import ArtistHome from './pages/Artist/ArtistHome'
 import ArtistStage from './pages/Artist/ArtistStage';
 import ArtistStore from './pages/Artist/ArtistStore';
+import ArtistNotice from './pages/Artist/ArtistNotice';
+import ArtistSchedule from './pages/Artist/ArtistSchedule';
+import ArtistPost from './pages/Artist/ArtistPost';
 
 function App() {
   return (
@@ -32,8 +35,11 @@ function App() {
             <Route path="/error" element={<Error />} />
             <Route path="/artist" element={<ArtistMain />} />
             <Route path="/artisthome" element={<ArtistHome />} />
+            <Route path="/artistnotice" element={<ArtistNotice />} />
             <Route path="/artiststage" element={<ArtistStage />} />
             <Route path="/artiststore" element={<ArtistStore />} />
+            <Route path="/artistpost" element={<ArtistPost />} />
+            <Route path="/artistschedule" element={<ArtistSchedule />} />
             {/* <Route path="/page2/*" element={<Page2 />} />
         <Route path="/*" element={<NotFound />} /> */}
           </Routes>

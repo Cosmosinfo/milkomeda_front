@@ -31,14 +31,41 @@ function ArtistMain() {
               
           </div>
 
+          <div className='ArtistMain_btm'>
+            <ArtistMainCard />
 
-          <ArtistMainCard />
+            <ArtistMainCard />
 
-          <ArtistMainCard />
+            <ArtistMainCard />
 
-          <ArtistMainCard />
+            <ArtistMainCard />
 
-          <ArtistMainCard />
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />  
+
+            <ArtistMainCard />    
+
+          </div>
+          
 
           
 

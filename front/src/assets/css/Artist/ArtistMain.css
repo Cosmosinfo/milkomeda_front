@@ -5,7 +5,7 @@
 }
 
 .ArtistMain_Wrapper{
-    width: 1618px;
+    width: 1620px;
     /* height: 1020px; */
    
     padding: 30px 30px;
@@ -65,5 +65,12 @@
     font-size: 14px;
     color: #ffffff;
    
+}
+
+.ArtistMain_btm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 12px;
 }
 

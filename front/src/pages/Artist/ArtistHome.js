@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistHome.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
+import StageCard from '../../components/StageCard/StageCard'
 
 function ArtistHome() {
   return (
@@ -44,8 +45,73 @@ function ArtistHome() {
                   </div>
 
                   
-                  <div className='AritstHome_Rh_Container'>
-                      home
+                  <div className='AritstHome_Rh_btm'>
+                      <div className='AritstHome_Rh_btm_topcard'>
+                          <div className='AritstHome_Rh_btm_topcard_item'>
+
+                          </div>
+
+                          <div className='AritstHome_Rh_btm_topcard_item'>
+
+                          </div>
+
+                          <div className='AritstHome_Rh_btm_topcard_item'>
+
+                          </div>
+                      </div>
+
+                     
+
+                      <hr className='AritstHome_Rh_btm_hr'></hr>
+
+
+                      <div className="AritstHome_Rh_btm_LiveStage">
+                        <div className="AritstHome_Rh_btm_LiveStage_Title">
+                          <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">Live</span> Stage</p>
+                          <span class="AritstHome_Rh_btm_Upcoming">Upcoming&nbsp;Stage</span>
+                        </div>
+
+                        <div className="AritstHome_Rh_btm_LiveStage_Container">
+                          <StageCard />
+
+                          <StageCard />
+
+                          <StageCard />
+
+                         
+
+                        
+
+                        </div>
+
+
+                      </div>
+
+                      <hr className='AritstHome_Rh_btm_hr'></hr>
+
+
+
+                      <div className="AritstHome_Rh_btm_LiveStage">
+                        <div className="AritstHome_Rh_btm_LiveStage_Title">
+                          <span class="AritstHome_Rh_btm_Previous">Previous&nbsp;Stage</span>
+                        </div>
+
+                        <div className="AritstHome_Rh_btm_LiveStage_Container">
+                          <StageCard />
+
+                          <StageCard />
+
+                          <StageCard />
+
+                         
+
+                        
+
+                        </div>
+
+
+                      </div>
+
                   </div>
 
               </div>

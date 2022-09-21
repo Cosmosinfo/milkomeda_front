@@ -5,7 +5,7 @@
 }
 
 .ArtistHome_Wrapper{
-    width: 1618px;
+    width: 1620px;
     height: 857px;
     padding: 30px 30px;
     display: flex;
@@ -15,7 +15,7 @@
 
 
 .ArtistHome_Rh{
-    width: 100%;
+    width: 1209px;
     height: 100%;
     
     margin-left: 27px;
@@ -66,9 +66,77 @@
 
 
 
-.ArtistHome_Rh_Container{
+.AritstHome_Rh_btm{
     width: 100%;
+    height: 792px;
+    overflow: auto;
+    padding-top: 12px;
     
+
+}
+
+.AritstHome_Rh_btm_topcard{
+   
+    height: 235px;
+    display: flex;
+    gap: 24px;
+}
+
+.AritstHome_Rh_btm_topcard_item{
+    width: 100%;
+    height: 100%;
+    background: #191922;
+    border-radius: 6px;
+}
+
+.AritstHome_Rh_btm_hr{
+   
+    height: 0px;
+    margin : 24px 0;
+    border: 1px solid rgba(139, 137, 153, 0.2);
+}
+
+.AritstHome_Rh_btm_LiveStage{
+    width: 100%;
+}
+
+.AritstHome_Rh_btm_LiveStage_Title{
+    height: 30px;
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+.AritstHome_Rh_btm_Stage{
+    color : #ffffff;
+}
+
+.AritstHome_Rh_btm_Live{
+    color : #f3017f;
+}
+
+.AritstHome_Rh_btm_Upcoming{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 324px;
+}
+
+.AritstHome_Rh_btm_LiveStage_Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.AritstHome_Rh_btm_Previous{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 

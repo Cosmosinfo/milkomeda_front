@@ -1,6 +1,6 @@
 
 .ArtistInfoCard_Lf{
-    width: 340px;
+    width: 384px;
     height: 100%;
 
     background: #191922;
@@ -18,7 +18,7 @@
 }
 
 .ArtistInfoCard_ArtistImg{
-    width: 276px;
+    /* width: 276px; */
     height: 176px;
     
     background: #8B8999;
@@ -100,7 +100,7 @@
 }
 
 .ArtistInfoCard_ArtistFavoriteBox{
-    width: 138px;
+    /* width: 138px; */
     height: 42px;
     
     
@@ -109,7 +109,7 @@
 }
 
 .ArtistInfoCard_ArtistFavoriteText{
-    width: 57px;
+    /* width: 57px; */
     height: 22px;
     background: #15141B;
     border-radius: 100px;
@@ -145,6 +145,7 @@
 }
 
 .ArtistInfoCard_ArtistMetaBox{
+    width: 322px;
     height: 42px;
     background: #F3017F;
     border-radius: 100px;

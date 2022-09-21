@@ -1,10 +1,10 @@
-.ArtistStore{
+.ArtistSchedule{
     width: 100%;
     height: auto;
     color: #FFFFFF;
 }
 
-.ArtistStore_Wrapper{
+.ArtistSchedule_Wrapper{
     width: 1620px;
     height: 857px;
     padding: 30px 30px;
@@ -14,14 +14,14 @@
 }
 
 
-.ArtistStore_Rh{
+.ArtistSchedule_Rh{
     width: 1209px;
     height: 100%;
     
     margin-left: 27px;
 }
 
-.ArtistStore_Rh_Memu{
+.ArtistSchedule_Rh_Memu{
     width: 100%;
     height: 42px;
 
@@ -30,7 +30,7 @@
     margin-bottom: 12px;
 }
 
-.ArtistStore_Rh_MemuBox{
+.ArtistSchedule_Rh_MemuBox{
     height: 22px;
     padding: 10px 80px;;
     display: flex;
@@ -39,7 +39,7 @@
     list-style: none;
 }
 
-.ArtistStore_Rh_MemuBoxHome{
+.ArtistSchedule_Rh_MemuBoxHome{
     height: 22px;
     font-style: normal;
     font-weight: 400;
@@ -50,12 +50,12 @@
     
 }
 
-.ArtistStore_Rh_MemuBoxText:hover{
+.ArtistSchedule_Rh_MemuBoxText:hover{
     color: #F3017F;
     
 }
 
-.ArtistStore_Rh_MemuBox_Line{
+.ArtistSchedule_Rh_MemuBox_Line{
     width: 19px;
     height: 0px;
     margin: 10px 0;

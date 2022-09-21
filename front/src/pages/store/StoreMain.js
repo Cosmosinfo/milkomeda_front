@@ -74,6 +74,36 @@ function StoreMain() {
                     <StoreCategory />
 
                     <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
+
+                    <StoreCategory />
                     
 
                 </div>

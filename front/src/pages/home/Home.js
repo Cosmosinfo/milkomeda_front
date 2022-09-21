@@ -5,12 +5,17 @@ import chevron from '../../assets/icon/ping//chevron-down.svg'
 import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
 import StageCard from '../../components/StageCard/StageCard';
 
+
 function Home() {
 
  
 
   return (
+        
+
     <div className="home">
+      
+
       <div className='homeWrapper'>
         {/* ====================  Carousel  ======================== */}
 

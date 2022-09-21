@@ -4,113 +4,81 @@ import '../../assets/css/Artist/ArtistStage.css'
 import StageCard from '../../components/StageCard/StageCard';
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 
+
+
 function ArtistStage() {
   return (
     <>
 
-        <div className='ArtistStage'>
+          <div className='ArtistStage'>
             <div className='ArtistStage_Wrapper'>
-              < ArtistInfoCard />
+              <ArtistInfoCard />
 
+              
               <div className='ArtistStage_Rh'>
                   <div className='ArtistStage_Rh_Memu'>
-                        <div className='ArtistStage_Rh_MemuBox'>
+                        <ul className='ArtistStage_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <div className='ArtistStage_Rh_MemuBoxText'>Home</div>
+                          <li className='ArtistStage_Rh_MemuBoxText'>Home</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <div className='ArtistStage_Rh_MemuBoxText'>Notice</div>
+                          <li className='ArtistStage_Rh_MemuBoxText'>Notice</li>
                         </Link> 
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <div className='ArtistStage_Rh_MemuBoxText'>Stage</div>
+                          <li className='ArtistStage_Rh_MemuBoxText'>Stage</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <div className='ArtistStage_Rh_MemuBoxText'>Schedule</div>
+                          <li className='ArtistStage_Rh_MemuBoxText'>Schedule</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <div className='ArtistStage_Rh_MemuBoxText'>Store</div>
+                          <li className='ArtistStage_Rh_MemuBoxText'>Store</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <div className='ArtistStage_Rh_MemuBoxText'>Post</div>
+                          <li className='ArtistStage_Rh_MemuBoxText'>Post</li>
                         </Link>
-                        </div>
-                  </div>
-
-                  <div className='ArtistStage_Rh_Container'>
-                        <ul className='ArtistStage_Rh_top'>
-                            <li className='ArtistStage_Rh_top_live'>Live Stage</li>
-                            <li className='ArtistStage_Rh_top_Upcoming'>Upcoming Stage</li>
-                            <li className='ArtistStage_Rh_top_Stage'>Previous Stage</li>
+                        
                         </ul>
-
-                        <div className='ArtistStage_Rh_btm_box'>
-
-                        <div className='ArtistStage_Rh_btm'>
-                        <StageCard />
-
-                        <StageCard />
-
-                        <StageCard />
-
-                        
-                        </div>
-
-                        <div className='ArtistStage_Rh_btm'>
-                        <StageCard />
-
-                        <StageCard />
-
-                        <StageCard />
-
-                        
-                        </div>
-
-                        <div className='ArtistStage_Rh_btm'>
-                        <StageCard />
-
-                        <StageCard />
-
-                        <StageCard />
-
-                        
-                        </div>
-
-                        <div className='ArtistStage_Rh_btm'>
-                        <StageCard />
-
-                        <StageCard />
-
-                        <StageCard />
-
-                        
-                        </div>
-
-                        
-                          
-                        </div>
-
-                        
-
-                       
-
-                        
-
-                        
-
-
                   </div>
 
+                  
+                  <div className='ArtistStage_Rh_btm'>
+                    <div className="ArtistStage_Rh_btm_Top">
+
+                          <ul className='ArtistStage_Rh_btm_Top_lf'>
+
+                              <li className="ArtistStage_Rh_btm_Stage">Live&nbsp;Stage</li>
+                              <li className="ArtistStage_Rh_btm_LiveStage_us">Upcoming&nbsp;Stage</li>
+                              <li className="ArtistStage_Rh_btm_LiveStage_ps">Previous&nbsp;Stage</li>
+
+                          </ul>
+
+                    </div>
+
+
+
+                    <div className='ArtistStage_Rh_btm_btm'>
+                    <StageCard />
+
+                    <StageCard />
+
+                    <StageCard />
+
+                    
+
+                    </div>
+
+                  </div>
 
               </div>
-                
+              
             </div>
-        </div>
+          </div>
     
     </>
   )
