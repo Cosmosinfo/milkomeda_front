@@ -28,7 +28,7 @@ function ArtistStage() {
                         </Link> 
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxText'>Stage</li>
+                          <li className='ArtistStage_Rh_MemuBoxTextStage'>Stage</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">

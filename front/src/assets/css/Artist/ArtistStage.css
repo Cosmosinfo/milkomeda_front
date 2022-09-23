@@ -50,9 +50,13 @@
     
 }
 
-.ArtistStage_Rh_MemuBoxText:hover{
-    color: #F3017F;
+.ArtistStage_Rh_MemuBoxText{
+    color: #FFFFFF;
     
+}
+
+.ArtistStage_Rh_MemuBoxTextStage{
+    color: #F3017F;
 }
 
 .ArtistStage_Rh_MemuBox_Line{
@@ -79,7 +83,7 @@
     width: 493px;
     display: flex;
     list-style: none;
-    justify-content: space-between;
+   
 }
 
 .ArtistStage_Rh_btm_Stage{
@@ -97,7 +101,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    
+    margin-left: 32px;
     color: #8B8999;
     
 }
@@ -107,7 +111,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    
+    margin-left: 32px;
     color: #FFFFFF;
     
 }

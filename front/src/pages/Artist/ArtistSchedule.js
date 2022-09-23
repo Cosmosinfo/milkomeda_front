@@ -29,7 +29,7 @@ function ArtistSchedule() {
                         </Link>
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>Schedule</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>Schedule</li>
                         </Link>
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
@@ -45,7 +45,86 @@ function ArtistSchedule() {
 
                   
                   <div className='ArtistSchedule_Rh_btm'>
-            
+
+                       
+                            <div className='ArtistSchedule_Rh_btm_Schedulelf'>
+                                2022. 08
+                            </div>
+
+                            <div className='ArtistSchedule_Rh_btm_ScheduleRh'>
+
+                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container'>
+                                    <span className='ArtistSchedule_Rh_btm_ScheduleRh_container_text'>Upcoming&nbsp;Schedule</span>
+                                    
+                                    {/* 스케줄 박스 */}
+                                    <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
+                                        <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>3</div>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>WED</spen>
+                                            </div>
+
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
+                                                18:00~19:30(KST/90mins)
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
+                                                Location
+                                                </spen>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
+                                        <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>3</div>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>WED</spen>
+                                            </div>
+
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
+                                                18:00~19:30(KST/90mins)
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
+                                                Location
+                                                </spen>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
+                                        <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>3</div>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>WED</spen>
+                                            </div>
+
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
+                                                18:00~19:30(KST/90mins)
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
+                                                Location
+                                                </spen>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        
 
                   </div>
 

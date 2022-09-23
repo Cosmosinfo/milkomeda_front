@@ -7,7 +7,7 @@
   
   .StoreMain_Wrapper{
     width: 1620px;
-    height: 857px;
+    /* height: 857px; */
     padding: 30px 30px;
     
     
@@ -125,8 +125,6 @@ margin-right : 12px;
   }
 
   .StoreMain_Content{
-    height: 482px;
-    overflow: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;

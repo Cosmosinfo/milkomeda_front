@@ -23,7 +23,7 @@ function ArtistNotice() {
                         </Link>
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxText'>Notice</li>
+                          <li className='ArtistNotice_Rh_MemuBoxTextNotice'>Notice</li>
                         </Link> 
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">

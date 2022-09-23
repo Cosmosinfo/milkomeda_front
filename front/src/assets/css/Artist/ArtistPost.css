@@ -50,9 +50,13 @@
     
 }
 
-.ArtistPost_Rh_MemuBoxText:hover{
-    color: #F3017F;
+.ArtistPost_Rh_MemuBoxText{
+    color: #ffffff;
     
+}
+
+.ArtistPost_Rh_MemuBoxTextPost{
+    color: #F3017F;
 }
 
 .ArtistPost_Rh_MemuBox_Line{

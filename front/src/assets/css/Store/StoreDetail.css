@@ -9,7 +9,8 @@
     width: 1620px;
     height: 857px;
     padding: 30px 30px;
-    display: flex;
+    /* display: flex; */
+    position: relative;
     
     
   }
@@ -17,9 +18,9 @@
   .StoreDetail_left{
     width: 1216px;
     height: auto;
-
     margin-right: 24px;
-    overflow: scroll;
+    /* overflow: scroll; */
+    position: absolute;
     
   }
 
@@ -384,6 +385,8 @@ border: 1px solid rgba(139, 137, 153, 0.2);
 
   .StoreDetail_Right{
     width: 380px;
+    position: fixed;
+    right: 30px;
   
   }
 

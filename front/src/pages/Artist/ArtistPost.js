@@ -41,7 +41,7 @@ function ArtistPost() {
                         </Link>
                         <div className='ArtistPost_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxText'>Post</li>
+                          <li className='ArtistPost_Rh_MemuBoxTextPost'>Post</li>
                         </Link>
                         
                         </ul>

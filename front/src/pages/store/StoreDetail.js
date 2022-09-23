@@ -139,14 +139,6 @@ function StoreDetail() {
 
                          <StoreRecoProduct />
 
-                         <StoreRecoProduct />
-
-                         <StoreRecoProduct />
-
-                         <StoreRecoProduct />
-
-                         <StoreRecoProduct />
-
                          
                     </div>
                    

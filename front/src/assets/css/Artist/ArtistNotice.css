@@ -50,10 +50,14 @@
     
 }
 
-.ArtistNotice_Rh_MemuBoxText:hover{
-    color: #F3017F;
-    
+.ArtistNotice_Rh_MemuBoxText{
+    color: #FFFFFF;
 }
+
+.ArtistNotice_Rh_MemuBoxTextNotice{
+    color: #F3017F;
+}
+
 
 .ArtistNotice_Rh_MemuBox_Line{
     width: 19px;
@@ -169,6 +173,8 @@
     height : 22px;
     margin-top: 22px;
     margin-left: 63px;
+    display: flex;
+    align-items: center;
 }
 
 

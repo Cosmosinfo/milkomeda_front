@@ -50,10 +50,19 @@
     
 }
 
-.ArtistHome_Rh_MemuBoxText:hover{
+.ArtistHome_Rh_MemuBoxTexthome{
     color: #F3017F;
+}
+
+
+
+.ArtistHome_Rh_MemuBoxText{
+    
+    color: #ffffff;
     
 }
+
+
 
 .ArtistHome_Rh_MemuBox_Line{
     width: 19px;
@@ -89,6 +98,161 @@
     border-radius: 6px;
 }
 
+.AritstHome_Rh_btm_topcard_item_wrapper{
+    padding : 24px 24px
+}
+
+.AritstHome_Rh_btm_topcard_item_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AritstHome_Rh_btm_topcard_item_top_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh_btm_topcard_item_top_morebox{
+    display: flex;
+    align-items: center;
+}
+
+.AritstHome_Rh_btm_topcard_item_top_moretext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #F3017F;
+}
+
+.chevronright{
+    width : 18px;
+    height : 18px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm{
+    height: 149px;
+    left: 704px;
+    top: 215px;
+    background: #15141B;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_rntextbox{
+    padding : 13px 22px 40px 14px
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox{
+    padding : 13px 13px 28px 14px
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox{
+    padding : 13px 14px 14px 18px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+    
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    
+
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container:last-of-type{
+    margin-top: 12px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_top{
+    display: flex;
+    align-items: center;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_lf{
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background: #F3017F;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh{
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: #8B8999;
+    margin-left: 21px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox_container{
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt{
+
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: right;
+    
+    color: #8B8999;
+}
+
+
+
+
 .AritstHome_Rh_btm_hr{
    
     height: 0px;
@@ -108,9 +272,11 @@
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 12px;
+    gap: 24px;
 }
 
 .AritstHome_Rh_btm_Stage{
+    width : 386px;
     color : #ffffff;
 }
 
@@ -123,7 +289,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    margin-left: 324px;
+   
 }
 
 .AritstHome_Rh_btm_LiveStage_Container{

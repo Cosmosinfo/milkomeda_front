@@ -33,7 +33,7 @@ function ArtistStore() {
                         </Link>
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxText'>Store</li>
+                          <li className='ArtistStore_Rh_MemuBoxTextStore'>Store</li>
                         </Link>
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
