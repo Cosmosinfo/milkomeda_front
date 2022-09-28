@@ -26,7 +26,7 @@ export default function Sidebar() {
           <li className="item_name">
             <img className="sidebarIcon" src={home} alt="home" />
             <Link to="/" className="item_link">
-              Home
+              홈
             </Link>
 
             <div className="item_nameBar">
@@ -37,21 +37,21 @@ export default function Sidebar() {
           <li className="item_name">
             <img className="sidebarIcon" src={Stream} alt="Stream" />
             <Link to="/stream" className="item_link">
-              Stream
+              스테이지
             </Link>
           </li>
 
           <li className="item_name">
             <img className="sidebarIcon" src={Artist} alt="Artist" />
             <Link to="/artist" className="item_link">
-              Artist
+              아티스트
             </Link>
           </li>
 
           <li className="item_name">
             <img className="sidebarIcon" src={Store} alt="Store" />
             <Link to="/store" className="item_link">
-              Store
+              스토어
             </Link>
           </li>
 
@@ -64,7 +64,7 @@ export default function Sidebar() {
           <li className="item_name">
             <img className="sidebarIcon" src={Favorite} alt="Favorite" />
             <Link to="/" className="item_link">
-              Favorite
+              즐겨찾기
             </Link>
           </li>
 
@@ -72,7 +72,7 @@ export default function Sidebar() {
           <li className="item_name">
             <img className="sidebarIcon" src={Calendar} alt="Calendar" />
             <Link to="/" className="item_link">
-              Calendar
+              일정
             </Link>
 
               
@@ -91,14 +91,14 @@ export default function Sidebar() {
           <li className="item3_name">
             <img className="sidebarIcon" src={Settings} alt="Settings" />
             <Link to="/" className="item_link">
-              Settings
+              설정
             </Link>
           </li>
 
           <li className="item3_name">
             <img className="sidebarIcon" src={Help} alt="Help" />
             <Link to="/" className="item_link">
-              Help
+              도움말
             </Link>
           </li>
 

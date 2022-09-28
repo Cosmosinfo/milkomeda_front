@@ -1,5 +1,5 @@
 .newArtistItemContainer{
-  width: 249.5px;
+  /* width: 249.5px; */
   height: 100%;
   border-radius: 6px;
   background-color: #191922;
@@ -10,7 +10,7 @@
   .newArtistItemContainerBox{
     width : 100%;
     display: flex;
-      padding : 12px 60px 12px 14px;
+      padding : 12px 12px 12px 14px;
   }
   
 
@@ -54,4 +54,8 @@
     font-size: 13px;
     font-weight: 400;
     color : #8b8999
+  }
+
+  .artistNameCard {
+    flex: 1;
   }

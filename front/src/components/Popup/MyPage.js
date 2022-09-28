@@ -1,4 +1,4 @@
-import React from 'react'
+import  React, {useState, useRef, useEffect}  from 'react'
 import './MyPage.css'
 
 import edit from '../../assets/icon/graw/edit-2.svg'
@@ -6,10 +6,15 @@ import myshop from '../../assets/icon/graw/shopping-cart.svg'
 import setting from '../../assets/icon/graw/settings.svg'
 
 
-function MyPage() {
+function MyPage(open) {
+    if (!open) {
+        return null
+    }
     return (
         <>
-            <div className='popWrapper'>
+            <div>Modal</div>
+            
+            {/* <div className='popWrapper'>
                 <div className='popHeader'>
                     <div className='popHeader-Container'>
                         <div className='popHeader-imgbox'>
@@ -53,7 +58,11 @@ function MyPage() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            
+         
+
+            
         </>
     )
 }

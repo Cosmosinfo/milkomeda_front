@@ -24,7 +24,7 @@ function Home() {
         {/* ====================  New Artist  ======================== */}
 
         <div className="home_newArtist">
-          <span className="home_newArtistTitle">New Artist</span>
+          <span className="home_newArtistTitle">새로운 아티스트</span>
 
           <div className="home_newArtistItem">
             <ArtistNameCard />
@@ -46,7 +46,7 @@ function Home() {
 
         <div className="home_LiveStage">
           <div className="home_LiveStage_Title">
-            <p className='home_Stage'><span className="home_Live">Live</span> Stage</p>
+            <p className='home_Stage'><span className="home_Live">라이브</span> 스테이지</p>
           </div>
 
           <div className="home_LiveStage_Container">
@@ -66,7 +66,7 @@ function Home() {
         </div>
 
         <div className="hr-sect">
-          More
+          더 보기
           <img className="chevron" src={chevron} alt="chevron" />
         </div>
 
@@ -74,7 +74,7 @@ function Home() {
 
         <div className="home_UpComing_Stage">
           <div className="home_UpComing_Stage_title">
-            Upcoming Stage
+            다가오는 스테이지
           </div>
 
           <div className="home_UpComingStage_Container">
@@ -91,7 +91,7 @@ function Home() {
         </div>
 
         <div className="hr-sect">
-            More
+        더 보기
             <img className="chevron" src={chevron} alt="chevron" />
           </div>
       </div>

@@ -6,7 +6,7 @@ function ArtistNameCard() {
     return (
 
         <>  
-          <Link to="/artisthome" className="link">
+          <Link to="/artisthome" className="link artistNameCard">
             <div className="newArtistItemContainer">
               <div className="newArtistItemContainerBox">
              
@@ -19,12 +19,12 @@ function ArtistNameCard() {
 
 <div className="newArtistItemContainerNameBox">
 
-  <span className="newArtistItemContainerArtistName">Artist Name</span>
+  <span className="newArtistItemContainerArtistName">아티스트</span>
 
 </div>
 <div className="newArtistItemContainerMusicGenreBox">
 
-  <span className="newArtistItemContainerMusicGenre">Music Genre</span>
+  <span className="newArtistItemContainerMusicGenre">장르</span>
 </div>
 </div>
               </div>

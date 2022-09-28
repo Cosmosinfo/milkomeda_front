@@ -1,35 +1,35 @@
 import React from 'react'
-import "../../assets/css/Stream/StreamMain.css"
+import "../../assets/css/Stream/StreamUpcoming.css"
 import filter from '../../assets/icon/graw/filter.svg'
 import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 
-function StreamMain() {
-    return (
-        <>
-            <div className="StreamMain">
-                <div className="StreamMain_Wrapper">
+function StreamUpcoming() {
+  return (
+    <>
+        <div className="StreamUp">
+                <div className="StreamUp_Wrapper">
 
                     
 
-                    <div className="StreamMain_Top">
+                    <div className="StreamUp_Top">
 
-                        <ul className='StreamMain_Top_lf'>
+                        <ul className='StreamUp_Top_lf'>
 
                             <Link to="/stream" className="link">
-                                <li className="StreamMain_Stage"><span className="StreamMain_Live">Live</span>&nbsp;Stage</li>
+                                <li className="StreamUp_Stage"><span className="StreamUp_Live">Live</span>&nbsp;Stage</li>
                             </Link>
 
                             <Link to="/streamup" className="Stream_link">
-                                <li className="StreamMain_LiveStage_us">Upcoming&nbsp;Stage</li>
+                                <li className="StreamUp_LiveStage_us">Upcoming&nbsp;Stage</li>
                             </Link>
 
                             <Link to="/streampv" className="Stream_link">
-                                <li className="StreamMain_LiveStage_ps">Previous&nbsp;Stage</li>
+                                <li className="StreamUp_LiveStage_ps">Previous&nbsp;Stage</li>
                             </Link>
 
                         </ul>
-                        <div className='StreamMain_Top_Rh'>
+                        <div className='StreamUp_Top_Rh'>
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
                                     <div className='Stream_LiveStage_filter_text'>
@@ -44,10 +44,9 @@ function StreamMain() {
                     </div>
 
 
-                    <div className='StreamMain_btm'>
-                        
+                    <div className='StreamUp_btm'>
                         <StageCard />
-                        
+
                         <StageCard />
 
                         <StageCard />
@@ -79,7 +78,49 @@ function StreamMain() {
                         <StageCard />
                     </div>
 
-                   
+                    {/* <div className="StreamUp_LiveStage_Container">
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                    </div>
+
+                    <div className="StreamUp_LiveStage_Container">
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                    </div>
+
+                    <div className="StreamUp_LiveStage_Container">
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                    </div>
+
+                    <div className="StreamUp_LiveStage_Container">
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                        <StageCard />
+
+                    </div> */}
 
                    
 
@@ -88,10 +129,8 @@ function StreamMain() {
                     
                 </div>
             </div>
-
-            
-        </>
-    )
+    </>
+  )
 }
 
-export default StreamMain
+export default StreamUpcoming

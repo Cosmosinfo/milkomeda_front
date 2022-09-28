@@ -4,6 +4,8 @@ import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar'
 import Home from './pages/home/Home'
 import StreamMain from './pages/stream/StreamMain'
+import StreamUpcoming from './pages/stream/StreamUpcoming'
+import StreamPrevious from './pages/stream/StreamPrevious'
 import StreamLive from './pages/stream/StreamLive'
 import StoreMain from './pages/store/StoreMain'
 import StoreDetail from './pages/store/StoreDetail'
@@ -29,6 +31,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stream" element={<StreamMain />} />
+            <Route path="/streamup" element={<StreamUpcoming />} />
+            <Route path="/streampv" element={<StreamPrevious />} />
             <Route path="/streamlive" element={<StreamLive />} />
             <Route path="/store" element={<StoreMain />} />
             <Route path="/storeDetail" element={<StoreDetail />} />

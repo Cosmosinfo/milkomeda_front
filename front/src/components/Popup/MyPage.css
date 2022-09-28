@@ -5,6 +5,9 @@
     background: #191922;
     border-radius: 10px;
     box-sizing: border-box;
+    will-change: transform;
+    position: absolute;
+    transform: translate3d(0px, 148px, 0px);
 }
 
 .popHeader{

@@ -6,10 +6,9 @@ function StageCard() {
     return (
         <>
             
-            <div className="Stage_Item">
-                <Link to="/StreamLive" className="link">
-                <div className="Stage_Top">
-                </div>
+            <Link to="/StreamLive" className="link stageCard">
+              <div className="Stage_Top">
+              </div>
               
               <div className="Stage_btm">
                 <div className="Stage_btm_Left">
@@ -32,7 +31,6 @@ function StageCard() {
                 </div>
               </div>
               </Link>
-            </div>
             
 
             

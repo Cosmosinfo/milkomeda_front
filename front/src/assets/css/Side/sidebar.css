@@ -1,19 +1,21 @@
 .sidebar {
   position: fixed;
   width: 240px;
-  height: 917px;
+  height: calc(100% - 60px);
   background-color: #191922;
   color: #ffff;
   top: 60px;
   z-index: 1;
-
   
 }
 
 .sidebarWrapper {
-  height: 885px;
-  padding-bottom: 32px;
-  position: relative;
+
+    /* height: 885px; */
+    height: 100%;
+    /* padding-bottom: 32px; */
+    position: relative;
+
 }
 
 

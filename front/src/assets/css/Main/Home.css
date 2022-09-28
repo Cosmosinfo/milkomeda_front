@@ -6,7 +6,7 @@
 }
 
 .homeWrapper{
-  width: 1620px;
+  width: auto;
   height: auto;
   padding: 30px 30px;
   
@@ -41,7 +41,7 @@ color: #FFFFFF;
   display: flex;
   gap: 24px;
   /* justify-content: space-between; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   overflow: hidden;
 }
 
@@ -73,13 +73,13 @@ line-height: 30px;
 }
 
 .home_LiveStage_Container{
-  height: 276px;
-  display: flex;
-  margin-top: 12px;
-  /* justify-content: space-between; */
-  flex-wrap: wrap;
-  gap: 0 24px;
-  overflow: hidden;
+    /* height: 276px; */
+    display: flex;
+    margin-top: 12px;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    gap: 0 24px;
+    overflow: hidden;
 }
 
 
@@ -154,12 +154,12 @@ line-height: 30px;
 }
 
 .home_UpComingStage_Container{
-  height: 276px;
-  display: flex;
-  margin-top: 12px;
-  /* justify-content: space-between; */
-  flex-wrap: wrap;
-  gap: 0 24px;
-  overflow: hidden;
+    /* height: 276px; */
+    display: flex;
+    margin-top: 12px;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    gap: 0 24px;
+    overflow: hidden;
   }
   
