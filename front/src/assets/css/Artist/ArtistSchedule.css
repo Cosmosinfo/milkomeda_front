@@ -216,6 +216,7 @@
     /* height: 960px; */
     background: #191922;
     border-radius: 6px;
+    overflow: overlay;
 }
 
 .ArtistSchedule_Rh_btm_ScheduleRh_container{
