@@ -17,27 +17,27 @@ function ArtistStore() {
                         <ul className='ArtistStore_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxText'>Home</li>
+                          <li className='ArtistStore_Rh_MemuBoxText'>아티스트 홈</li>
                         </Link>
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxText'>Notice</li>
+                          <li className='ArtistStore_Rh_MemuBoxText'>공지사항</li>
                         </Link> 
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxText'>Stage</li>
+                          <li className='ArtistStore_Rh_MemuBoxText'>스테이지</li>
                         </Link>
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxText'>Schedule</li>
+                          <li className='ArtistStore_Rh_MemuBoxText'>일정</li>
                         </Link>
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxTextStore'>Store</li>
+                          <li className='ArtistStore_Rh_MemuBoxTextStore'>스토어</li>
                         </Link>
                         <div className='ArtistStore_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistStore_Rh_MemuBoxText'>Post</li>
+                          <li className='ArtistStore_Rh_MemuBoxText'>팬 포스트</li>
                         </Link>
                         
                         </ul>

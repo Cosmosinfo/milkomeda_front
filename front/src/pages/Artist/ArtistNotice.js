@@ -19,27 +19,27 @@ function ArtistNotice() {
                         <ul className='ArtistNotice_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxText'>Home</li>
+                          <li className='ArtistNotice_Rh_MemuBoxText'>아티스트 홈</li>
                         </Link>
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxTextNotice'>Notice</li>
+                          <li className='ArtistNotice_Rh_MemuBoxTextNotice'>공지사항</li>
                         </Link> 
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxText'>Stage</li>
+                          <li className='ArtistNotice_Rh_MemuBoxText'>스테이지</li>
                         </Link>
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxText'>Schedule</li>
+                          <li className='ArtistNotice_Rh_MemuBoxText'>일정</li>
                         </Link>
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxText'>Store</li>
+                          <li className='ArtistNotice_Rh_MemuBoxText'>스토어</li>
                         </Link>
                         <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistNotice_Rh_MemuBoxText'>Post</li>
+                          <li className='ArtistNotice_Rh_MemuBoxText'>팬 포스트</li>
                         </Link>
                         
                         </ul>
@@ -57,11 +57,11 @@ function ArtistNotice() {
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -99,11 +99,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -130,6 +130,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                             </div>
                         </div>
                      </div>
+
 
                      <div className='AritstHome_Rh_btm_noticecard'>
                         <div className='AritstHome_Rh_btm_ncitembox'>
@@ -141,11 +142,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -172,6 +173,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                             </div>
                         </div>
                      </div>
+
 
                      <div className='AritstHome_Rh_btm_noticecard'>
                         <div className='AritstHome_Rh_btm_ncitembox'>
@@ -183,11 +185,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -214,6 +216,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                             </div>
                         </div>
                      </div>
+
 
                      <div className='AritstHome_Rh_btm_noticecard'>
                         <div className='AritstHome_Rh_btm_ncitembox'>
@@ -225,11 +228,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -256,6 +259,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                             </div>
                         </div>
                      </div>
+
 
                      <div className='AritstHome_Rh_btm_noticecard'>
                         <div className='AritstHome_Rh_btm_ncitembox'>
@@ -267,11 +271,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -298,6 +302,9 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                             </div>
                         </div>
                      </div>
+
+
+                     
 
                   </div>
 

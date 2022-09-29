@@ -65,3 +65,6 @@
     
     color: #8B8999;
 }
+.artistMainCard{
+    flex : 1;
+}

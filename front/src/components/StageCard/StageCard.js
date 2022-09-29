@@ -21,12 +21,12 @@ function StageCard() {
 
                   <div className="Stage_NameBox">
 
-                    <span className="Stage_NameBox_ArtistTitle">Title</span>
+                    <span className="Stage_NameBox_ArtistTitle">제목</span>
 
                   </div>
                   <div className="Stage_NameBox_ArtistName_Box">
 
-                    <span className="Stage_NameBox_ArtistName">Artist Name</span>
+                    <span className="Stage_NameBox_ArtistName">아티스트</span>
                   </div>
                 </div>
               </div>

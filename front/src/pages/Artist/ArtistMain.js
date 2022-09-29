@@ -14,7 +14,7 @@ function ArtistMain() {
           <div className='ArtistMain_top'>
               <div className='ArtistMain_top_lf'>
                 <span className='ArtistMain_topText'> 
-                  Artist
+                  아티스트
                 </span>
 
               </div>

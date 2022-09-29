@@ -21,27 +21,27 @@ function ArtistPost() {
                         <ul className='ArtistPost_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxText'>Home</li>
+                          <li className='ArtistPost_Rh_MemuBoxText'>아티스트 홈</li>
                         </Link>
                         <div className='ArtistPost_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxText'>Notice</li>
+                          <li className='ArtistPost_Rh_MemuBoxText'>공지사항</li>
                         </Link> 
                         <div className='ArtistPost_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxText'>Stage</li>
+                          <li className='ArtistPost_Rh_MemuBoxText'>스테이지</li>
                         </Link>
                         <div className='ArtistPost_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxText'>Schedule</li>
+                          <li className='ArtistPost_Rh_MemuBoxText'>일정</li>
                         </Link>
                         <div className='ArtistPost_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxText'>Store</li>
+                          <li className='ArtistPost_Rh_MemuBoxText'>스토어</li>
                         </Link>
                         <div className='ArtistPost_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistPost_Rh_MemuBoxTextPost'>Post</li>
+                          <li className='ArtistPost_Rh_MemuBoxTextPost'>팬 포스트</li>
                         </Link>
                         
                         </ul>
@@ -57,11 +57,11 @@ function ArtistPost() {
                                                 <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="AritstHome_Rh_btm_ncitembox_left_artistbox_lt_img" />
                                                 
                                     </div>
-                                    <span className='ArtistPost_Rh_btm_top_itembox_lf_img_text'>Lorem ipsum dolor sit amet</span>
+                                    <span className='ArtistPost_Rh_btm_top_itembox_lf_img_text'>메세지를 입력해주세요.</span>
                                 </div>
 
                                 <div className='ArtistPost_Rh_btm_top_itembox_rh'>
-                                    <span className='ArtistPost_Rh_btm_top_itembox_rh_text'>Upload</span>
+                                    <span className='ArtistPost_Rh_btm_top_itembox_rh_text'>등록</span>
                                 </div>
                             </div>
                     </div>
@@ -76,11 +76,11 @@ function ArtistPost() {
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -114,11 +114,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -152,11 +152,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -190,11 +190,11 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                                       </div>
 
                                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>Artist&nbsp;Name</span>
+                                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
                                         
                                           <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                                               <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2hors&nbsp;ago</span>
+                                              <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
                                           </div>
                                         
                                         
@@ -217,6 +217,8 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
                             
                         </div>
                      </div>
+
+                     
                    
                   </div>
 

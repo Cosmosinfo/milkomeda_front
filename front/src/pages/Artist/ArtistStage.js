@@ -20,27 +20,27 @@ function ArtistStage() {
                         <ul className='ArtistStage_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxText'>Home</li>
+                          <li className='ArtistStage_Rh_MemuBoxText'>아티스트 홈</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxText'>Notice</li>
+                          <li className='ArtistStage_Rh_MemuBoxText'>공지사항</li>
                         </Link> 
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxTextStage'>Stage</li>
+                          <li className='ArtistStage_Rh_MemuBoxTextStage'>스테이지</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxText'>Schedule</li>
+                          <li className='ArtistStage_Rh_MemuBoxText'>일정</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxText'>Store</li>
+                          <li className='ArtistStage_Rh_MemuBoxText'>스토어</li>
                         </Link>
                         <div className='ArtistStage_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistStage_Rh_MemuBoxText'>Post</li>
+                          <li className='ArtistStage_Rh_MemuBoxText'>팬 포스트</li>
                         </Link>
                         
                         </ul>
@@ -52,9 +52,9 @@ function ArtistStage() {
 
                           <ul className='ArtistStage_Rh_btm_Top_lf'>
 
-                              <li className="ArtistStage_Rh_btm_Stage">Live&nbsp;Stage</li>
-                              <li className="ArtistStage_Rh_btm_LiveStage_us">Upcoming&nbsp;Stage</li>
-                              <li className="ArtistStage_Rh_btm_LiveStage_ps">Previous&nbsp;Stage</li>
+                              <li className="ArtistStage_Rh_btm_Stage">라이브 스테이지</li>
+                              <li className="ArtistStage_Rh_btm_LiveStage_us">다가오는 스테이지</li>
+                              <li className="ArtistStage_Rh_btm_LiveStage_ps">지난 스테이지</li>
 
                           </ul>
 

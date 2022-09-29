@@ -19,27 +19,27 @@ function ArtistHome() {
                         <ul className='ArtistHome_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <li className='ArtistHome_Rh_MemuBoxTexthome'>Home</li>
+                          <li className='ArtistHome_Rh_MemuBoxTexthome'>아티스트 홈</li>
                         </Link>
                         <div className='ArtistHome_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistHome_Rh_MemuBoxText'>Notice</li>
+                          <li className='ArtistHome_Rh_MemuBoxText'>공지사항</li>
                         </Link> 
                         <div className='ArtistHome_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistHome_Rh_MemuBoxText'>Stage</li>
+                          <li className='ArtistHome_Rh_MemuBoxText'>스테이지</li>
                         </Link>
                         <div className='ArtistHome_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistHome_Rh_MemuBoxText'>Schedule</li>
+                          <li className='ArtistHome_Rh_MemuBoxText'>일정</li>
                         </Link>
                         <div className='ArtistHome_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistHome_Rh_MemuBoxText'>Store</li>
+                          <li className='ArtistHome_Rh_MemuBoxText'>스토어</li>
                         </Link>
                         <div className='ArtistHome_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistHome_Rh_MemuBoxText'>Post</li>
+                          <li className='ArtistHome_Rh_MemuBoxText'>팬 포스트</li>
                         </Link>
                         
                         </ul>
@@ -51,9 +51,9 @@ function ArtistHome() {
                           <div className='AritstHome_Rh_btm_topcard_item'>
                               <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                                   <div className='AritstHome_Rh_btm_topcard_item_top'>
-                                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>Recent&nbsp;Notice</span>
+                                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
                                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>More</span>
+                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
                                           <img className="chevronright" src={chevronright} alt="chevronright" />
                                       </div>
                                   </div>
@@ -69,9 +69,9 @@ function ArtistHome() {
                           <div className='AritstHome_Rh_btm_topcard_item'>
                               <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                                   <div className='AritstHome_Rh_btm_topcard_item_top'>
-                                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>Upcoming&nbsp;Schedule</span>
+                                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>다가오는&nbsp;일정</span>
                                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>More</span>
+                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
                                           <img className="chevronright" src={chevronright} alt="chevronright" />
                                       </div>
                                   </div>
@@ -116,9 +116,9 @@ function ArtistHome() {
                           <div className='AritstHome_Rh_btm_topcard_item'>
                               <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                                   <div className='AritstHome_Rh_btm_topcard_item_top'>
-                                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>Fan&nbsp;Post</span>
+                                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>팬&nbsp;포스트</span>
                                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>More</span>
+                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
                                           <img className="chevronright" src={chevronright} alt="chevronright" />
                                       </div>
                                   </div>
@@ -131,7 +131,7 @@ function ArtistHome() {
                                             </div>
 
                                             <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                                            2hrs ago
+                                            2시간 전
                                             </div>
                                          </div>
 
@@ -141,7 +141,7 @@ function ArtistHome() {
                                             </div>
 
                                             <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                                            2hrs ago
+                                            4시간 전
                                             </div>
                                          </div>
 
@@ -151,7 +151,7 @@ function ArtistHome() {
                                             </div>
 
                                             <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                                            2hrs ago
+                                            6시간 전
                                             </div>
                                          </div>
 
@@ -161,7 +161,7 @@ function ArtistHome() {
                                             </div>
 
                                             <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                                            2hrs ago
+                                            8시간 전
                                             </div>
                                          </div>
 
@@ -171,7 +171,7 @@ function ArtistHome() {
                                             </div>
 
                                             <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                                            2hrs ago
+                                            10시간 전
                                             </div>
                                          </div>
                                       </div>
@@ -189,8 +189,8 @@ function ArtistHome() {
 
                       <div className="AritstHome_Rh_btm_LiveStage">
                         <div className="AritstHome_Rh_btm_LiveStage_Title">
-                          <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">Live</span> Stage</p>
-                          <span class="AritstHome_Rh_btm_Upcoming">Upcoming&nbsp;Stage</span>
+                          <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">라이브</span> 스테이지</p>
+                          <span class="AritstHome_Rh_btm_Upcoming">다가오는&nbsp;스테이지</span>
                         </div>
 
                         <div className="AritstHome_Rh_btm_LiveStage_Container">
@@ -215,7 +215,7 @@ function ArtistHome() {
 
                       <div className="AritstHome_Rh_btm_LiveStage">
                         <div className="AritstHome_Rh_btm_LiveStage_Title">
-                          <span class="AritstHome_Rh_btm_Previous">Previous&nbsp;Stage</span>
+                          <span class="AritstHome_Rh_btm_Previous">지난&nbsp;스테이지</span>
                         </div>
 
                         <div className="AritstHome_Rh_btm_LiveStage_Container">

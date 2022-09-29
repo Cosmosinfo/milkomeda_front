@@ -8,16 +8,16 @@ function ArtistMainCard() {
       
               
               <div className='ArtistMain_ContentItem'>
-                <Link to="/artisthome" className="link">
+                <Link to="/artisthome" className="link artistMainCard">
                 <div className='ArtistMain_ContentItemContainer'>
                   <div className='ArtistMain_ContentItemContainerTop'></div>
                   <div className='ArtistMain_ContentItemContainerBtm'>
                       <div className='ArtistMain_ContentItemContainerBtmArtistName'>
-                      Artist Name
+                      아티스트
                       </div>
 
                       <div className='ArtistMain_ContentItemContainerBtmMusic'>
-                        Music Genre
+                        장르
                       </div>
                   </div>
                 </div>

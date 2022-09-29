@@ -18,9 +18,9 @@ function ArtistInfoCard() {
   </div>
 
   <div className='ArtistInfoCard_ArtistNameBox'>
-      <div className='ArtistInfoCard_ArtistName'>Artist Name</div>
-      <div className='ArtistInfoCard_ArtistName2'>Name, Name, Name, Name</div>
-      <div className='ArtistInfoCard_MusicGenre'>Music Genre</div>
+      <div className='ArtistInfoCard_ArtistName'>아티스트</div>
+      <div className='ArtistInfoCard_ArtistName2'>멤버 이름</div>
+      <div className='ArtistInfoCard_MusicGenre'>장르</div>
   </div>
 
   <div className='ArtistInfoCard_ArtistSnsBox'>
@@ -47,10 +47,10 @@ function ArtistInfoCard() {
       
   </div>
 
-  <div className='ArtistInfoCard_ArtistFollwer'>Follower 0,000</div>
+  <div className='ArtistInfoCard_ArtistFollwer'>팔로워 0,000</div>
 
   <div className='ArtistInfoCard_ArtistFavoriteBox'>
-    <div className='ArtistInfoCard_ArtistFavoriteText'>Favorite</div>
+    <div className='ArtistInfoCard_ArtistFavoriteText'>즐겨찾기</div>
 
   </div>
 
@@ -62,7 +62,7 @@ function ArtistInfoCard() {
 
   <div className='ArtistInfoCard_ArtistMetaBox'>
     <div className='ArtistInfoCard_ArtistMetaText'>
-    Artist’s Metaverse
+    아티스트 메타버스로 이동하기
     </div>
   </div>
 

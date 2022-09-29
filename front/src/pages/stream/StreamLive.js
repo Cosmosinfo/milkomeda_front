@@ -24,23 +24,23 @@ function StreamLive() {
 
                             {/* Streaming 타이틀 */}
                             <div className="StreamLive_Title">
-                                    <div className="ew">
+                                    
                                         <spen className='StreamLive_Title_text'>
-                                            Title
+                                            제목
                                         </spen>
 
-                                    </div>
+                                    
                                    
                                     
                                     <div className='StreamLive_Title_right'>
                                         <div className="StreamLive_Title_right_Share">
                                              <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
-                                             Share
+                                             공유
                                         </div>
 
                                         <div className="StreamLive_Title_right_Report">
                                              <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
-                                             Report
+                                             신고
                                         </div>
                                         
                                     </div>
@@ -62,12 +62,12 @@ function StreamLive() {
 
                                                 <div className="StreamLive_address_Container_Namebox">
 
-                                                 <span className="StreamLive_address_Container_Namebox_Location">Location</span>
+                                                 <span className="StreamLive_address_Container_Namebox_Location">공연 장소</span>
 
                                                 </div>
                                                 <div className="StreamLive_address_Container_Namebox_LocationAddr">
 
-                                                    <span className="StreamLive_address_Container_Namebox_LocationAddr_text">Location Address</span>
+                                                    <span className="StreamLive_address_Container_Namebox_LocationAddr_text">공연 장소 주소</span>
                                                 </div>
                                         </div>
                                         </div>
@@ -75,7 +75,7 @@ function StreamLive() {
                                     {/* Streaming 날짜 */}
                                     <div className='StreamLive_Content_Info_Date'>
                                         <div className='StreamLive_Content_Info_Date_textBox'>
-                                            <span className="StreamLive_Content_Info_Date_textBox_text">Date / Time</span>
+                                            <span className="StreamLive_Content_Info_Date_textBox_text">날짜 / 시간</span>
                                             <span className="StreamLive_Content_Info_year_textBox_text">YYYY.MM.DD.Mon<br />18:00~19:00(KST/90mins)</span>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                                             </div>
 
                                             
@@ -100,7 +100,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                                             </div>
 
                                             
@@ -112,7 +112,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                                             </div>
 
                                             
@@ -128,7 +128,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                                             </div>
 
                                             
@@ -140,7 +140,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                                             </div>
 
                                             
@@ -152,7 +152,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
                                             
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                                             </div>
 
                                             
@@ -196,8 +196,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                             <div className='StreamLive_Right_top'>
                                 <div className='StreamLive_ChatBtn'>
                                     <div className='StreamLive_ChatBtn_LiveChat'>
-                                        <div className="StreamLive_ChatBtn_LiveChat_text">Live Chat</div>
-                                        <div className="StreamLive_ChatBtn_Comment_text">Comment</div>   
+                                        <div className="StreamLive_ChatBtn_LiveChat_text">채팅</div>
+                                        <div className="StreamLive_ChatBtn_Comment_text">댓글</div>   
                                     </div>
                                 </div>
                            </div>

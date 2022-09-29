@@ -17,15 +17,15 @@ function StreamMain() {
                         <ul className='StreamMain_Top_lf'>
 
                             <Link to="/stream" className="link">
-                                <li className="StreamMain_Stage"><span className="StreamMain_Live">Live</span>&nbsp;Stage</li>
+                                <li className="StreamMain_Stage"><span className="StreamMain_Live">라이브</span>&nbsp;스테이지</li>
                             </Link>
 
                             <Link to="/streamup" className="Stream_link">
-                                <li className="StreamMain_LiveStage_us">Upcoming&nbsp;Stage</li>
+                                <li className="StreamMain_LiveStage_us">다가오는&nbsp;스테이지</li>
                             </Link>
 
                             <Link to="/streampv" className="Stream_link">
-                                <li className="StreamMain_LiveStage_ps">Previous&nbsp;Stage</li>
+                                <li className="StreamMain_LiveStage_ps">지난&nbsp;스테이지</li>
                             </Link>
 
                         </ul>

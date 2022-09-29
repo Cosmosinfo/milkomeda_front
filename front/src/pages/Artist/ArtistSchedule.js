@@ -19,27 +19,27 @@ function ArtistSchedule() {
                         <ul className='ArtistSchedule_Rh_MemuBox'>
                             
                         <Link to="/artisthome" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>Home</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxText'>아티스트 홈</li>
                         </Link>
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>       
                         <Link to="/artistnotice" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>Notice</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxText'>공지사항</li>
                         </Link> 
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                         <Link to="/artiststage" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>Stage</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxText'>스테이지</li>
                         </Link>
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                         <Link to="/artistschedule" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>Schedule</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>일정</li>
                         </Link>
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                         <Link to="/artiststore" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>Store</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxText'>스토어</li>
                         </Link>
                         <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                         <Link to="/artistpost" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>Post</li>
+                          <li className='ArtistSchedule_Rh_MemuBoxText'>팬 포스트</li>
                         </Link>
                         
                         </ul>
@@ -151,25 +151,25 @@ function ArtistSchedule() {
                             <div className='ArtistSchedule_Rh_btm_ScheduleRh'>
 
                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container'>
-                                    <span className='ArtistSchedule_Rh_btm_ScheduleRh_container_text'>Upcoming&nbsp;Schedule</span>
+                                    <span className='ArtistSchedule_Rh_btm_ScheduleRh_container_text'>다가오는 일정</span>
                                     
                                     {/* 스케줄 박스 */}
                                     <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
                                         <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>3</div>
-                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>WED</spen>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>수</spen>
                                             </div>
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                               제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90mins)
+                                                18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                Location
+                                                장소
                                                 </spen>
                                             </div>
                                         </div>
@@ -179,18 +179,18 @@ function ArtistSchedule() {
                                         <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>3</div>
-                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>WED</spen>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>수</spen>
                                             </div>
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                               제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90mins)
+                                                18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                Location
+                                                장소
                                                 </spen>
                                             </div>
                                         </div>
@@ -199,23 +199,67 @@ function ArtistSchedule() {
                                     <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
                                         <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
-                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>3</div>
-                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>WED</spen>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>6</div>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>토</spen>
                                             </div>
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                               제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90mins)
+                                                18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                Location
+                                                장소
                                                 </spen>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
+                                        <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>28</div>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>월</spen>
+                                            </div>
+
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
+                                               제목
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
+                                                18:00~19:30(KST/90분)
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
+                                                장소
+                                                </spen>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
+                                        <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>31</div>
+                                                <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>수</spen>
+                                            </div>
+
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
+                                               제목
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
+                                                18:00~19:30(KST/90분)
+                                                </spen>
+                                                <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
+                                                장소
+                                                </spen>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
 
                                 </div>
 

@@ -16,7 +16,25 @@ import Calendar from '../../assets/icon/graw/calendar.svg'
 import Settings from '../../assets/icon/graw/settings.svg'
 import Help from '../../assets/icon/graw/help-circle.svg'
 
-export default function Sidebar() {
+
+export default function Sidebar () {
+
+  const menuWrap = document.querySelector('.side_item_1');
+ 
+          function select(ulEl, liEl){
+              Array.from(ulEl.children).forEach(
+                  v => v.classList.remove('selected')
+              )
+              if(liEl) liEl.classList.add('selected');
+          }
+   
+  //         menuWrap.addEventListener('click', e => {
+  //             const selected = e.target;
+  //             select(menuWrap, selected);
+  //         })
+  
+  
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -27,6 +45,7 @@ export default function Sidebar() {
             <img className="sidebarIcon" src={home} alt="home" />
             <Link to="/" className="item_link">
               홈
+              
             </Link>
 
             <div className="item_nameBar">
@@ -35,10 +54,12 @@ export default function Sidebar() {
           </li>
 
           <li className="item_name">
+          
             <img className="sidebarIcon" src={Stream} alt="Stream" />
-            <Link to="/stream" className="item_link">
+            <Link to="/stream" className="item_link ex">
               스테이지
             </Link>
+            
           </li>
 
           <li className="item_name">
