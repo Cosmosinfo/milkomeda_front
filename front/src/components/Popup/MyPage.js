@@ -1,4 +1,4 @@
-import  React, {useState, useRef, useEffect}  from 'react'
+import  React from 'react'
 import './MyPage.css'
 
 import edit from '../../assets/icon/graw/edit-2.svg'
