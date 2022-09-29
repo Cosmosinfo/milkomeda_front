@@ -19,7 +19,7 @@ import Help from '../../assets/icon/graw/help-circle.svg'
 
 export default function Sidebar () {
 
-  const menuWrap = document.querySelector('.side_item_1');
+  // const menuWrap = document.querySelector('.side_item_1');
  
   //         function select(ulEl, liEl){
   //             Array.from(ulEl.children).forEach(

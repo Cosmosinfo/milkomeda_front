@@ -12,7 +12,7 @@ import more from '../../assets/icon/graw/more-vertical.svg'
 
 
 export default function Topbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
   // const modalEl   = useRef();
 
   // const openModal = function () {
@@ -60,7 +60,8 @@ export default function Topbar() {
 
             <img className="hexagon" src={hexagon} alt="hexagon" />
 
-            <button className="mypage_btn" onclick={() =>setIsOpen(true)}><img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" /></button>
+            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" />
+            {/* <button className="mypage_btn" onclick={() =>setIsOpen(true)}><img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" /></button> */}
             
 
             
