@@ -21,12 +21,12 @@ export default function Sidebar () {
 
   const menuWrap = document.querySelector('.side_item_1');
  
-          function select(ulEl, liEl){
-              Array.from(ulEl.children).forEach(
-                  v => v.classList.remove('selected')
-              )
-              if(liEl) liEl.classList.add('selected');
-          }
+  //         function select(ulEl, liEl){
+  //             Array.from(ulEl.children).forEach(
+  //                 v => v.classList.remove('selected')
+  //             )
+  //             if(liEl) liEl.classList.add('selected');
+  //         }
    
   //         menuWrap.addEventListener('click', e => {
   //             const selected = e.target;

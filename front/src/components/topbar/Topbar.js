@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from "react";
+import React, {useState} from "react";
 import "../../assets/css/Top/Topbar.css";
 
 import { Link } from "react-router-dom";
@@ -6,7 +6,7 @@ import bell from '../../assets/icon/graw/bell.svg'
 import hexagon from '../../assets/icon/ping/hexagon.svg'
 import search from '../../assets/icon/graw/search.svg'
 import more from '../../assets/icon/graw/more-vertical.svg'
-import Mypage from '../Popup/MyPage'
+// import Mypage from '../Popup/MyPage'
 
 
 

@@ -1,9 +1,9 @@
 import  React from 'react'
 import './MyPage.css'
 
-import edit from '../../assets/icon/graw/edit-2.svg'
-import myshop from '../../assets/icon/graw/shopping-cart.svg'
-import setting from '../../assets/icon/graw/settings.svg'
+// import edit from '../../assets/icon/graw/edit-2.svg'
+// import myshop from '../../assets/icon/graw/shopping-cart.svg'
+// import setting from '../../assets/icon/graw/settings.svg'
 
 
 function MyPage(open) {
