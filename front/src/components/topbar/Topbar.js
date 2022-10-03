@@ -1,4 +1,4 @@
-import {React, useState , useRef, useEffect } from "react";
+import { React, useState, useRef, useEffect } from "react";
 import "../../assets/css/Top/Topbar.css";
 import { Link } from "react-router-dom";
 import { ReactComponent as Bell } from "../../assets/icon/graw/bell.svg";
@@ -25,20 +25,20 @@ export default function Topbar() {
   useEffect(() => {
     console.log('useEffect')
     const pageClickEvent = (e) => {
-      if(curRef.current) {
+      if (curRef.current) {
         curRef.current = false;
         return;
       } else {
         curRef.current = true;
       }
-      
+
       // If the active element exists and is clicked outside of
       if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
         setOpenProfile(!openProfile);
-        
+
       }
     };
-  
+
     // If the item is active (ie open) then listen for clicks
     if (openProfile) {
       window.addEventListener('click', pageClickEvent);
@@ -47,13 +47,13 @@ export default function Topbar() {
       window.removeEventListener('click', pageClickEvent);
     }
 
-    
 
-    
-  
+
+
+
   }, [openProfile]);
 
-  
+
 
 
   return (
@@ -61,10 +61,10 @@ export default function Topbar() {
       <div className="topbar">
         <div className="topbarWrapper">
           <div className="logo_name">
-          
-           
+
+
             <Link to="/" className="link">
-               milkomeda
+              milkomeda
             </Link>
           </div>
 
@@ -78,42 +78,48 @@ export default function Topbar() {
           </div>
 
           <div className="topbarRight">
-            
-            <More className="more" onClick={() => {setOpenTerms(!openTerms) 
-              curRef.current = true;}}/>
-          
 
-            <Bell className="bell" onClick={() => {setOpenNoti(!openNoti) 
-              curRef.current = true;}}/>
-            
+            <More className="more" onClick={() => {
+              setOpenTerms(!openTerms)
+              curRef.current = true;
+            }} />
+
+
+            <Bell className="bell" onClick={() => {
+              setOpenNoti(!openNoti)
+              curRef.current = true;
+            }} />
+
 
             <Hexagon className="hexagon" />
-           
-            <button className="Avatar_logo" onClick={() => {setOpenProfile(!openProfile) 
-              curRef.current = true;}} ></button>
+
+            <button className="Avatar_logo" onClick={() => {
+              setOpenProfile(!openProfile)
+              curRef.current = true;
+            }} ></button>
 
             <nav
-                ref={dropdownRef}
-                className={`menu ${openProfile ? "active" : "inactive"}`}
-              >
-                <Mypage />
+              ref={dropdownRef}
+              className={`menu ${openProfile ? "active" : "inactive"}`}
+            >
+              <Mypage />
             </nav>
 
             <nav
-                ref={dropdownRef}
-                className={`menu ${openTerms ? "active" : "inactive"}`}
-              >
-                <Terms />
+              ref={dropdownRef}
+              className={`menu ${openTerms ? "active" : "inactive"}`}
+            >
+              <Terms />
             </nav>
 
             <nav
-                ref={dropdownRef}
-                className={`menu ${openNoti ? "active" : "inactive"}`}
-              >
-                <Notification />
+              ref={dropdownRef}
+              className={`menu ${openNoti ? "active" : "inactive"}`}
+            >
+              <Notification />
             </nav>
-           
-            
+
+
 
           </div>
 
