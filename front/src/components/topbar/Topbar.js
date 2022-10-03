@@ -6,7 +6,7 @@ import { ReactComponent as Hexagon } from "../../assets/icon/ping/hexagon.svg";
 import { ReactComponent as More } from "../../assets/icon/graw/more-vertical.svg";
 import Mypage from "../../components/Popup/MyPage"
 import Notification from "../../components/Popup/Notification"
-import Terms from "../../components/Popup/Terms"
+import Terms from "../../components/Popup/Term"
 import search from '../../assets/icon/graw/search.svg'
 
 
