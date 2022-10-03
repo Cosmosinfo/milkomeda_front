@@ -62,7 +62,7 @@ function ArtistInfoCard() {
       </div>
         </div>
         
-        <div className='ArtistInfoCard_btm'>
+        {/* <div className='ArtistInfoCard_btm'>
         <div className='ArtistInfoCard_ArtistMetaBox'>
     <div className='ArtistInfoCard_ArtistMetaText'>
     아티스트 메타버스로 이동하기
@@ -70,7 +70,7 @@ function ArtistInfoCard() {
   </div>
 
  
-        </div>
+        </div> */}
 
 
 </div>
