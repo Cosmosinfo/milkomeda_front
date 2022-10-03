@@ -62,12 +62,12 @@ export default function Sidebar () {
         <ul className="side_item_1">
 
           <li className="item_name">
-            <img className="sidebarIcon" src={curMenu == 'home' ? home_pink : home_gray} alt="home" />
+            <img className="sidebarIcon" src={curMenu === 'home' ? home_pink : home_gray} alt="home" />
             {/* <img className="sidebarIcon" src={home_gray} alt="home" /> */}
             
 
             {
-              curMenu == 'home' ? (
+              curMenu === 'home' ? (
                 <Link to="/" className="item_link">
                 <span className="home_title">홈</span>
               
@@ -80,7 +80,7 @@ export default function Sidebar () {
             }
 
             {
-              curMenu == 'home' ? (
+              curMenu === 'home' ? (
                 <div className="item_nameBar">
 
                 </div>
@@ -94,9 +94,9 @@ export default function Sidebar () {
 
           <li className="item_name">
           
-            <img className="sidebarIcon" src={curMenu == 'stage' ? Stream_pink : Stream_gray}  alt="Stream" />
+            <img className="sidebarIcon" src={curMenu === 'stage' ? Stream_pink : Stream_gray}  alt="Stream" />
             {
-              curMenu == 'stage' ? (
+              curMenu === 'stage' ? (
                 <Link to="/stream" className="item_link">
                 <span className="home_title">스테이지</span>
               
@@ -109,7 +109,7 @@ export default function Sidebar () {
             }
 
             {
-              curMenu == 'stage' ? (
+              curMenu === 'stage' ? (
                 <div className="item_nameBar">
 
                 </div>
@@ -119,9 +119,9 @@ export default function Sidebar () {
           </li>
 
           <li className="item_name">
-            <img className="sidebarIcon" src={curMenu == 'artist' ? Artist_pink : Artist_gray} alt="Artist" />         
+            <img className="sidebarIcon" src={curMenu === 'artist' ? Artist_pink : Artist_gray} alt="Artist" />         
             {
-              curMenu == 'artist' ? (
+              curMenu === 'artist' ? (
                 <Link to="/artist" className="item_link">
                 <span className="home_title">아티스트</span>
               
@@ -133,7 +133,7 @@ export default function Sidebar () {
               
             }
             {
-              curMenu == 'artist' ? (
+              curMenu === 'artist' ? (
                 <div className="item_nameBar">
 
                 </div>
@@ -142,10 +142,10 @@ export default function Sidebar () {
           </li>
 
           <li className="item_name">
-            <img className="sidebarIcon" src={curMenu == 'store' ? Store_pink : Store_gray} alt="Store" />
+            <img className="sidebarIcon" src={curMenu === 'store' ? Store_pink : Store_gray} alt="Store" />
 
             {
-              curMenu == 'store' ? (
+              curMenu === 'store' ? (
                 <Link to="/store" className="item_link">
                 <span className="home_title">스토어</span>
               
@@ -157,7 +157,7 @@ export default function Sidebar () {
               
             }
             {
-              curMenu == 'store' ? (
+              curMenu === 'store' ? (
                 <div className="item_nameBar">
 
                 </div>
@@ -172,10 +172,10 @@ export default function Sidebar () {
         {/* <ul className="side_item_2">
 
           <li className="item_name">
-            <img className="sidebarIcon" src={curMenu == 'favorite' ? Favorite_pink : Favorite_gray} alt="Favorite" />
+            <img className="sidebarIcon" src={curMenu === 'favorite' ? Favorite_pink : Favorite_gray} alt="Favorite" />
             
             {
-              curMenu == 'favorite' ? (
+              curMenu === 'favorite' ? (
                 <Link to="/" className="item_link">
                 <span className="home_title">즐겨찾기</span>
               
@@ -187,7 +187,7 @@ export default function Sidebar () {
               
             }
             {
-              curMenu == 'favorite' ? (
+              curMenu === 'favorite' ? (
                 <div className="item_nameBar">
 
                 </div>
@@ -197,7 +197,7 @@ export default function Sidebar () {
 
 
           <li className="item_name">
-            <img className="sidebarIcon" src={curMenu == 'store' ? Store_pink : Store_gray} alt="Calendar" />
+            <img className="sidebarIcon" src={curMenu === 'store' ? Store_pink : Store_gray} alt="Calendar" />
             <Link to="/" className="item_link">
               일정
             </Link>
@@ -216,9 +216,9 @@ export default function Sidebar () {
         <hr className="hr2" />
 
           <li className="item3_name">
-            <img className="sidebarIcon" src={curMenu == 'settings' ? Settings_pink : Settings_gray} alt="Settings" />
+            <img className="sidebarIcon" src={curMenu === 'settings' ? Settings_pink : Settings_gray} alt="Settings" />
             {
-              curMenu == 'settings' ? (
+              curMenu === 'settings' ? (
                 <Link to="/setting" className="item_link">
                 <span className="home_title">설정</span>
               
@@ -230,7 +230,7 @@ export default function Sidebar () {
               
             }
             {
-              curMenu == 'settings' ? (
+              curMenu === 'settings' ? (
                 <div className="item_nameBar">
 
                 </div>
@@ -239,9 +239,9 @@ export default function Sidebar () {
           </li>
 
           <li className="item3_name">
-            <img className="sidebarIcon" src={curMenu == 'help' ? Help_pink : Help_gray} alt="Help" />
+            <img className="sidebarIcon" src={curMenu === 'help' ? Help_pink : Help_gray} alt="Help" />
             {
-              curMenu == 'help' ? (
+              curMenu === 'help' ? (
                 <Link to="/help" className="item_link">
                 <span className="home_title">도움말</span>
               
@@ -253,7 +253,7 @@ export default function Sidebar () {
               
             }
             {
-              curMenu == 'help' ? (
+              curMenu === 'help' ? (
                 <div className="item_nameBar">
 
                 </div>
