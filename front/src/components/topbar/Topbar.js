@@ -6,7 +6,7 @@ import { ReactComponent as Hexagon } from "../../assets/icon/ping/hexagon.svg";
 import { ReactComponent as More } from "../../assets/icon/graw/more-vertical.svg";
 import Mypage from "../../components/Popup/MyPage"
 import Notification from "../../components/Popup/Notification"
-
+import Terms from "../../components/Popup/Terms"
 import search from '../../assets/icon/graw/search.svg'
 
 
@@ -104,7 +104,7 @@ export default function Topbar() {
                 ref={dropdownRef}
                 className={`menu ${openTerms ? "active" : "inactive"}`}
               >
-                
+                <Terms />
             </nav>
 
             <nav
