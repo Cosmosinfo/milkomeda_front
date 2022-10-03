@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import "../../assets/css/Side/sidebar.css";
 // import {
 //   Timeline,
@@ -13,10 +14,10 @@ import Artist_gray from '../../assets/icon/graw/headphones.svg'
 import Artist_pink from '../../assets/icon/ping/headphones.svg'
 import Store_gray from '../../assets/icon/graw/shopping-bag.svg'
 import Store_pink from '../../assets/icon/ping/shopping-bag.svg'
-import Favorite_gray from '../../assets/icon/graw/star.svg'
-import Favorite_pink from '../../assets/icon/ping/star.svg'
-import Calendar_gray from '../../assets/icon/graw/calendar.svg'
-import Calendar_pink from '../../assets/icon/ping/calendar.svg'
+// import Favorite_gray from '../../assets/icon/graw/star.svg'
+// import Favorite_pink from '../../assets/icon/ping/star.svg'
+// import Calendar_gray from '../../assets/icon/graw/calendar.svg'
+// import Calendar_pink from '../../assets/icon/ping/calendar.svg'
 import Settings_gray from '../../assets/icon/graw/settings.svg'
 import Settings_pink from '../../assets/icon/ping/settings.svg'
 import Help_gray from '../../assets/icon/graw/help-circle.svg'

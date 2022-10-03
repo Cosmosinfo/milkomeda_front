@@ -1,7 +1,5 @@
 import {React, useState , useRef, useEffect } from "react";
 import "../../assets/css/Top/Topbar.css";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import { Link } from "react-router-dom";
 import { ReactComponent as Bell } from "../../assets/icon/graw/bell.svg";
 import { ReactComponent as Hexagon } from "../../assets/icon/ping/hexagon.svg";
@@ -10,10 +8,6 @@ import Mypage from "../../components/Popup/MyPage"
 import Notification from "../../components/Popup/Notification"
 
 import search from '../../assets/icon/graw/search.svg'
-
-import edit from '../../assets/icon/graw/edit-2.svg'
-import myshop from '../../assets/icon/graw/shopping-cart.svg'
-import setting from '../../assets/icon/graw/settings.svg'
 
 
 export default function Topbar() {
