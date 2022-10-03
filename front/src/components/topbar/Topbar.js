@@ -78,15 +78,14 @@ export default function Topbar() {
           </div>
 
           <div className="topbarRight">
-            {/* <img className="Light" src={Light} alt="Light" /> */}
             
             <More className="more" onClick={() => {setOpenTerms(!openTerms) 
               curRef.current = true;}}/>
-            {/* <img className="more" src={more} alt="more" /> */}
+          
 
             <Bell className="bell" onClick={() => {setOpenNoti(!openNoti) 
               curRef.current = true;}}/>
-            {/* <img className="bell" src={bell} alt="bell" /> */}
+            
 
             <Hexagon className="hexagon" />
            
@@ -113,18 +112,7 @@ export default function Topbar() {
               >
                 <Notification />
             </nav>
-            {/* <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" /> */}
-            {/* <button className="mypage_btn" onclick={() =>setIsOpen(true)}><img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" /></button> */}
-            
-
-            
-
-            
-            
-
-            
-
-            
+           
             
 
           </div>
