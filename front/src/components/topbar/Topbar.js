@@ -53,7 +53,67 @@ export default function Topbar() {
 
   }, [openProfile]);
 
+  useEffect(() => {
+    console.log('useEffect')
+    const pageClickEvent1 = (e) => {
+      if (curRef.current) {
+        curRef.current = false;
+        return;
+      } else {
+        curRef.current = true;
+      }
 
+      // If the active element exists and is clicked outside of
+      if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+        setOpenTerms(!openTerms);
+
+      }
+    };
+
+    // If the item is active (ie open) then listen for clicks
+    if (openTerms) {
+      window.addEventListener('click', pageClickEvent1);
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent1);
+    }
+
+
+
+
+
+  }, [openTerms]);
+
+  useEffect(() => {
+    console.log('useEffect')
+    const pageClickEvent2 = (e) => {
+      if (curRef.current) {
+        curRef.current = false;
+        return;
+      } else {
+        curRef.current = true;
+      }
+
+      // If the active element exists and is clicked outside of
+      if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+        setOpenNoti(!openNoti);
+
+      }
+    };
+
+    // If the item is active (ie open) then listen for clicks
+    if (openNoti) {
+      window.addEventListener('click', pageClickEvent2);
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent2);
+    }
+
+
+
+
+
+  }, [openNoti]);
 
 
   return (
