@@ -1,34 +1,67 @@
-import React from "react";
+import {React, useState , useRef, useEffect } from "react";
+import { useDetectOutsideClick } from "./useDetectOutsideClick";
 import "../../assets/css/Top/Topbar.css";
-
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import { Link } from "react-router-dom";
-import bell from '../../assets/icon/graw/bell.svg'
-import hexagon from '../../assets/icon/ping/hexagon.svg'
+import { ReactComponent as Bell } from "../../assets/icon/graw/bell.svg";
+import { ReactComponent as Hexagon } from "../../assets/icon/ping/hexagon.svg";
+import { ReactComponent as More } from "../../assets/icon/graw/more-vertical.svg";
+import Mypage from "../../components/Popup/MyPage"
+import Terms from "../../components/Popup/Terms";
+import Notification from "../../components/Popup/Notification"
+
 import search from '../../assets/icon/graw/search.svg'
-import more from '../../assets/icon/graw/more-vertical.svg'
-// import Mypage from '../Popup/MyPage'
 
-
+import edit from '../../assets/icon/graw/edit-2.svg'
+import myshop from '../../assets/icon/graw/shopping-cart.svg'
+import setting from '../../assets/icon/graw/settings.svg'
 
 
 export default function Topbar() {
-  // const [isOpen, setIsOpen] = useState(false)
-  // const modalEl   = useRef();
+  const dropdownRef = useRef(null);
+  const curRef = useRef(true);
+  const [openProfile, setOpenProfile] = useState(false);
+  const [openTerms, setOpenTerms] = useState(false);
+  const [openNoti, setOpenNoti] = useState(false);
+  const onClick = () => {
+    setOpenProfile(!openProfile)
+    // setOpenTerms(!openTerms)
+    curRef.current = true;
+  };
 
-  // const openModal = function () {
-  //   setShowModal(prev => !prev)
-  // }
+  useEffect(() => {
+    console.log('useEffect')
+    const pageClickEvent = (e) => {
+      if(curRef.current) {
+        curRef.current = false;
+        return;
+      } else {
+        curRef.current = true;
+      }
+      
+      // If the active element exists and is clicked outside of
+      if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+        setOpenProfile(!openProfile);
+        
+      }
+    };
+  
+    // If the item is active (ie open) then listen for clicks
+    if (openProfile) {
+      window.addEventListener('click', pageClickEvent);
+    }
+  
+    return () => {
+      window.removeEventListener('click', pageClickEvent);
+    }
 
-//   const handleClickOutside = ({ target }) => {
-//     if (isOpen && !modalEl.current.contains(target)) setOpen(false);
-//   };
+    
+  
+  }, [openProfile]);
 
-// useEffect(() => {
-//   window.addEventListener("click", handleClickOutside);
-//   return () => {
-//     window.removeEventListener("click", handleClickOutside);
-//   };
-// }, []);
+  
+
 
   return (
     <>
@@ -53,14 +86,41 @@ export default function Topbar() {
 
           <div className="topbarRight">
             {/* <img className="Light" src={Light} alt="Light" /> */}
+            
+            <More className="more" onClick={() => {setOpenTerms(!openTerms) 
+              curRef.current = true;}}/>
+            {/* <img className="more" src={more} alt="more" /> */}
 
-            <img className="more" src={more} alt="more" />
+            <Bell className="bell" onClick={() => {setOpenNoti(!openNoti) 
+              curRef.current = true;}}/>
+            {/* <img className="bell" src={bell} alt="bell" /> */}
 
-            <img className="bell" src={bell} alt="bell" />
+            <Hexagon className="hexagon" />
+           
+            <button className="Avatar_logo" onClick={() => {setOpenProfile(!openProfile) 
+              curRef.current = true;}} ></button>
 
-            <img className="hexagon" src={hexagon} alt="hexagon" />
+            <nav
+                ref={dropdownRef}
+                className={`menu ${openProfile ? "active" : "inactive"}`}
+              >
+                <Mypage />
+            </nav>
 
-            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" />
+            <nav
+                ref={dropdownRef}
+                className={`menu ${openTerms ? "active" : "inactive"}`}
+              >
+                <Terms />
+            </nav>
+
+            <nav
+                ref={dropdownRef}
+                className={`menu ${openNoti ? "active" : "inactive"}`}
+              >
+                <Notification />
+            </nav>
+            {/* <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" /> */}
             {/* <button className="mypage_btn" onclick={() =>setIsOpen(true)}><img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Avatar_logo" /></button> */}
             
 

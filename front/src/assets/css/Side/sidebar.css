@@ -25,10 +25,15 @@
   height : 21px; */
   text-decoration: none;
   color: inherit;
+  font-size: 16px;
 }
 
-.item_link:active{
-  color: #FFFFFF;
+.home_title{
+  color : #FFFFFF
+}
+
+.home_title_change{
+  color : #8B8999
 }
 
 

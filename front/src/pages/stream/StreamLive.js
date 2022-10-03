@@ -9,6 +9,34 @@ import Send from '../../assets/icon/ping/send.svg'
 import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 
 function StreamLive() {
+    // function resize(obj) {
+    //     obj.style.height = "1px";
+    //     obj.style.height = (12+obj.scrollHeight)+"px";
+    // }
+
+    const MIN_TEXTAREA_HEIGHT = 20;
+
+    const textareaRef = React.useRef(null);
+  const [value, setValue] = React.useState("");
+  const onChange = (event) => setValue(event.target.value);
+
+  React.useLayoutEffect(() => {
+    // Reset height - important to shrink on delete
+    textareaRef.current.style.height = "20px";
+    // Set height
+    if (textareaRef.current.scrollHeight > 80) {
+        textareaRef.current.style.height = `80px`;
+       
+    }else{
+        textareaRef.current.style.height = `${Math.max(
+            textareaRef.current.scrollHeight,
+            MIN_TEXTAREA_HEIGHT
+          )}px`;
+         
+    }
+    
+  }, [value]);
+
     return (
         <>
             <div className="StreamLive">
@@ -25,9 +53,9 @@ function StreamLive() {
                             {/* Streaming 타이틀 */}
                             <div className="StreamLive_Title">
                                     
-                                        <spen className='StreamLive_Title_text'>
+                                        <span className='StreamLive_Title_text'>
                                             제목
-                                        </spen>
+                                        </span>
 
                                     
                                    
@@ -221,6 +249,15 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                             <LiveMessageBox />
 
                             <LiveMessageBox />
+
+                            
+
+
+                            
+
+                            
+
+                            
                            
 
                            </div>
@@ -234,10 +271,21 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                            
                           
                             <div className='StreamLive_MessageBox'>
-                                {/* <input className='StreamLive_MessageBox_inputbox' type='text' placeholder='text'></input> */}
-                                <div className='StreamLive_MessageBox_textContainer'>
-                                     <input className="StreamLive_MessageBox_text" type='text' placeholder='Message'></input>
 
+                                <div className='StreamLive_MessageBox_textContainer'>
+                                    
+                                     <textarea
+                                     className="StreamLive_MessageBox_text"
+                                        onChange={onChange}
+                                        ref={textareaRef}
+                                        style={{
+                                            minHeight: MIN_TEXTAREA_HEIGHT,
+                                            resize: "none",
+                                            height: MIN_TEXTAREA_HEIGHT
+                                        }}
+                                        value={value}
+                                        placeholder="메세지를 입력해주세요"
+                                        />
                                      <div className="StreamLive_MessageBox_IconContainer">
                                         <img className="StreamLive_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
                                         <img className="StreamLive_MessageBox_IconContainer_Icon" src={Smile} alt="Share" />

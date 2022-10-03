@@ -1,26 +1,28 @@
 .StoreDetail{
     width: 100%;
-    height: auto;
+    height: 100%;
     color: #FFFFFF;
     
   }
   
   .StoreDetail_Wrapper{
-    width: 1620px;
-    height: 857px;
-    padding: 30px 30px;
+    /* width: 100%;  */
+    height: 100%;
+    padding: 30px 400px 30px 30px;
+    display: flex;
+    gap: 24px;
     /* display: flex; */
-    position: relative;
+    /* position: relative; */
     
     
   }
 
   .StoreDetail_left{
-    width: 1216px;
+    /* width: 1216px;
     height: auto;
-    margin-right: 24px;
-    /* overflow: scroll; */
-    position: absolute;
+    margin-right: 24px; */
+    overflow: scroll;
+    /* position: absolute; */
     
   }
 
@@ -29,8 +31,8 @@
     height: 795px; */
     margin-bottom: 48px;
     display: flex;
-    
-    
+    gap: 24px;
+    align-items: flex-start;
   }
 
   /* .StoreDetail_left::-webkit-scrollbar{
@@ -39,11 +41,13 @@
 
 
   .StoreDetail_left_top_img{
-    width: 795px;;
+    /* width: 795px;;
     height: 795px;
-    margin-right: 24px;
+    margin-right: 24px; */
     border-radius: 6px;
     background-color : #191922;
+    flex: 2;
+    aspect-ratio : 795/795;
   }
 
   .StoreDetail_left_top_Detail{
@@ -71,7 +75,7 @@
     width: 86px;
     font-style: normal;
 font-weight: 400;
-font-size: 13px;
+font-size: 14px;
 
 
 
@@ -145,7 +149,7 @@ border-radius: 6px;
 
     font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 
 
 color: #FFFFFF;
@@ -159,14 +163,14 @@ background: #191922;
 border-radius: 6px;
   }
   .StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox{
-    width: 330px;
+    /* width: 330px; */
     height: 72px;
 
     padding: 24px 27px;
   }
 
   .StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox_top{
-    width: 316px;
+    /* width: 316px; */
     height: 42px;
     font-style: normal;
     font-weight: 400;
@@ -179,7 +183,7 @@ border-radius: 6px;
   .StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox_text{
     font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 21px;
 
 color: #FFFFFF;
@@ -280,7 +284,7 @@ color: #FFFFFF;
     height: 39px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 39px;
 
 text-align: center;
@@ -299,7 +303,7 @@ background: #191922;
 border-radius: 100px;
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 39px;
 /* identical to box height */
 
@@ -384,10 +388,15 @@ border: 1px solid rgba(139, 137, 153, 0.2);
 
 
   .StoreDetail_Right{
-    width: 380px;
+    /* width: 380px;
     position: fixed;
-    right: 30px;
+    right: 30px; */
   
+  }
+
+  .StoreDetail_Right_Wrapper{
+    
+    position: fixed;
   }
 
   .StoreDetail_Right_Top{

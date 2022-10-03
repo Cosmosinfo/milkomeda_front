@@ -5,8 +5,8 @@
 }
 
 .ArtistSchedule_Wrapper{
-    width: 1620px;
-    height: 857px;
+   /* width: 1620px;
+    height: 857px; */
     padding: 30px 30px;
     display: flex;
 
@@ -15,9 +15,9 @@
 
 
 .ArtistSchedule_Rh{
-    width: 1209px;
+    /* width: 1209px; */
     height: 100%;
-    
+    flex: 3;
     margin-left: 27px;
 }
 
@@ -71,7 +71,7 @@
 
 
 .ArtistSchedule_Rh_btm{
-    width: 100%;
+    /* width: 100%; */
     height: 791px;
     overflow: auto;
     padding-top: 12px;
@@ -82,7 +82,7 @@
 
 
 .ArtistSchedule_Rh_btm_Schedulelf{
-    width: 448px;
+    /* width: 448px; */
     height: 434px;
     margin-right: 64px;
 }
@@ -212,11 +212,12 @@
 
 
 .ArtistSchedule_Rh_btm_ScheduleRh{
-    width: 660px;
+    /* width: 660px; */
     /* height: 960px; */
     background: #191922;
     border-radius: 6px;
     overflow: overlay;
+    flex: 1;
 }
 
 .ArtistSchedule_Rh_btm_ScheduleRh_container{
@@ -271,7 +272,7 @@
 .ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
@@ -291,7 +292,7 @@
 .ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     
     color: #FFFFFF;
@@ -300,7 +301,7 @@
 .ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     
     color: #8B8999;
@@ -309,7 +310,7 @@
 .ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     
     color: #8B8999;

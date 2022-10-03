@@ -128,20 +128,25 @@ function StoreDetail() {
                 </div>
 
                 <div className='StoreDetail_Right'>
-                    <div className='StoreDetail_Right_Top'>
-                        Recommended for you
-                    </div>
 
-                    <div className='StoreDetail_Right_Btm'>
-                         <StoreRecoProduct />
+                    <div className='StoreDetail_Right_Wrapper'>
+                            <div className='StoreDetail_Right_Top'>
+                                Recommended for you
+                            </div>
 
-                         <StoreRecoProduct />
+                            <div className='StoreDetail_Right_Btm'>
+                                <StoreRecoProduct />
 
-                         <StoreRecoProduct />
+                                <StoreRecoProduct />
 
-                         
-                    </div>
+                                <StoreRecoProduct />
+
+                                
+                            </div>
                    
+
+                    </div>
+                    
                     
 
                 </div>

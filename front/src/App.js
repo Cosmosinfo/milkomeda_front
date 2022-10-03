@@ -13,10 +13,14 @@ import Error from './pages/Error/ErrorPage'
 import ArtistMain from './pages/Artist/ArtistMain'
 import ArtistHome from './pages/Artist/ArtistHome'
 import ArtistStage from './pages/Artist/ArtistStage';
+import ArtistStageus from './pages/Artist/ArtistStageus'
+import ArtistStageps from './pages/Artist/ArtistStageps'
 import ArtistStore from './pages/Artist/ArtistStore';
 import ArtistNotice from './pages/Artist/ArtistNotice';
 import ArtistSchedule from './pages/Artist/ArtistSchedule';
 import ArtistPost from './pages/Artist/ArtistPost';
+import Help from './pages/Help/Help';
+import Settings from './pages/Setting/Setting';
 
 function App() {
   return (
@@ -30,6 +34,8 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/help" element={<Help />} />
+            <Route path="/setting" element={<Settings />} />
             <Route path="/stream" element={<StreamMain />} />
             <Route path="/streamup" element={<StreamUpcoming />} />
             <Route path="/streampv" element={<StreamPrevious />} />
@@ -41,6 +47,8 @@ function App() {
             <Route path="/artisthome" element={<ArtistHome />} />
             <Route path="/artistnotice" element={<ArtistNotice />} />
             <Route path="/artiststage" element={<ArtistStage />} />
+            <Route path="/artiststageus" element={<ArtistStageus />} />
+            <Route path="/artiststageps" element={<ArtistStageps />} />
             <Route path="/artiststore" element={<ArtistStore />} />
             <Route path="/artistpost" element={<ArtistPost />} />
             <Route path="/artistschedule" element={<ArtistSchedule />} />

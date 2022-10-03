@@ -1,9 +1,9 @@
 import  React from 'react'
 import './MyPage.css'
 
-// import edit from '../../assets/icon/graw/edit-2.svg'
-// import myshop from '../../assets/icon/graw/shopping-cart.svg'
-// import setting from '../../assets/icon/graw/settings.svg'
+import edit from '../../assets/icon/graw/edit-2.svg'
+import myshop from '../../assets/icon/graw/shopping-cart.svg'
+import setting from '../../assets/icon/graw/settings.svg'
 
 
 function MyPage(open) {
@@ -12,13 +12,11 @@ function MyPage(open) {
     }
     return (
         <>
-            <div>Modal</div>
-            
-            {/* <div className='popWrapper'>
+            <div className='popWrapper'>
                 <div className='popHeader'>
                     <div className='popHeader-Container'>
                         <div className='popHeader-imgbox'>
-                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" alt="" class="popHeader-userimg" />
+                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" alt="" className="popHeader-userimg" />
                         </div>
 
                         <div className='popHeader-textbox'>
@@ -58,7 +56,7 @@ function MyPage(open) {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
             
          
 

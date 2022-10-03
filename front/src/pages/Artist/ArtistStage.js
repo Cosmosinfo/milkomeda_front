@@ -51,10 +51,21 @@ function ArtistStage() {
                     <div className="ArtistStage_Rh_btm_Top">
 
                           <ul className='ArtistStage_Rh_btm_Top_lf'>
+                              
+                              <Link to="/artiststage" className="link">
+                               <li className="ArtistStage_Rh_btm_Stage"><span className="ArtistStage_Rh_btm_Stage_live">라이브</span> 스테이지</li>
+                              </Link>
 
-                              <li className="ArtistStage_Rh_btm_Stage">라이브 스테이지</li>
-                              <li className="ArtistStage_Rh_btm_LiveStage_us">다가오는 스테이지</li>
-                              <li className="ArtistStage_Rh_btm_LiveStage_ps">지난 스테이지</li>
+                              <Link to="/artiststageus" className="link">
+                                <li className="ArtistStage_Rh_btm_LiveStage_us">다가오는 스테이지</li>
+                              </Link>
+                              <Link to="/artiststageps" className="link">
+                                <li className="ArtistStage_Rh_btm_LiveStage_ps">지난 스테이지</li>
+                              </Link>
+                              
+                              
+                             
+                             
 
                           </ul>
 

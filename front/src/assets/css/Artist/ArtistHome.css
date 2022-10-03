@@ -5,8 +5,8 @@
 }
 
 .ArtistHome_Wrapper{
-    width: 1620px;
-    height: 857px;
+    /* width: 1620px;
+    height: 857px; */
     padding: 30px 30px;
     display: flex;
 
@@ -15,9 +15,9 @@
 
 
 .ArtistHome_Rh{
-    width: 1209px;
+    /* width: 1209px; */
     height: 100%;
-    
+    flex: 3;
     margin-left: 27px;
 }
 
@@ -111,7 +111,7 @@
 .AritstHome_Rh_btm_topcard_item_top_text{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     
     color: #FFFFFF;
@@ -125,7 +125,7 @@
 .AritstHome_Rh_btm_topcard_item_top_moretext{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     text-align: right;
     
@@ -213,7 +213,7 @@
 .AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_time{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     
     color: #8B8999;
@@ -243,7 +243,7 @@
 .AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time{
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 16px;
     text-align: right;
     

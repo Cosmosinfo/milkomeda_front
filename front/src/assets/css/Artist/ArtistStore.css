@@ -5,8 +5,8 @@
 }
 
 .ArtistStore_Wrapper{
-    width: 1620px;
-    height: 857px;
+     /* width: 1620px;
+    height: 857px; */
     padding: 30px 30px;
     display: flex;
 
@@ -15,9 +15,9 @@
 
 
 .ArtistStore_Rh{
-    width: 1209px;
+    /* width: 1209px; */
     height: 100%;
-    
+    flex: 3;
     margin-left: 27px;
 }
 

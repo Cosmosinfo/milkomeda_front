@@ -190,7 +190,7 @@ function ArtistHome() {
                       <div className="AritstHome_Rh_btm_LiveStage">
                         <div className="AritstHome_Rh_btm_LiveStage_Title">
                           <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">라이브</span> 스테이지</p>
-                          <span class="AritstHome_Rh_btm_Upcoming">다가오는&nbsp;스테이지</span>
+                          <span className="AritstHome_Rh_btm_Upcoming">다가오는&nbsp;스테이지</span>
                         </div>
 
                         <div className="AritstHome_Rh_btm_LiveStage_Container">
@@ -215,7 +215,7 @@ function ArtistHome() {
 
                       <div className="AritstHome_Rh_btm_LiveStage">
                         <div className="AritstHome_Rh_btm_LiveStage_Title">
-                          <span class="AritstHome_Rh_btm_Previous">지난&nbsp;스테이지</span>
+                          <span className="AritstHome_Rh_btm_Previous">지난&nbsp;스테이지</span>
                         </div>
 
                         <div className="AritstHome_Rh_btm_LiveStage_Container">

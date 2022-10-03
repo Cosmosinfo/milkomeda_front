@@ -1,10 +1,10 @@
-.ArtistStage{
+.ArtistStageus{
     width: 100%;
     height: auto;
     color: #FFFFFF;
 }
 
-.ArtistStage_Wrapper{
+.ArtistStageus_Wrapper{
     /* width: 1620px;
     height: 857px; */
     padding: 30px 30px;
@@ -14,14 +14,14 @@
 }
 
 
-.ArtistStage_Rh{
+.ArtistStageus_Rh{
     /* width: 1209px; */
     height: 100%;
     flex: 3;
     margin-left: 27px;
 }
 
-.ArtistStage_Rh_Memu{
+.ArtistStageus_Rh_Memu{
     width: 100%;
     height: 42px;
 
@@ -30,7 +30,7 @@
     margin-bottom: 12px;
 }
 
-.ArtistStage_Rh_MemuBox{
+.ArtistStageus_Rh_MemuBox{
     height: 22px;
     padding: 10px 80px;;
     display: flex;
@@ -39,7 +39,7 @@
     list-style: none;
 }
 
-.ArtistStage_Rh_MemuBoxHome{
+.ArtistStageus_Rh_MemuBoxHome{
     height: 22px;
     font-style: normal;
     font-weight: 400;
@@ -50,16 +50,16 @@
     
 }
 
-.ArtistStage_Rh_MemuBoxText{
+.ArtistStageus_Rh_MemuBoxText{
     color: #FFFFFF;
     
 }
 
-.ArtistStage_Rh_MemuBoxTextStage{
+.ArtistStageus_Rh_MemuBoxTextStage{
     color: #F3017F;
 }
 
-.ArtistStage_Rh_MemuBox_Line{
+.ArtistStageus_Rh_MemuBox_Line{
     width: 19px;
     height: 0px;
     margin: 10px 0;
@@ -70,7 +70,7 @@
 
 
 
-.ArtistStage_Rh_btm{
+.ArtistStageus_Rh_btm{
     width: 100%;
     height: 792px;
     overflow: auto;
@@ -79,38 +79,38 @@
 
 }
 
-.ArtistStage_Rh_btm_Top_lf{
+.ArtistStageus_Rh_btm_Top_lf{
     width: 493px;
     display: flex;
     list-style: none;
    
 }
 
-.ArtistStage_Rh_btm_Stage{
+.ArtistStageus_Rh_btm_Stage{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     
-    color: #FFFFFF
+    color: #8B8999;
     
 }
 
-.ArtistStage_Rh_btm_Stage_live{
-    color: #F3017F;
+.ArtistStageus_Rh_btm_Stage_live{
+    color: #8B8999;
 }
 
-.ArtistStage_Rh_btm_LiveStage_us{
+.ArtistStageus_Rh_btm_LiveStage_us{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     margin-left: 32px;
-    color: #8B8999;
+    color:#FFFFFF
     
 }
 
-.ArtistStage_Rh_btm_LiveStage_ps{
+.ArtistStageus_Rh_btm_LiveStage_ps{
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -120,7 +120,7 @@
     
 }
 
-.ArtistStage_Rh_btm_btm{
+.ArtistStageus_Rh_btm_btm{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;

@@ -1,10 +1,10 @@
-.ArtistPost{
+.ArtistStageps{
     width: 100%;
     height: auto;
     color: #FFFFFF;
 }
 
-.ArtistPost_Wrapper{
+.ArtistStageps_Wrapper{
     /* width: 1620px;
     height: 857px; */
     padding: 30px 30px;
@@ -14,14 +14,14 @@
 }
 
 
-.ArtistPost_Rh{
+.ArtistStageps_Rh{
     /* width: 1209px; */
     height: 100%;
     flex: 3;
     margin-left: 27px;
 }
 
-.ArtistPost_Rh_Memu{
+.ArtistStageps_Rh_Memu{
     width: 100%;
     height: 42px;
 
@@ -30,7 +30,7 @@
     margin-bottom: 12px;
 }
 
-.ArtistPost_Rh_MemuBox{
+.ArtistStageps_Rh_MemuBox{
     height: 22px;
     padding: 10px 80px;;
     display: flex;
@@ -39,7 +39,7 @@
     list-style: none;
 }
 
-.ArtistPost_Rh_MemuBoxHome{
+.ArtistStageps_Rh_MemuBoxHome{
     height: 22px;
     font-style: normal;
     font-weight: 400;
@@ -50,16 +50,16 @@
     
 }
 
-.ArtistPost_Rh_MemuBoxText{
-    color: #ffffff;
+.ArtistStageps_Rh_MemuBoxText{
+    color: #FFFFFF;
     
 }
 
-.ArtistPost_Rh_MemuBoxTextPost{
+.ArtistStageps_Rh_MemuBoxTextStage{
     color: #F3017F;
 }
 
-.ArtistPost_Rh_MemuBox_Line{
+.ArtistStageps_Rh_MemuBox_Line{
     width: 19px;
     height: 0px;
     margin: 10px 0;
@@ -70,7 +70,7 @@
 
 
 
-.ArtistPost_Rh_btm{
+.ArtistStageps_Rh_btm{
     width: 100%;
     height: 792px;
     overflow: auto;
@@ -79,14 +79,14 @@
 
 }
 
-.ArtistPost_Rh_btm_Top_lf{
+.ArtistStageps_Rh_btm_Top_lf{
     width: 493px;
     display: flex;
     list-style: none;
-    justify-content: space-between;
+   
 }
 
-.ArtistPost_Rh_btm_Stage{
+.ArtistStageps_Rh_btm_Stage{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -96,79 +96,33 @@
     
 }
 
-.ArtistPost_Rh_btm_LiveStage_us{
+.ArtistStageps_Rh_btm_Stage_live{
+    color: #8B8999;
+}
+
+.ArtistStageps_Rh_btm_LiveStage_us{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    
+    margin-left: 32px;
     color: #8B8999;
     
 }
 
-.ArtistPost_Rh_btm_LiveStage_ps{
+.ArtistStageps_Rh_btm_LiveStage_ps{
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    
-    color: #FFFFFF;
+    margin-left: 32px;
+    color: #FFFFFF
     
 }
 
-.ArtistPost_Rh_btm_btm{
+.ArtistStageps_Rh_btm_btm{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     padding-top:12px
-}
-
-.ArtistPost_Rh_btm_top{
-    height: 100px;
-    
-    background: #15141B;
-    border: 2px solid #191922;
-    border-radius: 6px;
-    margin-bottom: 24px;
-}
-
-.ArtistPost_Rh_btm_top_itembox{
-    padding : 27px 27px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ArtistPost_Rh_btm_top_itembox_lf{
-    display: flex;
-    align-items: center;
-}
-
-.ArtistPost_Rh_btm_top_itembox_lf_img{
-    width:46px;
-    height: 46px
-}
-
-.ArtistPost_Rh_btm_top_itembox_lf_img_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    
-    color: #FFFFFF;
-    margin-left: 12px;
-}
-
-.ArtistPost_Rh_btm_top_itembox_rh{
-    width: 114px;
-    height: 45px;
-    
-    background: #191922;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ArtistPost_Rh_btm_top_itembox_rh_text{
-
 }

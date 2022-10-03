@@ -5,8 +5,8 @@
 }
 
 .ArtistNotice_Wrapper{
-    width: 1620px;
-    height: 857px;
+   /* width: 1620px;
+    height: 857px; */
     padding: 30px 30px;
     display: flex;
 
@@ -15,14 +15,14 @@
 
 
 .ArtistNotice_Rh{
-    width: 1209px;
+    /* width: 1209px; */
     height: 100%;
-    
+    flex: 3;
     margin-left: 27px;
 }
 
 .ArtistNotice_Rh_Memu{
-    width: 100%;
+    /* width: 100%; */
     height: 42px;
 
     background: #191922;
@@ -80,7 +80,7 @@
 }
 
 .AritstHome_Rh_btm_noticecard{
-    width: 1209px;
+    /* width: 1209px; */
     height: 207px;
     background: #191922;
     border-radius: 6px;
@@ -96,12 +96,12 @@
 }
 
 .AritstHome_Rh_btm_ncitembox_left{
-    width: 813px;
+    /* width: 813px; */
     height: 100%;
 }
 
 .AritstHome_Rh_btm_ncitembox_left_artistbox{
-    width:237px;
+    /* width:237px; */
     height : 45px;
     display: flex;
 }
@@ -125,7 +125,7 @@
 .AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     
     color: #FFFFFF;
@@ -138,7 +138,7 @@
 .AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     
     color: #8B8999;
@@ -147,7 +147,7 @@
 .AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     
     color: #8B8999;
@@ -163,18 +163,19 @@
 .AritstHome_Rh_btm_ncitembox_left_descrip{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     
     color: #FFFFFF;
 }
 .AritstHome_Rh_btm_ncitembox_left_Iconbox{
-    width : 89px;
+    /* width : 89px; */
     height : 22px;
     margin-top: 22px;
     margin-left: 63px;
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 
 
@@ -190,18 +191,16 @@
 }
 
 .AritstHome_Rh_btm_ncitembox_right_itembox{
-    width: 250px;
-    height: 100%;
+    /* width: 250px;
+    height: 100%; */
     background: #8B8999;
     border-radius: 6px;
-    
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    
     color: #8B8999;
-    
+    aspect-ratio: 250/153;
 }
 
 .AritstHome_Rh_btm_ncitembox_left_Icon{

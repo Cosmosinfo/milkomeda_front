@@ -12,19 +12,19 @@
 }
 
 .Noti-ContentItem{
-    width: 181px;
+    /* width: 181px; */
     height: 57px;
 
-    padding: 12px 45px 11px 24px;
+    padding: 12px 12px 11px 24px;
     
     color: #8B8999;
 }
 
 .Noti-ContentItem2{
-    width: 181px;
+    /* width: 181px; */
     height: 57px;
 
-    padding: 12px 45px 11px 24px;
+    padding: 12px 12px 11px 24px;
     border-top: 1px solid rgba(139, 137, 153, 0.2);
     color: #8B8999;
 }
@@ -57,7 +57,7 @@
 
 
 .Noti-ContentItemBtm{
-    width: 181px;
+    /* width: 181px; */
     height: 40px;
     font-style: normal;
     font-weight: 400;

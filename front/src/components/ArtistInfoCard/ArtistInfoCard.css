@@ -1,29 +1,42 @@
 
 .ArtistInfoCard_Lf{
-    width: 384px;
-    height: 100%;
+    /* width: 384px;
+    height: 100%; */
 
     background: #191922;
     border-radius: 10px;
 
-    box-sizing: border-box;
+   flex: 1;
 }
 
 .ArtistInfoCard_Lf_Wrapper{
-    height : 807px;
-   
-    position: relative;
+    height: 807px;
+    /* position: relative; */
+    display: flex;
     padding: 25px 32px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+.ArtistInfoCard_top{
+
+}
+
+.ArtistInfoCard_btm{
 
 }
 
 .ArtistInfoCard_ArtistImg{
     /* width: 276px; */
-    height: 176px;
-    
+    /* height: 176px;
+     */
     background: #8B8999;
     border-radius: 6px;
     margin: 0 0 12px 0;
+    aspect-ratio: 276/176;
 }
 
 .ArtistInfoCard_ArtistNameBox{
@@ -118,7 +131,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     text-align: center;
     padding: 10px 40px;
@@ -139,7 +152,7 @@
 
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     padding: 0 0 12px 0;
     color: #FFFFFF;
@@ -147,12 +160,10 @@
 }
 
 .ArtistInfoCard_ArtistMetaBox{
-    width: 322px;
+    /* width: 322px; */
     height: 42px;
     background: #F3017F;
     border-radius: 100px;
-    bottom: 25px;
-    position: absolute;
     
 }
 
