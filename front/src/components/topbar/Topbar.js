@@ -1,5 +1,5 @@
 import {React, useState , useRef, useEffect } from "react";
-import { useDetectOutsideClick } from "./useDetectOutsideClick";
+
 import "../../assets/css/Top/Topbar.css";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -51,10 +51,11 @@ export default function Topbar() {
     if (openProfile) {
       window.addEventListener('click', pageClickEvent);
     }
-  
     return () => {
       window.removeEventListener('click', pageClickEvent);
     }
+
+    
 
     
   
