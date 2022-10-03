@@ -16,11 +16,11 @@ export default function Topbar() {
   const [openProfile, setOpenProfile] = useState(false);
   const [openTerms, setOpenTerms] = useState(false);
   const [openNoti, setOpenNoti] = useState(false);
-  const onClick = () => {
-    setOpenProfile(!openProfile)
-    // setOpenTerms(!openTerms)
-    curRef.current = true;
-  };
+  // const onClick = () => {
+  //   setOpenProfile(!openProfile)
+  //   // setOpenTerms(!openTerms)
+  //   curRef.current = true;
+  // };
 
   useEffect(() => {
     console.log('useEffect')
