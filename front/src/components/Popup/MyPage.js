@@ -1,4 +1,4 @@
-import  React from 'react'
+import React from 'react'
 import './MyPage.css'
 
 import edit from '../../assets/icon/graw/edit-2.svg'
@@ -57,10 +57,10 @@ function MyPage(open) {
                     </div>
                 </div>
             </div>
-            
-         
 
-            
+
+
+
         </>
     )
 }

@@ -5,12 +5,12 @@ import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 
 function StreamPrevious() {
-  return (
-    <>
-        <div className="StreamPre">
+    return (
+        <>
+            <div className="StreamPre">
                 <div className="StreamPre_Wrapper">
 
-                    
+
 
                     <div className="StreamPre_Top">
 
@@ -26,21 +26,21 @@ function StreamPrevious() {
                             <Link to="/streampv" className="Stream_link">
                                 <li className="StreamPre_LiveStage_ps">지난&nbsp;스테이지</li>
                             </Link>
-                            
-                           
+
+
 
                         </ul>
                         <div className='StreamPre_Top_Rh'>
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
-                                    <div className='Stream_LiveStage_filter_text'>
-                                        Sort
-                                    </div>
-                                    
+                                <div className='Stream_LiveStage_filter_text'>
+                                    Sort
+                                </div>
+
                             </div>
                         </div>
-                       
-                        
+
+
 
                     </div>
 
@@ -123,15 +123,15 @@ function StreamPrevious() {
 
                     </div> */}
 
-                   
 
-                    
 
-                    
+
+
+
                 </div>
-        </div>
-    </>
-  )
+            </div>
+        </>
+    )
 }
 
 export default StreamPrevious

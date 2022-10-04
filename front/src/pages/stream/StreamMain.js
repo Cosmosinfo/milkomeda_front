@@ -10,7 +10,7 @@ function StreamMain() {
             <div className="StreamMain">
                 <div className="StreamMain_Wrapper">
 
-                    
+
 
                     <div className="StreamMain_Top">
 
@@ -32,22 +32,22 @@ function StreamMain() {
                         <div className='StreamMain_Top_Rh'>
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
-                                    <div className='Stream_LiveStage_filter_text'>
-                                        Sort
-                                    </div>
-                                    
+                                <div className='Stream_LiveStage_filter_text'>
+                                    Sort
+                                </div>
+
                             </div>
                         </div>
-                       
-                        
+
+
 
                     </div>
 
 
                     <div className='StreamMain_btm'>
-                        
+
                         <StageCard />
-                        
+
                         <StageCard />
 
                         <StageCard />
@@ -79,17 +79,17 @@ function StreamMain() {
                         <StageCard />
                     </div>
 
-                   
 
-                   
 
-                    
 
-                    
+
+
+
+
                 </div>
             </div>
 
-            
+
         </>
     )
 }
