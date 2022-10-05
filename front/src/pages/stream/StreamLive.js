@@ -231,10 +231,7 @@ function StreamLive() {
                                 </div>
 
 
-<<<<<<< HEAD
                             {/* <LiveMessageBox />
-=======
->>>>>>> c3d54625bf0a84c6a7b87ad9fd6bc81dd4359c0a
 
                                 <div className="StreamLive_Right_middle">
 
@@ -257,10 +254,7 @@ function StreamLive() {
 
 
 
-<<<<<<< HEAD
                             <LiveMessageBox /> */}
-=======
->>>>>>> c3d54625bf0a84c6a7b87ad9fd6bc81dd4359c0a
 
 
 
@@ -310,7 +304,7 @@ function StreamLive() {
 
                     </div>
                 </div>
-            </div>
+            
         </>
     )
 }
