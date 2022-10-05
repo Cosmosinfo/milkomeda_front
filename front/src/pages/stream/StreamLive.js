@@ -6,7 +6,7 @@ import "../../assets/css/Stream/StreamLive.css"
 import Gift from '../../assets/icon/graw/gift.svg'
 import Smile from '../../assets/icon/graw/smile.svg'
 import Send from '../../assets/icon/ping/send.svg'
-import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
+// import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 
 function StreamLive() {
     // function resize(obj) {

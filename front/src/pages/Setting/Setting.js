@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from 'react-animated-slider';
+// import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import './Settings.css'
 
