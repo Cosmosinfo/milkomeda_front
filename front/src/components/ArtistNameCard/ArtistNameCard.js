@@ -3,37 +3,37 @@ import "./ArtistNameCard.css"
 import { Link } from "react-router-dom";
 
 function ArtistNameCard() {
-    return (
+  return (
 
-        <>  
-          <Link to="/artisthome" className="link artistNameCard">
-            <div className="newArtistItemContainer">
-              <div className="newArtistItemContainerBox">
-             
-
-<img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Aritist_img" />
+    <>
+      <Link to="/artisthome" className="link artistNameCard">
+        <div className="newArtistItemContainer">
+          <div className="newArtistItemContainerBox">
 
 
+            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Aritist_img" />
 
-<div className="newArtistItemContainerRight">
 
-<div className="newArtistItemContainerNameBox">
 
-  <span className="newArtistItemContainerArtistName">아티스트</span>
+            <div className="newArtistItemContainerRight">
 
-</div>
-<div className="newArtistItemContainerMusicGenreBox">
+              <div className="newArtistItemContainerNameBox">
 
-  <span className="newArtistItemContainerMusicGenre">장르</span>
-</div>
-</div>
+                <span className="newArtistItemContainerArtistName">아티스트</span>
+
               </div>
-              
-            </div>
-            </Link>
+              <div className="newArtistItemContainerMusicGenreBox">
 
-        </>
-    )
+                <span className="newArtistItemContainerMusicGenre">장르</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </Link>
+
+    </>
+  )
 }
 
 export default ArtistNameCard

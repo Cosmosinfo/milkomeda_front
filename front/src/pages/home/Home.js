@@ -8,13 +8,13 @@ import StageCard from '../../components/StageCard/StageCard';
 
 function Home() {
 
- 
+
 
   return (
-        
+
 
     <div className="home">
-      
+
 
       <div className='homeWrapper'>
         {/* ====================  Carousel  ======================== */}
@@ -58,7 +58,7 @@ function Home() {
 
             <StageCard />
 
-           
+
 
           </div>
 
@@ -78,22 +78,22 @@ function Home() {
           </div>
 
           <div className="home_UpComingStage_Container">
-          <StageCard />
+            <StageCard />
 
-          <StageCard />
+            <StageCard />
 
-          <StageCard />
+            <StageCard />
 
-          <StageCard />
+            <StageCard />
 
 
           </div>
         </div>
 
         <div className="hr-sect">
-        더 보기
-            <img className="chevron" src={chevron} alt="chevron" />
-          </div>
+          더 보기
+          <img className="chevron" src={chevron} alt="chevron" />
+        </div>
       </div>
     </div>
   )

@@ -5,12 +5,12 @@ import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 
 function StreamUpcoming() {
-  return (
-    <>
-        <div className="StreamUp">
+    return (
+        <>
+            <div className="StreamUp">
                 <div className="StreamUp_Wrapper">
 
-                    
+
 
                     <div className="StreamUp_Top">
 
@@ -32,14 +32,14 @@ function StreamUpcoming() {
                         <div className='StreamUp_Top_Rh'>
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
-                                    <div className='Stream_LiveStage_filter_text'>
-                                        Sort
-                                    </div>
-                                    
+                                <div className='Stream_LiveStage_filter_text'>
+                                    Sort
+                                </div>
+
                             </div>
                         </div>
-                       
-                        
+
+
 
                     </div>
 
@@ -122,15 +122,15 @@ function StreamUpcoming() {
 
                     </div> */}
 
-                   
 
-                    
 
-                    
+
+
+
                 </div>
             </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default StreamUpcoming

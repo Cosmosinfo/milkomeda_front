@@ -5,29 +5,29 @@ import { Link } from "react-router-dom";
 function ArtistMainCard() {
   return (
     <>
-      
-              
-              <div className='ArtistMain_ContentItem'>
-                <Link to="/artisthome" className="link artistMainCard">
-                <div className='ArtistMain_ContentItemContainer'>
-                  <div className='ArtistMain_ContentItemContainerTop'></div>
-                  <div className='ArtistMain_ContentItemContainerBtm'>
-                      <div className='ArtistMain_ContentItemContainerBtmArtistName'>
-                      아티스트
-                      </div>
 
-                      <div className='ArtistMain_ContentItemContainerBtmMusic'>
-                        장르
-                      </div>
-                  </div>
-                </div>
-                </ Link >
+
+      <div className='ArtistMain_ContentItem'>
+        <Link to="/artisthome" className="link artistMainCard">
+          <div className='ArtistMain_ContentItemContainer'>
+            <div className='ArtistMain_ContentItemContainerTop'></div>
+            <div className='ArtistMain_ContentItemContainerBtm'>
+              <div className='ArtistMain_ContentItemContainerBtmArtistName'>
+                아티스트
               </div>
-              
+
+              <div className='ArtistMain_ContentItemContainerBtmMusic'>
+                장르
+              </div>
+            </div>
+          </div>
+        </ Link >
+      </div>
 
 
-             
-          
+
+
+
     </>
   )
 }

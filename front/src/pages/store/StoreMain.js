@@ -6,7 +6,7 @@ import StoreBanner from '../../components/Carousel/StoreBanner'
 
 function StoreMain() {
   return (
-    <>
+        <>
         <div className='StoreMain'>
             <div className='StoreMain_Wrapper'>
                 <div className='StoreMain_banner'>
@@ -16,14 +16,14 @@ function StoreMain() {
 
                     </div>
 
-                    <div className='StoreMain_banner_right'>
-                    banner
+                        <div className='StoreMain_banner_right'>
+                            banner
+                        </div>
                     </div>
-                </div>
 
-                {/* 추후 링크 연결 필요? */}
-                <div className='StoreMain_Category'>
-                    <div className='StoreMain_Category_lf'>
+                    {/* 추후 링크 연결 필요? */}
+                    <div className='StoreMain_Category'>
+                        <div className='StoreMain_Category_lf'>
 
 
                     <div className='StoreMain_Category_Item'>
@@ -51,8 +51,14 @@ function StoreMain() {
                     </div>
 
 
-                    </div>
-                   
+                        </div>
+
+
+                        <div className='StoreMain_Category_Rh'>
+                            <div className="StoreMain_Category_filter">
+                                <img className="StoreMain_Category_filterIcon" src={filter} alt="filter" />
+                                <span className="StoreMain_Category_filter_text">Sort</span>
+                            </div>
 
                     <div className='StoreMain_Category_Rh'>
                     <div className="StoreMain_Category_filter">
@@ -61,61 +67,61 @@ function StoreMain() {
                     </div>
                              
                         </div>
-                    
-                              
-                    
 
-                    
 
-                    
+
+
+
+
+
+                    </div>
+
+                    <div className='StoreMain_Content'>
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+
+                    </div>
                 </div>
 
-                <div className='StoreMain_Content'>
-                    
-                    <StoreCategory />
-                    
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-
-                    <StoreCategory />
-                    
-
-                </div>
             </div>
-
         </div>
-    
-    </>
-  )
+        </>
+    )
 }
 
 export default StoreMain

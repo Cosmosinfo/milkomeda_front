@@ -6,49 +6,49 @@ import chevronleft from '../../assets/icon/graw/chevron-left.svg'
 import chevronright from '../../assets/icon/graw/chevron-right.svg'
 
 function ArtistSchedule() {
-  return (
-    <>
+    return (
+        <>
 
-<div className='ArtistSchedule'>
-            <div className='ArtistSchedule_Wrapper'>
-              <ArtistInfoCard />
+            <div className='ArtistSchedule'>
+                <div className='ArtistSchedule_Wrapper'>
+                    <ArtistInfoCard />
 
-              
-              <div className='ArtistSchedule_Rh'>
-                  <div className='ArtistSchedule_Rh_Memu'>
-                        <ul className='ArtistSchedule_Rh_MemuBox'>
-                            
-                        <Link to="/artisthome" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>아티스트 홈</li>
-                        </Link>
-                        <div className='ArtistSchedule_Rh_MemuBox_Line'></div>       
-                        <Link to="/artistnotice" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>공지사항</li>
-                        </Link> 
-                        <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
-                        <Link to="/artiststage" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>스테이지</li>
-                        </Link>
-                        <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
-                        <Link to="/artistschedule" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>일정</li>
-                        </Link>
-                        <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
-                        <Link to="/artiststore" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>스토어</li>
-                        </Link>
-                        <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
-                        <Link to="/artistpost" className="link">
-                          <li className='ArtistSchedule_Rh_MemuBoxText'>팬 포스트</li>
-                        </Link>
-                        
-                        </ul>
-                  </div>
 
-                  
-                  <div className='ArtistSchedule_Rh_btm'>
+                    <div className='ArtistSchedule_Rh'>
+                        <div className='ArtistSchedule_Rh_Memu'>
+                            <ul className='ArtistSchedule_Rh_MemuBox'>
 
-                       
+                                <Link to="/artisthome" className="link">
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>아티스트 홈</li>
+                                </Link>
+                                <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
+                                <Link to="/artistnotice" className="link">
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>공지사항</li>
+                                </Link>
+                                <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
+                                <Link to="/artiststage" className="link">
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>스테이지</li>
+                                </Link>
+                                <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
+                                <Link to="/artistschedule" className="link">
+                                    <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>일정</li>
+                                </Link>
+                                <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
+                                <Link to="/artiststore" className="link">
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>스토어</li>
+                                </Link>
+                                <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
+                                <Link to="/artistpost" className="link">
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>팬 포스트</li>
+                                </Link>
+
+                            </ul>
+                        </div>
+
+
+                        <div className='ArtistSchedule_Rh_btm'>
+
+
                             <div className='ArtistSchedule_Rh_btm_Schedulelf'>
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_top">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_top_text">
@@ -77,8 +77,8 @@ function ArtistSchedule() {
 
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_container">
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_num">
-                                            
-                                            
+
+
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >7</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >14</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >21</span>
@@ -92,7 +92,7 @@ function ArtistSchedule() {
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >15</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >22</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >29</span>
-                                           
+
 
                                         </div>
 
@@ -102,7 +102,7 @@ function ArtistSchedule() {
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >16</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >23</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >30</span>
-                                            
+
                                         </div>
 
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_num1">
@@ -111,7 +111,7 @@ function ArtistSchedule() {
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >17</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >24</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text_pink" >31</span>
-                                            
+
                                         </div>
 
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_num2">
@@ -119,8 +119,8 @@ function ArtistSchedule() {
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >11</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >18</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >25</span>
- 
-                                            
+
+
 
                                         </div>
 
@@ -130,7 +130,7 @@ function ArtistSchedule() {
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >19</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >26</span>
 
-                                           
+
                                         </div>
 
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_num2">
@@ -139,12 +139,12 @@ function ArtistSchedule() {
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >20</span>
                                             <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_num_text" >27</span>
 
-                                           
+
                                         </div>
                                     </div>
 
-                                    
-                                    
+
+
                                 </div>
                             </div>
 
@@ -152,7 +152,7 @@ function ArtistSchedule() {
 
                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container'>
                                     <span className='ArtistSchedule_Rh_btm_ScheduleRh_container_text'>다가오는 일정</span>
-                                    
+
                                     {/* 스케줄 박스 */}
                                     <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
                                         <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
@@ -163,13 +163,13 @@ function ArtistSchedule() {
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                               제목
+                                                    제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90분)
+                                                    18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                장소
+                                                    장소
                                                 </spen>
                                             </div>
                                         </div>
@@ -184,13 +184,13 @@ function ArtistSchedule() {
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                               제목
+                                                    제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90분)
+                                                    18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                장소
+                                                    장소
                                                 </spen>
                                             </div>
                                         </div>
@@ -205,13 +205,13 @@ function ArtistSchedule() {
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                               제목
+                                                    제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90분)
+                                                    18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                장소
+                                                    장소
                                                 </spen>
                                             </div>
                                         </div>
@@ -226,13 +226,13 @@ function ArtistSchedule() {
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                               제목
+                                                    제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90분)
+                                                    18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                장소
+                                                    장소
                                                 </spen>
                                             </div>
                                         </div>
@@ -247,36 +247,36 @@ function ArtistSchedule() {
 
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                               제목
+                                                    제목
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                18:00~19:30(KST/90분)
+                                                    18:00~19:30(KST/90분)
                                                 </spen>
                                                 <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                장소
+                                                    장소
                                                 </spen>
                                             </div>
                                         </div>
                                     </div>
 
-                                    
+
 
                                 </div>
 
 
                             </div>
-                        
 
-                  </div>
 
-              </div>
-              
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-          </div>
 
 
-    </>
-  )
+        </>
+    )
 }
 
 export default ArtistSchedule
