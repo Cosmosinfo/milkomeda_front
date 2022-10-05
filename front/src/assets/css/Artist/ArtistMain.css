@@ -20,6 +20,8 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 .ArtistMain_top_lf{

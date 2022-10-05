@@ -234,7 +234,7 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 
                            <div className="StreamLive_Right_middle">
 
-                            <LiveMessageBox />
+                            {/* <LiveMessageBox />
 
                             <LiveMessageBox />
 
@@ -248,7 +248,7 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 
                             <LiveMessageBox />
 
-                            <LiveMessageBox />
+                            <LiveMessageBox /> */}
 
                             
 

@@ -276,30 +276,28 @@ color: #FFFFFF;
 
   .StoreDetail_left_top_Detail_BuyBox_Top{
     width: 100%;
-    height: 39px;
+    height: 40px;
     display: flex;
+    gap: 14px;
   }
 
   .StoreDetail_left_top_Detail_BuyBox_AddCart{
-    width: 184px;
-    height: 39px;
+    flex: 1;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 39px;
 
-text-align: center;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
     background: #191922;
     border-radius: 100px;
-    margin-right: 13px;
+  
   }
 
   .StoreDetail_left_top_Detail_BuyBox_Whishlist{
-    width: 183px;
-height: 39px;
-
+flex: 1;
 background: #191922;
 border-radius: 100px;
 font-style: normal;

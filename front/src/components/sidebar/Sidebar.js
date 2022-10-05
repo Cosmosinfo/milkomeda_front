@@ -167,7 +167,7 @@ export default function Sidebar () {
 
         </ul>
 
-        <hr className="hr" />
+        {/* <hr className="hr" /> */}
 
         {/* <ul className="side_item_2">
 

@@ -17,7 +17,7 @@
   .StreamLive_left{
     /* width: 1214px; */
     height: 100%;
-    /* overflow: overlay; */
+    overflow: overlay;
     margin-right: 24px;
   }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../assets/css/Main/Home.css'
-import Carousel from "../../components/Carousel/Carousel"
+import HomeBanner from "../../components/Carousel/HomeBanner"
 import chevron from '../../assets/icon/ping//chevron-down.svg'
 import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
 import StageCard from '../../components/StageCard/StageCard';
@@ -19,7 +19,7 @@ function Home() {
       <div className='homeWrapper'>
         {/* ====================  Carousel  ======================== */}
 
-        < Carousel />
+        < HomeBanner />
 
         {/* ====================  New Artist  ======================== */}
 

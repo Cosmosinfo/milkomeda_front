@@ -19,8 +19,8 @@ function StoreDetail() {
                             <div className='StoreDetail_left_top_Detail_titleBox'>
 
                                 <div className='StoreDetail_left_top_Detail_titleBox_top'>
-                                    <span className='StoreDetail_left_top_Detail_titleBox_ArtistName'>Artist Name</span>
-                                    <span className='StoreDetail_left_top_Detail_titleBox_Text'>Lorem ipsum dolor sit amet</span>
+                                    <span className='StoreDetail_left_top_Detail_titleBox_ArtistName'>아티스트</span>
+                                    <span className='StoreDetail_left_top_Detail_titleBox_Text'>제품명</span>
                                 </div>
 
                                 <div className='StoreDetail_left_top_Detail_titleBox_btm'>
@@ -68,16 +68,16 @@ function StoreDetail() {
                             <div className='StoreDetail_left_top_Detail_BuyBox'>
                                 <div className='StoreDetail_left_top_Detail_BuyBox_Top'>
                                     <div className='StoreDetail_left_top_Detail_BuyBox_AddCart'>
-                                        Add to cart
+                                        장바구니
                                     </div>
 
                                     <div className='StoreDetail_left_top_Detail_BuyBox_Whishlist'>
-                                        Whishlist
+                                        위시리스트
                                     </div>
                                 </div>
 
                                 <div className='StoreDetail_left_top_Detail_BuyBox_Btm'>
-                                    Buy
+                                    바로 구매하기
                                 </div>
 
 
@@ -131,7 +131,7 @@ function StoreDetail() {
 
                     <div className='StoreDetail_Right_Wrapper'>
                             <div className='StoreDetail_Right_Top'>
-                                Recommended for you
+                                이 상품은 어떠세요?
                             </div>
 
                             <div className='StoreDetail_Right_Btm'>
