@@ -38,7 +38,7 @@ function Carousel({
   //Start the automatic change of slide
   useEffect(() => {
     if (automatic) {
-      var index = slide;
+      const index = slide;
       const interval = setInterval(
         () => {
           if (!isPaused) {
@@ -54,7 +54,7 @@ function Carousel({
         clearInterval(interval);
       };
     }
-    
+
   }, [isPaused, change]);
 
   function scrollTo(el) {
@@ -74,11 +74,11 @@ function Carousel({
 
   //Listens to slide state changes
   useEffect(() => {
-    var slides = document.getElementsByClassName("carousel-item");
-    var dots = document.getElementsByClassName("dot");
+    const slides = document.getElementsByClassName("carousel-item");
+    const dots = document.getElementsByClassName("dot");
 
-    var slideIndex = slide;
-    var i;
+    const slideIndex = slide;
+    let i;
     for (i = 0; i < data.length; i++) {
       slides[i].style.display = "none";
     }
@@ -87,7 +87,7 @@ function Carousel({
     }
     //If thumbnails are enabled
     if (thumbnails) {
-      var thumbnailsArray = document.getElementsByClassName("thumbnail");
+      const thumbnailsArray = document.getElementsByClassName("thumbnail");
       for (i = 0; i < thumbnailsArray.length; i++) {
         thumbnailsArray[i].className = thumbnailsArray[i].className.replace(
           " active-thumbnail",
