@@ -18,10 +18,15 @@ function StoreDetail() {
                             <div className='StoreDetail_left_top_Detail'>
                                 <div className='StoreDetail_left_top_Detail_titleBox'>
 
-                                <div className='StoreDetail_left_top_Detail_titleBox_top'>
-                                    <span className='StoreDetail_left_top_Detail_titleBox_ArtistName'>아티스트</span>
-                                    <span className='StoreDetail_left_top_Detail_titleBox_Text'>제품명</span>
-                                </div>
+                                    <div className='StoreDetail_left_top_Detail_titleBox_top'>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_ArtistName'>아티스트</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_Text'>제품명</span>
+                                    </div>
+
+                                    <div className='StoreDetail_left_top_Detail_titleBox_btm'>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 10,000</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money_line'>₩ 10,000</span>
+                                    </div>
 
                                 </div>
 
@@ -63,21 +68,19 @@ function StoreDetail() {
                                 <div className='StoreDetail_left_top_Detail_BuyBox'>
                                     <div className='StoreDetail_left_top_Detail_BuyBox_Top'>
                                         <div className='StoreDetail_left_top_Detail_BuyBox_AddCart'>
-                                            Add to cart
+                                            장바구니
                                         </div>
 
-                            <div className='StoreDetail_left_top_Detail_BuyBox'>
-                                <div className='StoreDetail_left_top_Detail_BuyBox_Top'>
-                                    <div className='StoreDetail_left_top_Detail_BuyBox_AddCart'>
-                                        장바구니
+                                        <div className='StoreDetail_left_top_Detail_BuyBox_Whishlist'>
+                                            위시리스트
+                                        </div>
                                     </div>
 
-                                    <div className='StoreDetail_left_top_Detail_BuyBox_Whishlist'>
-                                        위시리스트
+                                    <div className='StoreDetail_left_top_Detail_BuyBox_Btm'>
+                                        바로 구매하기
                                     </div>
 
-                                <div className='StoreDetail_left_top_Detail_BuyBox_Btm'>
-                                    바로 구매하기
+
                                 </div>
 
 
@@ -149,12 +152,7 @@ function StoreDetail() {
                     </div>
                 </div>
 
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-
+            </div>
         </>
     )
 }

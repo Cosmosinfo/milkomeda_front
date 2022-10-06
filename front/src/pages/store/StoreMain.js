@@ -55,68 +55,65 @@ function StoreMain() {
 
 
                         <div className='StoreMain_Category_Rh'>
-                            <div className="StoreMain_Category_filter">
-                                <img className="StoreMain_Category_filterIcon" src={filter} alt="filter" />
-                                <span className="StoreMain_Category_filter_text">Sort</span>
-                            </div>
+                           
 
-                    <div className='StoreMain_Category_Rh'>
-                    <div className="StoreMain_Category_filter">
-                        <img className="StoreMain_Category_filterIcon" src={filter} alt="filter" />
-                        <span className="StoreMain_Category_filter_text">정렬</span>
-                    </div>
-                             
-                        </div>
+                                <div className="StoreMain_Category_filter">
+                                    <img className="StoreMain_Category_filterIcon" src={filter} alt="filter" />
+                                    <span className="StoreMain_Category_filter_text">정렬</span>
+                                </div>
+
+                           
 
 
 
 
 
 
+                         </div>
 
-                    </div>
-
-                    <div className='StoreMain_Content'>
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-
-                    </div>
+                    
                 </div>
+
+                <div className='StoreMain_Content'>
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+                        <StoreCategory />
+
+
+                    </div>
 
             </div>
         </div>

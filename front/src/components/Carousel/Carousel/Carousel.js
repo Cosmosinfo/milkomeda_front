@@ -126,7 +126,7 @@ function Carousel({
             className="carousel-container"
             style={{
               maxWidth: width ? width : "600px",
-              height: height ? height : "400px",
+              // height: height ? height : "400px",
               backgroundColor: slideBackgroundColor
                 ? slideBackgroundColor
                 : "darkgrey",

@@ -6,15 +6,15 @@ function HomeBanner() {
     const images = [
         {
         //   image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
-          image: "./img/img1.jpeg",
+          image: "./img/img1.jpg",
          
         },
         {
-          image: "./img/img2.jpeg",
+          image: "./img/img2.jpg",
           
         },
         {
-          image: "./img/img3.jpeg",
+          image: "./img/img3.jpg",
          
         }
       ];
