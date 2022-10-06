@@ -38,7 +38,7 @@ function Carousel({
   //Start the automatic change of slide
   useEffect(() => {
     if (automatic) {
-      const index = slide;
+      let index = slide;
       const interval = setInterval(
         () => {
           if (!isPaused) {
@@ -55,7 +55,7 @@ function Carousel({
       };
     }
 
-  }, [isPaused, change]);
+  }, [isPaused, change, automatic, slide, time, data.length]);
 
   function scrollTo(el) {
     const elLeft = el.offsetLeft + el.offsetWidth;
@@ -102,7 +102,7 @@ function Carousel({
     if (slides[slideIndex] !== undefined)
       slides[slideIndex].style.display = "block";
     if (dots[slideIndex] !== undefined) dots[slideIndex].className += " active";
-  }, [slide, isPaused]);
+  }, [slide, isPaused, data.length, thumbnails]);
 
   return (
     <div style={style} className="box">
@@ -195,6 +195,7 @@ function Carousel({
             })}
 
             {showNavBtn && (
+              // eslint-disable-next-line jsx-a11y/anchor-is-valid
               <a
                 className="prev"
                 onClick={(e) => {
@@ -206,6 +207,7 @@ function Carousel({
               </a>
             )}
             {showNavBtn && (
+              // eslint-disable-next-line jsx-a11y/anchor-is-valid
               <a
                 className="next"
                 onClick={(e) => {
