@@ -54,6 +54,7 @@ function Carousel({
         clearInterval(interval);
       };
     }
+    
   }, [isPaused, change]);
 
   function scrollTo(el) {
