@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React, {useEffect, useState} from 'react' 
+import React, { useEffect, useState } from 'react'
 import '../../assets/css/Main/Home.css'
 import HomeBanner from "../../components/Carousel/HomeBanner"
 import chevron from '../../assets/icon/ping//chevron-down.svg'
@@ -9,7 +9,7 @@ import StageCard from '../../components/StageCard/StageCard';
 
 function Home() {
   // eslint-disable-next-line
-  const [moreBtn, setMoreBtn] = useState() 
+  const [moreBtn, setMoreBtn] = useState()
 
 
   return (
@@ -67,10 +67,10 @@ function Home() {
 
         </div>
 
-          <div className="hr-sect">
+        <div className="hr-sect">
           더 보기
           <img className="chevron" src={chevron} alt="chevron" />
-          </div>
+        </div>
 
         {/* ====================  Upcoming Stage  ======================== */}
 
