@@ -36,6 +36,7 @@ function HomeBanner() {
         automatic={true}
         //enables visual dots between slides
         dots={true}
+        showNavBtn = {true}
         //changes object fit I used cover to avoud stretching
         slideImageFit="cover"
         thumbnailWidth="100px"

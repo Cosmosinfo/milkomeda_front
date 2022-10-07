@@ -21,7 +21,7 @@ function Carousel({
   slideImageFit,
   thumbnails,
   thumbnailWidth,
-  showNavBtn = true,
+  showNavBtn ,
 }) {
   //Initialize States
   const [slide, setSlide] = useState(0);
@@ -172,7 +172,7 @@ function Carousel({
                       objectFit: slideImageFit ? slideImageFit : "cover",
                     }}
                   />
-                  {isPaused && (
+                  {/* {isPaused && (
                     <div
                       className="pause-icon pause"
                       style={{
@@ -182,7 +182,7 @@ function Carousel({
                     >
                       II
                     </div>
-                  )}
+                  )} */}
                   <div
                     className={`carousel-caption-${
                       captionPosition ? captionPosition : "bottom"

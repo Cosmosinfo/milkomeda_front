@@ -6,7 +6,7 @@ function StoreItemImg() {
     const images = [
         {
         
-          image: "./img/img7.jpg",
+          image: "./img/img9.jpg",
          
         }
       ];
