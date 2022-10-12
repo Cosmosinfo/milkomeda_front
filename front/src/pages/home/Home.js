@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React, {useEffect, useState} from 'react' 
+import React, { useEffect, useState } from 'react'
 import '../../assets/css/Main/Home.css'
 import HomeBanner from "../../components/Carousel/HomeBanner"
 import chevron from '../../assets/icon/ping//chevron-down.svg'
@@ -12,6 +12,7 @@ import StageCardData from '../../Data/StageCardDate'
 function Home() {
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4) 
+  const [moreBtn, setMoreBtn] = useState()
 
   let [btnActive, setBtnActive] = useState("");
 
@@ -118,8 +119,6 @@ function Home() {
 
 
           </div>
-
-
         </div>
           {
                <div className="hr-sect">

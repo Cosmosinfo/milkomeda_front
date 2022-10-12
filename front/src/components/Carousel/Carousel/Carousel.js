@@ -21,7 +21,7 @@ function Carousel({
   slideImageFit,
   thumbnails,
   thumbnailWidth,
-  showNavBtn ,
+  showNavBtn,
 }) {
   //Initialize States
   const [slide, setSlide] = useState(0);
@@ -184,9 +184,8 @@ function Carousel({
                     </div>
                   )} */}
                   <div
-                    className={`carousel-caption-${
-                      captionPosition ? captionPosition : "bottom"
-                    }`}
+                    className={`carousel-caption-${captionPosition ? captionPosition : "bottom"
+                      }`}
                     style={captionStyle}
                     dangerouslySetInnerHTML={{ __html: item.caption }}
                   ></div>
