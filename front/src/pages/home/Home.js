@@ -89,13 +89,13 @@ function Home() {
                 <Link to="/StreamLive" className="link home_stageCard">
                   <div className="home_Stage_Top">
                      
-                      <img src={item.thumbnail}  /> 
+                      <img src={item.thumbnail} alt=""  /> 
                   </div>
 
                   <div className="home_Stage_btm">
                     <div className="home_Stage_btm_Left">
 
-                      <img src={item.img} className="home_Stage_Artist_img" />
+                      <img src={item.img} className="home_Stage_Artist_img" alt="" />
 
 
                     </div>
