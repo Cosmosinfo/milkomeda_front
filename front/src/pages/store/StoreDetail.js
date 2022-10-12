@@ -3,7 +3,6 @@ import '../../assets/css/Store/StoreDetail.css'
 import minus from '../../assets/icon/graw/minus-circle.svg'
 import plus from '../../assets/icon/graw/plus-circle.svg'
 import StoreRecoProduct from '../../components/Store/StoreRecoProduct'
-import StoreDetaImg from '../../assets/img/img9.JPG'
 import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
 
 

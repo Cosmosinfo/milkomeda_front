@@ -12,15 +12,15 @@ import StageCardData from '../../Data/StageCardDate'
 function Home() {
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4) 
-  const [moreBtn, setMoreBtn] = useState()
+  // const [moreBtn, setMoreBtn] = useState()
 
-  let [btnActive, setBtnActive] = useState("");
+  // const [btnActive, setBtnActive] = useState("");
 
-  const toggleActive = (e) => {
-    setBtnActive((prev) => {
-      return e.target.value;
-    });
-  };
+  // const toggleActive = (e) => {
+  //   setBtnActive((prev) => {
+  //     return e.target.value;
+  //   });
+  // };
 
   const more = StageCardData.cardData.slice(0, noOfElement)
 
@@ -88,7 +88,8 @@ function Home() {
               return(
                 <Link to="/StreamLive" className="link home_stageCard">
                   <div className="home_Stage_Top">
-                      <img src={item.thumbnail}  />
+                     
+                      <img src={item.thumbnail}  /> 
                   </div>
 
                   <div className="home_Stage_btm">
