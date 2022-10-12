@@ -3,7 +3,7 @@ const StageCardData = {
     cardData : [
         {
             id : 1,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -11,7 +11,7 @@ const StageCardData = {
 
         {
             id : 2,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -19,7 +19,7 @@ const StageCardData = {
 
         {
             id : 3,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -27,7 +27,7 @@ const StageCardData = {
 
         {
             id : 4,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -35,7 +35,7 @@ const StageCardData = {
 
         {
             id : 5,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -43,7 +43,7 @@ const StageCardData = {
 
         {
             id : 6,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -51,7 +51,7 @@ const StageCardData = {
 
         {
             id : 7,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'
@@ -59,7 +59,7 @@ const StageCardData = {
 
         {
             id : 8,
-            thumbnail : '',
+            youtubethumbnail : 'https://imgur.com/9zyTF13.jpg',
             img : 'https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="Stage_Artist_img',
             title : ' I have gotta feelin like ',
             artistName : '러블레스(Lubless) X 투영(To.young)'

@@ -7,6 +7,7 @@ import Gift from '../../assets/icon/graw/gift.svg'
 import Smile from '../../assets/icon/graw/smile.svg'
 import Send from '../../assets/icon/ping/send.svg'
 // import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
+import ReactPlayer from 'react-player'
 
 function StreamLive() {
     // function resize(obj) {
@@ -44,7 +45,33 @@ function StreamLive() {
                     <div className="StreamLive_left">
                         {/* Streaming 라이브 뷰 */}
                         <div className="StreamLive_LiveView">
-                            Live
+                        <ReactPlayer
+                            className='player'
+                            url='https:www.youtube.com/watch?v=R3b4gX7mA78'
+                            width='100%'
+                            height='100%'
+                            playing={true}
+                            muted={true}
+                            controls={true}
+                        />
+                           
+                           
+                            {/* <YouTube
+                                videoId="R3b4gX7mA78"
+                                //opts(옵션들): 플레이어의 크기나 다양한 플레이어 매개 변수를 사용할 수 있음.
+                                //밑에서 더 설명하겠습니다.
+                                opts={{
+                                    width: "100%",
+                                   
+                                    playerVars: {
+                                    autoplay: 1, //자동재생 O
+                                    rel: 0, //관련 동영상 표시하지 않음
+                                    modestbranding: 1, // 컨트롤 바에 youtube 로고를 표시하지 않음
+                                    },
+                                }}
+                                //이벤트 리스너 
+                                onEnd={(e)=>{e.target.stopVideo(0);}}      
+                            /> */}
                         </div>
 
                         {/* Streaming 타이틀 및 내용 */}
