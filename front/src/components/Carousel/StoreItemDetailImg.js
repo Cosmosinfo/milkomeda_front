@@ -2,19 +2,11 @@ import React from 'react'
 
 import { Carousel } from "./Carousel";
 
-function StoreBanner() {
+function StoreItemDetailImg() {
     const images = [
         {
         
-          image: "./img/img4.jpg",
-         
-        },
-        {
-          image: "./img/img5.jpg",
-          
-        },
-        {
-          image: "./img/img6.jpg",
+          image: "./img/img9.jpg",
          
         }
       ];
@@ -25,24 +17,22 @@ function StoreBanner() {
         //accepts news data
         data={images}
         //time interval milliseconds between each picture
-        time={4000}
+        
         //width of carousel
-        width="1174px"
+        width="794px"
         //height of carousel
-        height="329px"
+        height="794px"
         //constitutes the border radius of each slide px
         radius="6px"
         //enables automatic transitioning between slides
-        automatic={true}
+        
         //enables visual dots between slides
-        dots={true}
-        showNavBtn = {true}
+        
         //changes object fit I used cover to avoud stretching
-        slideImageFit="cover"
-        thumbnailWidth="100px"
+        
       />
        </>
     )
 }
 
-export default StoreBanner
+export default StoreItemDetailImg

@@ -52,10 +52,13 @@ function ArtistHome() {
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
                       <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
-                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                        <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
-                        <img className="chevronright" src={chevronright} alt="chevronright" />
-                      </div>
+                      <Link to="/artistnotice" className="link">
+                                        <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                                            <img className="chevronright" src={chevronright} alt="chevronright" />
+                                        </div>
+                                      </Link>
+
                     </div>
 
                     <div className="AritstHome_Rh_btm_topcard_item_btm">
@@ -71,8 +74,13 @@ function ArtistHome() {
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
                       <span className='AritstHome_Rh_btm_topcard_item_top_text'>다가오는&nbsp;일정</span>
                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                        <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
-                        <img className="chevronright" src={chevronright} alt="chevronright" />
+                      <Link to="/artistschedule" className="link">
+                                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                                          <img className="chevronright" src={chevronright} alt="chevronright" />
+                                      </div>
+                                      </Link>
+
                       </div>
                     </div>
 
@@ -118,8 +126,12 @@ function ArtistHome() {
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
                       <span className='AritstHome_Rh_btm_topcard_item_top_text'>팬&nbsp;포스트</span>
                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                        <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
-                        <img className="chevronright" src={chevronright} alt="chevronright" />
+                      <Link to="/artistpost" className="link">
+                                        <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                                            <img className="chevronright" src={chevronright} alt="chevronright" />
+                                        </div>
+                                      </Link>
                       </div>
                     </div>
 

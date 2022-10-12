@@ -3,6 +3,9 @@ import '../../assets/css/Store/StoreDetail.css'
 import minus from '../../assets/icon/graw/minus-circle.svg'
 import plus from '../../assets/icon/graw/plus-circle.svg'
 import StoreRecoProduct from '../../components/Store/StoreRecoProduct'
+import StoreDetaImg from '../../assets/img/img9.JPG'
+import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
+
 
 function StoreDetail() {
     return (
@@ -12,7 +15,8 @@ function StoreDetail() {
                     <div className='StoreDetail_left'>
                         <div className='StoreDetail_left_top'>
                             <div className='StoreDetail_left_top_img'>
-                                Img
+                                 {/* <img className="StoreDetail_left_top_img_img" src={StoreDetailImg} alt="chevron" /> */}
+                                 <StoreItemDetailImg />
                             </div>
 
                             <div className='StoreDetail_left_top_Detail'>

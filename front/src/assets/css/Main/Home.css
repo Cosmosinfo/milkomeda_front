@@ -78,8 +78,32 @@ line-height: 30px;
     margin-top: 12px;
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
-    gap: 0 24px;
+    flex-wrap: wrap;
+    gap: 24px;
     overflow: hidden;
+}
+
+.hr-sects{
+  background: #8B8999;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  /* margin: 0px 44px 0px 0px; */
+  opacity: 20%;
+  margin: 12px 0;
+}
+
+.more_btn{
+  border: 0;
+  outline: 0;
+  background-color: #15141B;
+  display: flex;
+  align-items: center;
+  cursor:pointer;
+}
+
+.hr-sect_more{
+  color: #F3017F;
 }
 
 
@@ -89,9 +113,11 @@ line-height: 30px;
 	display: flex;
 	flex-basis: 100%;
 	align-items: center;
-	color: #F3017F;
+	
 	font-size: 14px;
 	margin: 12px 0;
+  
+  
 }
 
 .hr-sect:last-of-type{
@@ -131,6 +157,84 @@ line-height: 30px;
   width : 24px;
   height: 24px;
   margin-left: 12px;
+}
+
+
+/* ============================================================== */
+
+.home_Stage_Item{
+  /* width: 382px;
+  height: 240px; */
+}
+
+.home_stageCard {
+  flex: 1;
+  flex-basis: calc(25% - 24px);
+}
+
+.home_Stage_Top{
+  /* width: 386px; */
+  /* height: 218px; */
+  border-radius: 6px;
+  background-color: #191922;
+  aspect-ratio: 386/218;
+}
+
+.home_Stage_btm{
+  height : 46px;
+  
+  display: flex;
+  margin-top: 12px;
+}
+
+.home_Stage_btm_Left{
+  width: 46px;
+  height: 46px;
+  
+}
+
+.home_Stage_Artist_img{
+  width: 46px;
+  height: 46px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.home_Stage_btm_Right{
+  /* width: 90px; */
+  height: 40px;
+  margin-left: 12px;
+
+}
+
+.home_Stage_NameBox{
+  /* width : 93px; */
+  height : 21px;
+  
+  
+  
+}
+
+.home_Stage_NameBox_ArtistTitle{
+  /* width : 93px; */
+  /* width : 21px; */
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.home_Stage_NameBox_ArtistName_Box{
+  /* width : 93px; */
+  height : 21px;
+}
+
+
+.home_Stage_NameBox_ArtistName{
+  /* width : 93px;
+  width : 21px; */
+  font-size: 14px;
+  font-weight: 400;
+  color : #8b8999
 }
 
 

@@ -8,6 +8,7 @@ function StageCard() {
 
       <Link to="/StreamLive" className="link stageCard">
         <div className="Stage_Top">
+          
         </div>
 
         <div className="Stage_btm">
