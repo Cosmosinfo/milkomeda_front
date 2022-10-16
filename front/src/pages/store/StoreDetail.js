@@ -14,8 +14,8 @@ function StoreDetail() {
                     <div className='StoreDetail_left'>
                         <div className='StoreDetail_left_top'>
                             <div className='StoreDetail_left_top_img'>
-                                 {/* <img className="StoreDetail_left_top_img_img" src={StoreDetailImg} alt="chevron" /> */}
-                                 <StoreItemDetailImg />
+                                 <img className="StoreDetail_left_top_img_img" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" />
+                                 {/* <StoreItemDetailImg /> */}
                             </div>
 
                             <div className='StoreDetail_left_top_Detail'>

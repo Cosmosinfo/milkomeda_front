@@ -6,12 +6,13 @@ import chevron from '../../assets/icon/ping//chevron-down.svg'
 import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
 import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
-import StageCardData from '../../Data/StageCardDate'
+import StageCardData from "../../Data/StageCardData"
 
 
 function Home() {
   // eslint-disable-next-line
-  const [noOfElement, setnoOfElement] = useState(4) 
+  const [noOfElement, setnoOfElement] = useState(4)
+  const [noOfElement2, setnoOfElement2] = useState(4) 
   // const [moreBtn, setMoreBtn] = useState()
 
   // const [btnActive, setBtnActive] = useState("");
@@ -23,9 +24,15 @@ function Home() {
   // };
 
   const more = StageCardData.cardData.slice(0, noOfElement)
+  const more2 = StageCardData.cardData.slice(0, noOfElement2)
 
   function loadmore(){
     setnoOfElement(noOfElement + noOfElement)
+
+  }
+
+  function loadmore2(){
+    setnoOfElement2(noOfElement2 + noOfElement2)
 
   }
 
@@ -153,22 +160,68 @@ function Home() {
           </div>
 
           <div className="home_UpComingStage_Container">
-            <StageCard />
+          {more2.map((item, index)=>{
+              return(
+                <Link to="/StreamLive" className="link home_stageCard">
+                  <div className="home_Stage_Top">
+                     
+                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt=""  /> 
+                  </div>
+
+                  <div className="home_Stage_btm">
+                    <div className="home_Stage_btm_Left">
+
+                      <img src={item.img} className="home_Stage_Artist_img" alt="" />
+
+
+                    </div>
+                    <div className="home_Stage_btm_Right">
+
+                      <div className="home_Stage_NameBox">
+
+                        <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
+
+                      </div>
+                      <div className="home_Stage_NameBox_ArtistName_Box">
+
+                        <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              )
+          })}
+            {/* <StageCard />
 
             <StageCard />
 
             <StageCard />
 
-            <StageCard />
+            <StageCard /> */}
 
 
           </div>
         </div>
 
-        <div className="hr-sect">
-          더 보기
-          <img className="chevron" src={chevron} alt="chevron" />
-        </div>
+        {
+               <div className="hr-sect">
+            
+           
+            
+               <button
+                className="more_btn"
+                onClick={() =>loadmore2()}
+   
+               >
+                 
+                 <spen className="hr-sect_more">더 보기</spen>
+                 <img className="chevron" src={chevron} alt="chevron" />
+               </button>
+   
+               
+               
+             </div>
+          }
       </div>
     </div>
   )

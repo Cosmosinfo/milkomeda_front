@@ -19,7 +19,7 @@ function ArtistNameCard() {
 
               <div className="newArtistItemContainerNameBox">
 
-                <span className="newArtistItemContainerArtistName">아티스트</span>
+                <span className="newArtistItemContainerArtistName">러블레스(Lubless)</span>
 
               </div>
               <div className="newArtistItemContainerMusicGenreBox">

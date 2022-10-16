@@ -10,14 +10,16 @@ function ArtistMainCard() {
       <div className='ArtistMain_ContentItem'>
         <Link to="/artisthome" className="link artistMainCard">
           <div className='ArtistMain_ContentItemContainer'>
-            <div className='ArtistMain_ContentItemContainerTop'></div>
+            <div className='ArtistMain_ContentItemContainerTop'>
+              <img src="https://i.imgur.com/PWcLqjm.jpg" className="ArtistMain_ContentItemContainerTop_Img" alt=""  />
+            </div>
             <div className='ArtistMain_ContentItemContainerBtm'>
               <div className='ArtistMain_ContentItemContainerBtmArtistName'>
-                아티스트
+              Lubless Official
               </div>
 
               <div className='ArtistMain_ContentItemContainerBtmMusic'>
-                장르
+              Indie music
               </div>
             </div>
           </div>

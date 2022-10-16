@@ -8,7 +8,7 @@ function StageCard() {
 
       <Link to="/StreamLive" className="link stageCard">
         <div className="Stage_Top">
-          
+              <img className="Stage_Top_img" src="https://i.imgur.com/Vkuhwil.jpg" alt="" />
         </div>
 
         <div className="Stage_btm">
@@ -22,12 +22,12 @@ function StageCard() {
 
             <div className="Stage_NameBox">
 
-              <span className="Stage_NameBox_ArtistTitle">제목</span>
+              <span className="Stage_NameBox_ArtistTitle">I have gotta feelin like</span>
 
             </div>
             <div className="Stage_NameBox_ArtistName_Box">
 
-              <span className="Stage_NameBox_ArtistName">아티스트</span>
+              <span className="Stage_NameBox_ArtistName">러블레스(Lubless) X 투영(To.young)</span>
             </div>
           </div>
         </div>

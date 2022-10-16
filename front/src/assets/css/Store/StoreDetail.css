@@ -50,6 +50,11 @@
     aspect-ratio : 795/795;
   }
 
+  .StoreDetail_left_top_img_img{
+    width: 100%;
+    height: 100%;
+  }
+
   .StoreDetail_left_top_Detail{
     /* width: 384px; */
     flex: 1;

@@ -337,6 +337,7 @@ color: #FFFFFF;
 
 
   .StreamLive_Right{
+    height: 812px;
     border-radius: 6px;
     background-color: #191922;
     text-align: center;
@@ -416,7 +417,7 @@ color: #FFFFFF;
 
   .StreamLive_Right_middle{
     /* width:100%; */
-    height: 795px;
+    height: 670px;
     overflow: overlay;
   }
 

@@ -17,7 +17,7 @@ function StoreMain() {
                     </div>
 
                         <div className='StoreMain_banner_right'>
-                            banner
+                            <img className="StoreMain_banner_right_img" src="https://i.imgur.com/8kMJMvN.jpg" alt="" />
                         </div>
                     </div>
 
@@ -78,39 +78,7 @@ function StoreMain() {
 
                         <StoreCategory />
 
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
-
-                        <StoreCategory />
+                        
 
 
                     </div>

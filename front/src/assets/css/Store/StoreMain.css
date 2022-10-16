@@ -24,7 +24,7 @@
     /* width: 1070px;  */
     /* height: 100%; */
     border-radius: 6px;
-    background-color: #191922;
+    /* background-color: #191922; */
     flex: 2;
     margin-right: 24px;
     aspect-ratio: 1070/300;
@@ -35,9 +35,15 @@
     /* width: 524px;  */
     /* height: 100%; */
     border-radius: 6px;
-    background-color: #191922;
+    /* background-color: #191922; */
     flex: 1;
     /* aspect-ratio: 524/300; */
+  }
+
+  .StoreMain_banner_right_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px
   }
 
   .StoreMain_Category{

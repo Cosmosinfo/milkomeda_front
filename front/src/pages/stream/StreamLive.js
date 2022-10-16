@@ -6,7 +6,7 @@ import "../../assets/css/Stream/StreamLive.css"
 import Gift from '../../assets/icon/graw/gift.svg'
 import Smile from '../../assets/icon/graw/smile.svg'
 import Send from '../../assets/icon/ping/send.svg'
-// import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
+import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 import ReactPlayer from 'react-player'
 
 function StreamLive() {
@@ -81,7 +81,7 @@ function StreamLive() {
                             <div className="StreamLive_Title">
 
                                 <span className='StreamLive_Title_text'>
-                                    제목
+                                러블레스(Lubless) X 투영(To.young) - I've gotta feelin' like (Lyric video)
                                 </span>
 
 
@@ -122,7 +122,7 @@ function StreamLive() {
                                             </div>
                                             <div className="StreamLive_address_Container_Namebox_LocationAddr">
 
-                                                <span className="StreamLive_address_Container_Namebox_LocationAddr_text">공연 장소 주소</span>
+                                                <span className="StreamLive_address_Container_Namebox_LocationAddr_text">서울 마포구 잔다리로 32 서문빌딩 지하1층(왓챠홀)</span>
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +131,7 @@ function StreamLive() {
                                 <div className='StreamLive_Content_Info_Date'>
                                     <div className='StreamLive_Content_Info_Date_textBox'>
                                         <span className="StreamLive_Content_Info_Date_textBox_text">날짜 / 시간</span>
-                                        <span className="StreamLive_Content_Info_year_textBox_text">YYYY.MM.DD.Mon<br />18:00~19:00(KST/90mins)</span>
+                                        <span className="StreamLive_Content_Info_year_textBox_text">2022.12.05.Mon<br />18:00~19:00(KST/90mins)</span>
                                     </div>
                                 </div>
                                 {/* Streaming 아티스트 이름 */}
@@ -143,7 +143,7 @@ function StreamLive() {
                                                 <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
                                                 <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                    <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                                    <span className="StreamLive_Content_Info_ArtistName_contanier_text">Lubless</span>
                                                 </div>
 
 
@@ -226,9 +226,32 @@ function StreamLive() {
 
                             <div className="StreamLive_Content_Details">
                                 <div className='StreamLive_Content_Details_text'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br />
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br />
-                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit<br /> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br /> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                [I've gotta feelin' like]
+
+Dust in the air, blurred sight and it makes me feel like high
+
+music :  https://linksalad.net/US06go_3Wf
+
+PRODUCED BY BONGWOO, LENA, 투영
+COMPOSED BY BONGWOO, LENA, 투영
+LYRICS BY BONGWOO, LENA, 투영
+ARRANGED BY 투영
+
+VOCAL & CHORUS BY LENA
+DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
+
+RECORDED BY 오혜석 @MOL STUDIO
+MIXED BY 신유식, 투영
+MASTERED BY 강승희 @SONIC KOREA
+
+LYRIC VIDEO BY BONGWOO
+
+밴드 러블레스 Lubless
+"Lust bless you. Follow your heart."
+어딘가 고장 난 어른들을 위한 동화
+
+많은 성원 부탁 드립니다.
+감사합니다!
 
                                 </div>
                             </div>
@@ -258,7 +281,7 @@ function StreamLive() {
                                 </div>
 
 
-                            {/* <LiveMessageBox />
+                            
 
                                 <div className="StreamLive_Right_middle">
 
@@ -273,15 +296,14 @@ function StreamLive() {
                                     <LiveMessageBox />
 
                                     <LiveMessageBox />
+                                    
 
-                                    <LiveMessageBox />
-
-                                    <LiveMessageBox />
-
+                                    
 
 
 
-                            <LiveMessageBox /> */}
+
+                            
 
 
 
@@ -332,6 +354,7 @@ function StreamLive() {
                     </div>
                 </div>
             
+        </div>
         </>
     )
 }
