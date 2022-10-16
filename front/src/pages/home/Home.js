@@ -4,7 +4,7 @@ import '../../assets/css/Main/Home.css'
 import HomeBanner from "../../components/Carousel/HomeBanner"
 import chevron from '../../assets/icon/ping//chevron-down.svg'
 import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
-import StageCard from '../../components/StageCard/StageCard';
+// import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 import StageCardData from "../../Data/StageCardData"
 
