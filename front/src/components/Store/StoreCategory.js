@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './StoreCategory.css'
 import { Link } from "react-router-dom";
 // import StoreItemImg from '../Carousel/StoreItemImg';
@@ -7,8 +7,8 @@ import StoreCardData from "../../Data/StoreCardData"
 
 
 function StoreCategory() {
-    const [storeitemCard, setStoreitemCard] = useState(6)
-    const more = StoreCardData.cardData.slice(0, storeitemCard)
+    // const [storeitemCard, setStoreitemCard] = useState(6)
+    // const more = StoreCardData.cardData.slice(0, storeitemCard)
     return (
         <>
 
