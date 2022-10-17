@@ -22,7 +22,7 @@
     height: 100%;
     overflow: overlay;
     margin-right: 24px;
-    padding-right: 410px;
+    flex: 2.85;
   }
 
   /* .StreamLive_left::-webkit-scrollbar {
@@ -339,8 +339,9 @@ color: #FFFFFF;
 /* =============================== StreamLive Chat  ============================== */
 
 .StreamLive_Right_Wrapper{
-  position: fixed;
-    left: 77%;
-}
+   /* position: fixed;
+    left: 77%; */
+    flex: 1;
+} 
 
   
