@@ -10,8 +10,11 @@
     height: 100%;
    
     padding: 30px 30px;
-    display: flex;
     
+    
+  }
+  .StreamLive_Wrapper_container{
+    display: flex;
   }
 
   .StreamLive_left{
@@ -19,6 +22,7 @@
     height: 100%;
     overflow: overlay;
     margin-right: 24px;
+    padding-right: 410px;
   }
 
   /* .StreamLive_left::-webkit-scrollbar {
@@ -334,143 +338,9 @@ color: #FFFFFF;
   
 /* =============================== StreamLive Chat  ============================== */
 
-
-
-  .StreamLive_Right{
-    height: 812px;
-    border-radius: 6px;
-    background-color: #191922;
-    text-align: center;
-    flex: 1;
-    padding: 24px 36px;
-  }
-
-  .StreamLive_Right_Wrapper{
-    height : 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    
-    
-  }
-
-  .StreamLive_Right_flexbox{
-
-  }
-
- 
-
-  .StreamLive_Right_top{
-    /* width: 308px; */
-    height: 42px;
-
-    margin-bottom: 12px;
-  }
-
-
-
-  .StreamLive_ChatBtn{
-  /* width: 308px;
-  height: 42px; */
-
-  background: #15141B;
-  border-radius: 100px;
-  
-  }
-
-  .StreamLive_ChatBtn_LiveChat{
-    /* width: 154px;  */
-    height: 42px;
-    display: flex;
-    /* display: -webkit-box; */
-    /* background: #F3017F; */
-    border-radius: 100px;
-    align-items: center;
-  }
-
-  .StreamLive_ChatBtn_LiveChat_text{
-    font-style: normal;
-    padding: 10px 40px 10px 40px;
-    border-radius: 100px;
-    background: #F3017F;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    flex: 1;
-  }
-
-  .StreamLive_ChatBtn_Comment_text{
-    /* width: 81px;  */
-    /* height: 22px; */
-    padding: 10px 37px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    flex: 1;
-  }
-
-  .StreamLive_Right_middle{
-    /* width:100%; */
-    height: 670px;
-    overflow: overlay;
-  }
-
-  /* .StreamLive_Right_middle::-webkit-scrollbar{
-    display: none;
-  } */
-
- 
+.StreamLive_Right_Wrapper{
+  position: fixed;
+    left: 77%;
+}
 
   
-
-  .StreamLive_MessageBox{
-    /* width: 100%; */
-    /* height: 80px; */
-
-    
-    background: #191922;
-  }
-
-
-  .StreamLive_MessageBox_textContainer{
-    
-    /* height: 20px; */
-    display: flex;
-    padding: 4px 4px;
-  }
-
-  .StreamLive_MessageBox_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    flex: 1;
-    line-height: 20px;
-    color: #ffffff;
-    background-color: #191922;
-    border: none;
-  }
-
-  .StreamLive_MessageBox_IconContainer{
-
-    display: flex;
-    align-items:flex-end;
-    margin-left: 6px;
-  }
-
-  .StreamLive_MessageBox_IconContainer_Icon{
-    width : 20px;
-    height: 20px;
-
-    margin-right: 16px;
-    /* vertical-align: middle; */
-  }
-
-  .StreamLive_MessageBox_IconContainer_Icon:last-of-type{
-    margin: 0;
-  }
