@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import LiveMessageBox from '../LiveMessageBox/LiveMessageBox'
 import Gift from '../../assets/icon/graw/gift.svg'
 import Smile from '../../assets/icon/graw/smile.svg'
@@ -6,6 +6,16 @@ import Send from '../../assets/icon/ping/send.svg'
 import './StreamChatBox.css'
 
 function StreamChatBox() {
+    const data = ['채팅','댓글'];
+
+    const [btnActive, setBtnActive] = useState("");
+
+    const toggleActive = (e) => {
+        setBtnActive((prev) => {
+        return e.target.value;
+        });
+
+    }
     const MIN_TEXTAREA_HEIGHT = 20;
 
     const textareaRef = React.useRef(null);
@@ -47,8 +57,19 @@ function StreamChatBox() {
                                 <div className='StreamChatBox_Right_top'>
                                     <div className='StreamChatBox_ChatBtn'>
                                         <div className='StreamChatBox_ChatBtn_LiveChat'>
-                                            <div className="StreamChatBox_ChatBtn_LiveChat_text">채팅</div>
-                                            <div className="StreamChatBox_ChatBtn_Comment_text">댓글</div>
+                                        {data.map((item, idx) => {
+                                                return (
+                                                <>
+                                                    <button
+                                                    value={idx}
+                                                    className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")}
+                                                    onClick={toggleActive}
+                                                    >
+                                                    {item}
+                                                    </button>
+                                                </>
+                                                );
+                                            })}
                                         </div>
                                     </div>
                                 </div>

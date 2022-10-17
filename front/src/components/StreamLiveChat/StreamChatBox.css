@@ -61,30 +61,44 @@
     align-items: center;
   }
 
-  .StreamChatBox_ChatBtn_LiveChat_text{
+  .StreamChatBox_ChatBtn_text{
     font-style: normal;
     padding: 10px 40px 10px 40px;
     border-radius: 100px;
-    background: #F3017F;
+    /* background: #F3017F; */
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
     flex: 1;
+    
+    border: none;
+    background: none;
+   
+  }
+
+  .StreamChatBox_ChatBtn_text.active{
+    background: #F3017F;
   }
 
   .StreamChatBox_ChatBtn_Comment_text{
     /* width: 81px;  */
     /* height: 22px; */
     padding: 10px 37px;
+    border-radius: 100px;
     font-style: normal;
+    /* background: #F3017F; */
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
     flex: 1;
+    
+    border: none;
+    background: none;
+    
   }
 
   .StreamChatBox_Right_middle{
