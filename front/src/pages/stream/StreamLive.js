@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Share from '../../assets/icon/graw/share-2.svg'
 import Report from '../../assets/icon/graw/alert-triangle.svg'
 import "../../assets/css/Stream/StreamLive.css"
-import Gift from '../../assets/icon/graw/gift.svg'
-import Smile from '../../assets/icon/graw/smile.svg'
-import Send from '../../assets/icon/ping/send.svg'
-import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
+// import Gift from '../../assets/icon/graw/gift.svg'
+// import Smile from '../../assets/icon/graw/smile.svg'
+// import Send from '../../assets/icon/ping/send.svg'
+// import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 import ReactPlayer from 'react-player'
 import StreamChatBox from '../../components/StreamLiveChat/StreamChatBox'
 

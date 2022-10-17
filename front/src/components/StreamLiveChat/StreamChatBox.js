@@ -62,7 +62,7 @@ function StreamChatBox() {
                                                 <>
                                                     <button
                                                     value={idx}
-                                                    className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")}
+                                                    className={"StreamChatBox_ChatBtn_text" + (idx === btnActive ? " active" : "")}
                                                     onClick={toggleActive}
                                                     >
                                                     {item}
