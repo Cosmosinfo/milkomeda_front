@@ -45,17 +45,17 @@ function StreamLive() {
                     <div className="StreamLive_left">
                         {/* Streaming 라이브 뷰 */}
                         <div className="StreamLive_LiveView">
-                        <ReactPlayer
-                            className='player'
-                            url='https:www.youtube.com/watch?v=R3b4gX7mA78'
-                            width='100%'
-                            height='100%'
-                            playing={true}
-                            muted={true}
-                            controls={true}
-                        />
-                           
-                           
+                            <ReactPlayer
+                                className='player'
+                                url='https:www.youtube.com/watch?v=R3b4gX7mA78'
+                                width='100%'
+                                height='100%'
+                                playing={true}
+                                muted={true}
+                                controls={true}
+                            />
+
+
                             {/* <YouTube
                                 videoId="R3b4gX7mA78"
                                 //opts(옵션들): 플레이어의 크기나 다양한 플레이어 매개 변수를 사용할 수 있음.
@@ -81,7 +81,7 @@ function StreamLive() {
                             <div className="StreamLive_Title">
 
                                 <span className='StreamLive_Title_text'>
-                                러블레스(Lubless) X 투영(To.young) - I've gotta feelin' like (Lyric video)
+                                    러블레스(Lubless) X 투영(To.young) - I've gotta feelin' like (Lyric video)
                                 </span>
 
 
@@ -226,32 +226,32 @@ function StreamLive() {
 
                             <div className="StreamLive_Content_Details">
                                 <div className='StreamLive_Content_Details_text'>
-                                [I've gotta feelin' like]
+                                    [I've gotta feelin' like]
 
-Dust in the air, blurred sight and it makes me feel like high
+                                    Dust in the air, blurred sight and it makes me feel like high
 
-music :  https://linksalad.net/US06go_3Wf
+                                    music :  https://linksalad.net/US06go_3Wf
 
-PRODUCED BY BONGWOO, LENA, 투영
-COMPOSED BY BONGWOO, LENA, 투영
-LYRICS BY BONGWOO, LENA, 투영
-ARRANGED BY 투영
+                                    PRODUCED BY BONGWOO, LENA, 투영
+                                    COMPOSED BY BONGWOO, LENA, 투영
+                                    LYRICS BY BONGWOO, LENA, 투영
+                                    ARRANGED BY 투영
 
-VOCAL & CHORUS BY LENA
-DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
+                                    VOCAL & CHORUS BY LENA
+                                    DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
 
-RECORDED BY 오혜석 @MOL STUDIO
-MIXED BY 신유식, 투영
-MASTERED BY 강승희 @SONIC KOREA
+                                    RECORDED BY 오혜석 @MOL STUDIO
+                                    MIXED BY 신유식, 투영
+                                    MASTERED BY 강승희 @SONIC KOREA
 
-LYRIC VIDEO BY BONGWOO
+                                    LYRIC VIDEO BY BONGWOO
 
-밴드 러블레스 Lubless
-"Lust bless you. Follow your heart."
-어딘가 고장 난 어른들을 위한 동화
+                                    밴드 러블레스 Lubless
+                                    "Lust bless you. Follow your heart."
+                                    어딘가 고장 난 어른들을 위한 동화
 
-많은 성원 부탁 드립니다.
-감사합니다!
+                                    많은 성원 부탁 드립니다.
+                                    감사합니다!
 
                                 </div>
                             </div>
@@ -281,7 +281,7 @@ LYRIC VIDEO BY BONGWOO
                                 </div>
 
 
-                            
+
 
                                 <div className="StreamLive_Right_middle">
 
@@ -296,14 +296,14 @@ LYRIC VIDEO BY BONGWOO
                                     <LiveMessageBox />
 
                                     <LiveMessageBox />
-                                    
-
-                                    
 
 
 
 
-                            
+
+
+
+
 
 
 
@@ -353,8 +353,8 @@ LYRIC VIDEO BY BONGWOO
 
                     </div>
                 </div>
-            
-        </div>
+
+            </div>
         </>
     )
 }
