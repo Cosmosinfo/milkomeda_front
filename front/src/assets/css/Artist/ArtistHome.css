@@ -86,7 +86,7 @@
 
 .AritstHome_Rh_btm_topcard{
    
-    height: 235px;
+    /* height: 235px; */
     display: flex;
     gap: 24px;
 }

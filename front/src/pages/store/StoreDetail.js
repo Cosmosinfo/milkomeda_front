@@ -22,13 +22,13 @@ function StoreDetail() {
                                 <div className='StoreDetail_left_top_Detail_titleBox'>
 
                                     <div className='StoreDetail_left_top_Detail_titleBox_top'>
-                                        <span className='StoreDetail_left_top_Detail_titleBox_ArtistName'>아티스트</span>
-                                        <span className='StoreDetail_left_top_Detail_titleBox_Text'>제품명</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_ArtistName'>SYLK</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_Text'>Signet Ring Art Class</span>
                                     </div>
 
                                     <div className='StoreDetail_left_top_Detail_titleBox_btm'>
-                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 10,000</span>
-                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money_line'>₩ 10,000</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 100,000</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money_line'>₩ 100,000</span>
                                     </div>
 
                                 </div>
@@ -51,7 +51,7 @@ function StoreDetail() {
                                         </div>
 
                                         <div className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox'>
-                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text'>₩ 10,000</span>
+                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text'>₩ 100,000</span>
 
                                             <div className="StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_Icon">
                                                 <img className="StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_minusIcon" src={minus} alt="minus" />
@@ -65,7 +65,7 @@ function StoreDetail() {
 
                                 <div className='StoreDetail_left_top_Detail_TotalBox'>
                                     <span className='StoreDetail_left_top_Detail_TotalBox_Total'>Total</span>
-                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩ 10,000</span>
+                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩ 100,000</span>
                                 </div>
 
                                 <div className='StoreDetail_left_top_Detail_BuyBox'>

@@ -30,15 +30,15 @@
 }
 
 .next {
-  right: 0;
+  right: 15px;
   border-radius: 3px 0 0 3px;
 }
 .prev {
-  left: 0;
+  left: 15px;
   border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover {
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* Caption text */

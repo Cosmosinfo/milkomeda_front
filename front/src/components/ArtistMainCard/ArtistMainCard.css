@@ -36,9 +36,9 @@
 
 .ArtistMain_ContentItemContainerBtm{
     
-    height: 21px;
+    /* height: 21px; */
 
-    margin-top: 24px;
+    margin-top: 12px;
 }
 
 .ArtistMain_ContentItemContainerBtmArtistName{

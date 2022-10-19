@@ -243,15 +243,16 @@ color: #FFFFFF;
     display: flex;
 
     margin: 24px 0;
+    justify-content: space-between;
   }
 
   .StoreDetail_left_top_Detail_TotalBox_Total{
-    width: 40px;
+    /* width: 40px; */
     height: 100%;
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
 
 
 
@@ -259,7 +260,7 @@ color: #FFFFFF;
   }
 
   .StoreDetail_left_top_Detail_TotalBox_TotalMoney{
-    width: 92px;
+    /* width: 92px; */
     height: 100%;
     font-style: normal;
 font-weight: 500;
