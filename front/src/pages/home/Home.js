@@ -128,7 +128,7 @@ function Home() {
 
           </div>
         </div>
-          {
+          
                <div className="hr-sect">
             
            
@@ -145,8 +145,8 @@ function Home() {
    
                
                
-             </div>
-          }
+              </div>
+          
          
         
 
@@ -203,7 +203,7 @@ function Home() {
           </div>
         </div>
 
-        {
+        
                <div className="hr-sect">
             
            
@@ -220,8 +220,8 @@ function Home() {
    
                
                
-             </div>
-          }
+              </div>
+          
       </div>
     </div>
   )
