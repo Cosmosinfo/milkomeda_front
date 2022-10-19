@@ -42,7 +42,8 @@ function StoreMain() {
                                                 <>
                                                     <button
                                                     value={idx}
-                                                    className={"StreamChatBox_ChatBtn_text" + (idx === btnActive ? " active" : "")}
+                                                    // eslint-disable-next-line
+                                                    className={"StoreMain_Category_Item" + (idx == btnActive ? " active" : "")}
                                                     onClick={toggleActive}
                                                     >
                                                     {item}

@@ -62,7 +62,8 @@ function StreamChatBox() {
                                                 <>
                                                     <button
                                                     value={idx}
-                                                    className={"StreamChatBox_ChatBtn_text" + (idx === btnActive ? " active" : "")}
+                                                    // eslint-disable-next-line
+                                                    className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")} 
                                                     onClick={toggleActive}
                                                     >
                                                     {item}
