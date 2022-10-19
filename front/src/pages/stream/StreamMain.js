@@ -33,7 +33,7 @@ function StreamMain() {
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
                                 <div className='Stream_LiveStage_filter_text'>
-                                    Sort
+                                    정렬
                                 </div>
 
                             </div>

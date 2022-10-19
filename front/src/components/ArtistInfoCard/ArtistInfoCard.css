@@ -101,6 +101,8 @@
     height: 40px;
     background: #15141B;
     border-radius: 3px;
+    border: none;
+    cursor: pointer;
 }
 
 .ArtistSnsIcon{

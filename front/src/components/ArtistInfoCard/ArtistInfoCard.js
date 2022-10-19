@@ -8,6 +8,11 @@ import Global from '../../assets/icon/graw/globe-w.svg'
 
 
 function ArtistInfoCard() {
+  const In = "https://www.instagram.com/lubless_official/"
+  const Fb = "https://www.facebook.com/LublessOfficial/"
+  const Tw = "https://twitter.com/lublessofficial"
+  const Yt = "https://www.youtube.com/c/Lublessofficial"
+  const Gb = "https://www.lublessofficial.com/"
   return (
     <>
       <div className='ArtistInfoCard_Lf'>
@@ -25,25 +30,35 @@ function ArtistInfoCard() {
             </div>
 
             <div className='ArtistInfoCard_ArtistSnsBox'>
-              <div className='ArtistInfoCard_ArtistSns'>
-                <img className="ArtistSnsIcon" src={Instagram} alt="Instargram" />
-              </div>
+              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(In)}}>
+                
+                <img  className="ArtistSnsIcon" src={Instagram} alt="Instargram" />
+                
+              </button>
 
-              <div className='ArtistInfoCard_ArtistSns'>
-                <img className="ArtistSnsIcon" src={Facebook} alt="Instargram" />
-              </div>
+              
+              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Fb)}}>
+                <img className="ArtistSnsIcon" src={Facebook} alt="Facebook" ></img>
+              </button>
+              
 
-              <div className='ArtistInfoCard_ArtistSns'>
-                <img className="ArtistSnsIcon" src={Twitter} alt="Instargram" />
-              </div>
+              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Tw)}}>
+                
+                <img  className="ArtistSnsIcon" src={Twitter} alt="Twitter" />
+                
+              </button>
 
-              <div className='ArtistInfoCard_ArtistSns'>
-                <img className="ArtistSnsIcon" src={Youtube} alt="Instargram" />
-              </div>
+              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Yt)}}>
+                
+                <img className="ArtistSnsIcon" src={Youtube} alt="Youtube" />
+                
+              </button>
 
-              <div className='ArtistInfoCard_ArtistSns'>
-                <img className="ArtistSnsIcon" src={Global} alt="Instargram" />
-              </div>
+              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Gb)}}>
+                
+                <img className="ArtistSnsIcon" src={Global} alt="Global" />
+                
+              </button>
 
 
             </div>

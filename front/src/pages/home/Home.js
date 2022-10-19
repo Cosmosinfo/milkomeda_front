@@ -36,20 +36,85 @@ function Home() {
 
   }
 
-  // function Btnchevron() {
+  function Btnchevron() {
     
 
-  //   if ((loadmore() === false)) {
-  //     return <div className="hr-sect"><button className="more_btn" onClick={() =>loadmore()}><spen className="hr-sect_more">더 보기</spen><img className="chevron" src={chevron} alt="chevron" /></button>
+    if (noOfElement > 4) {
+      
+      return <div className="hr-sects"> </div>
 
       
       
-  //   </div>
-  //   } else {
-  //     return <div className="hr-sects"> </div>
+    
+    } else {
+      return <div className="show-more">
+               
+            
+      <div className="hr-left"></div>
+    
+      <div className="hr-middle">
+          <button
+            className="more_btn"
+            onClick={() =>loadmore()}
 
-  //   }
-  // }
+          >
+            
+            <spen className="hr-sect_more">더 보기</spen>
+            <img className="chevron" src={chevron} alt="chevron" />
+          </button>
+      </div>
+      
+       
+
+      <div className="hr-right"></div>
+
+       
+       
+       
+    </div>
+
+    }
+  }
+
+  function Btnchevron2() {
+    
+
+    if (noOfElement2 > 4) {
+      
+      return <div className="hr-sects2"> </div>
+
+      
+      
+    
+    } else {
+      return <div className="show-more">
+               
+            
+      <div className="hr-left"></div>
+    
+      <div className="hr-middle">
+          <button
+            className="more_btn"
+            onClick={() =>loadmore2()}
+
+          >
+            
+            <spen className="hr-sect_more">더 보기</spen>
+            <img className="chevron" src={chevron} alt="chevron" />
+          </button>
+      </div>
+      
+       
+
+      <div className="hr-right"></div>
+
+       
+       
+       
+    </div>
+
+    }
+  }
   return (
 
 
@@ -129,28 +194,11 @@ function Home() {
           </div>
         </div>
           
-               <div className="hr-sect">
             
-           
-            
-               <button
-                className="more_btn"
-                onClick={() =>loadmore()}
-   
-               >
-                 
-                 <spen className="hr-sect_more">더 보기</spen>
-                 <img className="chevron" src={chevron} alt="chevron" />
-               </button>
-   
-               
-               
-              </div>
-          
          
-        
+         {Btnchevron()}
 
-          {/* <div className="hr-sects"> </div> */}
+          
 
         {/* ====================  Upcoming Stage  ======================== */}
 
@@ -191,36 +239,14 @@ function Home() {
                 </Link>
               )
           })}
-            {/* <StageCard />
-
-            <StageCard />
-
-            <StageCard />
-
-            <StageCard /> */}
+            
 
 
           </div>
         </div>
 
         
-               <div className="hr-sect">
-            
-           
-            
-               <button
-                className="more_btn"
-                onClick={() =>loadmore2()}
-   
-               >
-                 
-                 <spen className="hr-sect_more">더 보기</spen>
-                 <img className="chevron" src={chevron} alt="chevron" />
-               </button>
-   
-               
-               
-              </div>
+        {Btnchevron2()}
           
       </div>
     </div>
