@@ -1,23 +1,24 @@
 .StreamChatBox_Right_Container{
-    position: fixed;
+  /* position: fixed;  */
+  height: 90%;
+  display: flex;
+    flex-direction: column;
 
 }
 
-.StreamChatBox_Right{
+.StreamChatBox_Right_topbox{
     height: 812px;
     border-radius: 6px;
     background-color: #191922;
     text-align: center;
     flex: 1;
-    padding: 24px 36px;
+    padding: 24px 36px 0 36px;
     aspect-ratio: 344/812;
   }
 
-  .StreamChatBox_Right_Wrapper{
-    
-  }
+  
 
-  .StreamChatBox_Right_container{
+  .StreamChatBox_Right_topbox_container{
     height : 100%;
     display: flex;
     flex-direction: column;
@@ -111,6 +112,11 @@
     display: none;
   } */
 
+
+  .StreamChatBox_Right_btmbox{
+    background: #D1CAFF;
+    border-radius: 6px;
+  }
  
 
   
@@ -118,9 +124,9 @@
   .StreamChatBox_MessageBox{
     /* width: 100%; */
     /* height: 80px; */
-
+    padding: 6px 6px;
     
-    background: #191922;
+    /* background: #191922; */
   }
 
 
@@ -128,7 +134,7 @@
     
     /* height: 20px; */
     display: flex;
-    padding: 4px 4px;
+    /* padding: 4px 4px; */
   }
 
   .StreamChatBox_MessageBox_text{
@@ -138,7 +144,7 @@
     flex: 1;
     line-height: 20px;
     color: #ffffff;
-    background-color: #191922;
+    background-color: #D1CAFF;;
     border: none;
   }
 

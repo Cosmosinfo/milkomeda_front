@@ -46,51 +46,70 @@ function StreamChatBox() {
 
     <>
                     <div className="StreamChatBox_Right_Container">
-                    <div className="StreamChatBox_Right">
-                        <div className='StreamChatBox_Right_container'>
+                        
+                            <div className="StreamChatBox_Right_topbox">
+                                <div className='StreamChatBox_Right_topbox_container'>
 
 
 
 
 
-                            <div className='StreamChatBox_Right_flexbox'>
-                                <div className='StreamChatBox_Right_top'>
-                                    <div className='StreamChatBox_ChatBtn'>
-                                        <div className='StreamChatBox_ChatBtn_LiveChat'>
-                                        {data.map((item, idx) => {
-                                                return (
-                                                <>
-                                                    <button
-                                                    value={idx}
-                                                    // eslint-disable-next-line
-                                                    className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")} 
-                                                    onClick={toggleActive}
-                                                    >
-                                                    {item}
-                                                    </button>
-                                                </>
-                                                );
-                                            })}
+                                    <div className='StreamChatBox_Right_flexbox'>
+                                        <div className='StreamChatBox_Right_top'>
+                                            <div className='StreamChatBox_ChatBtn'>
+                                                <div className='StreamChatBox_ChatBtn_LiveChat'>
+                                                {data.map((item, idx) => {
+                                                        return (
+                                                        <>
+                                                            <button
+                                                            value={idx}
+                                                            // eslint-disable-next-line
+                                                            className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")} 
+                                                            onClick={toggleActive}
+                                                            >
+                                                            {item}
+                                                            </button>
+                                                        </>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
                                         </div>
+
+
+
+
+                                        <div className="StreamChatBox_Right_middle">
+
+                                            <LiveMessageBox />
+
+                                            <LiveMessageBox />
+
+                                            <LiveMessageBox />
+
+                                            <LiveMessageBox />
+
+                                            <LiveMessageBox />
+
+                                            <LiveMessageBox />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        </div>
+
                                     </div>
-                                </div>
-
-
-
-
-                                <div className="StreamChatBox_Right_middle">
-
-                                    <LiveMessageBox />
-
-                                    <LiveMessageBox />
-
-                                    <LiveMessageBox />
-
-                                    <LiveMessageBox />
-
-                                    <LiveMessageBox />
-
-                                    <LiveMessageBox />
 
 
 
@@ -98,55 +117,46 @@ function StreamChatBox() {
 
 
 
-
-
-
+                                    
 
 
 
 
 
                                 </div>
+
+                                
 
                             </div>
 
+                            <div className="StreamChatBox_Right_btmbox">
+                                    <div className='StreamChatBox_MessageBox'>
 
+                                        <div className='StreamChatBox_MessageBox_textContainer'>
 
+                                            <textarea
+                                                className="StreamChatBox_MessageBox_text"
+                                                onChange={onChange}
+                                                ref={textareaRef}
+                                                style={{
+                                                    minHeight: MIN_TEXTAREA_HEIGHT,
+                                                    resize: "none",
+                                                    height: MIN_TEXTAREA_HEIGHT
+                                                }}
+                                                value={value}
+                                                placeholder="메세지를 입력해주세요"
+                                            />
+                                            <div className="StreamChatBox_MessageBox_IconContainer">
+                                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
+                                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Smile} alt="Share" />
+                                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Send} alt="Share" />
+                                            </div>
+                                        </div>
+                                        </div>
 
-
-
-
-                            <div className='StreamChatBox_MessageBox'>
-
-                                <div className='StreamChatBox_MessageBox_textContainer'>
-
-                                    <textarea
-                                        className="StreamChatBox_MessageBox_text"
-                                        onChange={onChange}
-                                        ref={textareaRef}
-                                        style={{
-                                            minHeight: MIN_TEXTAREA_HEIGHT,
-                                            resize: "none",
-                                            height: MIN_TEXTAREA_HEIGHT
-                                        }}
-                                        value={value}
-                                        placeholder="메세지를 입력해주세요"
-                                    />
-                                    <div className="StreamChatBox_MessageBox_IconContainer">
-                                        <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
-                                        <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Smile} alt="Share" />
-                                        <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Send} alt="Share" />
-                                    </div>
-                                </div>
                             </div>
-
-
-
-
-
-                        </div>
-
-                    </div>
+                        
+                        
                     </div>
 
     
