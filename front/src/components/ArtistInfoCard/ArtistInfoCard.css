@@ -1,12 +1,10 @@
 
 .ArtistInfoCard_Lf{
-    /* width: 384px;
-    height: 100%; */
-
     background: #191922;
+    /* height: 100%; */
     border-radius: 10px;
-
-   flex: 1;
+    padding: 24px 32px;
+    flex: 1 1;
 }
 
 .ArtistInfoCard_Lf_Wrapper{

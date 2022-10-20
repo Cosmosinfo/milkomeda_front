@@ -18,9 +18,9 @@ function ArtistInfoCard() {
       <div className='ArtistInfoCard_Lf'>
 
         <div className='ArtistInfoCard_Lf_Wrapper'>
-          <div className='ArtistInfoCard_top'>
+          {/* <div className='ArtistInfoCard_top'>
             <div className='ArtistInfoCard_ArtistImg'>
-              <img src="https://i.imgur.com/PWcLqjm.jpg" className="ArtistInfoCard_ArtistImg_img" alt=""  />
+              <img src="https://i.imgur.com/PWcLqjm.jpg" className="ArtistInfoCard_ArtistImg_img" alt="" />
             </div>
 
             <div className='ArtistInfoCard_ArtistNameBox'>
@@ -30,34 +30,34 @@ function ArtistInfoCard() {
             </div>
 
             <div className='ArtistInfoCard_ArtistSnsBox'>
-              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(In)}}>
-                
-                <img  className="ArtistSnsIcon" src={Instagram} alt="Instargram" />
-                
+              <button className='ArtistInfoCard_ArtistSns' onClick={() => { window.open(In) }}>
+
+                <img className="ArtistSnsIcon" src={Instagram} alt="Instargram" />
+
               </button>
 
-              
-              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Fb)}}>
+
+              <button className='ArtistInfoCard_ArtistSns' onClick={() => { window.open(Fb) }}>
                 <img className="ArtistSnsIcon" src={Facebook} alt="Facebook" ></img>
               </button>
-              
 
-              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Tw)}}>
-                
-                <img  className="ArtistSnsIcon" src={Twitter} alt="Twitter" />
-                
+
+              <button className='ArtistInfoCard_ArtistSns' onClick={() => { window.open(Tw) }}>
+
+                <img className="ArtistSnsIcon" src={Twitter} alt="Twitter" />
+
               </button>
 
-              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Yt)}}>
-                
+              <button className='ArtistInfoCard_ArtistSns' onClick={() => { window.open(Yt) }}>
+
                 <img className="ArtistSnsIcon" src={Youtube} alt="Youtube" />
-                
+
               </button>
 
-              <button className='ArtistInfoCard_ArtistSns'  onClick={()=>{window.open(Gb)}}>
-                
+              <button className='ArtistInfoCard_ArtistSns' onClick={() => { window.open(Gb) }}>
+
                 <img className="ArtistSnsIcon" src={Global} alt="Global" />
-                
+
               </button>
 
 
@@ -73,19 +73,19 @@ function ArtistInfoCard() {
             <div className='ArtistInfoCard_Artist_Line'></div>
 
             <div className='ArtistInfoCard_Artistdescription'>
-            𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥 고장 난 어른들의 동화를 노래하는 밴드 러블레스
+              𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥 고장 난 어른들의 동화를 노래하는 밴드 러블레스
             </div>
-          </div>
+          </div> */}
 
           {/* <div className='ArtistInfoCard_btm'>
-        <div className='ArtistInfoCard_ArtistMetaBox'>
-    <div className='ArtistInfoCard_ArtistMetaText'>
-    아티스트 메타버스로 이동하기
-    </div>
-  </div>
+            <div className='ArtistInfoCard_ArtistMetaBox'>
+              <div className='ArtistInfoCard_ArtistMetaText'>
+                아티스트 메타버스로 이동하기
+              </div>
+            </div>
 
- 
-        </div> */}
+
+          </div> */}
 
 
         </div>
