@@ -172,5 +172,8 @@
 }
 
 .ArtistPost_Rh_btm_top_itembox_rh_text{
-
+    width: 493px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
