@@ -74,6 +74,7 @@
   /* padding-left: 200px; */
   justify-content: flex-end;
   padding-right: 30px;
+  
 }
 
 .Light{
@@ -90,6 +91,7 @@
   color: #ffff;
   align-items: center;
   padding-left: 24px;
+  cursor: pointer;
 }
 
 .bell{
@@ -98,6 +100,7 @@
   color: #ffff;
   align-items: center;
   padding-left: 24px;
+  cursor: pointer;
 }
 
 .hexagon{
@@ -106,6 +109,7 @@
   color: #ffff;
   align-items: center;
   padding-left: 24px;
+  cursor: pointer;
 }
 
 .Avatar_logo{
@@ -115,6 +119,7 @@
   margin-left: 20px;
   background: #8B8999;
   border:none;
+  cursor: pointer;
 }
 
 .mypage_btn{
