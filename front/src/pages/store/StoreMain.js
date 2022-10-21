@@ -1,12 +1,17 @@
-import React, {useState} from 'react'
+import { React, useState, useRef, useEffect } from "react";
 import '../../assets/css/Store/StoreMain.css'
 import filter from '../../assets/icon/graw/filter.svg'
 import StoreCategory from '../../components/Store/StoreCategory'
 import StoreBanner from '../../components/Carousel/StoreBanner'
+import StoreSort from '../../components/Popup/StoreSort'
 
 function StoreMain() {
     const data = ['카테고리','카테고리','카테고리','카테고리','카테고리','카테고리'];
+    
+    const dropdownRef = useRef(null);
+    const curRef = useRef(true);
 
+    const [openstSort, setOpenstSort] = useState(false);
     const [btnActive, setBtnActive] = useState("");
 
     const toggleActive = (e) => {
@@ -15,6 +20,39 @@ function StoreMain() {
         });
 
     }
+
+    
+
+    useEffect(() => {
+        console.log('useEffect')
+        const pageClickEvent = (e) => {
+          if (curRef.current) {
+            curRef.current = false;
+            return;
+          } else {
+            curRef.current = true;
+          }
+    
+          // If the active element exists and is clicked outside of
+          if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+            setOpenstSort(!openstSort);
+    
+          }
+        };
+    
+        // If the item is active (ie open) then listen for clicks
+        if (openstSort) {
+          window.addEventListener('click', pageClickEvent);
+        }
+        return () => {
+          window.removeEventListener('click', pageClickEvent);
+        }
+    
+    
+    
+    
+    
+      }, [openstSort]);
 
 
   return (
@@ -86,7 +124,19 @@ function StoreMain() {
 
                                 <div className="StoreMain_Category_filter">
                                     <img className="StoreMain_Category_filterIcon" src={filter} alt="filter" />
-                                    <span className="StoreMain_Category_filter_text">정렬</span>
+                                    {/* <span className="StoreMain_Category_filter_text">정렬</span> */}
+                                    <button className='StoreMain_Category_filter_text' onClick={() => {
+                                    setOpenstSort(!openstSort)
+                                    curRef.current = true;}}>
+                                    정렬
+                                </button>
+
+                                <nav
+                                        ref={dropdownRef}
+                                        className={`Store_menus ${openstSort ? "active" : "inactive"}`}
+                                        >
+                                        <StoreSort />
+                                </nav>
                                 </div>
 
                            

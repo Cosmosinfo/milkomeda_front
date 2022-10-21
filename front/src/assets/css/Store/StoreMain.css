@@ -139,6 +139,9 @@
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
+
+    border: none;
+    background: none;
   }
 
   .StoreMain_Content{
@@ -153,3 +156,24 @@
  /* .StoreMain_Content::-webkit-scrollbar{
   display: none;
 } */
+
+.Store_menus {
+  /* background: #ffff; */
+  border-radius: 8px;
+  position: absolute;
+  top: 483px;
+  right: 6px;
+  width: 100px;
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+
+.Store_menus.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

@@ -1,10 +1,48 @@
-import React from 'react'
+import { React, useState, useRef, useEffect } from "react";
 import "../../assets/css/Stream/StreamMain.css"
 import filter from '../../assets/icon/graw/filter.svg'
 import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
+import StreamSort from '../../components/Popup/StreamSort'
 
 function StreamMain() {
+    const dropdownRef = useRef(null);
+    const curRef = useRef(true);
+
+    const [openSort, setOpenSort] = useState(false);
+
+    useEffect(() => {
+        console.log('useEffect')
+        const pageClickEvent = (e) => {
+          if (curRef.current) {
+            curRef.current = false;
+            return;
+          } else {
+            curRef.current = true;
+          }
+    
+          // If the active element exists and is clicked outside of
+          if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+            setOpenSort(!openSort);
+    
+          }
+        };
+    
+        // If the item is active (ie open) then listen for clicks
+        if (openSort) {
+          window.addEventListener('click', pageClickEvent);
+        }
+        return () => {
+          window.removeEventListener('click', pageClickEvent);
+        }
+    
+    
+    
+    
+    
+      }, [openSort]);
+
+
     return (
         <>
             <div className="StreamMain">
@@ -32,9 +70,18 @@ function StreamMain() {
                         <div className='StreamMain_Top_Rh'>
                             <div className="Stream_LiveStage_filter">
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
-                                <div className='Stream_LiveStage_filter_text'>
+                                <button className='Stream_LiveStage_filter_text' onClick={() => {
+                                    setOpenSort(!openSort)
+                                    curRef.current = true;}}>
                                     정렬
-                                </div>
+                                </button>
+
+                                <nav
+                                        ref={dropdownRef}
+                                        className={`Stream_menus ${openSort ? "active" : "inactive"}`}
+                                        >
+                                        <StreamSort />
+                                </nav>
 
                             </div>
                         </div>
