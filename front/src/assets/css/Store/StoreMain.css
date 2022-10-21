@@ -161,7 +161,7 @@
   /* background: #ffff; */
   border-radius: 8px;
   position: absolute;
-  top: 483px;
+  top: calc(100% - 53%);;
   right: 6px;
   width: 100px;
   /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); */
