@@ -15,7 +15,7 @@ function ArtistHome() {
 
 
           <div className='ArtistHome_Rh'>
-            {/* <div className='ArtistHome_Rh_Memu'>
+            <div className='ArtistHome_Rh_Memu'>
               <ul className='ArtistHome_Rh_MemuBox'>
 
                 <Link to="/artisthome" className="link">
@@ -43,10 +43,10 @@ function ArtistHome() {
                 </Link>
 
               </ul>
-            </div> */}
+            </div>
 
 
-            {/* <div className='AritstHome_Rh_btm'>
+            <div className='AritstHome_Rh_btm'>
               <div className='AritstHome_Rh_btm_topcard'>
                 <div className='AritstHome_Rh_btm_topcard_item'>
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
@@ -246,7 +246,7 @@ function ArtistHome() {
 
               </div>
 
-            </div> */}
+            </div>
 
           </div>
 

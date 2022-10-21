@@ -18,7 +18,7 @@ function ArtistInfoCard() {
       <div className='ArtistInfoCard_Lf'>
 
         <div className='ArtistInfoCard_Lf_Wrapper'>
-          {/* <div className='ArtistInfoCard_top'>
+          <div className='ArtistInfoCard_top'>
             <div className='ArtistInfoCard_ArtistImg'>
               <img src="https://i.imgur.com/PWcLqjm.jpg" className="ArtistInfoCard_ArtistImg_img" alt="" />
             </div>
@@ -75,9 +75,9 @@ function ArtistInfoCard() {
             <div className='ArtistInfoCard_Artistdescription'>
               𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥 고장 난 어른들의 동화를 노래하는 밴드 러블레스
             </div>
-          </div> */}
+          </div>
 
-          {/* <div className='ArtistInfoCard_btm'>
+          <div className='ArtistInfoCard_btm'>
             <div className='ArtistInfoCard_ArtistMetaBox'>
               <div className='ArtistInfoCard_ArtistMetaText'>
                 아티스트 메타버스로 이동하기
@@ -85,7 +85,7 @@ function ArtistInfoCard() {
             </div>
 
 
-          </div> */}
+          </div>
 
 
         </div>
