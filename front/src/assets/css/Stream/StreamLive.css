@@ -341,7 +341,7 @@ color: #FFFFFF;
 .StreamLive_Right_Wrapper{
    /* position: fixed;
     left: 77%; */
-    flex: 1;
+    width: 416px;
 } 
 
 

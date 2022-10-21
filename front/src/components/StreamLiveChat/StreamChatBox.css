@@ -1,5 +1,5 @@
 .StreamChatBox_Right_Container{
-  /* position: fixed;  */
+  position: fixed; 
   height: 90%;
   display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@
 
 
   .StreamChatBox_Right_btmbox{
-    background: #D1CAFF;
+    background: #191922;
     border-radius: 6px;
   }
  
@@ -124,7 +124,7 @@
   .StreamChatBox_MessageBox{
     /* width: 100%; */
     /* height: 80px; */
-    padding: 6px 6px;
+    padding: 18px 36px 18px 36px;
     
     /* background: #191922; */
   }
@@ -144,7 +144,7 @@
     flex: 1;
     line-height: 20px;
     color: #ffffff;
-    background-color: #D1CAFF;;
+    background-color: #191922;;
     border: none;
   }
 
