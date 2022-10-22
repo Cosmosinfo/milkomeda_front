@@ -178,4 +178,5 @@
     display: flex;
     list-style: none;
     justify-content: center;
+    cursor: pointer;
 }
