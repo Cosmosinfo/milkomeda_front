@@ -102,6 +102,7 @@
 .AritstHome_Rh_btm_ncitembox_left{
     /* width: 813px; */
     height: 100%;
+    margin-right: 70px;
 }
 
 .AritstHome_Rh_btm_ncitembox_left_artistbox{
@@ -159,9 +160,12 @@
 }
 
 .AritstHome_Rh_btm_ncitembox_left_descripbox{
-    height: 48px;
-    margin-top: 14px;
+    height: 45px;
+    margin-top: 12px;
     margin-left: 63px;
+    text-overflow: clip;
+    /* white-space: nowrap; */
+    overflow: hidden;
 }
 
 .AritstHome_Rh_btm_ncitembox_left_descrip{
@@ -175,7 +179,7 @@
 .AritstHome_Rh_btm_ncitembox_left_Iconbox{
     /* width : 89px; */
     height : 22px;
-    margin-top: 22px;
+    margin-top: 24px;
     margin-left: 63px;
     display: flex;
     align-items: center;

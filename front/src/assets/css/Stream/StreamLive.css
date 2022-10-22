@@ -211,6 +211,9 @@ align-items: center;
 .StreamLive_address_Container_Namebox_LocationAddr{
   /* width : 150px; */
   height : 21px;
+  text-overflow: clip;
+    /* white-space: nowrap; */
+    overflow: hidden;
 }
 
 .StreamLive_address_Container_Namebox_LocationAddr_text{
