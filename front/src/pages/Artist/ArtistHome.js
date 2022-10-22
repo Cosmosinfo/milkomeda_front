@@ -196,7 +196,7 @@ function ArtistHome() {
 
 
 
-              <hr className='AritstHome_Rh_btm_hr'></hr>
+              <div className='AritstHome_Rh_btm_hr'></div>
 
 
               <div className="AritstHome_Rh_btm_LiveStage">
@@ -221,7 +221,7 @@ function ArtistHome() {
 
               </div>
 
-              <hr className='AritstHome_Rh_btm_hr'></hr>
+              <div className='AritstHome_Rh_btm_hr'></div>
 
 
 

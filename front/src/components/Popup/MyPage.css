@@ -96,6 +96,10 @@
     
     color: #8B8999;
   }
+
+  .popfooter-ContentItem-text{
+    cursor: pointer;
+  }
   
   .popfooter-ContentEditIcon{
     width: 20px;

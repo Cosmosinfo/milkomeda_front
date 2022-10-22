@@ -73,7 +73,7 @@
     text-align: center;
     color: #FFFFFF;
     flex: 1;
-    
+    cursor: pointer;
     border: none;
     background: none;
    
@@ -158,7 +158,7 @@
   .StreamChatBox_MessageBox_IconContainer_Icon{
     width : 20px;
     height: 20px;
-
+    cursor: pointer;
     margin-right: 16px;
     /* vertical-align: middle; */
   }

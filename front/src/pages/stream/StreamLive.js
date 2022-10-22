@@ -54,12 +54,12 @@ function StreamLive() {
                                     <div className='StreamLive_Title_right'>
                                         <div className="StreamLive_Title_right_Share">
                                             <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
-                                            공유
+                                            <span className="StreamLive_Title_right_Share_text">공유</span>
                                         </div>
 
                                         <div className="StreamLive_Title_right_Report">
                                             <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
-                                            신고
+                                            <span className="StreamLive_Title_right_Report_text">신고 </span>
                                         </div>
 
                                     </div>

@@ -33,7 +33,7 @@
 
 .ArtistSchedule_Rh_MemuBox{
     height: 22px;
-    padding: 10px 80px;;
+    padding: 10px 70px;;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
@@ -136,7 +136,10 @@
 }
 
 .ArtistSchedule_Rh_btm_Schedulelf_btm_hr{
-    border: 1px solid rgba(139, 137, 153, 0.2);
+    background: #8B8999;
+    /* flex-grow: 1; */
+    opacity: 20%;
+    height: 1px;
     margin : 17px 0;
 }
 

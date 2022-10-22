@@ -243,6 +243,27 @@ function ArtistSchedule() {
                                         <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
                                             <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
+                                                    <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>30</div>
+                                                    <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>수</spen>
+                                                </div>
+
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
+                                                    <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
+                                                        제목
+                                                    </spen>
+                                                    <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
+                                                        18:00~19:30(KST/90분)
+                                                    </spen>
+                                                    <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
+                                                        장소
+                                                    </spen>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item'>
+                                            <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_wrapper'>
+                                                <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_date'>
                                                     <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datebox'>31</div>
                                                     <spen className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_datetext'>수</spen>
                                                 </div>

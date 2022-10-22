@@ -1,5 +1,5 @@
 .ArtistSort-popWrapper{
-    /* width: 200px; */
+    width: 100px;
     height: auto;
     
     background: #191922;
@@ -9,25 +9,24 @@
 }
 
 .ArtistSort-contentItem{
-    width: 100%;
-    height: 40px;
-
-    color: #FFFFFF;
-}
-
-.ArtistSort-contentItem2{
-    width: 100%;
+    /* width: 100%; */
     height: 40px;
     border-top: 1px solid rgba(139, 137, 153, 0.2);
     color: #FFFFFF;
 }
 
+.ArtistSort-contentItem:first-of-type{
+    border : none
+}
+
+
+
 .ArtistSort-contentItemText{
-    width: 100%;
+    /* width: 100%; */
     height: 17px;
 
-    padding: 12px 95px 11px 24px;
-
+    padding: 12px 12px;
+    cursor: pointer;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

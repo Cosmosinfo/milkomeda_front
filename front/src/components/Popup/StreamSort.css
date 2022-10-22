@@ -1,5 +1,5 @@
 .StreamSort-popWrapper{
-    /* width: 200px; */
+    width: 100px;
     height: auto;
     
     background: #191922;
@@ -9,24 +9,23 @@
 }
 
 .StreamSort-contentItem{
-    width: 100%;
-    height: 40px;
-
-    color: #FFFFFF;
-}
-
-.StreamSort-contentItem2{
-    width: 100%;
+    /* width: 100%; */
     height: 40px;
     border-top: 1px solid rgba(139, 137, 153, 0.2);
     color: #FFFFFF;
 }
 
-.StreamSort-contentItemText{
-    width: 100%;
-    height: 17px;
+.StreamSort-contentItem:first-of-type{
+    border : none
+}
 
-    padding: 12px 95px 11px 24px;
+
+
+.StreamSort-contentItemText{
+    /* width: 100%; */
+    height: 17px;
+    cursor: pointer;
+    padding: 12px 12px;
 
     font-style: normal;
     font-weight: 400;

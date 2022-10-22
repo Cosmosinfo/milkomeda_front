@@ -41,17 +41,19 @@ function MyPage(open) {
                         <div className='popfooter-Content'>
                             <div className="popfooter-ContentItem">
                                 <img className="popfooter-ContentEditIcon" src={edit} alt="edit" />
-                                Edit Profile
+                                <span className="popfooter-ContentItem-text">Edit Profile</span>
                             </div>
 
                             <div className="popfooter-ContentItem">
                                 <img className="popfooter-ContentEditIcon" src={myshop} alt="myshop" />
-                                My Shopping
+                                <span className="popfooter-ContentItem-text">My Shopping</span>
+                                
                             </div>
 
                             <div className="popfooter-ContentItem">
                                 <img className="popfooter-ContentEditIcon" src={setting} alt="setting" />
-                                Setting
+                                <span className="popfooter-ContentItem-text">Setting</span>
+                                
                             </div>
                         </div>
                     </div>

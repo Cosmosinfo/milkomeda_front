@@ -213,7 +213,8 @@ export default function Sidebar() {
 
         <ul className="side_item_3">
 
-          <hr className="hr2" />
+          <div className="side_hr"></div>
+          
 
           <li className="item3_name">
             <img className="sidebarIcon" src={curMenu === 'settings' ? Settings_pink : Settings_gray} alt="Settings" />

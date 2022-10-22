@@ -172,7 +172,7 @@ export default function Topbar() {
 
             <nav
               ref={dropdownRef3}
-              className={`menus ${openProfile ? "active" : "inactive"}`}
+              className={`menus3 ${openProfile ? "active" : "inactive"}`}
             >
               <Mypage />
             </nav>

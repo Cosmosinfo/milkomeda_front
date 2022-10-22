@@ -123,34 +123,15 @@
   background: #F3017F;
 }
 
-
-.hr{
-  
-  width: 176px;
-  height: 0px;
-  opacity: 20%;
-  margin : 10px 32px ;
-}
-
-.hr2{
-  
-  width: 176px;
-  height: 0px;
-  opacity: 20%;
-  margin : 10px 32px;
+.side_hr{
+  background: #8B8999;
+    /* flex-grow: 1; */
+    opacity: 20%;
+    height: 1px;
+    margin: 10px 32px;
 }
 
 
-.side_hr::after {
-	content: "";
-	flex-grow: 1;
-	background: #8B8999;
-	height: 1px;
-	font-size: 0px;
-	line-height: 0px;
-	margin: 0px 0px 0px 44px;
-  opacity: 20%;
-}
 
 
 .Artist_logo{

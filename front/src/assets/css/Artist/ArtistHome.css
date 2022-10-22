@@ -32,7 +32,7 @@
 
 .ArtistHome_Rh_MemuBox{
     height: 22px;
-    padding: 10px 80px;;
+    padding: 10px 70px;;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
@@ -99,7 +99,7 @@
 }
 
 .AritstHome_Rh_btm_topcard_item_wrapper{
-    padding : 24px 24px
+    padding : 20px 20px
 }
 
 .AritstHome_Rh_btm_topcard_item_top{
@@ -143,7 +143,7 @@
     top: 215px;
     background: #15141B;
     border-radius: 6px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .AritstHome_Rh_btm_topcard_item_btm_rntextbox{
@@ -254,10 +254,13 @@
 
 
 .AritstHome_Rh_btm_hr{
-   
-    height: 0px;
+    background: #8B8999;
+    /* flex-grow: 1; */
+    opacity: 20%;
+    height: 1px;
+    
     margin : 24px 0;
-    border: 1px solid rgba(139, 137, 153, 0.2);
+   
 }
 
 .AritstHome_Rh_btm_LiveStage{

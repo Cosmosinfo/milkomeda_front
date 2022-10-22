@@ -12,28 +12,28 @@ function StreamSort() {
 
                 </div>
 
-                <div className='StreamSort-contentItem2'>
+                <div className='StreamSort-contentItem'>
                     <div className='StreamSort-contentItemText'>
                         나라별
                     </div>
 
                 </div>
 
-                <div className='StreamSort-contentItem2'>
+                <div className='StreamSort-contentItem'>
                     <div className='StreamSort-contentItemText'>
                         힙합
                     </div>
 
                 </div>
 
-                <div className='StreamSort-contentItem2'>
+                <div className='StreamSort-contentItem'>
                     <div className='StreamSort-contentItemText'>
                         락
                     </div>
 
                 </div>
 
-                <div className='StreamSort-contentItem2'>
+                <div className='StreamSort-contentItem'>
                     <div className='StreamSort-contentItemText'>
                         인디
                     </div>

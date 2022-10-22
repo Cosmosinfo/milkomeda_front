@@ -57,7 +57,8 @@ function ArtistPost() {
                       <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="AritstHome_Rh_btm_ncitembox_left_artistbox_lt_img" />
 
                     </div>
-                    <span className='ArtistPost_Rh_btm_top_itembox_lf_img_text'>메세지를 입력해주세요.</span>
+                    <input className="ArtistPost_Rh_btm_top_itembox_lf_img_text" type="text" placeholder="메세지를 입력해주세요." name="name" />
+                    {/* <span className='ArtistPost_Rh_btm_top_itembox_lf_img_text'>메세지를 입력해주세요.</span> */}
                   </div>
 
                   <div className='ArtistPost_Rh_btm_top_itembox_rh'>
