@@ -65,7 +65,7 @@ function StoreDetail() {
 
                                 <div className='StoreDetail_left_top_Detail_TotalBox'>
                                     <span className='StoreDetail_left_top_Detail_TotalBox_Total'>Total</span>
-                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩ 100,000</span>
+                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩&nbsp;100,000</span>
                                 </div>
 
                                 <div className='StoreDetail_left_top_Detail_BuyBox'>

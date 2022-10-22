@@ -181,7 +181,7 @@ border-radius: 6px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    
+    overflow: hidden;
     color: #FFFFFF;
   }
 
@@ -293,7 +293,7 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     line-height: 39px;
-
+    cursor: pointer;
     text-align: center;
 
     color: #FFFFFF;
@@ -311,7 +311,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 39px;
 /* identical to box height */
-
+cursor: pointer;
 text-align: center;
 
 color: #FFFFFF;
@@ -329,6 +329,7 @@ color: #FFFFFF;
     text-align: center;
     color: #FFFFFF;
     margin-top: 10px;
+    cursor: pointer;
   }
 
   /* ========================================================================= */
