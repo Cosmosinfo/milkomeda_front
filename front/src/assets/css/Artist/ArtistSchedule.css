@@ -74,7 +74,7 @@
 .ArtistSchedule_Rh_btm{
     /* width: 100%; */
     height : calc(100% - 8%);
-    overflow: auto;
+    /* overflow: auto; */
     padding-top: 12px;
     /* padding-left: 35px; */
     display: flex;
@@ -227,12 +227,13 @@ px
     /* height: 960px; */
     background: #191922;
     border-radius: 6px;
-    
+    height: calc(100% - 5%);
+    padding: 24px 36px;
     flex: 1;
 }
 
 .ArtistSchedule_Rh_btm_ScheduleRh_container{
-    padding: 24px 36px;
+    
     display: flex;
     flex-direction: column;
 }
@@ -249,7 +250,7 @@ px
 
 .ArtistSchedule_Rh_btm_ScheduleRh_containerbox{
     overflow: scroll;
-    height: 700px;
+    height: 685px;
 }
 
 .ArtistSchedule_Rh_btm_ScheduleRh_container_item{
