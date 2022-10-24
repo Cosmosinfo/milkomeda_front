@@ -31,7 +31,7 @@ export default function Sidebar() {
     home: ['/'],
     stage: ['/stream', '/StreamLive', '/streamup', '/streampv'],
     artist: ['/artist', '/artisthome', '/artistnotice', '/artiststage', '/artiststageus', '/artiststageps', '/artistschedule', '/artistpost', '/artiststore'],
-    store: ['/store', '/storeDetail'],
+    store: ['/store', '/storeDetail', '/storeDetail2', '/storeDetail3', '/storeDetail4'],
     favorite: ['/'],
     calendar: ['/'],
     settings: ['/setting'],

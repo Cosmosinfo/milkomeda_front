@@ -3,8 +3,8 @@ import '../../assets/css/Store/StoreDetail.css'
 import minus from '../../assets/icon/graw/minus-circle.svg'
 import plus from '../../assets/icon/graw/plus-circle.svg'
 import StoreRecoProduct from '../../components/Store/StoreRecoProduct'
-// import StoreTapContent from '../../Data/StoreTapContent'
 import { Link } from "react-router-dom";
+// import StoreTapContent from '../../Data/StoreTapContent'
 // import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
 
 
@@ -128,7 +128,7 @@ function StoreDetail() {
                                                 );
                             })} */}
                                  <Link to="/storeDetail" className="link">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item2'>
+                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                     상세보기
                                 </div>
                                 </Link>
@@ -146,11 +146,11 @@ function StoreDetail() {
                                 </Link>
 
                                 <Link to="/storeDetail4" className="link">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
+                                <div className='StoreDetail_left_Btm_SelectBox_Item2'>
                                 반품/교환/배송정보
                                 </div>    
-                                </Link>
-
+                                </Link> 
+                            
 
                             </div>
 
@@ -164,8 +164,36 @@ function StoreDetail() {
                                             }
                                             )} */}
 
-                            <div className='StoreDetail_left_Btm_imgBox'>
-                                <img className="StoreDetail_left_Btm_imgBox" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" />
+                            <div className='StoreDetail_left_Btm_imgBox2'>
+                                <div className='StoreDetail_left_Btm_textbox'>
+                                A/S<br />
+
+- 제품의 컨디션에 따라 추가비용이 발생할 수 있습니다.
+- 기간은 7 ~ 14일 정도 (주말 미포함) 소요됩니다.
+- 제품에 대한 보증기간은 1년이며, 1년 이후에는 유·무상으로 A/S가 진행됩니다.
+
+단, 고객부주의로 인한 A/S는 기간에 상관없이 유상처리됩니다.
+
+- A/S기준이나 가능여부는 상품에 따라 다르므로 고객센터로 연락주시면 자세히 안내드리겠습니다.
+
+Exchange / Refund (교환 / 환불)
+
+- 반품/교환시 왕복택배비 6,000원이 부과됩니다.
+- 상품하자, 오배송인 경우 택배비 무료로 반품·교환이 가능합니다.
+- 고객 변심에 의한 반품·교환의 경우 배송비는 고객부담입니다.
+- 반품·교환은 미사용 제품에 한해 배송완료 후 7일 이내에 접수되어야 합니다.
+- 교환·반품을 원할 경우 고객센터 접수해주세요.
+- 사용흔적이 있거나 고객부주의로 상품이 훼손된 경우 반품·교환이 불가능합니다.
+- 취소·반품·교환은 전자상거래법 규정에 의거한 정책을 준수합니다.
+
+Shipping (배송)
+
+- 제작기간에 따라서 3~5일 정도 소요됩니다.
+- 택배사 사정이나 지역에 따라 소요기간에 차이가 있을 수 있습니다.
+- 공휴일 및 휴일은 배송이 불가합니다.
+
+                                </div>
+                                               
                             </div>
 
                             

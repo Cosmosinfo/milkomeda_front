@@ -3,8 +3,8 @@ import '../../assets/css/Store/StoreDetail.css'
 import minus from '../../assets/icon/graw/minus-circle.svg'
 import plus from '../../assets/icon/graw/plus-circle.svg'
 import StoreRecoProduct from '../../components/Store/StoreRecoProduct'
-// import StoreTapContent from '../../Data/StoreTapContent'
 import { Link } from "react-router-dom";
+// import StoreTapContent from '../../Data/StoreTapContent'
 // import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
 
 
@@ -128,7 +128,7 @@ function StoreDetail() {
                                                 );
                             })} */}
                                  <Link to="/storeDetail" className="link">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item2'>
+                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                     상세보기
                                 </div>
                                 </Link>
@@ -140,7 +140,7 @@ function StoreDetail() {
                                 </Link>
 
                                 <Link to="/storeDetail3" className="link">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
+                                <div className='StoreDetail_left_Btm_SelectBox_Item2'>
                                 Q&A 0
                                 </div>
                                 </Link>
@@ -149,8 +149,8 @@ function StoreDetail() {
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                 반품/교환/배송정보
                                 </div>    
-                                </Link>
-
+                                </Link>  
+                            
 
                             </div>
 
@@ -165,7 +165,7 @@ function StoreDetail() {
                                             )} */}
 
                             <div className='StoreDetail_left_Btm_imgBox'>
-                                <img className="StoreDetail_left_Btm_imgBox" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" />
+                                {/* <img className="StoreDetail_left_Btm_imgBox" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" /> */}
                             </div>
 
                             

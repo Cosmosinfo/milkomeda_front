@@ -9,6 +9,9 @@ import StreamPrevious from './pages/stream/StreamPrevious'
 import StreamLive from './pages/stream/StreamLive'
 import StoreMain from './pages/store/StoreMain'
 import StoreDetail from './pages/store/StoreDetail'
+import StoreDetail2 from './pages/store/StoreDetail2'
+import StoreDetail3 from './pages/store/StoreDetail3'
+import StoreDetail4 from './pages/store/StoreDetail4'
 import Error from './pages/Error/ErrorPage'
 import ArtistMain from './pages/Artist/ArtistMain'
 import ArtistHome from './pages/Artist/ArtistHome'
@@ -42,6 +45,9 @@ function App() {
             <Route path="/streamlive" element={<StreamLive />} />
             <Route path="/store" element={<StoreMain />} />
             <Route path="/storeDetail" element={<StoreDetail />} />
+            <Route path="/storeDetail2" element={<StoreDetail2 />} />
+            <Route path="/storeDetail3" element={<StoreDetail3 />} />
+            <Route path="/storeDetail4" element={<StoreDetail4 />} />
             <Route path="/error" element={<Error />} />
             <Route path="/artist" element={<ArtistMain />} />
             <Route path="/artisthome" element={<ArtistHome />} />

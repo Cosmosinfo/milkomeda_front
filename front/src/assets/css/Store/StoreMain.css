@@ -161,7 +161,7 @@
 .Store_menus {
   /* background: #ffff; */
   border-radius: 8px;
-  position: fixed;
+  position: absolute;
   height: calc(130vh - 130vh);
   margin-top: 38px;
   right: 30px;

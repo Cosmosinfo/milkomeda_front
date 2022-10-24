@@ -91,31 +91,6 @@ function StoreMain() {
                         })}
 
 
-                    {/* <div className='StoreMain_Category_Item'>
-                        <span className='StoreMain_Category_Item_text'>카테고리</span>
-                    </div>
-
-                    <div className='StoreMain_Category_Item2'>
-                        <span className='StoreMain_Category_Item_text'>카테고리</span>
-                    </div>
-
-                    <div className='StoreMain_Category_Item2'>
-                        <span className='StoreMain_Category_Item_text'>카테고리</span>
-                    </div>
-
-                    <div className='StoreMain_Category_Item2'>
-                        <span className='StoreMain_Category_Item_text'>카테고리</span>
-                    </div>
-
-                    <div className='StoreMain_Category_Item2'>
-                        <span className='StoreMain_Category_Item_text'>카테고리</span>
-                    </div>
-
-                    <div className='StoreMain_Category_Item2'>
-                        <span className='StoreMain_Category_Item_text'>카테고리</span>
-                    </div> */}
-
-
                         </div>
 
 
