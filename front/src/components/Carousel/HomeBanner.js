@@ -5,7 +5,7 @@ import { Carousel } from "./Carousel";
 function HomeBanner() {
     const images = [
         {
-        //   image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
+       
           image: "./img/img1.jpg",
          
         },
@@ -29,7 +29,7 @@ function HomeBanner() {
         //width of carousel
         width="1618px"
         //height of carousel
-        height="300px"
+        height="400px"
         //constitutes the border radius of each slide px
         radius="6px"
         //enables automatic transitioning between slides

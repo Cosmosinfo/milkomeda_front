@@ -67,7 +67,7 @@ function StoreMain() {
                     </div>
 
                         <div className='StoreMain_banner_right'>
-                            <img className="StoreMain_banner_right_img" src="https://i.imgur.com/8kMJMvN.jpg" alt="" />
+                            <img className="StoreMain_banner_right_img" src="https://i.imgur.com/80TJXTf.jpg" alt="" />
                         </div>
                     </div>
 
