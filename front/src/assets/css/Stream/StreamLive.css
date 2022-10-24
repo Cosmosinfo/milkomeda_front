@@ -326,9 +326,9 @@ color: #8B8999;
   }
 
   .StreamLive_Content_Info_ArtistName_contanier_textBox{
-    /* width: 94px;
-    height: 100%; */
-    margin-left: 12px;
+    padding-left: 12px;
+   
+    padding-right: 12px;
   }
 
   .StreamLive_Content_Info_ArtistName_contanier_text{
