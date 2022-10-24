@@ -271,14 +271,14 @@ color: #8B8999;
 
 
   .StreamLive_Content_Info_ArtistName{
-    width: 100%;
-    /* height: 100%; */
-    padding: 6px 0px;
     display: flex;
-    flex: 1;
+    overflow: hidden;
+    flex: 1 1;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 12px;
-    flex-direction: column;
+    padding: 6px 0;
+    width: 100%;
    
   }
 

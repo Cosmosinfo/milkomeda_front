@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistSchedule.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import chevronleft from '../../assets/icon/graw/chevron-left.svg'
 import chevronright from '../../assets/icon/graw/chevron-right.svg'
+// import Calendar from 'react-calendar';
 
 function ArtistSchedule() {
+    // const [value, onChange] = useState(new Date());
     return (
         <>
 
@@ -50,6 +52,7 @@ function ArtistSchedule() {
 
 
                             <div className='ArtistSchedule_Rh_btm_Schedulelf'>
+                            {/* <Calendar className='ArtistSchedule_Rh_'  /> */}
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_top">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_top_text">
                                         2022. 08
