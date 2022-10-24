@@ -183,32 +183,73 @@ function StreamLive() {
 
                                 <div className="StreamLive_Content_Details">
                                     <div className='StreamLive_Content_Details_text'>
+                                        <div>
                                         [I've gotta feelin' like]
-
+                                        </div>
+                                        
+                                        <br />
+                                        
+                                        <div>
                                         Dust in the air, blurred sight and it makes me feel like high
-
+                                        </div>
+                                        
+                                        <br />
+                                        
+                                        <div>
                                         music :  https://linksalad.net/US06go_3Wf
+                                        </div>
 
-                                        PRODUCED BY BONGWOO, LENA, 투영
-                                        COMPOSED BY BONGWOO, LENA, 투영
-                                        LYRICS BY BONGWOO, LENA, 투영
+                                        <br />
+
+
+                                        <div>
+                                        PRODUCED BY BONGWOO, LENA, 투영<br />
+                                        COMPOSED BY BONGWOO, LENA, 투영<br />
+                                        LYRICS BY BONGWOO, LENA, 투영<br />
                                         ARRANGED BY 투영
+                                        </div>
 
-                                        VOCAL & CHORUS BY LENA
+                                        <br />
+
+                                        <div>
+                                        VOCAL & CHORUS BY LENA<br />
                                         DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
+                                        </div>
 
-                                        RECORDED BY 오혜석 @MOL STUDIO
-                                        MIXED BY 신유식, 투영
+                                        <br />
+
+                                        <div>
+                                        RECORDED BY 오혜석 @MOL STUDIO<br />
+                                        MIXED BY 신유식, 투영<br />
                                         MASTERED BY 강승희 @SONIC KOREA
+                                        <br />
 
                                         LYRIC VIDEO BY BONGWOO
+                                        </div>
 
-                                        밴드 러블레스 Lubless
-                                        "Lust bless you. Follow your heart."
+                                        <br />
+
+                                        <div>
+                                        -------------------------------------------
+                                        </div>
+
+                                        <br />
+                                        
+                                        <div>
+                                        밴드 러블레스 Lubless<br />
+                                        "Lust bless you. Follow your heart."<br />
                                         어딘가 고장 난 어른들을 위한 동화
+                                        </div>
 
-                                        많은 성원 부탁 드립니다.
-                                        감사합니다!
+                                        <br />
+                                        
+                                        <div>
+                                        공식 홈페이지 - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
+                                        페이스북 - <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a><br />
+                                        인스타그램 - <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a><br />
+                                        트위터 - <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+                                        </div>
+                                        
 
                                     </div>
                                 </div>
