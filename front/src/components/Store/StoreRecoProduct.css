@@ -10,6 +10,7 @@
    .StoreDetail_Right_Btm_Contanier_Item{
     border-radius: 6px;
     background-color : #191922;
+    cursor: pointer;
    }
 
    .StoreDetail_Right_Btm_Contanier_Item_innerBox{
