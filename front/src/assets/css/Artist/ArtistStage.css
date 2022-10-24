@@ -52,12 +52,14 @@
 }
 
 .ArtistStage_Rh_MemuBoxText{
-    color: #FFFFFF;
+    color: #ffffff;
+    font-weight: 100;
     
 }
 
 .ArtistStage_Rh_MemuBoxTextStage{
     color: #F3017F;
+    font-weight: 600;
 }
 
 .ArtistStage_Rh_MemuBox_Line{

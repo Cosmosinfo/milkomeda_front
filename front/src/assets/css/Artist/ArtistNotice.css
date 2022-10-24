@@ -54,11 +54,13 @@
 }
 
 .ArtistNotice_Rh_MemuBoxText{
-    color: #FFFFFF;
+    color: #ffffff;
+    font-weight: 100;
 }
 
 .ArtistNotice_Rh_MemuBoxTextNotice{
     color: #F3017F;
+    font-weight: 600;
 }
 
 

@@ -53,11 +53,13 @@
 
 .ArtistPost_Rh_MemuBoxText{
     color: #ffffff;
+    font-weight: 100;
     
 }
 
 .ArtistPost_Rh_MemuBoxTextPost{
     color: #F3017F;
+    font-weight: 600;
 }
 
 .ArtistPost_Rh_MemuBox_Line{

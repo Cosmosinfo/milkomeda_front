@@ -52,12 +52,14 @@
 }
 
 .ArtistSchedule_Rh_MemuBoxText{
-    color: #FFFFFF;
+    color: #ffffff;
+    font-weight: 100;
     
 }
 
 .ArtistSchedule_Rh_MemuBoxTextSchedule{
     color: #F3017F;
+    font-weight: 600;
 }
 
 .ArtistSchedule_Rh_MemuBox_Line{

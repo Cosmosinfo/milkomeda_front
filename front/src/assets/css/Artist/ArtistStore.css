@@ -53,11 +53,13 @@
 
 .ArtistStore_Rh_MemuBoxText{
     color: #ffffff;
+    font-weight: 100;
     
 }
 
 .ArtistStore_Rh_MemuBoxTextStore{
     color: #F3017F;
+    font-weight: 600;
 }
 
 .ArtistStore_Rh_MemuBox_Line{
