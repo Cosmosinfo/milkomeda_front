@@ -101,8 +101,7 @@ function StreamLive() {
                                     {/* Streaming 아티스트 이름 */}
                                     <div className='StreamLive_Content_Info_ArtistName'>
 
-                                        <div className='StreamLive_Content_Info_ArtistName_top'>
-                                            <Link to="/artisthome" className="link">
+                                        <Link to="/artisthome" className="link">
                                                 <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                                     <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
@@ -112,9 +111,9 @@ function StreamLive() {
 
 
                                                 </div>
-                                            </Link>
+                                        </Link>
 
-                                            {/* <Link to="/artisthome" className="link"> */}
+                                        
                                                 <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                                     <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
@@ -124,9 +123,9 @@ function StreamLive() {
 
 
                                                 </div>
-                                            {/* </Link> */}
+                                         
 
-                                            {/* <Link to="/artisthome" className="link"> */}
+                                          
                                                 <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                                     <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
@@ -136,13 +135,9 @@ function StreamLive() {
 
 
                                                 </div>
-                                            {/* </Link> */}
+                                          
 
-
-                                        </div>
-
-                                        <div className='StreamLive_Content_Info_ArtistName_top'>
-                                            {/* <Link to="/artisthome" className="link"> */}
+                                            
                                                 <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                                     <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
@@ -152,9 +147,9 @@ function StreamLive() {
 
 
                                                 </div>
-                                            {/* </Link> */}
+                                          
 
-                                            {/* <Link to="/artisthome" className="link"> */}
+                                            
                                                 <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                                     <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
@@ -164,9 +159,9 @@ function StreamLive() {
 
 
                                                 </div>
-                                            {/* </Link> */}
+                                           
 
-                                            {/* <Link to="/artisthome" className="link"> */}
+                                           
                                                 <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                                     <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
@@ -176,10 +171,8 @@ function StreamLive() {
 
 
                                                 </div>
-                                            {/* </Link> */}
-
-
-                                        </div>
+                                           
+                                       
 
 
 

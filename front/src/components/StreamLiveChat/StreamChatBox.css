@@ -104,8 +104,8 @@
 
   .StreamChatBox_Right_middle{
     /* width:100%; */
-    height: 670px;
     overflow: overlay;
+    aspect-ratio: 344/670;
   }
 
   /* .StreamChatBox_Right_middle::-webkit-scrollbar{
@@ -124,7 +124,7 @@
   .StreamChatBox_MessageBox{
     /* width: 100%; */
     /* height: 80px; */
-    padding: 18px 36px 18px 36px;
+    padding: 12px 36px 12px 36px;
     
     /* background: #191922; */
   }
