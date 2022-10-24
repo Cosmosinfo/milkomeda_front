@@ -1,6 +1,6 @@
 .ArtistStageus{
-    width: 100%;
-    height: auto;
+    position: fixed;
+    height: calc(100% - 13%) !important;
     color: #FFFFFF;
 }
 
