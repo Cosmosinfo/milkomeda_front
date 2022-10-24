@@ -125,9 +125,9 @@
 .ArtistInfoCard_ArtistFavoriteBox{
     /* width: 138px; */
     height: 42px;
-    
-    
-    padding: 0 60px 12px;
+    display: flex;
+    /* padding: 0 60px 12px; */
+    justify-content: center;
 
 }
 
@@ -151,7 +151,7 @@
     background: #8B8999;
     opacity: 20%;
     height: 1px;
-    margin: 0 0 12px 0;
+    margin: 12px 0;
 }
 
 .ArtistInfoCard_Artistdescription{

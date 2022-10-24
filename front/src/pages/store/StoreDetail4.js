@@ -166,47 +166,47 @@ function StoreDetail() {
 
                             <div className='StoreDetail_left_Btm_imgBox2'>
                                 <div className='StoreDetail_left_Btm_textbox'>
-                                <div>
+                                <div className='StoreDetail_left_Btm_textbox_flex'>
                                 A/S
-                                </div>
+                                </div >
                                 <br />      
-                                <div>
-                                - 제품의 컨디션에 따라 추가비용이 발생할 수 있습니다.
-- 기간은 7 ~ 14일 정도 (주말 미포함) 소요됩니다.
-- 제품에 대한 보증기간은 1년이며, 1년 이후에는 유·무상으로 A/S가 진행됩니다.
+                                <div className='StoreDetail_left_Btm_textbox_flex'>
+                                - 제품의 컨디션에 따라 추가비용이 발생할 수 있습니다. <br />
+                                - 기간은 7 ~ 14일 정도 (주말 미포함) 소요됩니다. <br />
+                                - 제품에 대한 보증기간은 1년이며, 1년 이후에는 유·무상으로 A/S가 진행됩니다. <br />
 
-단, 고객부주의로 인한 A/S는 기간에 상관없이 유상처리됩니다.
+                                단, 고객부주의로 인한 A/S는 기간에 상관없이 유상처리됩니다. <br />
 
-- A/S기준이나 가능여부는 상품에 따라 다르므로 고객센터로 연락주시면 자세히 안내드리겠습니다.
-                                </div>
-<br />
+                                - A/S기준이나 가능여부는 상품에 따라 다르므로 고객센터로 연락주시면 자세히 안내드리겠습니다.
+                                                                </div>
+                                <br />
 
-                                    <div>
+                                    <div className='StoreDetail_left_Btm_textbox_flex'>
                                     Exchange / Refund (교환 / 환불)
                                     </div>
                                     <br />
-                                <div>
+                                <div className='StoreDetail_left_Btm_textbox_flex'>
                                     
                                 
 
-- 반품/교환시 왕복택배비 6,000원이 부과됩니다.
-- 상품하자, 오배송인 경우 택배비 무료로 반품·교환이 가능합니다.
-- 고객 변심에 의한 반품·교환의 경우 배송비는 고객부담입니다.
-- 반품·교환은 미사용 제품에 한해 배송완료 후 7일 이내에 접수되어야 합니다.
-- 교환·반품을 원할 경우 고객센터 접수해주세요.
-- 사용흔적이 있거나 고객부주의로 상품이 훼손된 경우 반품·교환이 불가능합니다.
+- 반품/교환시 왕복택배비 6,000원이 부과됩니다. <br />
+- 상품하자, 오배송인 경우 택배비 무료로 반품·교환이 가능합니다. <br />
+- 고객 변심에 의한 반품·교환의 경우 배송비는 고객부담입니다. <br />
+- 반품·교환은 미사용 제품에 한해 배송완료 후 7일 이내에 접수되어야 합니다. <br />
+- 교환·반품을 원할 경우 고객센터 접수해주세요. <br />
+- 사용흔적이 있거나 고객부주의로 상품이 훼손된 경우 반품·교환이 불가능합니다. <br />
 - 취소·반품·교환은 전자상거래법 규정에 의거한 정책을 준수합니다.
                                 </div>
                                 <br />
-                                <div>
+                                <div className='StoreDetail_left_Btm_textbox_flex'>
                                    Shipping (배송) 
                                 </div>
                                 <br />
-                                <div>
+                                <div className='StoreDetail_left_Btm_textbox_flex'>
                                 
 
-- 제작기간에 따라서 3~5일 정도 소요됩니다.
-- 택배사 사정이나 지역에 따라 소요기간에 차이가 있을 수 있습니다.
+- 제작기간에 따라서 3~5일 정도 소요됩니다. <br />
+- 택배사 사정이나 지역에 따라 소요기간에 차이가 있을 수 있습니다. <br />
 - 공휴일 및 휴일은 배송이 불가합니다.
                                 </div>
 

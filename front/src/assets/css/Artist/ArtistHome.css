@@ -231,22 +231,25 @@
 
 
     
-    font-family: 'Poppins';
+    overflow: hidden;
+    height: 21px;
+    /* font-family: 'Poppins'; */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    
+    /* overflow: hidden; */
     color: #FFFFFF;
 }
 
 .AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time{
+    height: 21px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 21px;
+    overflow: hidden;
     text-align: right;
-    
     color: #8B8999;
 }
 
