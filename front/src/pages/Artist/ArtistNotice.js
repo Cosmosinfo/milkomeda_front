@@ -19,27 +19,27 @@ function ArtistNotice() {
               <ul className='ArtistNotice_Rh_MemuBox'>
 
                 <Link to="/artisthome" className="link">
-                  <li className='ArtistNotice_Rh_MemuBoxText'>아티스트 홈</li>
+                  <div className='ArtistNotice_Rh_MemuBoxText'>아티스트 홈</div>
                 </Link>
                 <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                 <Link to="/artistnotice" className="link">
-                  <li className='ArtistNotice_Rh_MemuBoxTextNotice'>공지사항</li>
+                  <div className='ArtistNotice_Rh_MemuBoxTextNotice'>공지사항</div>
                 </Link>
                 <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                 <Link to="/artiststage" className="link">
-                  <li className='ArtistNotice_Rh_MemuBoxText'>스테이지</li>
+                  <div className='ArtistNotice_Rh_MemuBoxText'>스테이지</div>
                 </Link>
                 <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                 <Link to="/artistschedule" className="link">
-                  <li className='ArtistNotice_Rh_MemuBoxText'>일정</li>
+                  <div className='ArtistNotice_Rh_MemuBoxText'>일정</div>
                 </Link>
                 <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                 <Link to="/artiststore" className="link">
-                  <li className='ArtistNotice_Rh_MemuBoxText'>스토어</li>
+                  <div className='ArtistNotice_Rh_MemuBoxText'>스토어</div>
                 </Link>
                 <div className='ArtistNotice_Rh_MemuBox_Line'></div>
                 <Link to="/artistpost" className="link">
-                  <li className='ArtistNotice_Rh_MemuBoxText'>팬 포스트</li>
+                  <div className='ArtistNotice_Rh_MemuBoxText'>팬 포스트</div>
                 </Link>
 
               </ul>

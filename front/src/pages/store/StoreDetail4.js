@@ -60,7 +60,7 @@ function StoreDetail() {
                                 <div className='StoreDetail_left_top_Detail_MoneyDescriptionBox'>
                                     <div className="StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox">
                                         <div className='StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox_top'>
-                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox_text'> 태양계에서 최초로 발견 된 외계 행성 물질 'Oumuamua'로 부터 영감을 받아 제작된 시그넷링입니다. 유화 착색을 통해 콘트라스트를 극대화시켜 러프하고 파워풀한 무드의 주얼리입니다.</span>
+                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox_text'>  Signet Ring Art Class</span>
 
                                         </div>
 
@@ -164,9 +164,9 @@ function StoreDetail() {
                                             }
                                             )} */}
 
-                            <div className='StoreDetail_left_Btm_imgBox2'>
+                            <div className='StoreDetail_left_Btm_imgBox'>
                                 <div className='StoreDetail_left_Btm_textbox'>
-                                <div className='StoreDetail_left_Btm_textbox_flex'>
+                                <div className='StoreDetail_left_Btm_textbox_title'>
                                 A/S
                                 </div >
                                 <br />      
@@ -181,7 +181,7 @@ function StoreDetail() {
                                                                 </div>
                                 <br />
 
-                                    <div className='StoreDetail_left_Btm_textbox_flex'>
+                                    <div className='StoreDetail_left_Btm_textbox_title'>
                                     Exchange / Refund (교환 / 환불)
                                     </div>
                                     <br />
@@ -198,7 +198,7 @@ function StoreDetail() {
 - 취소·반품·교환은 전자상거래법 규정에 의거한 정책을 준수합니다.
                                 </div>
                                 <br />
-                                <div className='StoreDetail_left_Btm_textbox_flex'>
+                                <div className='StoreDetail_left_Btm_textbox_title'>
                                    Shipping (배송) 
                                 </div>
                                 <br />

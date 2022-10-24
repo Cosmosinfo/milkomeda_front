@@ -171,7 +171,7 @@ border-radius: 6px;
     /* width: 330px; */
     height: 72px;
 
-    padding: 24px 27px;
+    padding: 24px 24px;
   }
 
   .StoreDetail_left_top_Detail_MoneyDescriptionBox_textbox_top{
@@ -181,7 +181,7 @@ border-radius: 6px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    overflow: scroll;
+    
     color: #FFFFFF;
   }
 
@@ -358,24 +358,31 @@ color: #FFFFFF;
     margin: 24px 0;
   }
 
-  .StoreDetail_left_Btm_imgBox2{
-    width: 100%;
-    height: 356px;
-    display: flex;
-    justify-content: center;
+  .StoreDetail_left_Btm_imgBoxItem{
+    
+  }
 
+  .StoreDetail_left_Btm_imgBox2{
+    
+    /* height: 356px; */
+    display: flex;
+    aspect-ratio: 670/300;
     /* background: #191922; */
     margin: 24px 0;
+    justify-content: center;
   }
 
   .StoreDetail_left_Btm_textbox{
-    width: 400px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
     /* background: #191922; */
    
+  }
+
+  .StoreDetail_left_Btm_textbox_title{
+    font-weight: 600;
+    font-size: 16px;
   }
 
   .StoreDetail_left_Btm_SelectBox{

@@ -52,6 +52,7 @@
 
 .ArtistHome_Rh_MemuBoxTexthome{
     color: #F3017F;
+    font-weight: 600;
 }
 
 
@@ -59,7 +60,7 @@
 .ArtistHome_Rh_MemuBoxText{
     
     color: #ffffff;
-    
+    font-weight: 100;
 }
 
 
