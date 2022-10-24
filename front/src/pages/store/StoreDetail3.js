@@ -127,25 +127,25 @@ function StoreDetail() {
                                                 </>
                                                 );
                             })} */}
-                                 <Link to="/storeDetail" className="link">
+                                 <Link to="/storeDetail" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                     상세보기
                                 </div>
                                 </Link>
 
-                                <Link to="/storeDetail2" className="link">
+                                <Link to="/storeDetail2" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                 리뷰 0
                                 </div>
                                 </Link>
 
-                                <Link to="/storeDetail3" className="link">
+                                <Link to="/storeDetail3" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item2'>
                                 Q&A 0
                                 </div>
                                 </Link>
 
-                                <Link to="/storeDetail4" className="link">
+                                <Link to="/storeDetail4" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                 반품/교환/배송정보
                                 </div>    

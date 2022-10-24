@@ -127,25 +127,25 @@ function StoreDetail() {
                                                 </>
                                                 );
                             })} */}
-                                 <Link to="/storeDetail" className="link">
+                                 <Link to="/storeDetail" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                     상세보기
                                 </div>
                                 </Link>
 
-                                <Link to="/storeDetail2" className="link">
+                                <Link to="/storeDetail2" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                 리뷰 0
                                 </div>
                                 </Link>
 
-                                <Link to="/storeDetail3" className="link">
+                                <Link to="/storeDetail3" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item'>
                                 Q&A 0
                                 </div>
                                 </Link>
 
-                                <Link to="/storeDetail4" className="link">
+                                <Link to="/storeDetail4" className="link flex">
                                 <div className='StoreDetail_left_Btm_SelectBox_Item2'>
                                 반품/교환/배송정보
                                 </div>    
@@ -169,7 +169,7 @@ function StoreDetail() {
                                 <div>
                                 A/S
                                 </div>
-                                
+                                <br />      
                                 <div>
                                 - 제품의 컨디션에 따라 추가비용이 발생할 수 있습니다.
 - 기간은 7 ~ 14일 정도 (주말 미포함) 소요됩니다.
@@ -179,9 +179,15 @@ function StoreDetail() {
 
 - A/S기준이나 가능여부는 상품에 따라 다르므로 고객센터로 연락주시면 자세히 안내드리겠습니다.
                                 </div>
+<br />
 
+                                    <div>
+                                    Exchange / Refund (교환 / 환불)
+                                    </div>
+                                    <br />
                                 <div>
-                                Exchange / Refund (교환 / 환불)
+                                    
+                                
 
 - 반품/교환시 왕복택배비 6,000원이 부과됩니다.
 - 상품하자, 오배송인 경우 택배비 무료로 반품·교환이 가능합니다.
@@ -191,9 +197,13 @@ function StoreDetail() {
 - 사용흔적이 있거나 고객부주의로 상품이 훼손된 경우 반품·교환이 불가능합니다.
 - 취소·반품·교환은 전자상거래법 규정에 의거한 정책을 준수합니다.
                                 </div>
-
+                                <br />
                                 <div>
-                                Shipping (배송)
+                                   Shipping (배송) 
+                                </div>
+                                <br />
+                                <div>
+                                
 
 - 제작기간에 따라서 3~5일 정도 소요됩니다.
 - 택배사 사정이나 지역에 따라 소요기간에 차이가 있을 수 있습니다.
