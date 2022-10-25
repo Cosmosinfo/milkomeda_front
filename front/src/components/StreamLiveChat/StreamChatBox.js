@@ -26,8 +26,8 @@ function StreamChatBox() {
         // Reset height - important to shrink on delete
         textareaRef.current.style.height = "20px";
         // Set height
-        if (textareaRef.current.scrollHeight > 60) {
-            textareaRef.current.style.height = `60px`;
+        if (textareaRef.current.scrollHeight > 70) {
+            textareaRef.current.style.height = `70px`;
 
         } else {
             textareaRef.current.style.height = `${Math.max(

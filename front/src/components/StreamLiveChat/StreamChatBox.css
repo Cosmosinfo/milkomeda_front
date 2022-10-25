@@ -112,7 +112,7 @@
   .StreamChatBox_Right_middle{
     /* width:100%; */
     overflow: overlay;
-    aspect-ratio: 344/610;
+    aspect-ratio: 344/650;
   }
 
   /* .StreamChatBox_Right_middle::-webkit-scrollbar{
