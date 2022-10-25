@@ -156,18 +156,18 @@ export default function Topbar() {
               curRef2.current = true;
             }} />
 
-
+            
             <Bell className="bell" onClick={() => {
               setOpenNoti(!openNoti)
               curRef.current = true;
             }} />
-            <div className="counterBox">
-              <div className="counter"></div>
-            </div>
+           
             
 
-
-            <Hexagon className="hexagon" />
+           
+              <Hexagon className="hexagon" />
+            
+            
 
             <button className="Avatar_logo" onClick={() => {
               setOpenProfile(!openProfile)
