@@ -161,6 +161,10 @@ export default function Topbar() {
               setOpenNoti(!openNoti)
               curRef.current = true;
             }} />
+            <div className="counterBox">
+              <div className="counter"></div>
+            </div>
+            
 
 
             <Hexagon className="hexagon" />

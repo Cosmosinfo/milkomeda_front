@@ -103,6 +103,27 @@
   cursor: pointer;
 }
 
+.counterBox{
+  position: absolute;
+  top: 22px;
+  right: 122px;
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1524px) {
+  #counter {
+    overflow: hidden;
+  }
+} 
+
+
+.counter{
+  
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 100%;
+}
+
 .hexagon{
   width: 18px;
   height: 18px;
