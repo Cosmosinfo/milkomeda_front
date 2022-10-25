@@ -1,6 +1,6 @@
 .StreamChatBox_Right_Container{
   position: fixed; 
-  height: calc(100% - 12%);;
+  height: calc(100% - 9%);;
   display: flex;
     flex-direction: column;
     margin-right: 30px;
