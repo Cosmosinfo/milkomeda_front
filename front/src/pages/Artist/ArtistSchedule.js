@@ -4,10 +4,11 @@ import '../../assets/css/Artist/ArtistSchedule.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import chevronleft from '../../assets/icon/graw/chevron-left.svg'
 import chevronright from '../../assets/icon/graw/chevron-right.svg'
+// import { ResponsiveCalendar } from 'react-responsive-calendar'
 // import Calendar from 'react-calendar';
 
 function ArtistSchedule() {
-    // const [value, onChange] = useState(new Date());
+   
     return (
         <>
 
@@ -52,7 +53,7 @@ function ArtistSchedule() {
 
 
                             <div className='ArtistSchedule_Rh_btm_Schedulelf'>
-                            {/* <Calendar className='ArtistSchedule_Rh_'  /> */}
+                            
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_top">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_top_text">
                                         2022. 08
@@ -67,13 +68,34 @@ function ArtistSchedule() {
 
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_btm">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_date">
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SUN</span>
+                                        </div>
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">MON</span>
+                                        </div>
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">TUE</span>
+                                        </div>
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">WED</span>
+                                        </div>
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">THU</span>
+                                        </div>
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">FRI</span>
+                                        </div>
+                                        <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
                                         <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SAT</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
                                     </div>
 
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_hr"></div>
