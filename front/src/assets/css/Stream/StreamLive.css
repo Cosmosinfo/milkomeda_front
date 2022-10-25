@@ -364,9 +364,11 @@ color: #FFFFFF;
 /* =============================== StreamLive Chat  ============================== */
 
 .StreamLive_Right_Wrapper{
-   /* position: fixed;
-    left: 77%; */
-    width: 416px;
+  /* width: 416px; */
+  flex: 1;
+  /* padding: 24px 36px 0 36px; */
+  background-color: #191922;
+  
 } 
 
 
