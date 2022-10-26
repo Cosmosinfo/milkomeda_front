@@ -193,7 +193,11 @@ function ArtistSchedule() {
                                                         제목
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                        18:00~19:30(KST/90분)
+                                                        18:00~19:30(KST/90분)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        &nbsp;&nbsp;
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
                                                         장소
