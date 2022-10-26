@@ -151,24 +151,32 @@ export default function Topbar() {
 
           <div className="topbarRight">
 
+            <div className="Icon_box">
             <More className="more" onClick={() => {
               setOpenTerms(!openTerms)
               curRef2.current = true;
             }} />
 
+            </div>
             
+
+            <div className="Icon_box">
             <Bell className="bell" onClick={() => {
               setOpenNoti(!openNoti)
               curRef.current = true;
             }} />
+            </div>
+            
            
             
 
-           
-              <Hexagon className="hexagon" />
+           <div className="Icon_box">
+           <Hexagon className="hexagon" />
+           </div>
+              
             
             
-
+            
             <button className="Avatar_logo" onClick={() => {
               setOpenProfile(!openProfile)
               curRef3.current = true;

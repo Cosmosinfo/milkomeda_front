@@ -48,7 +48,7 @@ function ArtistHome() {
 
             <div className='AritstHome_Rh_btm'>
               <div className='AritstHome_Rh_btm_topcard'>
-                <div className='AritstHome_Rh_btm_topcard_item'>
+                {/* <div className='AritstHome_Rh_btm_topcard_item'>
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
                       <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
@@ -64,6 +64,32 @@ function ArtistHome() {
                     <div className="AritstHome_Rh_btm_topcard_item_btm">
                       <div className='AritstHome_Rh_btm_topcard_item_btm_rntextbox'>
                         <spen className='AritstHome_Rh_btm_topcard_item_btm_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</spen>
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
+
+                <div className='AritstHome_Rh_btm_topcard_item'>
+                  <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
+                    <div className='AritstHome_Rh_btm_topcard_item_top'>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
+                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                      <Link to="/artistschedule" className="link">
+                                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                                          <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                                          <img className="chevronright" src={chevronright} alt="chevronright" />
+                                      </div>
+                                      </Link>
+
+                      </div>
+                    </div>
+
+                    <div className="AritstHome_Rh_btm_topcard_item_btm">
+                      <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox'>
+                        
+
+                      <spen className='AritstHome_Rh_btm_topcard_item_btm_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</spen>
+                        
                       </div>
                     </div>
                   </div>
@@ -92,7 +118,7 @@ function ArtistHome() {
                           <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh">
                             <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_top'>
                               <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_lf"></div>
-                              <spen className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_text">Lorem ipsum dolor sit amet</spen>
+                              <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_text">Lorem ipsum dolor sit amet</div>
                             </div>
 
 

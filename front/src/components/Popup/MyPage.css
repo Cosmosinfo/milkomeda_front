@@ -100,6 +100,10 @@
   .popfooter-ContentItem-text{
     cursor: pointer;
   }
+
+  .popfooter-ContentItem-text:hover{
+    color: #FFFFFF;
+  }
   
   .popfooter-ContentEditIcon{
     width: 20px;

@@ -102,7 +102,9 @@
 }
 
 .AritstHome_Rh_btm_topcard_item_wrapper{
-    padding : 20px 20px
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .AritstHome_Rh_btm_topcard_item_top{
@@ -150,23 +152,29 @@
 }
 
 .AritstHome_Rh_btm_topcard_item_btm_rntextbox{
-    padding : 13px 22px 40px 14px
+    padding : 12px 12px
 }
 
 .AritstHome_Rh_btm_topcard_item_btm_ustextbox{
-    padding : 13px 13px 28px 14px
+    padding : 12px 12px
 }
 
 .AritstHome_Rh_btm_topcard_item_btm_fptextbox{
-    padding : 13px 13px;
+    padding : 12px 12px
 }
 
 .AritstHome_Rh_btm_topcard_item_btm_text{
+    min-width: 160px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #FFFFFF;
     
 }
@@ -207,8 +215,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    /* display: block; */
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
     line-height: 21px;
-    
     color: #FFFFFF;
     margin-left: 12px;
 }
@@ -234,7 +245,10 @@
 
 
     
+    display: block;
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
     height: 21px;
     /* font-family: 'Poppins'; */
     font-style: normal;

@@ -24,7 +24,7 @@
 
 .Stage_btm{
   height : 46px;
-  
+  overflow: hidden;
   display: flex;
   margin-top: 12px;
 }
@@ -44,15 +44,17 @@
 
 .Stage_btm_Right{
   /* width: 90px; */
-  height: 40px;
+  /* height: 40px; */
   margin-left: 12px;
+  display: flex;
+    flex-direction: column;
 
 }
 
 .Stage_NameBox{
   /* width : 93px; */
-  height : 21px;
-  
+  /* height : 21px; */
+  overflow: hidden;
   
   
 }
@@ -76,5 +78,6 @@
   width : 21px;
   font-size: 14px;
   font-weight: 400;
-  color : #8b8999
+  color : #8b8999;
+  /* white-space: nowrap; */
 }

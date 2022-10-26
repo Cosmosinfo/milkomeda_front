@@ -255,8 +255,8 @@ line-height: 30px;
 
 .home_Stage_NameBox{
   /* width : 93px; */
-  height : 21px;
-  
+  height: 23px;
+    overflow: hidden;
   
   
 }
@@ -272,6 +272,7 @@ line-height: 30px;
 .home_Stage_NameBox_ArtistName_Box{
   /* width : 93px; */
   height : 21px;
+  overflow: hidden;
 }
 
 

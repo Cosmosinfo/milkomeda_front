@@ -7,31 +7,34 @@ function StoreSort() {
             <div className='StoreSort-popWrapper'>
                 <div className='StoreSort-contentItem'>
                     <div className='StoreSort-contentItemText'>
-                        가격순
+                    최신등록순
                     </div>
 
                 </div>
 
                 <div className='StoreSort-contentItem'>
                     <div className='StoreSort-contentItemText'>
-                        아티스트순
+                        높은가격순
                     </div>
 
                 </div>
 
                 <div className='StoreSort-contentItem'>
                     <div className='StoreSort-contentItemText'>
-                        옷
+                        낮은가격순
                     </div>
 
                 </div>
 
                 <div className='StoreSort-contentItem'>
                     <div className='StoreSort-contentItemText'>
-                        쥬얼
+                        인기도순
                     </div>
 
                 </div>
+
+                
+                
 
 
                 

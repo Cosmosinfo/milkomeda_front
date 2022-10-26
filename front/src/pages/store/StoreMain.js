@@ -6,7 +6,7 @@ import StoreBanner from '../../components/Carousel/StoreBanner'
 import StoreSort from '../../components/Popup/StoreSort'
 
 function StoreMain() {
-    const data = ['카테고리','카테고리','카테고리','카테고리','카테고리','카테고리'];
+    const data = ['ALL','COLLAB','OUTER','TOP','BOTTOM','ACC'];
     
     const dropdownRef = useRef(null);
     const curRef = useRef(true);

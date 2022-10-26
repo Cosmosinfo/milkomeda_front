@@ -73,7 +73,12 @@ function ArtistInfoCard() {
             <div className='ArtistInfoCard_Artist_Line'></div>
 
             <div className='ArtistInfoCard_Artistdescription'>
-              𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥 고장 난 어른들의 동화를 노래하는 밴드 러블레스
+              <div>𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥</div>
+              <br />
+               <div>고장 난 어른들의 동화를 노래하는 러블레스</div>
+               <br />
+               <div>💜Lubless X to.young - I’ve gotta feelin’ like🖤</div>
+               <div>🌖I’ve gotta feelin’ like (Lyric video)✨</div>
             </div>
           </div>
 
