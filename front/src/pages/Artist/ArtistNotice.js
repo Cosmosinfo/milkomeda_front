@@ -69,8 +69,7 @@ function ArtistNotice() {
                     </div>
 
                     <div className='AritstHome_Rh_btm_ncitembox_left_descripbox'>
-                      <span className='AritstHome_Rh_btm_ncitembox_left_descrip'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</span>
+                      <span className='AritstHome_Rh_btm_ncitembox_left_descrip'>Lorem o</span>
                     </div>
 
                     <div className='AritstHome_Rh_btm_ncitembox_left_Iconbox'>
@@ -89,7 +88,7 @@ function ArtistNotice() {
                 </div>
               </div>
 
-              <div className='AritstHome_Rh_btm_noticecard'>
+              {/* <div className='AritstHome_Rh_btm_noticecard'>
                 <div className='AritstHome_Rh_btm_ncitembox'>
                   <div className='AritstHome_Rh_btm_ncitembox_left'>
                     <div className='AritstHome_Rh_btm_ncitembox_left_artistbox'>
@@ -301,7 +300,7 @@ function ArtistNotice() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
 
 
