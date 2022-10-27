@@ -5,8 +5,7 @@
 }
 
 .ArtistStageps_Wrapper{
-    /* width: 1620px;
-    height: 857px; */
+    height: 100%; 
     padding: 30px 30px;
     display: flex;
 
