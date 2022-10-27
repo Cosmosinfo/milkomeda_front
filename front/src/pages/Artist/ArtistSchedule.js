@@ -8,7 +8,7 @@ import chevronright from '../../assets/icon/graw/chevron-right.svg'
 // import Calendar from 'react-calendar';
 
 function ArtistSchedule() {
-   
+
     return (
         <>
 
@@ -53,7 +53,7 @@ function ArtistSchedule() {
 
 
                             <div className='ArtistSchedule_Rh_btm_Schedulelf'>
-                            
+
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_top">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_top_text">
                                         2022. 08
@@ -69,33 +69,33 @@ function ArtistSchedule() {
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_btm">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_date">
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SUN</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SUN</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">MON</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">MON</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">TUE</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">TUE</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">WED</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">WED</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">THU</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">THU</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">FRI</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">FRI</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                        <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SAT</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SAT</span>
                                         </div>
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
+
+
+
+
+
+
+
                                     </div>
 
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_hr"></div>
@@ -197,7 +197,7 @@ function ArtistSchedule() {
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        &nbsp;&nbsp;
+                                                        &nbsp;
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
                                                         장소
@@ -290,9 +290,9 @@ function ArtistSchedule() {
                                             </div>
                                         </div>
 
-                                        
+
                                     </div>
-                                    
+
 
 
 
