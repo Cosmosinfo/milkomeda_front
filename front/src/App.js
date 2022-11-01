@@ -24,6 +24,7 @@ import ArtistSchedule from './pages/Artist/ArtistSchedule';
 import ArtistPost from './pages/Artist/ArtistPost';
 import Help from './pages/Help/Help';
 import Settings from './pages/Setting/Setting';
+import Login from './pages/Login/Login'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/help" element={<Help />} />
             <Route path="/setting" element={<Settings />} />
             <Route path="/stream" element={<StreamMain />} />

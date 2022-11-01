@@ -1,0 +1,156 @@
+.Login{
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.Login_Wrapper{
+    height: 100%; 
+    padding: 123px 167px 123px 143px ;
+    display: flex;
+
+    
+}
+
+
+.Login_Container{
+    width:100%;
+    display: flex;
+    
+    /* width: 1370px;
+    height: 753px; */
+    
+}
+
+.Login_ItemLeft{
+background-color: aqua;
+margin-right: 300px;
+flex: 1;
+}
+
+.Login_ItemRight{
+    flex: 1 1;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Login_ItemRight_top{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Login_ItemRight_top_title_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* ================================== form ================================== */
+
+.Login_ItemRight_btm{
+    display: flex;
+    flex-direction: column;
+}
+
+.Login_ItemRight_btm_usernameBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.Login_ItemRight_btm_usernameBox_title{
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.Login_ItemRight_btm_usernameBox_Input{
+    
+    border-radius: 3px;
+    
+}
+
+.username_input{
+    width: 100%;
+    height: 40px;
+    background: #191922;
+    border: none;
+}
+
+.Login_ItemRight_btm_passwordBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Login_ItemRight_btm_passwordBox_title{
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.Login_ItemRight_btm_passwordBox_Input{
+    border-radius: 3px;
+}
+
+.password_input{
+    width: 100%;
+    height: 40px;
+    background: #191922;
+    border: none;
+}
+
+.Login_ItemRight_btm_passwordBox_forget{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    
+    color: #8B8999;
+}
+
+.Login_ItemRight_btm_orBox{
+    display: flex;
+    margin : 24px 0;
+    align-items: center;
+}
+
+.Login_ItemRight_btm_orBox_hrlf{
+    background: #8B8999;
+    flex-grow: 1 !important;
+    opacity: 20%;
+    height: 1px;
+}
+
+.Login_ItemRight_btm_orBox_hrmd{
+margin: 0 34px;
+}
+
+.Login_ItemRight_btm_orBox_hrrh{
+    background: #8B8999;
+    flex-grow: 1 !important;
+    opacity: 20%;
+    height: 1px;
+}
+
+.Login_ItemRight_btm_google{
+    width: 100%;
+    height : 40px;
+    background: #191922;
+    border-radius: 100px;
+    margin-bottom: 12px;
+}
