@@ -22,10 +22,18 @@
     
 }
 
+.Login_ItemLeft_imgbox{
+    
+}
+
 .Login_ItemLeft{
 
 margin-right: 300px;
 flex: 1;
+}
+
+.Login_ItemLeft_img{
+
 }
 
 .Login_ItemRight{
@@ -287,7 +295,7 @@ cursor: pointer;
 .Login_ItemRight_btm_text_milko{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 21px;
     cursor: pointer;
     color: #FFFFFF;

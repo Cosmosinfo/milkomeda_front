@@ -3,13 +3,11 @@ import google from '../../assets/icon/social/google.svg'
 import apple from '../../assets/icon/social/apple.svg'
 import kakao from '../../assets/icon/social/kakao.svg'
 import naver from '../../assets/icon/social/naver.svg'
-import './Login.css'
 
-function Login() {
-    return (
-        <>
-
-            <div className='Login'>
+function Signup() {
+  return (
+    <>
+        <div className='Login'>
                 <div className='Login_Wrapper'>
                     <div className='Login_Container'>
                         <div className='Login_ItemLeft'>
@@ -122,9 +120,9 @@ function Login() {
 
                 </div>
             </div>
-
-        </>
-    )
+    
+    </>
+  )
 }
 
-export default Login
+export default Signup
