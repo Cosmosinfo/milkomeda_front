@@ -48,7 +48,7 @@ function ArtistStore() {
 
             <div className='ArtistStore_Rh_btm storehidden'>
 
-              
+
 
               <div className='AritstHome_Rh_btm_noticecard'>
                 <div className='AritstHome_Rh_btm_ncitembox storehidden'>
@@ -77,7 +77,7 @@ function ArtistStore() {
                     </div>
 
                     <div className='AritstHome_Rh_btm_ncitembox_left_Iconbox'>
-                      
+
                     </div>
                   </div>
 
@@ -85,7 +85,7 @@ function ArtistStore() {
                 </div>
               </div>
 
-              
+
 
 
             </div>

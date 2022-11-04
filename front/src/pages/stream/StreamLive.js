@@ -102,77 +102,77 @@ function StreamLive() {
                                     <div className='StreamLive_Content_Info_ArtistName'>
 
                                         <Link to="/artisthome" className="link">
-                                                <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
-                                                    <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                        <span className="StreamLive_Content_Info_ArtistName_contanier_text">Lubless</span>
-                                                    </div>
-
-
+                                                <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                    <span className="StreamLive_Content_Info_ArtistName_contanier_text">Lubless</span>
                                                 </div>
+
+
+                                            </div>
                                         </Link>
 
-                                        
-                                                <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
-                                                    <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                        <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
-                                                    </div>
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
-
-                                                </div>
-                                         
-
-                                          
-                                                <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-
-                                                    <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                        <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
-                                                    </div>
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                            </div>
 
 
-                                                </div>
-                                          
-
-                                            
-                                                <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-
-                                                    <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                        <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
-                                                    </div>
+                                        </div>
 
 
-                                                </div>
-                                          
 
-                                            
-                                                <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
-                                                    <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                        <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
-                                                    </div>
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                            </div>
 
 
-                                                </div>
-                                           
-
-                                           
-                                                <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-
-                                                    <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                        <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
-                                                    </div>
+                                        </div>
 
 
-                                                </div>
-                                           
-                                       
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                            </div>
+
+
+                                        </div>
+
+
 
 
 
@@ -184,72 +184,72 @@ function StreamLive() {
                                 <div className="StreamLive_Content_Details">
                                     <div className='StreamLive_Content_Details_text'>
                                         <div>
-                                        [I've gotta feelin' like]
-                                        </div>
-                                        
-                                        <br />
-                                        
-                                        <div>
-                                        Dust in the air, blurred sight and it makes me feel like high
-                                        </div>
-                                        
-                                        <br />
-                                        
-                                        <div>
-                                        music :  https://linksalad.net/US06go_3Wf
-                                        </div>
-
-                                        <br />
-
-
-                                        <div>
-                                        PRODUCED BY BONGWOO, LENA, 투영<br />
-                                        COMPOSED BY BONGWOO, LENA, 투영<br />
-                                        LYRICS BY BONGWOO, LENA, 투영<br />
-                                        ARRANGED BY 투영
+                                            [I've gotta feelin' like]
                                         </div>
 
                                         <br />
 
                                         <div>
-                                        VOCAL & CHORUS BY LENA<br />
-                                        DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
+                                            Dust in the air, blurred sight and it makes me feel like high
                                         </div>
 
                                         <br />
 
                                         <div>
-                                        RECORDED BY 오혜석 @MOL STUDIO<br />
-                                        MIXED BY 신유식, 투영<br />
-                                        MASTERED BY 강승희 @SONIC KOREA
+                                            music :  https://linksalad.net/US06go_3Wf
+                                        </div>
+
                                         <br />
 
-                                        LYRIC VIDEO BY BONGWOO
+
+                                        <div>
+                                            PRODUCED BY BONGWOO, LENA, 투영<br />
+                                            COMPOSED BY BONGWOO, LENA, 투영<br />
+                                            LYRICS BY BONGWOO, LENA, 투영<br />
+                                            ARRANGED BY 투영
                                         </div>
 
                                         <br />
 
                                         <div>
-                                        -------------------------------------------
+                                            VOCAL & CHORUS BY LENA<br />
+                                            DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
                                         </div>
 
                                         <br />
-                                        
+
                                         <div>
-                                        밴드 러블레스 Lubless<br />
-                                        "Lust bless you. Follow your heart."<br />
-                                        어딘가 고장 난 어른들을 위한 동화
+                                            RECORDED BY 오혜석 @MOL STUDIO<br />
+                                            MIXED BY 신유식, 투영<br />
+                                            MASTERED BY 강승희 @SONIC KOREA
+                                            <br />
+
+                                            LYRIC VIDEO BY BONGWOO
                                         </div>
 
                                         <br />
-                                        
+
                                         <div>
-                                        공식 홈페이지 - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
-                                        페이스북 - <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a><br />
-                                        인스타그램 - <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a><br />
-                                        트위터 - <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+                                            -------------------------------------------
                                         </div>
-                                        
+
+                                        <br />
+
+                                        <div>
+                                            밴드 러블레스 Lubless<br />
+                                            "Lust bless you. Follow your heart."<br />
+                                            어딘가 고장 난 어른들을 위한 동화
+                                        </div>
+
+                                        <br />
+
+                                        <div>
+                                            공식 홈페이지 - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
+                                            페이스북 - <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a><br />
+                                            인스타그램 - <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a><br />
+                                            트위터 - <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+                                        </div>
+
 
                                     </div>
                                 </div>

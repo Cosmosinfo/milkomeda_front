@@ -7,7 +7,7 @@ import './Settings.css'
 function Setting() {
   return (
     <>
-    
+
 
     </>
   )

@@ -1,4 +1,4 @@
-import { React} from "react";
+import { React } from "react";
 import '../../assets/css/Store/StoreDetail.css'
 import minus from '../../assets/icon/graw/minus-circle.svg'
 import plus from '../../assets/icon/graw/plus-circle.svg'
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 
 function StoreDetail() {
-    
+
     // const data = ['상세보기','리뷰 0','Q&A 0','반품/교환/배송정보'];
     // const [btnActive, setBtnActive] = useState("");
 
@@ -17,7 +17,7 @@ function StoreDetail() {
     //     setBtnActive((prev) => {
     //     return e.target.value;
     //     });
-        
+
 
     // }
 
@@ -28,8 +28,8 @@ function StoreDetail() {
                     <div className='StoreDetail_left'>
                         <div className='StoreDetail_left_top'>
                             <div className='StoreDetail_left_top_img'>
-                                 <img className="StoreDetail_left_top_img_img" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" />
-                                 {/* <StoreItemDetailImg /> */}
+                                <img className="StoreDetail_left_top_img_img" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" />
+                                {/* <StoreItemDetailImg /> */}
                             </div>
 
                             <div className='StoreDetail_left_top_Detail'>
@@ -110,7 +110,7 @@ function StoreDetail() {
                         <div className='StoreDetail_left_Btm'>
                             <div className='StoreDetail_left_Btm_SelectBox'>
 
-                            {/* {data.map((item, idx) => {
+                                {/* {data.map((item, idx) => {
                                                 return (
                                                 <>
                                                     <button
@@ -127,34 +127,34 @@ function StoreDetail() {
                                                 </>
                                                 );
                             })} */}
-                                 <Link to="/storeDetail" className="link flex">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                    상세보기
-                                </div>
+                                <Link to="/storeDetail" className="link flex">
+                                    <div className='StoreDetail_left_Btm_SelectBox_Item'>
+                                        상세보기
+                                    </div>
                                 </Link>
 
                                 <Link to="/storeDetail2" className="link flex">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item2'>
-                                리뷰 0
-                                </div>
+                                    <div className='StoreDetail_left_Btm_SelectBox_Item2'>
+                                        리뷰 0
+                                    </div>
                                 </Link>
 
                                 <Link to="/storeDetail3" className="link flex">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                Q&A 0
-                                </div>
+                                    <div className='StoreDetail_left_Btm_SelectBox_Item'>
+                                        Q&A 0
+                                    </div>
                                 </Link>
 
                                 <Link to="/storeDetail4" className="link flex">
-                                <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                반품/교환/배송정보
-                                </div>    
-                                </Link> 
-                            
+                                    <div className='StoreDetail_left_Btm_SelectBox_Item'>
+                                        반품/교환/배송정보
+                                    </div>
+                                </Link>
+
 
                             </div>
 
-                            
+
 
                             {/* {StoreTapContent.map((item, idx) => {
                                             return (
@@ -168,7 +168,7 @@ function StoreDetail() {
                                 {/* <img className="StoreDetail_left_Btm_imgBox" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" /> */}
                             </div>
 
-                            
+
                         </div>
                     </div>
 
@@ -182,7 +182,7 @@ function StoreDetail() {
                             <div className='StoreDetail_Right_Btm'>
                                 <StoreRecoProduct />
 
-                               
+
 
 
                             </div>

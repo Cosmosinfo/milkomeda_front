@@ -12,7 +12,7 @@ import StageCardData from "../../Data/StageCardData"
 function Home() {
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4)
-  const [noOfElement2, setnoOfElement2] = useState(4) 
+  const [noOfElement2, setnoOfElement2] = useState(4)
   // const [moreBtn, setMoreBtn] = useState()
 
   // const [btnActive, setBtnActive] = useState("");
@@ -26,92 +26,92 @@ function Home() {
   const more = StageCardData.cardData.slice(0, noOfElement)
   const more2 = StageCardData.cardData.slice(0, noOfElement2)
 
-  function loadmore(){
+  function loadmore() {
     setnoOfElement(noOfElement + noOfElement)
 
   }
 
-  function loadmore2(){
+  function loadmore2() {
     setnoOfElement2(noOfElement2 + noOfElement2)
 
   }
 
   function Btnchevron() {
-    
+
 
     if (noOfElement > 4) {
-      
+
       return <div className="hr-sects"> </div>
 
-      
-      
-    
+
+
+
     } else {
       return <div className="show-more">
-               
-            
-      <div className="hr-left"></div>
-    
-      <div className="hr-middle">
+
+
+        <div className="hr-left"></div>
+
+        <div className="hr-middle">
           <button
             className="more_btn"
-            onClick={() =>loadmore()}
+            onClick={() => loadmore()}
 
           >
-            
+
             <spen className="hr-sect_more">더 보기</spen>
             <img className="chevron" src={chevron} alt="chevron" />
           </button>
+        </div>
+
+
+
+        <div className="hr-right"></div>
+
+
+
+
       </div>
-      
-       
-
-      <div className="hr-right"></div>
-
-       
-       
-       
-    </div>
 
     }
   }
 
   function Btnchevron2() {
-    
+
 
     if (noOfElement2 > 4) {
-      
+
       return <div className="hr-sects2"> </div>
 
-      
-      
-    
+
+
+
     } else {
       return <div className="show-more">
-               
-            
-      <div className="hr-left"></div>
-    
-      <div className="hr-middle">
+
+
+        <div className="hr-left"></div>
+
+        <div className="hr-middle">
           <button
             className="more_btn"
-            onClick={() =>loadmore2()}
+            onClick={() => loadmore2()}
 
           >
-            
+
             <spen className="hr-sect_more">더 보기</spen>
             <img className="chevron" src={chevron} alt="chevron" />
           </button>
+        </div>
+
+
+
+        <div className="hr-right"></div>
+
+
+
+
       </div>
-      
-       
-
-      <div className="hr-right"></div>
-
-       
-       
-       
-    </div>
 
     }
   }
@@ -155,13 +155,13 @@ function Home() {
           </div>
 
           <div className="home_LiveStage_Container">
-          
-          {more.map((item, index)=>{
-              return(
+
+            {more.map((item, index) => {
+              return (
                 <Link to="/StreamLive" className="link home_stageCard">
                   <div className="home_Stage_Top">
-                     
-                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt=""  /> 
+
+                    <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
                   </div>
 
                   <div className="home_Stage_btm">
@@ -186,19 +186,19 @@ function Home() {
                   </div>
                 </Link>
               )
-          })}
-          
+            })}
+
 
 
 
           </div>
         </div>
-          
-            
-         
-         {Btnchevron()}
 
-          
+
+
+        {Btnchevron()}
+
+
 
         {/* ====================  Upcoming Stage  ======================== */}
 
@@ -208,12 +208,12 @@ function Home() {
           </div>
 
           <div className="home_UpComingStage_Container">
-          {more2.map((item, index)=>{
-              return(
+            {more2.map((item, index) => {
+              return (
                 <Link to="/StreamLive" className="link home_stageCard">
                   <div className="home_Stage_Top">
-                     
-                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt=""  /> 
+
+                    <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
                   </div>
 
                   <div className="home_Stage_btm">
@@ -238,16 +238,16 @@ function Home() {
                   </div>
                 </Link>
               )
-          })}
-            
+            })}
+
 
 
           </div>
         </div>
 
-        
+
         {Btnchevron2()}
-          
+
       </div>
     </div>
   )

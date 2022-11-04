@@ -5,17 +5,17 @@ import kakao from '../../assets/icon/social/kakao.svg'
 import naver from '../../assets/icon/social/naver.svg'
 
 function Signup() {
-  return (
-    <>
-        <div className='Login'>
+    return (
+        <>
+            <div className='Login'>
                 <div className='Login_Wrapper'>
                     <div className='Login_Container'>
                         <div className='Login_ItemLeft'>
                             <div className='Login_ItemLeft_imgbox'>
                                 <img src="https://i.imgur.com/Ab8BFxf.png" className="Login_ItemLeft_img" alt="" />
                             </div>
-                            
-                            
+
+
                         </div>
 
 
@@ -59,59 +59,59 @@ function Signup() {
 
                                 <div className="Login_ItemRight_btm_google">
                                     <div className="Login_ItemRight_btm_Itembox">
-                                    <div className="Login_ItemRight_btm_Iconbox">
-                                    <img className="social_icon" src={google} alt="google" />
-                                    </div>
+                                        <div className="Login_ItemRight_btm_Iconbox">
+                                            <img className="social_icon" src={google} alt="google" />
+                                        </div>
                                         <div className="Login_ItemRight_btm_textbox">
                                             <span className="Login_ItemRight_btm_text">Continue with Google</span>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                                 <div className="Login_ItemRight_btm_apple">
                                     <div className="Login_ItemRight_btm_Itembox">
-                                    <div className="Login_ItemRight_btm_Iconbox">
-                                    <img className="social_icon" src={apple} alt="apple" />
-                                    </div>
-                                            <div className="Login_ItemRight_btm_textbox">
-                                                <span className="Login_ItemRight_btm_text">Continue with Apple</span>
-                                            </div>
+                                        <div className="Login_ItemRight_btm_Iconbox">
+                                            <img className="social_icon" src={apple} alt="apple" />
+                                        </div>
+                                        <div className="Login_ItemRight_btm_textbox">
+                                            <span className="Login_ItemRight_btm_text">Continue with Apple</span>
                                         </div>
                                     </div>
+                                </div>
                                 <div className="Login_ItemRight_btm_kakao">
-                                <div className="Login_ItemRight_btm_Itembox">
-                                    <div className="Login_ItemRight_btm_Iconbox">
-                                    <img className="social_icon" src={kakao} alt="kakao" />
-                                    </div>
-                                            
-                                            <div className="Login_ItemRight_btm_textbox">
-                                                <span className="Login_ItemRight_btm_text_kakao">Continue with Kakoa</span>
-                                            </div>
-                                        
+                                    <div className="Login_ItemRight_btm_Itembox">
+                                        <div className="Login_ItemRight_btm_Iconbox">
+                                            <img className="social_icon" src={kakao} alt="kakao" />
+                                        </div>
+
+                                        <div className="Login_ItemRight_btm_textbox">
+                                            <span className="Login_ItemRight_btm_text_kakao">Continue with Kakoa</span>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div className="Login_ItemRight_btm_Naver">
-                                        <div className="Login_ItemRight_btm_Itembox">
+                                    <div className="Login_ItemRight_btm_Itembox">
                                         <div className="Login_ItemRight_btm_Iconbox">
-                                        <img className="social_icon" src={naver} alt="naver" />
+                                            <img className="social_icon" src={naver} alt="naver" />
                                         </div>
-                                            <div className="Login_ItemRight_btm_textbox">
-                                                <span className="Login_ItemRight_btm_text_naver">Continue with Naver</span>
-                                            </div>
+                                        <div className="Login_ItemRight_btm_textbox">
+                                            <span className="Login_ItemRight_btm_text_naver">Continue with Naver</span>
                                         </div>
-                                    
+                                    </div>
+
                                 </div>
 
                                 <div className="Login_ItemRight_btm_hr"></div>
-                                
+
                                 <div className="Login_ItemRight_btm_accountbox">
                                     <span className="Login_ItemRight_btm_account_text">Don’t have an account?</span>
                                 </div>
 
                                 <div className="Login_ItemRight_btm_milko">
-                                    
+
                                     <span className="Login_ItemRight_btm_text_milko">Sign up for MILKOMEDA</span>
-                                           
+
                                 </div>
 
                             </div>
@@ -120,9 +120,9 @@ function Signup() {
 
                 </div>
             </div>
-    
-    </>
-  )
+
+        </>
+    )
 }
 
 export default Signup

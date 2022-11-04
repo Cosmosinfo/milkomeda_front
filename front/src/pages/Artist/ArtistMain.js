@@ -13,35 +13,35 @@ function ArtistMain() {
   const [openAtSort, setOpenAtSort] = useState(false);
 
   useEffect(() => {
-      console.log('useEffect')
-      const pageClickEvent = (e) => {
-        if (curRef.current) {
-          curRef.current = false;
-          return;
-        } else {
-          curRef.current = true;
-        }
-  
-        // If the active element exists and is clicked outside of
-        if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
-          setOpenAtSort(!openAtSort);
-  
-        }
-      };
-  
-      // If the item is active (ie open) then listen for clicks
-      if (openAtSort) {
-        window.addEventListener('click', pageClickEvent);
+    console.log('useEffect')
+    const pageClickEvent = (e) => {
+      if (curRef.current) {
+        curRef.current = false;
+        return;
+      } else {
+        curRef.current = true;
       }
-      return () => {
-        window.removeEventListener('click', pageClickEvent);
+
+      // If the active element exists and is clicked outside of
+      if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+        setOpenAtSort(!openAtSort);
+
       }
-  
-  
-  
-  
-  
-    }, [openAtSort]);
+    };
+
+    // If the item is active (ie open) then listen for clicks
+    if (openAtSort) {
+      window.addEventListener('click', pageClickEvent);
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent);
+    }
+
+
+
+
+
+  }, [openAtSort]);
   return (
     <>
 
@@ -61,17 +61,18 @@ function ArtistMain() {
               <img className="ArtistMain_sortimg" src={filter} alt="filter" />
               {/* <span className='ArtistMain_imgBox_text'>정렬</span> */}
               <button className='ArtistMain_imgBox_text' onClick={() => {
-                                    setOpenAtSort(!openAtSort)
-                                    curRef.current = true;}}>
-                                    정렬
-                                </button>
+                setOpenAtSort(!openAtSort)
+                curRef.current = true;
+              }}>
+                정렬
+              </button>
 
-                                <nav
-                                        ref={dropdownRef}
-                                        className={`Stream_menus ${openAtSort ? "active" : "inactive"}`}
-                                        >
-                                        <ArtistSort />
-                                </nav>
+              <nav
+                ref={dropdownRef}
+                className={`Stream_menus ${openAtSort ? "active" : "inactive"}`}
+              >
+                <ArtistSort />
+              </nav>
             </div>
 
 

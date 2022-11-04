@@ -14,33 +14,33 @@ function StreamUpcoming() {
     useEffect(() => {
         console.log('useEffect')
         const pageClickEvent = (e) => {
-          if (curRef.current) {
-            curRef.current = false;
-            return;
-          } else {
-            curRef.current = true;
-          }
-    
-          // If the active element exists and is clicked outside of
-          if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
-            setOpenSort(!openSort);
-    
-          }
+            if (curRef.current) {
+                curRef.current = false;
+                return;
+            } else {
+                curRef.current = true;
+            }
+
+            // If the active element exists and is clicked outside of
+            if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+                setOpenSort(!openSort);
+
+            }
         };
-    
+
         // If the item is active (ie open) then listen for clicks
         if (openSort) {
-          window.addEventListener('click', pageClickEvent);
+            window.addEventListener('click', pageClickEvent);
         }
         return () => {
-          window.removeEventListener('click', pageClickEvent);
+            window.removeEventListener('click', pageClickEvent);
         }
-    
-    
-    
-    
-    
-      }, [openSort]);
+
+
+
+
+
+    }, [openSort]);
 
     return (
         <>
@@ -71,15 +71,16 @@ function StreamUpcoming() {
                                 <img className="Stream_LiveStage_filterIcon" src={filter} alt="filter" />
                                 <button className='Stream_LiveStage_filter_text' onClick={() => {
                                     setOpenSort(!openSort)
-                                    curRef.current = true;}}>
+                                    curRef.current = true;
+                                }}>
                                     정렬
                                 </button>
 
                                 <nav
-                                        ref={dropdownRef}
-                                        className={`Stream_menus ${openSort ? "active" : "inactive"}`}
-                                        >
-                                        <StreamSort />
+                                    ref={dropdownRef}
+                                    className={`Stream_menus ${openSort ? "active" : "inactive"}`}
+                                >
+                                    <StreamSort />
                                 </nav>
 
                             </div>
