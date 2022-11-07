@@ -5,9 +5,10 @@
 }
 
 .Login_Wrapper{
-    height: 100%; 
-    padding: 123px 167px 123px 143px ;
+    height: 100%;
+    /* padding: 123px 167px 123px 143px; */
     display: flex;
+    padding: 123px 167px 0 143px;
 
     
 }
@@ -28,8 +29,9 @@
 
 .Login_ItemLeft{
 
-margin-right: 300px;
-flex: 1;
+    margin-right: 300px;
+    flex: 1 1;
+    margin-top: 100px;
 }
 
 .Login_ItemLeft_img{

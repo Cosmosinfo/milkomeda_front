@@ -87,7 +87,7 @@ function Login() {
                                         </div>
 
                                         <div className="Login_ItemRight_btm_textbox">
-                                            <span className="Login_ItemRight_btm_text_kakao">Continue with Kakoa</span>
+                                            <span className="Login_ItemRight_btm_text_kakao">Continue with Kakao</span>
                                         </div>
 
                                     </div>
