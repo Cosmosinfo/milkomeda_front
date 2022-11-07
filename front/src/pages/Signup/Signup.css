@@ -1,20 +1,20 @@
-.Login{
+.Signup{
     width: 100%;
     height: 100%;
     color: #FFFFFF;
 }
 
-.Login_Wrapper{
+.Signup_Wrapper{
     height: 100%;
     /* padding: 123px 167px 123px 143px; */
     display: flex;
-    padding: 123px 167px 0 143px;
+    padding: 90px 167px 0 143px;
 
     
 }
 
 
-.Login_Container{
+.Signup_Container{
     width:100%;
     display: flex;
     
@@ -23,29 +23,29 @@
     
 }
 
-.Login_ItemLeft_imgbox{
+.Signup_ItemLeft_imgbox{
     
 }
 
-.Login_ItemLeft{
+.Signup_ItemLeft{
 
     margin-right: 300px;
     flex: 1 1;
     margin-top: 100px;
 }
 
-.Login_ItemLeft_img{
+.Signup_ItemLeft_img{
 
 }
 
-.Login_ItemRight{
+.Signup_ItemRight{
     flex: 0.8;
     height: 750px;
     display: flex;
     flex-direction: column;
 }
 
-.Login_ItemRight_top{
+.Signup_ItemRight_top{
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
 
 
 
-.Login_ItemRight_top_title_text{
+.Signup_ItemRight_top_title_text{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -63,19 +63,19 @@
 
 /* ================================== form ================================== */
 
-.Login_ItemRight_btm{
+.Signup_ItemRight_btm{
     display: flex;
     flex-direction: column;
 }
 
-.Login_ItemRight_btm_usernameBox{
+.Signup_ItemRight_btm_usernameBox{
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
 }
 
-.Login_ItemRight_btm_usernameBox_title{
-    margin-bottom: 6px;
+.Signup_ItemRight_btm_usernameBox_title{
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -83,27 +83,44 @@
     color: #FFFFFF;
 }
 
-.Login_ItemRight_btm_usernameBox_Input{
-    
+.Signup_ItemRight_btm_usernameBox_Input{
+    margin-top: 6px;
     border-radius: 3px;
     
 }
 
-.Login_username_input{
+.Signup_ItemRight_btm_usernameCheckBox_title{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.Signup_ItemRight_btm_usernameCheckBox__Input{
+    
+    border-radius: 3px;
+    margin-top: 6px;
+    
+}
+
+.Signup_username_input{
     width: 100%;
     height: 40px;
     background: #191922;
     border: none;
 }
 
-.Login_ItemRight_btm_passwordBox{
+.Signup_ItemRight_btm_passwordBox{
     display: flex;
     flex-direction: column;
+    margin-bottom: 48px
     
 }
 
-.Login_ItemRight_btm_passwordBox_title{
-    margin-bottom: 6px;
+.Signup_ItemRight_btm_passwordBox_title{
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -111,8 +128,9 @@
     color: #FFFFFF;
 }
 
-.Login_ItemRight_btm_passwordBox_Input{
+.Signup_ItemRight_btm_passwordBox_Input{
     border-radius: 3px;
+    margin-top: 6px;
 }
 
 .password_input{
@@ -122,7 +140,7 @@
     border: none;
 }
 
-.Login_ItemRight_btm_passwordBox_forget{
+.Signup_ItemRight_btm_passwordBox_forget{
     margin-top: 24px;
     font-style: normal;
     font-weight: 400;
@@ -133,32 +151,32 @@
     color: #8B8999;
 }
 
-.Login_ItemRight_btm_orBox{
+.Signup_ItemRight_btm_orBox{
     display: flex;
     margin : 24px 0;
     align-items: center;
 }
 
-.Login_ItemRight_btm_orBox_hrlf{
+.Signup_ItemRight_btm_orBox_hrlf{
     background: #8B8999;
     flex-grow: 1 !important;
     opacity: 20%;
     height: 1px;
 }
 
-.Login_ItemRight_btm_orBox_hrmd{
+.Signup_ItemRight_btm_orBox_hrmd{
 margin: 0 34px;
 cursor: pointer;
 }
 
-.Login_ItemRight_btm_orBox_hrrh{
+.Signup_ItemRight_btm_orBox_hrrh{
     background: #8B8999;
     flex-grow: 1 !important;
     opacity: 20%;
     height: 1px;
 }
 
-.Login_ItemRight_btm_google{
+.Signup_ItemRight_btm_google{
     
     padding: 0px 70px;
     height : 40px;
@@ -170,7 +188,7 @@ cursor: pointer;
     align-items: center;
 }
 
-.Login_ItemRight_btm_Itembox{
+.Signup_ItemRight_btm_Itembox{
     width: 211px;
     height: 21px;
     display: flex;
@@ -178,7 +196,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.Login_ItemRight_btm_Iconbox{
+.Signup_ItemRight_btm_Iconbox{
     width:30px;
     height: 30px;
     margin-right: 27px;
@@ -196,17 +214,25 @@ cursor: pointer;
 }
 
 
-.Login_ItemRight_btm_textbox{
+.Signup_ItemRight_btm_textbox{
 
 }
 
-.Login_ItemRight_btm_text{
+.Signup_ItemRight_btm_usernameBox_container{
+    margin-bottom: 24px;
+}
+
+.Signup_ItemRight_btm_usernameBox_container:last-of-type{
+    margin-bottom: 0
+}
+
+.Signup_ItemRight_btm_text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
 }
-.Login_ItemRight_btm_apple{
+.Signup_ItemRight_btm_apple{
     width: 100%;
     height : 40px;
     background: #191922;
@@ -217,7 +243,7 @@ cursor: pointer;
     align-items: center;
 }
 
-.Login_ItemRight_btm_kakao{
+.Signup_ItemRight_btm_kakao{
     width: 100%;
     height : 40px;
     background: #FAE100;
@@ -230,20 +256,20 @@ cursor: pointer;
     
 }
 
-.Login_ItemRight_btm_Naver{
+.Signup_ItemRight_btm_Naver{
     width: 100%;
     height : 40px;
     background: #06BE34;
     font-weight: 400;
     border-radius: 100px;
-    margin-bottom: 12px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
-.Login_ItemRight_btm_text_kakao{
+.Signup_ItemRight_btm_text_kakao{
     font-style: normal;
     
     font-size: 14px;
@@ -251,7 +277,7 @@ cursor: pointer;
     color: #15141B;
 }
 
-.Login_ItemRight_btm_text_naver{
+.Signup_ItemRight_btm_text_naver{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -259,7 +285,7 @@ cursor: pointer;
     color: #15141B;
 }
 
-.Login_ItemRight_btm_hr{
+.Signup_ItemRight_btm_hr{
     background: #8B8999;
     flex-grow: 1 !important;
     opacity: 20%;
@@ -267,13 +293,13 @@ cursor: pointer;
     margin : 24px 0;
 }
 
-.Login_ItemRight_btm_accountbox{
+.Signup_ItemRight_btm_Email{
     display: flex;
     justify-content: center;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
 }
 
-.Login_ItemRight_btm_account_text{
+.Signup_ItemRight_btm_Email_text{
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -282,24 +308,28 @@ cursor: pointer;
     color: #FFFFFF;
 }
 
-.Login_ItemRight_btm_milko{
-    width: 100%;
+.Signup_ItemRight_btm_NextBtn{
+    width: 123px;
     height : 40px;
     background: #F3017F;
     border-radius: 100px;
-   
     display: flex;
     justify-content: center;
     align-items: center;
    
 }
 
-.Login_ItemRight_btm_text_milko{
+.Signup_ItemRight_btm_NextBtn_text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     cursor: pointer;
     color: #FFFFFF;
+}
+
+.Signup_ItemRight_btm_NextBox{
+    display: flex;
+    justify-content: center;
 }
 

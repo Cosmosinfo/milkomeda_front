@@ -25,6 +25,7 @@ import ArtistPost from './pages/Artist/ArtistPost';
 import Help from './pages/Help/Help';
 import Settings from './pages/Setting/Setting';
 import Login from './pages/Login/Login'
+import Signup from './pages/Signup/Signup'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
             <Route path="/help" element={<Help />} />
             <Route path="/setting" element={<Settings />} />
             <Route path="/stream" element={<StreamMain />} />

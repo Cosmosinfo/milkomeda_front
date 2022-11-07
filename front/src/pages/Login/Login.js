@@ -32,7 +32,7 @@ function Login() {
                                 <div className="Login_ItemRight_btm_usernameBox">
                                     <span className="Login_ItemRight_btm_usernameBox_title">Email address or username</span>
                                     <div className="Login_ItemRight_btm_usernameBox_Input">
-                                        <input className="username_input" type="text" placeholder="" name="username" />
+                                        <input className="Login_username_input" type="text" placeholder="" name="username" />
                                     </div>
 
 

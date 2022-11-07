@@ -28,7 +28,7 @@ export default function Sidebar() {
   const location = useLocation();
 
   const urlObj = {
-    home: ['/'],
+    home: ['/', '/login'],
     stage: ['/stream', '/StreamLive', '/streamup', '/streampv'],
     artist: ['/artist', '/artisthome', '/artistnotice', '/artiststage', '/artiststageus', '/artiststageps', '/artistschedule', '/artistpost', '/artiststore'],
     store: ['/store', '/storeDetail', '/storeDetail2', '/storeDetail3', '/storeDetail4'],
@@ -214,7 +214,7 @@ export default function Sidebar() {
         <ul className="side_item_3">
 
           <div className="side_hr"></div>
-          
+
 
           <li className="item3_name">
             <img className="sidebarIcon" src={curMenu === 'settings' ? Settings_pink : Settings_gray} alt="Settings" />
