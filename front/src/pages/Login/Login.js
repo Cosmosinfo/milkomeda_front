@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import google from '../../assets/icon/social/google.svg'
 import apple from '../../assets/icon/social/apple.svg'
 import kakao from '../../assets/icon/social/kakao.svg'
@@ -24,7 +25,7 @@ function Login() {
                         <div className="Login_ItemRight">
                             <div className="Login_ItemRight_top">
 
-                                <span className="Login_ItemRight_top_title_text">Login</span>
+                                <span className="Login_ItemRight_top_title_text">로그인</span>
 
                             </div>
 
@@ -109,13 +110,13 @@ function Login() {
                                 <div className="Login_ItemRight_btm_accountbox">
                                     <span className="Login_ItemRight_btm_account_text">Don’t have an account?</span>
                                 </div>
+                                <Link to="/signup" className="link">
+                                    <div className="Login_ItemRight_btm_milko">
 
-                                <div className="Login_ItemRight_btm_milko">
+                                        <span className="Login_ItemRight_btm_text_milko">Sign up for MILKOMEDA</span>
 
-                                    <span className="Login_ItemRight_btm_text_milko">Sign up for MILKOMEDA</span>
-
-                                </div>
-
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>

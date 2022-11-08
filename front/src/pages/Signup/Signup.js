@@ -1,5 +1,6 @@
 import React from 'react'
 import './Signup.css'
+import { Link } from "react-router-dom";
 import google from '../../assets/icon/social/google.svg'
 import apple from '../../assets/icon/social/apple.svg'
 import kakao from '../../assets/icon/social/kakao.svg'
@@ -23,7 +24,7 @@ function Signup() {
                         <div className="Signup_ItemRight">
                             <div className="Signup_ItemRight_top">
 
-                                <span className="Signup_ItemRight_top_title_text">Sign up</span>
+                                <span className="Signup_ItemRight_top_title_text">회원가입</span>
 
                             </div>
 
@@ -116,16 +117,16 @@ function Signup() {
 
 
                                 </div>
+                                <Link to="/signup2" className="link">
+                                    <div className="Signup_ItemRight_btm_NextBox">
+                                        <div className="Signup_ItemRight_btm_NextBtn">
 
-                                <div className="Signup_ItemRight_btm_NextBox">
-                                    <div className="Signup_ItemRight_btm_NextBtn">
+                                            <span className="Signup_ItemRight_btm_NextBtn_text">Next</span>
 
-                                        <span className="Signup_ItemRight_btm_NextBtn_text">Next</span>
+                                        </div>
 
                                     </div>
-
-                                </div>
-
+                                </Link>
                             </div>
                         </div>
                     </div>

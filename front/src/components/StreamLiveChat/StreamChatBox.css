@@ -86,7 +86,11 @@
    
   }
 
-  .StreamChatBox_ChatBtn_text.active{
+  /* .StreamChatBox_ChatBtn_text.active{
+    background: #F3017F;
+  } */
+
+  .StreamChatBox_ChatBtn_text:active{
     background: #F3017F;
   }
 
