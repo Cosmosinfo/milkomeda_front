@@ -29,7 +29,7 @@ function Signup5() {
                         <div className="Signup5_ItemRight">
                             <div className="Signup5_ItemRight_top">
 
-                                <span className="Signup5_ItemRight_top_title_text">가입완료</span>
+                                <span className="Signup5_ItemRight_top_title_text">일반 회원 (팬)</span>
 
 
 
