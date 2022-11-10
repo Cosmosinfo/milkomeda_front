@@ -29,6 +29,9 @@ import Signup from './pages/Signup/Signup'
 import Signup2 from './pages/Signup/Signup2'
 import Signup3 from './pages/Signup/Signup3'
 import Signup4 from './pages/Signup/Signup4'
+import Signup5 from './pages/Signup/Signup5'
+import Signup6 from './pages/Signup/Signup6'
+import Signup7 from './pages/Signup/Signup7'
 
 function App() {
   return (
@@ -48,8 +51,11 @@ function App() {
 
             <Route path="/signup" element={<Signup />} />
             <Route path="/signup2" element={<Signup2 />} />
-            <Route path="/Signup3" element={<Signup3 />} />
-            <Route path="/Signup4" element={<Signup4 />} />
+            <Route path="/signup3" element={<Signup3 />} />
+            <Route path="/signup4" element={<Signup4 />} />
+            <Route path="/signup5" element={<Signup5 />} />
+            <Route path="/signup6" element={<Signup6 />} />
+            <Route path="/signup7" element={<Signup7 />} />
 
 
 

@@ -87,8 +87,8 @@
 }
 
 .Signup4_ItemRight_middle_signpro_IconContainer_box{
-    width: 75px;
-    height: 75px;
+    width: 78px;
+    height: 78px;
     display: flex;
     background: #191922;
     border-radius: 100%;
@@ -106,8 +106,8 @@
 }
 
 .Signup4_ItemRight_middle_signpro_IconContainer_box2{
-    width: 75px;
-    height: 75px;
+    width: 78px;
+    height: 78px;
     display: flex;
     background: #191922;
     border-radius: 100%;
@@ -119,6 +119,32 @@
 .Signup4_ItemRight_middle_signpro_IconContainer_Icon{
     aspect-ratio: 35/35
 }
+
+.Signup4_ItemRight_middle_signpro_IconContainer_textBox{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.Signup4_ItemRight_middle_signpro_IconContainer_textBox_text{
+    width: 73px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
 
 .Signup4_ItemRight_middle_CheckBoxContainer{
     display: flex;
@@ -147,56 +173,214 @@
 
 .Signup4_ItemRight_middle_CheckBoxItem_textBox_textInput{
     
+    background: #191922;
+    border: none;
     border-radius: 3px;
+    
     
 }
 
-.Signup4_ItemRight_middle_CheckBoxItem_textBox_username_input{
+.Signup4_ItemRight_middle_CheckBoxItem_textBox_textInput_wrapper{
+    padding: 0 10px;
+}
+
+.Signup4_ItemRight_middle_CheckBoxItem_textBox_textInput_Item{
+    display: flex;
     width: 100%;
-    height: 40px;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.Signup4_ItemRight_middle_CheckBoxItem_textBox_nameInputBox{
+    width: 100%;
+    height: 35px;
+    padding : 0 10px;
     color: #FFFFFF;
     background: #191922;
     border: none;
 }
 
-
-.Signup4_ItemRight_middle_CheckBox_Opttext{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    /* identical to box height */
-    
-    
-    color: #8B8999;
-}
-
-.Signup4_ItemRight_middle_CheckBox{
-    height: 45px;
+.Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input{
+    width : 100%;
+    height: 35px;
+    color: #FFFFFF;
     background: #191922;
     border-radius: 3px;
-    display: flex;
-    align-items: center;
+    border: none;
 }
 
+.Signup4_ItemRight_middle_CheckBoxItem_textBox_username_input{
+    width: 100%;
+    height: 35px;
+    
+    color: #FFFFFF;
+    background: #191922;
+    border: none;
+    border-radius: 3px;
+}
 
-.Signup4_ItemRight_middle_CheckBox_text{
+.Signup4_ItemRight_middle_GB_Item{
+    height: 75px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+
+}
+
+.Signup4_ItemRight_middle_GB_Item_container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Signup4_ItemRight_middle_GB_Item_GenderBox{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.Signup4_ItemRight_middle_GB_Item_GenderText{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
-    
     
     color: #FFFFFF;
 }
 
-.Signup4_ItemRight_middle_CheckBoxBtm{
-    height: 34px;
-    border-radius: 3px;
+.Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox{
     display: flex;
     align-items: center;
 }
+
+.Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    margin: 0 18px 0 8px;
+    color: #FFFFFF;
+    
+}
+
+.Gender_radio{
+    padding: 9px 0 !important;
+}
+
+
+
+.Signup4_ItemRight_middle_GB_Item_BirthTextBox{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.Signup4_ItemRight_middle_GB_Item_BirthText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.Signup4_ItemRight_middle_GB_Item_textBox_birthInputBox{
+    
+    height: 35px;
+    padding: 0 10px;
+    color: #FFFFFF;
+    background: #191922;
+    /* border: none; */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Signup4_ItemRight_middle_GB_Item_textBox_birthinput{
+    height: 35px;
+    color: #FFFFFF;
+    background: #191922;
+    border: none;
+}
+
+.Signup4_ItemRight_middle_GB_Item_textBox_birthicon{
+    width :20px;
+    height :20px;
+}
+
+.Signup4_ItemRight_middle_CountryItem{
+    display : flex;
+    flex-direction: column;
+}
+
+.Signup4_ItemRight_middle_CountryItem_textBox{
+    width : 100%;
+    margin-bottom: 8px;
+}
+
+.Signup4_ItemRight_middle_CountryItem_textBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.Signup4_ItemRight_middle_CountryItem_textBox_textInput_Item{
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    
+}
+
+.Signup4_ItemRight_middle_CountryItem_textBox_conInputBox{
+    height: 35px;
+    display: flex;
+    color: #FFFFFF;
+    flex: 1 1;
+    background: #191922;
+    border: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Signup4_ItemRight_middle_CountryItem_textBox_numInputBox{
+    height : 35px;
+    color: #FFFFFF;
+    flex: 3.5;
+    background: #191922;
+    border: none;
+}
+
+
+
+.Signup4_ItemRight_middle_CountryItem_textBox_name_input{
+    width : 30px;
+    height: 35px;
+    color: #FFFFFF;
+    background: #191922;
+    border-radius: 3px;
+    border: none;
+}
+
+.Signup4_ItemRight_middle_CountryItem_textBox_name_numinput{
+    width : 100%;
+    height: 35px;
+    color: #FFFFFF;
+    background: #191922;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
+
+
+
+
  
 .Signup4_ItemRight_btm_BackBtn{
     width: 123px;

@@ -1,10 +1,10 @@
-.Signup3{
+.Signup5{
     width: 100%;
     height: 100%;
     color: #FFFFFF;
 }
 
-.Signup3_Wrapper{
+.Signup5_Wrapper{
     height: 100%;
     /* padding: 123px 167px 123px 143px; */
     display: flex;
@@ -14,31 +14,31 @@
 }
 
 
-.Signup3_Container{
+.Signup5_Container{
     width:100%;
     display: flex;
-    
+    align-items: center;
     /* width: 1370px;
     height: 753px; */
     
 }
 
-.Signup3_ItemLeft_imgbox{
+.Signup5_ItemLeft_imgbox{
     
 }
 
-.Signup3_ItemLeft{
+.Signup5_ItemLeft{
 
     margin-right: 300px;
     flex: 1 1;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
-.Signup3_ItemLeft_img{
+.Signup5_ItemLeft_img{
 
 }
 
-.Signup3_ItemRight{
+.Signup5_ItemRight{
     flex: 0.8;
     /* height: 750px; */
     display: flex;
@@ -47,7 +47,7 @@
     
 }
 
-.Signup3_ItemRight_top{
+.Signup5_ItemRight_top{
     /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@
     
 }
 
-.Signup3_ItemRight_top_title_text{
+.Signup5_ItemRight_top_title_text{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -68,27 +68,52 @@
     
 }
 
-.Signup3_ItemRight_middle{
+.Signup5_ItemRight_middle{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 120px
+    margin-top: 70px
 }
 
-.Signup3_ItemRight_middle_signpro{
+.Signup5_ItemRight_middle_signpro{
     height: 110px ;
    
     margin-bottom: 30px;
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer{
+.Signup5_ItemRight_middle_signpro_IconContainer{
     display: flex;
     justify-content: space-between;
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_box{
-    width: 75px;
-    height: 75px;
+
+.Signup5_ItemRight_middle_signpro_hrbox{
+    
+    display: flex;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_hr{
+    position: relative;
+    margin: 0 20px;
+    width : 40%;
+    border: 2px solid #F3017F;
+    top: 42px;
+    z-index: -1;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_hr2{
+    position: relative;
+    margin: 0 20px;
+    width : 60%;
+    border: 2px solid #191922;
+    top: 42px;
+    z-index: -1;
+}
+
+
+.Signup5_ItemRight_middle_signpro_IconContainer_box{
+    width: 80px;
+    height: 80px;
     display: flex;
     background: #191922;
     border-radius: 100%;
@@ -97,17 +122,21 @@
     justify-content: center;
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_hr{
-    position: relative;
-    margin: 0 20px;
-    border: 2px solid #191922;
-    top: 42px;
-    z-index: -1;
+
+.Signup5_ItemRight_middle_signpro_IconContainer_box2{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #F3017F;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_box2{
-    width: 75px;
-    height: 75px;
+.Signup5_ItemRight_middle_signpro_IconContainer_box3{
+    width: 80px;
+    height: 80px;
     display: flex;
     background: #191922;
     border-radius: 100%;
@@ -116,24 +145,24 @@
     
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_Icon{
+.Signup5_ItemRight_middle_signpro_IconContainer_Icon{
     aspect-ratio: 35/35
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_textBox{
+.Signup5_ItemRight_middle_signpro_IconContainer_textBox{
     display: flex;
     margin-top: 8px;
     justify-content: space-between;
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_textBox_text{
+.Signup5_ItemRight_middle_signpro_IconContainer_textBox_text{
     width: 73px;
     height: 20px;
     display: flex;
     justify-content: center;
 }
 
-.Signup3_ItemRight_middle_signpro_IconContainer_textBox_textinline{
+.Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -145,71 +174,36 @@
     color: #FFFFFF;
 }
 
-.Signup3_ItemRight_middle_CheckBoxContainer{
+.Signup5_ItemRight_middle_TextBox{
     display: flex;
+    margin: 10px 0 20px 0;
     flex-direction: column;
 }
 
-.Signup3_ItemRight_middle_CheckBoxItem{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 18px;
-}
-
-.Signup3_ItemRight_middle_CheckBoxItem_textBox{
-    width : 100%;
-    margin-bottom: 8px;
-}
-
-.Signup3_ItemRight_middle_CheckBoxItem_textBox_text{
+.Signup5_ItemRight_middle_TextBox_Favoritetext{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     
     color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
-
-.Signup3_ItemRight_middle_CheckBox_Opttext{
+.Signup5_ItemRight_middle_TextBox_text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
-    
     
     color: #8B8999;
 }
 
-.Signup3_ItemRight_middle_CheckBox{
-    height: 45px;
-    background: #191922;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-}
 
 
-.Signup3_ItemRight_middle_CheckBox_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
-}
 
-.Signup3_ItemRight_middle_CheckBoxBtm{
-    height: 34px;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-}
  
-.Signup3_ItemRight_btm_BackBtn{
+.Signup5_ItemRight_btm_BackBtn{
     width: 123px;
     height : 40px;
     background: #191922;
@@ -218,7 +212,7 @@
     justify-content: center;
     align-items: center;
 }
-.Signup3_ItemRight_btm_NextBtn{
+.Signup5_ItemRight_btm_NextBtn{
     width: 123px;
     height : 40px;
     background: #F3017F;
@@ -229,7 +223,7 @@
    
 }
 
-.Signup3_ItemRight_btm_Btn_text{
+.Signup5_ItemRight_btm_Btn_text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

@@ -37,27 +37,43 @@ function Signup3() {
                             <div className="Signup3_ItemRight_middle">
 
                                 <div className="Signup3_ItemRight_middle_signpro">
-                                <div className="Signup3_ItemRight_middle_signpro_IconContainer_hr"></div>
-                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer">
-                                            <div className="Signup3_ItemRight_middle_signpro_IconContainer_box">
-                                                <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={cursor} alt="cursor" />
-                                            </div>
-
-                                            <div className="Signup3_ItemRight_middle_signpro_IconContainer_box2">
-                                                <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={user} alt="user" />
-                                            </div>
-
-                                            <div className="Signup3_ItemRight_middle_signpro_IconContainer_box2">
-                                                <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={creditcard} alt="creditcard" />
-                                            </div>
-
-                                            <div className="Signup3_ItemRight_middle_signpro_IconContainer_box2">
-                                                <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={shield} alt="shield" />
-                                            </div>
-
-                                           
+                                    <div className="Signup3_ItemRight_middle_signpro_IconContainer_hr"></div>
+                                    <div className="Signup3_ItemRight_middle_signpro_IconContainer">
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_box">
+                                            <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={cursor} alt="cursor" />
                                         </div>
-                                       
+
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_box2">
+                                            <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={user} alt="user" />
+                                        </div>
+
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_box2">
+                                            <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={creditcard} alt="creditcard" />
+                                        </div>
+
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_box2">
+                                            <img className="Signup3_ItemRight_middle_signpro_IconContainer_Icon" src={shield} alt="shield" />
+                                        </div>
+
+
+                                    </div>
+                                    <div className="Signup3_ItemRight_middle_signpro_IconContainer_textBox">
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_text">
+                                            <span className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_textinline">약관동의</span>
+                                        </div>
+
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_text">
+                                            <span className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_textinline">개인정보입력</span>
+                                        </div>
+
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_text">
+                                            <span className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_textinline">결제정보입력</span>
+                                        </div>
+
+                                        <div className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_text">
+                                            <span className="Signup3_ItemRight_middle_signpro_IconContainer_textBox_textinline">가입완료</span>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div className="Signup3_ItemRight_middle_CheckBoxContainer">
@@ -67,15 +83,15 @@ function Signup3() {
                                         </div>
 
                                         <div className="Signup3_ItemRight_middle_CheckBox">
-                                            <Checkbox style={{color:'#F3017F'}} />
+                                            <Checkbox style={{ color: '#F3017F' }} />
                                             <span className="Signup3_ItemRight_middle_CheckBox_text">I agree to the Terms and Conditions</span>
-                                        <div>
-                                            
+                                            <div>
+
+                                            </div>
+
+
                                         </div>
-                                        
-                                        
-                                        </div>
-                                        
+
                                     </div>
 
                                     <div className="Signup3_ItemRight_middle_CheckBoxItem">
@@ -84,15 +100,15 @@ function Signup3() {
                                         </div>
 
                                         <div className="Signup3_ItemRight_middle_CheckBox">
-                                            <Checkbox style={{color:'#F3017F'}} />
+                                            <Checkbox style={{ color: '#F3017F' }} />
                                             <span className="Signup3_ItemRight_middle_CheckBox_text">I agree to the Terms and Conditions</span>
-                                        <div>
-                                            
+                                            <div>
+
+                                            </div>
+
+
                                         </div>
-                                        
-                                        
-                                        </div>
-                                        
+
                                     </div>
 
                                     <div className="Signup3_ItemRight_middle_CheckBoxItem">
@@ -101,30 +117,30 @@ function Signup3() {
                                         </div>
 
                                         <div className="Signup3_ItemRight_middle_CheckBox">
-                                            <Checkbox style={{color:'#F3017F'}} />
+                                            <Checkbox style={{ color: '#F3017F' }} />
                                             <span className="Signup3_ItemRight_middle_CheckBox_Opttext">I agree to the Terms and Conditions</span>
-                                        <div>
-                                            
+                                            <div>
+
+                                            </div>
+
+
                                         </div>
-                                        
-                                        
-                                        </div>
-                                        
+
                                     </div>
 
-                                    
-                                        <div className="Signup3_ItemRight_middle_CheckBoxBtm">
-                                            <Checkbox style={{color:'#F3017F'}} />
-                                            <span className="Signup3_ItemRight_middle_CheckBox_Opttext">I agree to the Terms and Conditions</span>
-                                        </div>
 
-                                        <div className="Signup3_ItemRight_middle_CheckBoxBtm">
-                                            <Checkbox style={{color:'#F3017F'}} />
-                                            <span className="Signup3_ItemRight_middle_CheckBox_Opttext">I agree to the Terms and Conditions (Optional)</span>
-                                        </div>
-                                   
+                                    <div className="Signup3_ItemRight_middle_CheckBoxBtm">
+                                        <Checkbox style={{ color: '#F3017F' }} />
+                                        <span className="Signup3_ItemRight_middle_CheckBox_Opttext">I agree to the Terms and Conditions</span>
+                                    </div>
 
-                                    
+                                    <div className="Signup3_ItemRight_middle_CheckBoxBtm">
+                                        <Checkbox style={{ color: '#F3017F' }} />
+                                        <span className="Signup3_ItemRight_middle_CheckBox_Opttext">I agree to the Terms and Conditions (Optional)</span>
+                                    </div>
+
+
+
                                 </div>
 
 
