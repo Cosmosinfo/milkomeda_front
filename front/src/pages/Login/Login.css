@@ -24,18 +24,23 @@
 }
 
 .Login_ItemLeft_imgbox{
-    
+    /* margin-right: 300px; */
+    flex: 1 1;
+    /* padding: 100px 0; */
+    /* gap: 129%; */
+    /* margin-right: 16%; */
+     /* margin-top: 100px; */
 }
 
 .Login_ItemLeft{
 
-    margin-right: 300px;
+    /* margin-right: 300px; */
     flex: 1 1;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .Login_ItemLeft_img{
-
+    width: 100%;
 }
 
 .Login_ItemRight{
