@@ -8,7 +8,7 @@
     height: 100%;
     /* padding: 123px 167px 123px 143px; */
     display: flex;
-    padding: 123px 167px 0 143px;
+    padding: 30px 167px 0 143px;
 
     
 }
@@ -23,20 +23,24 @@
     
 }
 
+.Login_Container{
+    width:100%;
+    display: flex;
+    gap: 200px;
+    /* width: 1370px;
+    height: 753px; */
+    
+}
+
 .Login_ItemLeft_imgbox{
-    /* margin-right: 300px; */
     flex: 1 1;
-    /* padding: 100px 0; */
-    /* gap: 129%; */
-    /* margin-right: 16%; */
-     /* margin-top: 100px; */
 }
 
 .Login_ItemLeft{
 
-    /* margin-right: 300px; */
+    
     flex: 1 1;
-    /* margin-top: 100px; */
+    margin-top: 100px;
 }
 
 .Login_ItemLeft_img{
@@ -48,6 +52,7 @@
     height: 750px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .Login_ItemRight_top{

@@ -8,7 +8,7 @@
     height: 100%;
     /* padding: 123px 167px 123px 143px; */
     display: flex;
-    padding: 150px 167px 0 143px;
+    padding: 30px 167px 0 143px;
 
     
 }
@@ -17,25 +17,25 @@
 .Signup7_Container{
     width:100%;
     display: flex;
-    align-items: center;
+    gap: 200px;
     /* width: 1370px;
     height: 753px; */
     
 }
 
 .Signup7_ItemLeft_imgbox{
-    
+    flex: 1 1;
 }
 
 .Signup7_ItemLeft{
 
-    margin-right: 300px;
+    /* margin-right: 300px; */
     flex: 1 1;
-    /* margin-top: 100px; */
+    margin-top: 100px;
 }
 
 .Signup7_ItemLeft_img{
-
+    width: 100%;
 }
 
 .Signup7_ItemRight{
@@ -43,7 +43,7 @@
     /* height: 750px; */
     display: flex;
     flex-direction: column;
-    flex-direction: column;
+    margin-top: 200px;
     
 }
 

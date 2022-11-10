@@ -17,25 +17,25 @@
 .Signup5_Container{
     width:100%;
     display: flex;
-    align-items: center;
+    gap: 200px;
     /* width: 1370px;
     height: 753px; */
     
 }
 
 .Signup5_ItemLeft_imgbox{
-    
+    flex: 1 1;
 }
 
 .Signup5_ItemLeft{
 
-    margin-right: 300px;
+    /* margin-right: 300px; */
     flex: 1 1;
-    /* margin-top: 100px; */
+    margin-top: 100px;
 }
 
 .Signup5_ItemLeft_img{
-
+    width: 100%;
 }
 
 .Signup5_ItemRight{
@@ -206,21 +206,37 @@
 .Signup5_ItemRight_middle_GenreContainer_wrapper{
     display: flex;
     flex-wrap: wrap;
-}
-
-.Signup5_ItemRight_middle_GenreContainer_Item{
-    width: 110px;
-    height: 45px;
-    background: #191922;
-    border: 1px solid #191922;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
+    column-gap: 24px;
     align-items: center;
 }
 
-.Signup5_ItemRight_middle_GenreContainer_Item_TextBox{
+.Signup5_ItemRight_middle_GenreContainer_Item{
+    
+    height: 46px;
+    background: #191922;
+    /* border: 1px solid #191922; */
+    border-radius: 100px;
+    display: flex;
+    flex-basis: calc(25% - 20px);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
 
+.Signup5_ItemRight_middle_GenreContainer_Item2{
+    height: 46px;
+    background: #F3017F;
+    
+    border-radius: 100px;
+    display: flex;
+    flex-basis: calc(25% - 20px);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.Signup5_ItemRight_middle_GenreContainer_Item_TextBox{
+    
 }
 
 .Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text{

@@ -99,105 +99,105 @@ function Signup5() {
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Electronic</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Funk</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Hip hop</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Jazz</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Latin</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Pop</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Punk</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Reggae</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item2">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Rock</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Metal</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item2">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">R&B</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">K-pop</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item2">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">J-pop</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Indie</span>
                                             </div>
 
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_GenreContainer_Item">
                                             <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
-                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
-                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
-                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
-                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Classic</span>
                                             </div>
 
                                         </div>
