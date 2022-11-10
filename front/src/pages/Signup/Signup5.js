@@ -88,7 +88,121 @@ function Signup5() {
 
                                 </div>
 
-                                <div className="Signup5_ItemRight_middle_">
+                                <div className="Signup5_ItemRight_middle_GenreContainer">
+                                    <div className="Signup5_ItemRight_middle_GenreContainer_wrapper">
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="Signup5_ItemRight_middle_GenreContainer_Item">
+                                            <div className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox">
+                                                <span className="Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text">Country</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
 
                                 </div>
 
