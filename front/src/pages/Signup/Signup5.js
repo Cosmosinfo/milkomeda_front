@@ -6,7 +6,7 @@ import user from '../../assets/icon/signup/userP.svg'
 import creditcard from '../../assets/icon/signup/credit-cardW.svg'
 import shield from '../../assets/icon/signup/shield 1.svg'
 
-
+import Topbar2 from '../../components/topbar/Topbar2'
 
 
 function Signup5() {
@@ -14,6 +14,7 @@ function Signup5() {
 
     return (
         <>
+        < Topbar2 />
             <div className='Signup5'>
                 <div className='Signup5_Wrapper'>
                     <div className='Signup5_Container'>

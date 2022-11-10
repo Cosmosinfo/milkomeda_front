@@ -5,11 +5,12 @@ import apple from '../../assets/icon/social/apple.svg'
 import kakao from '../../assets/icon/social/kakao.svg'
 import naver from '../../assets/icon/social/naver.svg'
 import './Login.css'
+import Topbar2 from '../../components/topbar/Topbar2'
 
 function Login() {
     return (
         <>
-
+            < Topbar2 />
             <div className='Login'>
                 <div className='Login_Wrapper'>
                     <div className='Login_Container'>

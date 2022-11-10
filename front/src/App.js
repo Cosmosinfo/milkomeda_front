@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar'
 import Home from './pages/home/Home'
 import StreamMain from './pages/stream/StreamMain'
@@ -39,7 +38,7 @@ function App() {
     <>
 
       <BrowserRouter>
-        <Topbar />
+        
         <Sidebar />
         <div className="App-content">
 

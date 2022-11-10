@@ -31,7 +31,7 @@
 
     /* margin-right: 300px; */
     flex: 1 1;
-    margin-top: 140px;
+    margin-top: 150px;
 }
 
 .Signup2_ItemLeft_img{
@@ -143,6 +143,10 @@
     
     color: #FFFFFF;
     margin-bottom: 18px;
+}
+
+.Signup2_ItemRight_middle_userDescip{
+    white-space: nowrap;
 }
 
 .Signup2_ItemRight_middle_checkBox{

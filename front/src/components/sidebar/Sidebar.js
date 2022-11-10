@@ -28,7 +28,7 @@ export default function Sidebar() {
   const location = useLocation();
 
   const urlObj = {
-    home: ['/', '/login'],
+    home: ['/', '/login','/signup','/signup2','/signup3','/signup4','/signup5','/signup6','/signup7'],
     stage: ['/stream', '/StreamLive', '/streamup', '/streampv'],
     artist: ['/artist', '/artisthome', '/artistnotice', '/artiststage', '/artiststageus', '/artiststageps', '/artistschedule', '/artistpost', '/artiststore'],
     store: ['/store', '/storeDetail', '/storeDetail2', '/storeDetail3', '/storeDetail4'],

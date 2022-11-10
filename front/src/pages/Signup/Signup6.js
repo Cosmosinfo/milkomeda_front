@@ -8,7 +8,7 @@ import shield from '../../assets/icon/signup/shield 1.svg'
 import Mastercard from '../../assets/icon/signup/Mastercard-Logo 1.svg'
 import oksign from '../../assets/icon/signup/oksign.svg'
 import keypad from '../../assets/icon/signup/keypad.svg'
-
+import Topbar2 from '../../components/topbar/Topbar2'
 
 
 
@@ -17,6 +17,7 @@ function Signup6() {
 
     return (
         <>
+        < Topbar2 />
             <div className='Signup6'>
                 <div className='Signup6_Wrapper'>
                     <div className='Signup6_Container'>

@@ -7,6 +7,7 @@ import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
 // import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 import StageCardData from "../../Data/StageCardData"
+import Topbar from '../../components/topbar/Topbar'
 
 
 function Home() {
@@ -117,7 +118,8 @@ function Home() {
   }
   return (
 
-
+    <>
+    <Topbar />
     <div className="home">
 
 
@@ -250,6 +252,8 @@ function Home() {
 
       </div>
     </div>
+    
+    </>
   )
 }
 

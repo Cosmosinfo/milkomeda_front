@@ -5,10 +5,11 @@ import google from '../../assets/icon/social/google.svg'
 import apple from '../../assets/icon/social/apple.svg'
 import kakao from '../../assets/icon/social/kakao.svg'
 import naver from '../../assets/icon/social/naver.svg'
-
+import Topbar2 from '../../components/topbar/Topbar2'
 function Signup() {
     return (
         <>
+        < Topbar2 />
             <div className='Signup'>
                 <div className='Signup_Wrapper'>
                     <div className='Signup_Container'>

@@ -31,7 +31,7 @@
 
     /* margin-right: 300px; */
     flex: 1 1;
-    margin-top: 140px;
+    margin-top: 150px;
 }
 
 .Signup3_ItemLeft_img{
@@ -100,7 +100,7 @@
 .Signup3_ItemRight_middle_signpro_IconContainer_hr{
     position: relative;
     margin: 0 20px;
-    border: 2px solid #191922;
+    border: 3px solid #191922;
     top: 42px;
     z-index: -1;
 }
@@ -127,7 +127,7 @@
 }
 
 .Signup3_ItemRight_middle_signpro_IconContainer_textBox_text{
-    width: 73px;
+    width: 84px;
     height: 20px;
     display: flex;
     justify-content: center;
@@ -180,6 +180,8 @@
     
     
     color: #8B8999;
+    white-space: nowrap;
+
 }
 
 .Signup3_ItemRight_middle_CheckBox{

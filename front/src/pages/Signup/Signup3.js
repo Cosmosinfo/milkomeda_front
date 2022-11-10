@@ -6,13 +6,14 @@ import cursor from '../../assets/icon/signup/cursor 1.svg'
 import user from '../../assets/icon/signup/user 1.svg'
 import creditcard from '../../assets/icon/signup/credit-card 1.svg'
 import shield from '../../assets/icon/signup/shield 1.svg'
-
+import Topbar2 from '../../components/topbar/Topbar2'
 
 function Signup3() {
 
 
     return (
         <>
+            < Topbar2 />
             <div className='Signup3'>
                 <div className='Signup3_Wrapper'>
                     <div className='Signup3_Container'>

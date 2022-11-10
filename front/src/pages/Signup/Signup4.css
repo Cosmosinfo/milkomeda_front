@@ -31,7 +31,7 @@
 
     /* margin-right: 300px; */
     flex: 1 1;
-    margin-top: 140px;
+    margin-top: 150px;
 }
 
 .Signup4_ItemLeft_img{
@@ -127,7 +127,7 @@
 }
 
 .Signup4_ItemRight_middle_signpro_IconContainer_textBox_text{
-    width: 73px;
+    width: 84px;
     height: 20px;
     display: flex;
     justify-content: center;

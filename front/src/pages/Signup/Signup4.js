@@ -12,7 +12,7 @@ import b from '../../assets/icon/signup/Group197.svg'
 import { pink } from "@mui/material/colors";
 import { grey } from "@mui/material/colors";
 import Radio from "@mui/material/Radio";
-
+import Topbar2 from '../../components/topbar/Topbar2'
 
 
 function Signup4() {
@@ -33,6 +33,7 @@ function Signup4() {
 
     return (
         <>
+        < Topbar2 />
             <div className='Signup4'>
                 <div className='Signup4_Wrapper'>
                     <div className='Signup4_Container'>

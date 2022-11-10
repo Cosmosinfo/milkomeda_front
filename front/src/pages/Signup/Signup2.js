@@ -3,7 +3,7 @@ import './Signup2.css'
 import { Link } from "react-router-dom";
 import pan from '../../assets/icon/signup/pan.svg'
 import artist from '../../assets/icon/signup/artist.svg'
-
+import Topbar2 from '../../components/topbar/Topbar2'
 function Signup2() {
     const data = [
         <div className="Signup2_ItemRight_middle_ItemBox_wrapper">
@@ -61,6 +61,7 @@ function Signup2() {
 
     return (
         <>
+        < Topbar2 />
             <div className='Signup2'>
                 <div className='Signup2_Wrapper'>
                     <div className='Signup2_Container'>
