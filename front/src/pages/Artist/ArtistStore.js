@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistStore.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
-
+import Topbar from '../../components/topbar/Topbar'
 
 
 function ArtistStore() {
   return (
     <>
-
+      <Topbar />
       <div className='ArtistStage'>
         <div className='ArtistStage_Wrapper'>
           <ArtistInfoCard />

@@ -4,11 +4,12 @@ import '../../assets/css/Artist/ArtistNotice.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import heart from '../../assets/icon/graw/heart.svg'
 import message from '../../assets/icon/graw/message-circle.svg'
+import Topbar from '../../components/topbar/Topbar'
 
 function ArtistNotice() {
   return (
     <>
-
+      <Topbar />
       <div className='ArtistNotice'>
         <div className='ArtistNotice_Wrapper'>
           <ArtistInfoCard />

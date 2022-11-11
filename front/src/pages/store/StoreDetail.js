@@ -6,6 +6,7 @@ import StoreRecoProduct from '../../components/Store/StoreRecoProduct'
 // import StoreTapContent from '../../Data/StoreTapContent'
 import { Link } from "react-router-dom";
 // import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
+import Topbar from '../../components/topbar/Topbar'
 
 
 function StoreDetail() {
@@ -23,6 +24,7 @@ function StoreDetail() {
 
     return (
         <>
+            <Topbar />
             <div className='StoreDetail'>
                 <div className='StoreDetail_Wrapper'>
                     <div className='StoreDetail_left'>

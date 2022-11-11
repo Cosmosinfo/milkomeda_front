@@ -4,13 +4,13 @@ import "../../assets/css/Artist/ArtistPost.css"
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import heart from '../../assets/icon/graw/heart.svg'
 import message from '../../assets/icon/graw/message-circle.svg'
-
+import Topbar from '../../components/topbar/Topbar'
 
 function ArtistPost() {
   return (
     <>
 
-
+      <Topbar />
       <div className='ArtistPost'>
         <div className='ArtistPost_Wrapper'>
           <ArtistInfoCard />

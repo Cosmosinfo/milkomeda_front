@@ -4,7 +4,7 @@ import filter from '../../assets/icon/graw/filter.svg'
 import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 import StreamSort from '../../components/Popup/StreamSort'
-
+import Topbar from '../../components/topbar/Topbar'
 function StreamPrevious() {
     const dropdownRef = useRef(null);
     const curRef = useRef(true);
@@ -43,6 +43,7 @@ function StreamPrevious() {
     }, [openSort]);
     return (
         <>
+            <Topbar />
             <div className="StreamPre">
                 <div className="StreamPre_Wrapper">
 

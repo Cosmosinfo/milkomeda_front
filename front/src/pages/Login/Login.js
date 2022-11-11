@@ -94,6 +94,7 @@ function Login() {
 
                                     </div>
                                 </div>
+
                                 <div className="Login_ItemRight_btm_Naver">
                                     <div className="Login_ItemRight_btm_Itembox">
                                         <div className="Login_ItemRight_btm_Iconbox">
@@ -103,6 +104,7 @@ function Login() {
                                             <span className="Login_ItemRight_btm_text_naver">Continue with Naver</span>
                                         </div>
                                     </div>
+
 
                                 </div>
 

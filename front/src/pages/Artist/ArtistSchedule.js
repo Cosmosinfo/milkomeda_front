@@ -6,12 +6,12 @@ import chevronleft from '../../assets/icon/graw/chevron-left.svg'
 import chevronright from '../../assets/icon/graw/chevron-right.svg'
 // import { ResponsiveCalendar } from 'react-responsive-calendar'
 // import Calendar from 'react-calendar';
-
+import Topbar from '../../components/topbar/Topbar'
 function ArtistSchedule() {
 
     return (
         <>
-
+            <Topbar />
             <div className='ArtistSchedule'>
                 <div className='ArtistSchedule_Wrapper'>
                     <ArtistInfoCard />

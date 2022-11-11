@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistStageps.css'
 import StageCard from '../../components/StageCard/StageCard';
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
-
+import Topbar from '../../components/topbar/Topbar'
 
 
 function ArtistStageps() {
   return (
     <>
-
+      <Topbar />
       <div className='ArtistStageps'>
         <div className='ArtistStageps_Wrapper'>
           <ArtistInfoCard />

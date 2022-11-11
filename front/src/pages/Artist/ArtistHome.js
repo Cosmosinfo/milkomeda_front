@@ -4,11 +4,12 @@ import '../../assets/css/Artist/ArtistHome.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import StageCard from '../../components/StageCard/StageCard'
 import chevronright from '../../assets/icon/ping//chevron-right.svg'
+import Topbar from '../../components/topbar/Topbar'
 
 function ArtistHome() {
   return (
     <>
-
+      <Topbar />
       <div className='ArtistHome'>
         <div className='ArtistHome_Wrapper'>
           <ArtistInfoCard />

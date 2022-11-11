@@ -9,6 +9,7 @@ import "../../assets/css/Stream/StreamLive.css"
 // import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 import ReactPlayer from 'react-player'
 import StreamChatBox from '../../components/StreamLiveChat/StreamChatBox'
+import Topbar from '../../components/topbar/Topbar'
 
 function StreamLive() {
     // function resize(obj) {
@@ -20,6 +21,7 @@ function StreamLive() {
 
     return (
         <>
+            <Topbar />
             <div className="StreamLive">
                 <div className="StreamLive_Wrapper">
                     <div className="StreamLive_Wrapper_container">

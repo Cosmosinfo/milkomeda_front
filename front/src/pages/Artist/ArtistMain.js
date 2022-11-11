@@ -3,7 +3,7 @@ import '../../assets/css/Artist/ArtistMain.css'
 import filter from '../../assets/icon/graw/filter.svg'
 import ArtistMainCard from '../../components/ArtistMainCard/ArtistMainCard'
 import ArtistSort from '../../components/Popup/ArtistSort'
-
+import Topbar from '../../components/topbar/Topbar'
 
 
 function ArtistMain() {
@@ -44,7 +44,7 @@ function ArtistMain() {
   }, [openAtSort]);
   return (
     <>
-
+      <Topbar />
       <div className='ArtistMain'>
         <div className='ArtistMain_Wrapper'>
           <div className='ArtistMain_top'>

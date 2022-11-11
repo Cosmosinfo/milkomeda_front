@@ -4,6 +4,7 @@ import filter from '../../assets/icon/graw/filter.svg'
 import StoreCategory from '../../components/Store/StoreCategory'
 import StoreBanner from '../../components/Carousel/StoreBanner'
 import StoreSort from '../../components/Popup/StoreSort'
+import Topbar from '../../components/topbar/Topbar'
 
 function StoreMain() {
   const data = ['ALL', 'COLLAB', 'OUTER', 'TOP', 'BOTTOM', 'ACC'];
@@ -57,6 +58,8 @@ function StoreMain() {
 
   return (
     <>
+
+      <Topbar />
       <div className='StoreMain'>
         <div className='StoreMain_Wrapper'>
           <div className='StoreMain_banner'>

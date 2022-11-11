@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../assets/css/Error/ErrorPage.css'
+import Topbar from '../../components/topbar/Topbar'
 
 function ErrorPage() {
   return (
     <>
-
+      <Topbar />
       <div className='ErrorPage'>
         <div className='ErrorPage_Wrapper'>
           <div className='ErrorPage_left'>
