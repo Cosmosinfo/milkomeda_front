@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../assets/css/Error/ErrorPage.css'
 import Topbar from '../../components/topbar/Topbar'
+import { Link } from "react-router-dom";
 
 function ErrorPage() {
   return (
@@ -23,11 +24,13 @@ function ErrorPage() {
                 <span className='ErrorPage_right_ErrorBox_middle_small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span>
               </div>
 
-              <div className='ErrorPage_right_ErrorBox_Btm'>
-                <div className='ErrorPage_right_ErrorBox_Btm_text1'>
-                  Back to Homepage
-                </div>
 
+              <div className='ErrorPage_right_ErrorBox_Btm'>
+                <Link to="/" className="link">
+                  <div className='ErrorPage_right_ErrorBox_Btm_text1'>
+                    Back to Homepage
+                  </div>
+                </Link>
                 <div className='ErrorPage_right_ErrorBox_Btm_text2'>
                   Visit our help center
                 </div>

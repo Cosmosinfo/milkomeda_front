@@ -38,7 +38,7 @@ function App() {
     <>
 
       <BrowserRouter>
-        
+
         <Sidebar />
         <div className="App-content">
 
@@ -69,7 +69,7 @@ function App() {
             <Route path="/storeDetail2" element={<StoreDetail2 />} />
             <Route path="/storeDetail3" element={<StoreDetail3 />} />
             <Route path="/storeDetail4" element={<StoreDetail4 />} />
-            <Route path="/error" element={<Error />} />
+            <Route path="/*" element={<Error />} />
             <Route path="/artist" element={<ArtistMain />} />
             <Route path="/artisthome" element={<ArtistHome />} />
             <Route path="/artistnotice" element={<ArtistNotice />} />
