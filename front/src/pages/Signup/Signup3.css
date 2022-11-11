@@ -210,6 +210,14 @@
     display: flex;
     align-items: center;
 }
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+    color: #F3017F !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+    color: #8B8999 !important;
+}
  
 .Signup3_ItemRight_btm_BackBtn{
     width: 123px;

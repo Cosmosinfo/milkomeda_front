@@ -118,7 +118,7 @@ function Signup3() {
                                         </div>
 
                                         <div className="Signup3_ItemRight_middle_CheckBox">
-                                            <Checkbox style={{ color: '#F3017F' }} />
+                                            <Checkbox className="css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root" />
                                             <span className="Signup3_ItemRight_middle_CheckBox_Opttext">I agree to the Terms and Conditions</span>
                                             <div>
 
