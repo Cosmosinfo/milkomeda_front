@@ -5,8 +5,12 @@ import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import StageCard from '../../components/StageCard/StageCard'
 import chevronright from '../../assets/icon/ping//chevron-right.svg'
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function ArtistHome() {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <Topbar />
@@ -20,27 +24,27 @@ function ArtistHome() {
               <div className='ArtistHome_Rh_MemuBox'>
 
                 <Link to="/artisthome" className="link">
-                  <div className='ArtistHome_Rh_MemuBoxTexthome'>아티스트 홈</div>
+                  <div className='ArtistHome_Rh_MemuBoxTexthome'>{t("artisttop_home")}</div>
                 </Link>
                 <div className='ArtistHome_Rh_MemuBox_Line'></div>
                 <Link to="/artistnotice" className="link">
-                  <div className='ArtistHome_Rh_MemuBoxText'>공지사항</div>
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_notice")}</div>
                 </Link>
                 <div className='ArtistHome_Rh_MemuBox_Line'></div>
                 <Link to="/artiststage" className="link">
-                  <div className='ArtistHome_Rh_MemuBoxText'>스테이지</div>
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_stage")}</div>
                 </Link>
                 <div className='ArtistHome_Rh_MemuBox_Line'></div>
                 <Link to="/artistschedule" className="link">
-                  <div className='ArtistHome_Rh_MemuBoxText'>일정</div>
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_sche")}</div>
                 </Link>
                 <div className='ArtistHome_Rh_MemuBox_Line'></div>
                 <Link to="/artiststore" className="link">
-                  <div className='ArtistHome_Rh_MemuBoxText'>스토어</div>
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_store")}</div>
                 </Link>
                 <div className='ArtistHome_Rh_MemuBox_Line'></div>
                 <Link to="/artistpost" className="link">
-                  <div className='ArtistHome_Rh_MemuBoxText'>팬 포스트</div>
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_post")}</div>
                 </Link>
 
               </div>
@@ -73,11 +77,11 @@ function ArtistHome() {
                 <div className='AritstHome_Rh_btm_topcard_item'>
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
-                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>{t("artisthome_rn")}</span>
                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
                         <Link to="/artistnotice" className="link">
                           <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>{t("artisthome_more")}</span>
                             <img className="chevronright" src={chevronright} alt="chevronright" />
                           </div>
                         </Link>
@@ -99,11 +103,11 @@ function ArtistHome() {
                 <div className='AritstHome_Rh_btm_topcard_item'>
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
-                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>다가오는&nbsp;일정</span>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>{t("artisthome_us")}</span>
                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
                         <Link to="/artistschedule" className="link">
                           <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>{t("artisthome_more")}</span>
                             <img className="chevronright" src={chevronright} alt="chevronright" />
                           </div>
                         </Link>
@@ -151,11 +155,11 @@ function ArtistHome() {
                 <div className='AritstHome_Rh_btm_topcard_item'>
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
                     <div className='AritstHome_Rh_btm_topcard_item_top'>
-                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>팬&nbsp;포스트</span>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>{t("artisthome_fp")}</span>
                       <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
                         <Link to="/artistpost" className="link">
                           <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>{t("artisthome_more")}</span>
                             <img className="chevronright" src={chevronright} alt="chevronright" />
                           </div>
                         </Link>
@@ -170,7 +174,7 @@ function ArtistHome() {
                           </div>
 
                           <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                            2시간 전
+                            2{t("artisthome_time")}
                           </div>
                         </div>
 
@@ -180,7 +184,7 @@ function ArtistHome() {
                           </div>
 
                           <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                            4시간 전
+                            4{t("artisthome_time")}
                           </div>
                         </div>
 
@@ -190,7 +194,7 @@ function ArtistHome() {
                           </div>
 
                           <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                            6시간 전
+                            6{t("artisthome_time")}
                           </div>
                         </div>
 
@@ -200,7 +204,7 @@ function ArtistHome() {
                           </div>
 
                           <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                            8시간 전
+                            8{t("artisthome_time")}
                           </div>
                         </div>
 
@@ -210,7 +214,7 @@ function ArtistHome() {
                           </div>
 
                           <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
-                            10시간 전
+                            10{t("artisthome_time")}
                           </div>
                         </div>
                       </div>
@@ -228,8 +232,8 @@ function ArtistHome() {
 
               <div className="AritstHome_Rh_btm_LiveStage">
                 <div className="AritstHome_Rh_btm_LiveStage_Title">
-                  <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">라이브</span> 스테이지</p>
-                  <span className="AritstHome_Rh_btm_Upcoming">다가오는&nbsp;스테이지</span>
+                  <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">{t("home_live")}</span> {t("home_stage")}</p>
+                  <span className="AritstHome_Rh_btm_Upcoming">{t("stream_up")}</span>
                 </div>
 
                 <div className="AritstHome_Rh_btm_LiveStage_Container">
@@ -254,7 +258,7 @@ function ArtistHome() {
 
               <div className="AritstHome_Rh_btm_LiveStage">
                 <div className="AritstHome_Rh_btm_LiveStage_Title">
-                  <span className="AritstHome_Rh_btm_Previous">지난&nbsp;스테이지</span>
+                  <span className="AritstHome_Rh_btm_Previous">{t("stream_pre")}</span>
                 </div>
 
                 <div className="AritstHome_Rh_btm_LiveStage_Container">

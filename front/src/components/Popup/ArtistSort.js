@@ -1,57 +1,61 @@
 import React from 'react'
 import './ArtistSort.css'
+import { useTranslation } from "react-i18next";
 
 function ArtistSort() {
-  return (
-    <>
+
+    const { t } = useTranslation();
+
+    return (
+        <>
             <div className='ArtistSort-popWrapper'>
                 <div className='ArtistSort-contentItem'>
                     <div className='ArtistSort-contentItemText'>
-                        일렉트릭
+                        {t("artistsort_elec")}
                     </div>
 
                 </div>
 
                 <div className='ArtistSort-contentItem'>
                     <div className='ArtistSort-contentItemText'>
-                        힙합
+                        {t("artistsort_hip")}
                     </div>
 
                 </div>
 
                 <div className='ArtistSort-contentItem'>
                     <div className='ArtistSort-contentItemText'>
-                        메탈
+                        {t("artistsort_metal")}
                     </div>
 
                 </div>
 
                 <div className='ArtistSort-contentItem'>
                     <div className='ArtistSort-contentItemText'>
-                        알앤비
+                        {t("artistsort_rb")}
                     </div>
 
                 </div>
 
                 <div className='ArtistSort-contentItem'>
                     <div className='ArtistSort-contentItemText'>
-                        재즈
+                        {t("artistsort_jazz")}
                     </div>
 
                 </div>
 
                 <div className='ArtistSort-contentItem'>
                     <div className='ArtistSort-contentItemText'>
-                        팝
+                        {t("artistsort_pop")}
                     </div>
 
                 </div>
 
-                
+
             </div>
 
         </>
-  )
+    )
 }
 
 export default ArtistSort

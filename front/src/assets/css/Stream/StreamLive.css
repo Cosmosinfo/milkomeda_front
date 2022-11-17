@@ -149,9 +149,9 @@ align-items: center;
   }
 
   .StreamLive_Content_Info_address{
-    width: 355px;
+    /* width: 355px; */
     height: 100%;
-    flex: 1;
+    flex: 0.8;
     border-radius: 6px;
     background-color: #191922;
     
@@ -332,11 +332,18 @@ color: #8B8999;
 
   .StreamLive_Content_Info_ArtistName_contanier_text{
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
+  }
+
+  @media only screen and (max-width: 1680px) {
+    .StreamLive_Content_Info_ArtistName_contanier_text
+    {
+      font-size: 10px !important;
+    }
   }
 
   .StreamLive_Content_Details{

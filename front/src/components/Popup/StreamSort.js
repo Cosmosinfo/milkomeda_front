@@ -1,29 +1,35 @@
 import React from 'react'
 import './StreamSort.css'
+import { useTranslation } from "react-i18next";
+
 
 function StreamSort() {
-  return (
-    <>
+
+    // 다국어
+    const { t } = useTranslation();
+
+    return (
+        <>
             <div className='StreamSort-popWrapper'>
                 <div className='StreamSort-contentItem'>
                     <div className='StreamSort-contentItemText'>
-                        시청자순
+                        {t("streamsort_user")}
                     </div>
 
                 </div>
 
                 <div className='StreamSort-contentItem'>
                     <div className='StreamSort-contentItemText'>
-                        아티스트순
+                        {t("streamsort_artist")}
                     </div>
 
                 </div>
 
-                
+
             </div>
 
         </>
-  )
+    )
 }
 
 export default StreamSort

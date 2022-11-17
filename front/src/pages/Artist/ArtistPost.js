@@ -6,7 +6,13 @@ import heart from '../../assets/icon/graw/heart.svg'
 import message from '../../assets/icon/graw/message-circle.svg'
 import Topbar from '../../components/topbar/Topbar'
 
+import { useTranslation } from "react-i18next";
+
 function ArtistPost() {
+
+  const { t } = useTranslation();
+
+  const placeholder = t("artistspo_holder");
   return (
     <>
 
@@ -21,27 +27,27 @@ function ArtistPost() {
               <ul className='ArtistPost_Rh_MemuBox'>
 
                 <Link to="/artisthome" className="link">
-                  <li className='ArtistPost_Rh_MemuBoxText'>아티스트 홈</li>
+                  <li className='ArtistPost_Rh_MemuBoxText'>{t("artisttop_home")}</li>
                 </Link>
                 <div className='ArtistPost_Rh_MemuBox_Line'></div>
                 <Link to="/artistnotice" className="link">
-                  <li className='ArtistPost_Rh_MemuBoxText'>공지사항</li>
+                  <li className='ArtistPost_Rh_MemuBoxText'>{t("artisttop_notice")}</li>
                 </Link>
                 <div className='ArtistPost_Rh_MemuBox_Line'></div>
                 <Link to="/artiststage" className="link">
-                  <li className='ArtistPost_Rh_MemuBoxText'>스테이지</li>
+                  <li className='ArtistPost_Rh_MemuBoxText'>{t("artisttop_stage")}</li>
                 </Link>
                 <div className='ArtistPost_Rh_MemuBox_Line'></div>
                 <Link to="/artistschedule" className="link">
-                  <li className='ArtistPost_Rh_MemuBoxText'>일정</li>
+                  <li className='ArtistPost_Rh_MemuBoxText'>{t("artisttop_sche")}</li>
                 </Link>
                 <div className='ArtistPost_Rh_MemuBox_Line'></div>
                 <Link to="/artiststore" className="link">
-                  <li className='ArtistPost_Rh_MemuBoxText'>스토어</li>
+                  <li className='ArtistPost_Rh_MemuBoxText'>{t("artisttop_store")}</li>
                 </Link>
                 <div className='ArtistPost_Rh_MemuBox_Line'></div>
                 <Link to="/artistpost" className="link">
-                  <li className='ArtistPost_Rh_MemuBoxTextPost'>팬 포스트</li>
+                  <li className='ArtistPost_Rh_MemuBoxTextPost'>{t("artisttop_post")}</li>
                 </Link>
 
               </ul>
@@ -57,12 +63,12 @@ function ArtistPost() {
                       <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="AritstHome_Rh_btm_ncitembox_left_artistbox_lt_img" />
 
                     </div>
-                    <input className="ArtistPost_Rh_btm_top_itembox_lf_img_text" type="text" placeholder="메세지를 입력해주세요." name="name" />
+                    <input className="ArtistPost_Rh_btm_top_itembox_lf_img_text" type="text" placeholder={placeholder} name="name" />
                     {/* <span className='ArtistPost_Rh_btm_top_itembox_lf_img_text'>메세지를 입력해주세요.</span> */}
                   </div>
 
                   <div className='ArtistPost_Rh_btm_top_itembox_rh'>
-                    <span className='ArtistPost_Rh_btm_top_itembox_rh_text'>등록</span>
+                    <span className='ArtistPost_Rh_btm_top_itembox_rh_text'>{t("artistspo_upload")}</span>
                   </div>
                 </div>
               </div>
@@ -77,11 +83,11 @@ function ArtistPost() {
                       </div>
 
                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
+                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>{t("artistnotice_name")}</span>
 
                         <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                           <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
+                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2{t("artisthome_time")}</span>
                         </div>
 
 
@@ -115,11 +121,11 @@ function ArtistPost() {
                       </div>
 
                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
+                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>{t("artistnotice_name")}</span>
 
                         <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                           <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
+                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2{t("artisthome_time")}</span>
                         </div>
 
 
@@ -153,11 +159,11 @@ function ArtistPost() {
                       </div>
 
                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
+                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>{t("artistnotice_name")}</span>
 
                         <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                           <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
+                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2{t("artisthome_time")}</span>
                         </div>
 
 
@@ -191,11 +197,11 @@ function ArtistPost() {
                       </div>
 
                       <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh'>
-                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>아티스트</span>
+                        <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName'>{t("artistnotice_name")}</span>
 
                         <div className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm'>
                           <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day'>YYYY/MM/DD</span>
-                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2시간 전</span>
+                          <span className='AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time'>2{t("artisthome_time")}</span>
                         </div>
 
 

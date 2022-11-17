@@ -86,6 +86,22 @@
   
 }
 
+.countrybtm{
+  display: flex;
+  margin-left : 8px;
+}
+
+.countrybtm:last-of-type{
+  margin: 0;
+}
+
+
+
+.country_img{
+  width: 30px;
+  height: 30px;
+}
+
 .Light{
   width: 18px;
   height: 18px;

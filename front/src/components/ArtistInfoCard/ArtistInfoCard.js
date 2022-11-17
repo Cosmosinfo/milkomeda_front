@@ -6,8 +6,12 @@ import Twitter from '../../assets/icon/graw/twitter.svg'
 import Youtube from '../../assets/icon/graw/youtube.svg'
 import Global from '../../assets/icon/graw/globe-w.svg'
 
+import { useTranslation } from "react-i18next";
 
 function ArtistInfoCard() {
+
+  const { t } = useTranslation();
+
   const In = "https://www.instagram.com/lubless_official/"
   const Fb = "https://www.facebook.com/LublessOfficial/"
   const Tw = "https://twitter.com/lublessofficial"
@@ -63,10 +67,10 @@ function ArtistInfoCard() {
 
             </div>
 
-            <div className='ArtistInfoCard_ArtistFollwer'>팔로워 97</div>
+            <div className='ArtistInfoCard_ArtistFollwer'>{t("artistcard_follow")} 97</div>
 
             <div className='ArtistInfoCard_ArtistFavoriteBox'>
-              <div className='ArtistInfoCard_ArtistFavoriteText'>즐겨찾기</div>
+              <div className='ArtistInfoCard_ArtistFavoriteText'>{t("artistcard_favar")}</div>
 
             </div>
 
@@ -75,10 +79,10 @@ function ArtistInfoCard() {
             <div className='ArtistInfoCard_Artistdescription'>
               <div>𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥</div>
               <br />
-               <div>고장 난 어른들의 동화를 노래하는 러블레스</div>
-               <br />
-               <div>💜Lubless X to.young - I’ve gotta feelin’ like🖤</div>
-               <div>🌖I’ve gotta feelin’ like (Lyric video)✨</div>
+              <div>{t("artistcard_descrip")}</div>
+              <br />
+              <div>💜Lubless X to.young - I’ve gotta feelin’ like🖤</div>
+              <div>🌖I’ve gotta feelin’ like (Lyric video)✨</div>
             </div>
           </div>
 

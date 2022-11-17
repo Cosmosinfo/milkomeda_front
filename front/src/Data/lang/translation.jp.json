@@ -1,0 +1,151 @@
+{
+
+    "error_1": "ページが見つかりませんでした",
+    "error_2": "エラー４０４",
+    "error_3": "ホームページに戻る",
+    "error_4": "お問い合わせ",
+
+
+    "side_home": "ホーム",
+    "side_stream": "ステージ",
+    "side_artist": "アーティスト",
+    "side_store": "ストア",
+    "side_setting": "設定",
+    "side_help": "ヘルプ",
+
+
+    "top_search": "検索",
+
+
+    "home_newartist": "NEWアーティスト",
+    "home_Genre": "ジャンル",
+    "home_live" : "ライブ",
+    "home_stage" : "ステージ",
+    "home_more" : "さらに表示",
+    "home_upcoming" : "予定されているステージ",
+    
+    
+    "stream_live": "ライブ",
+    "stream_stage": "ステージ",
+    "stream_up": "予定されているステージ",
+    "stream_pre": "過去のステージ",
+    "stream_sort": "フィルター",
+ 
+    
+    "streamsort_user": "視聴者順",
+    "streamsort_artist": "アーティスト順",
+
+
+    "streamlive_share": "共有",
+    "streamlive_report": "通報",
+    "streamlive_location": "ライブ会場",
+    "streamlive_date": "日付/時間",
+    "streamlive_artistname": "アーティスト名",
+    "streamlive_descri_artist": "どこか壊れた大人のための童話",
+    "streamlive_descri_homepage": "公式ホームページ",
+
+
+    "streamcb_live": "チャット",
+    "streamcb_comment": "コメント",
+    "streamcb_usermain": "ユーザーネーム",
+    "streamcb_message": "メッセージを入力してください",
+
+
+    "artist_artist": "アーティスト",
+
+
+    "artistsort_elec": "エレクトリック",
+    "artistsort_hip": "ヒップホップ",
+    "artistsort_metal": "メタル",
+    "artistsort_rb": "R&B",
+    "artistsort_jazz": "ジャズ",
+    "artistsort_pop": "ポップ",
+
+
+    "artistcard_follow": "フォロワー",
+    "artistcard_favar": "お気に入り",
+    "artistcard_descrip": "壊れた大人の童話を歌うラブレス",
+
+
+    "artisttop_home": "アーティストホーム",
+    "artisttop_notice": "お知らせ",
+    "artisttop_stage": "ステージ",
+    "artisttop_sche": "スケジュール",
+    "artisttop_store": "ストア",
+    "artisttop_post": "ファンポスト",
+
+
+    "artisthome_rn": "最近のお知らせ",
+    "artisthome_us": "予定されているスケジュール",
+    "artisthome_fp": "ファンポスト",
+    "artisthome_more": "さらに表示",
+    "artisthome_time": "時間前",
+
+
+    "artistnotice_name": "アーティスト",
+
+
+    "artistsch_sun": "日",
+    "artistsch_mon": "月",
+    "artistsch_tue": "火",
+    "artistsch_wed": "水",
+    "artistsch_thu": "木",
+    "artistsch_fri": "金",
+    "artistsch_sat": "土",
+    "artistsch_title": "題名",
+    "artistsch_min": "分",
+    "artistsch_location": "場所",
+
+
+    "artistspo_holder": "メッセージを入力してください",
+    "artistspo_upload": "アップロード",
+
+
+    "storemain_cate_1": "衣類",
+    "storemain_cate_2": "宝石類",
+    "storemain_cate_3": "生活",
+    "storemain_cate_4": "音楽",
+    "storemain_cate_5": "本",
+    "storemain_cate_6": "等等",
+
+
+    "storesort_menu_1": "新着順",
+    "storesort_menu_2": "価格が高い順",
+    "storesort_menu_3": "価格が低い順",
+    "storesort_menu_4": "人気順",
+
+
+    "storecate_won": "円",
+
+
+    "storedetail_descrip": "2017年秋、ハワイ天文台で奇妙な物体が観測されました。 人類史上　太陽系で最初に発見されたこの外界惑星物質は「遠いところから送った最初のメッセージ」という意味のオムアムア(Oumuamua)です。依然として私たちにミステリーな疑問を残したオムアムアは、もしかしたら私たちが存在している現世界と人類が向き合うことになるもう一つの世界を見せてくれる最初のシグナルメッセージではないでしょうか。広大な宇宙を自由に歩き回り、どこかで輝いているオムアムアの光に沿って神秘的な旅に出かけます。",
+    "storedetail_add": "カートに入れる",
+    "storedetail_wish": "リストに追加",
+    "storedetail_buy": "購入",
+    "storedetail_detail": "商品詳細",
+    "storedetail_review": "レビュー",
+    "storedetail_info": "返品/交換/発送情報",
+    "storedetail_reco": "おすすめの商品",
+
+
+    "storedetail_info1": "製品の状態によって追加費用が発生することがあります。",
+    "storedetail_info2": "期間は7~14日ほど(週末は含まない)かかります。",
+    "storedetail_info3": "製品に対する保証期間は1年で、1年以降は有·無償でアフターサービスが行われます。",
+    "storedetail_info4": "ただし、お客様の不注意によるアフターサービスは期間に関係なく有償処理されます。",
+    "storedetail_info5": "アフターサービスの基準や可否は商品によって異なりますので、カスタマーセンターにご連絡いただければ詳しくご案内いたします。",
+
+    "storedetail_info_exre": "Exchange / Refund (交換/返品)",
+    "storedetail_info6": "返品/交換時、往復宅配料金6,000ウォンがかかります。",
+    "storedetail_info7": "商品欠陥、誤配送の場合、送料無料で返品·交換が可能です。",
+    "storedetail_info8": "お客様のお心変わりによる返品·交換の場合、送料はお客様負担となります。",
+    "storedetail_info9": "返品·交換は未使用の製品に限り、配送完了後7日以内に受付する必要があります。",
+    "storedetail_info10": "交換·返品をご希望の場合はカスタマーセンターまでお申し込みください。",
+    "storedetail_info11": "使用痕跡があったり、お客様の不注意により商品が毀損された場合、返品·交換は致しかねます。",
+    "storedetail_info12": "キャンセル·返品·交換は電子商取引法の規定に基づくポリシーを遵守します。",
+    
+    "storedetail_info_sh": "Shipping (発送)",
+    "storedetail_info13": "製作期間によって3~5日ほどかかります。",
+    "storedetail_info14": "宅配業者の事情や地域によって所要期間に差がある場合があります。",
+    "storedetail_info15": "祝日及び休日は配送ができません。"
+
+}

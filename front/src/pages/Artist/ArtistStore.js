@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistStore.css'
 import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
 import Topbar from '../../components/topbar/Topbar'
-
+import { useTranslation } from "react-i18next";
 
 function ArtistStore() {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <Topbar />
@@ -19,27 +22,27 @@ function ArtistStore() {
               <ul className='ArtistStage_Rh_MemuBox'>
 
                 <Link to="/artisthome" className="link">
-                  <li className='ArtistStage_Rh_MemuBoxText'>아티스트 홈</li>
+                  <li className='ArtistStage_Rh_MemuBoxText'>{t("artisttop_home")}</li>
                 </Link>
                 <div className='ArtistStage_Rh_MemuBox_Line'></div>
                 <Link to="/artistnotice" className="link">
-                  <li className='ArtistStage_Rh_MemuBoxText'>공지사항</li>
+                  <li className='ArtistStage_Rh_MemuBoxText'>{t("artisttop_notice")}</li>
                 </Link>
                 <div className='ArtistStage_Rh_MemuBox_Line'></div>
                 <Link to="/artiststage" className="link">
-                  <li className='ArtistStage_Rh_MemuBoxText'>스테이지</li>
+                  <li className='ArtistStage_Rh_MemuBoxText'>{t("artisttop_stage")}</li>
                 </Link>
                 <div className='ArtistStage_Rh_MemuBox_Line'></div>
                 <Link to="/artistschedule" className="link">
-                  <li className='ArtistStage_Rh_MemuBoxText'>일정</li>
+                  <li className='ArtistStage_Rh_MemuBoxText'>{t("artisttop_sche")}</li>
                 </Link>
                 <div className='ArtistStage_Rh_MemuBox_Line'></div>
                 <Link to="/artiststore" className="link">
-                  <li className='ArtistStore_Rh_MemuBoxTextStore'>스토어</li>
+                  <li className='ArtistStore_Rh_MemuBoxTextStore'>{t("artisttop_store")}</li>
                 </Link>
                 <div className='ArtistStage_Rh_MemuBox_Line'></div>
                 <Link to="/artistpost" className="link">
-                  <li className='ArtistStage_Rh_MemuBoxText'>팬 포스트</li>
+                  <li className='ArtistStage_Rh_MemuBoxText'>{t("artisttop_post")}</li>
                 </Link>
 
               </ul>

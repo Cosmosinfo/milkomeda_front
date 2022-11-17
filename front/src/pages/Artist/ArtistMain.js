@@ -4,9 +4,14 @@ import filter from '../../assets/icon/graw/filter.svg'
 import ArtistMainCard from '../../components/ArtistMainCard/ArtistMainCard'
 import ArtistSort from '../../components/Popup/ArtistSort'
 import Topbar from '../../components/topbar/Topbar'
-
+import { useTranslation } from "react-i18next";
 
 function ArtistMain() {
+
+  // 다국어
+  const { t } = useTranslation();
+
+
   const dropdownRef = useRef(null);
   const curRef = useRef(true);
 
@@ -50,7 +55,7 @@ function ArtistMain() {
           <div className='ArtistMain_top'>
             <div className='ArtistMain_top_lf'>
               <span className='ArtistMain_topText'>
-                아티스트
+                {t("artist_artist")}
               </span>
 
             </div>
@@ -64,7 +69,7 @@ function ArtistMain() {
                 setOpenAtSort(!openAtSort)
                 curRef.current = true;
               }}>
-                정렬
+                {t("stream_sort")}
               </button>
 
               <nav

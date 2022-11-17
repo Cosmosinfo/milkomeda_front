@@ -7,10 +7,14 @@ import { Link } from "react-router-dom";
 // import StoreTapContent from '../../Data/StoreTapContent'
 // import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function StoreDetail() {
 
-    // const data = ['상세보기','리뷰 0','Q&A 0','반품/교환/배송정보'];
+
+    const { t } = useTranslation();
+
+    // const data = ['{t("storedetail_detail")}','{t("storedetail_review")} 0','Q&A 0','{t("storedetail_info")}'];
     // const [btnActive, setBtnActive] = useState("");
 
     // const toggleActive = (e) => {
@@ -42,7 +46,7 @@ function StoreDetail() {
                                     </div>
 
                                     <div className='StoreDetail_left_top_Detail_titleBox_btm'>
-                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 100,000</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 100,000{t("storecate_won")}</span>
                                         <span className='StoreDetail_left_top_Detail_titleBox_btm_Money_line'>₩ 100,000</span>
                                     </div>
 
@@ -52,7 +56,7 @@ function StoreDetail() {
 
                                 <div className='StoreDetail_left_top_Detail_title_DescriptionBox'>
                                     <div className='StoreDetail_left_top_Detail_title_DescriptionBox_textbox'>
-                                        <div className='StoreDetail_left_top_Detail_title_DescriptionBox_textbox_text'>2017년 가을, 하와이 천문대에서 이상한 물체가 관측되었습니다. 인류 역사상 태양계에서 최초로 발견 된 이 외계 행성 물질은 '먼곳에서 보낸 첫번째 메세지'라는 뜻의 오무아무아(Oumuamua)입니다.여전히 우리에게 미스테리한 궁금증을 남긴 오무아무아는 어쩌면 우리가 존재하고 있는 현세계와 인류가 마주 하게 될 또 다른 세계를 보여주는 첫번째 시그널 메세지가 아니었을까요?광활한 우주를 자유롭게 누비며어딘가에서 반짝이고 있을 오무아무아의 빛을 따라신비로운 여행을 떠나봅니다.</div>
+                                        <div className='StoreDetail_left_top_Detail_title_DescriptionBox_textbox_text'>{t("storedetail_descrip")}</div>
                                     </div>
                                 </div>
 
@@ -66,7 +70,7 @@ function StoreDetail() {
                                         </div>
 
                                         <div className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox'>
-                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text'>₩ 100,000</span>
+                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text'>₩ 100,000{t("storecate_won")}</span>
 
                                             <div className="StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_Icon">
                                                 <img className="StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_minusIcon" src={minus} alt="minus" />
@@ -80,22 +84,22 @@ function StoreDetail() {
 
                                 <div className='StoreDetail_left_top_Detail_TotalBox'>
                                     <span className='StoreDetail_left_top_Detail_TotalBox_Total'>Total</span>
-                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩&nbsp;100,000</span>
+                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩&nbsp;100,000{t("storecate_won")}</span>
                                 </div>
 
                                 <div className='StoreDetail_left_top_Detail_BuyBox'>
                                     <div className='StoreDetail_left_top_Detail_BuyBox_Top'>
                                         <div className='StoreDetail_left_top_Detail_BuyBox_AddCart'>
-                                            장바구니
+                                            {t("storedetail_add")}
                                         </div>
 
                                         <div className='StoreDetail_left_top_Detail_BuyBox_Whishlist'>
-                                            위시리스트
+                                            {t("storedetail_wish")}
                                         </div>
                                     </div>
 
                                     <div className='StoreDetail_left_top_Detail_BuyBox_Btm'>
-                                        바로 구매하기
+                                        {t("storedetail_buy")}
                                     </div>
 
 
@@ -130,13 +134,13 @@ function StoreDetail() {
                             })} */}
                                 <Link to="/storeDetail" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                        상세보기
+                                        {t("storedetail_detail")}
                                     </div>
                                 </Link>
 
                                 <Link to="/storeDetail2" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item2'>
-                                        리뷰 0
+                                        {t("storedetail_review")} 0
                                     </div>
                                 </Link>
 
@@ -148,7 +152,7 @@ function StoreDetail() {
 
                                 <Link to="/storeDetail4" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                        반품/교환/배송정보
+                                        {t("storedetail_info")}
                                     </div>
                                 </Link>
 
@@ -177,7 +181,7 @@ function StoreDetail() {
 
                         <div className='StoreDetail_Right_Wrapper'>
                             <div className='StoreDetail_Right_Top'>
-                                이 상품은 어떠세요?
+                                {t("storedetail_reco")}
                             </div>
 
                             <div className='StoreDetail_Right_Btm'>

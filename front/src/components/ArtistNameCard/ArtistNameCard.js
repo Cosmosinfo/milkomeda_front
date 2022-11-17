@@ -1,8 +1,12 @@
 import React from 'react'
 import "./ArtistNameCard.css"
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function ArtistNameCard() {
+
+  const { t } = useTranslation();
+
   return (
 
     <>
@@ -24,7 +28,7 @@ function ArtistNameCard() {
               </div>
               <div className="newArtistItemContainerMusicGenreBox">
 
-                <span className="newArtistItemContainerMusicGenre">장르</span>
+                <span className="newArtistItemContainerMusicGenre">{t("home_Genre")}</span>
               </div>
             </div>
           </div>

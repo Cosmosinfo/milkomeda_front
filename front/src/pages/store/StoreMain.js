@@ -5,9 +5,13 @@ import StoreCategory from '../../components/Store/StoreCategory'
 import StoreBanner from '../../components/Carousel/StoreBanner'
 import StoreSort from '../../components/Popup/StoreSort'
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function StoreMain() {
-  const data = ['ALL', 'COLLAB', 'OUTER', 'TOP', 'BOTTOM', 'ACC'];
+
+  const { t } = useTranslation();
+
+  const data = [t("storemain_cate_1"), t("storemain_cate_2"), t("storemain_cate_3"), t("storemain_cate_4"), t("storemain_cate_5"), t("storemain_cate_6")];
 
   const dropdownRef = useRef(null);
   const curRef = useRef(true);
@@ -107,7 +111,7 @@ function StoreMain() {
                   setOpenstSort(!openstSort)
                   curRef.current = true;
                 }}>
-                  정렬
+                  {t("stream_sort")}
                 </button>
 
                 <nav

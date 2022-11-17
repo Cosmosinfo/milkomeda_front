@@ -7,10 +7,14 @@ import { Link } from "react-router-dom";
 // import StoreTapContent from '../../Data/StoreTapContent'
 // import StoreItemDetailImg from '../../components/Carousel/StoreItemDetailImg'
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function StoreDetail() {
 
-    // const data = ['상세보기','리뷰 0','Q&A 0','반품/교환/배송정보'];
+
+    const { t } = useTranslation();
+
+    // const data = ['{t("storedetail_detail")}','{t("storedetail_review")} 0','Q&A 0','{t("storedetail_info")}'];
     // const [btnActive, setBtnActive] = useState("");
 
     // const toggleActive = (e) => {
@@ -42,7 +46,7 @@ function StoreDetail() {
                                     </div>
 
                                     <div className='StoreDetail_left_top_Detail_titleBox_btm'>
-                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 100,000</span>
+                                        <span className='StoreDetail_left_top_Detail_titleBox_btm_Money'>₩ 100,000{t("storecate_won")}</span>
                                         <span className='StoreDetail_left_top_Detail_titleBox_btm_Money_line'>₩ 100,000</span>
                                     </div>
 
@@ -52,7 +56,7 @@ function StoreDetail() {
 
                                 <div className='StoreDetail_left_top_Detail_title_DescriptionBox'>
                                     <div className='StoreDetail_left_top_Detail_title_DescriptionBox_textbox'>
-                                        <div className='StoreDetail_left_top_Detail_title_DescriptionBox_textbox_text'>2017년 가을, 하와이 천문대에서 이상한 물체가 관측되었습니다. 인류 역사상 태양계에서 최초로 발견 된 이 외계 행성 물질은 '먼곳에서 보낸 첫번째 메세지'라는 뜻의 오무아무아(Oumuamua)입니다.여전히 우리에게 미스테리한 궁금증을 남긴 오무아무아는 어쩌면 우리가 존재하고 있는 현세계와 인류가 마주 하게 될 또 다른 세계를 보여주는 첫번째 시그널 메세지가 아니었을까요?광활한 우주를 자유롭게 누비며어딘가에서 반짝이고 있을 오무아무아의 빛을 따라신비로운 여행을 떠나봅니다.</div>
+                                        <div className='StoreDetail_left_top_Detail_title_DescriptionBox_textbox_text'>{t("storedetail_descrip")}</div>
                                     </div>
                                 </div>
 
@@ -66,7 +70,7 @@ function StoreDetail() {
                                         </div>
 
                                         <div className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox'>
-                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text'>₩ 100,000</span>
+                                            <span className='StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_text'>₩ 100,000{t("storecate_won")}</span>
 
                                             <div className="StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_Icon">
                                                 <img className="StoreDetail_left_top_Detail_MoneyDescriptionBox_moneybox_minusIcon" src={minus} alt="minus" />
@@ -80,22 +84,22 @@ function StoreDetail() {
 
                                 <div className='StoreDetail_left_top_Detail_TotalBox'>
                                     <span className='StoreDetail_left_top_Detail_TotalBox_Total'>Total</span>
-                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩&nbsp;100,000</span>
+                                    <span className='StoreDetail_left_top_Detail_TotalBox_TotalMoney'>₩&nbsp;100,000{t("storecate_won")}</span>
                                 </div>
 
                                 <div className='StoreDetail_left_top_Detail_BuyBox'>
                                     <div className='StoreDetail_left_top_Detail_BuyBox_Top'>
                                         <div className='StoreDetail_left_top_Detail_BuyBox_AddCart'>
-                                            장바구니
+                                            {t("storedetail_add")}
                                         </div>
 
                                         <div className='StoreDetail_left_top_Detail_BuyBox_Whishlist'>
-                                            위시리스트
+                                            {t("storedetail_wish")}
                                         </div>
                                     </div>
 
                                     <div className='StoreDetail_left_top_Detail_BuyBox_Btm'>
-                                        바로 구매하기
+                                        {t("storedetail_buy")}
                                     </div>
 
 
@@ -130,13 +134,13 @@ function StoreDetail() {
                             })} */}
                                 <Link to="/storeDetail" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                        상세보기
+                                        {t("storedetail_detail")}
                                     </div>
                                 </Link>
 
                                 <Link to="/storeDetail2" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item'>
-                                        리뷰 0
+                                        {t("storedetail_review")} 0
                                     </div>
                                 </Link>
 
@@ -148,7 +152,7 @@ function StoreDetail() {
 
                                 <Link to="/storeDetail4" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item2'>
-                                        반품/교환/배송정보
+                                        {t("storedetail_info")}
                                     </div>
                                 </Link>
 
@@ -172,43 +176,43 @@ function StoreDetail() {
                                     </div >
                                     <br />
                                     <div className='StoreDetail_left_Btm_textbox_flex'>
-                                        - 제품의 컨디션에 따라 추가비용이 발생할 수 있습니다. <br />
-                                        - 기간은 7 ~ 14일 정도 (주말 미포함) 소요됩니다. <br />
-                                        - 제품에 대한 보증기간은 1년이며, 1년 이후에는 유·무상으로 A/S가 진행됩니다. <br />
+                                        - {t("storedetail_info1")} <br />
+                                        - {t("storedetail_info2")} <br />
+                                        - {t("storedetail_info3")} <br />
 
-                                        단, 고객부주의로 인한 A/S는 기간에 상관없이 유상처리됩니다. <br />
+                                        {t("storedetail_info4")} <br />
 
-                                        - A/S기준이나 가능여부는 상품에 따라 다르므로 고객센터로 연락주시면 자세히 안내드리겠습니다.
+                                        - {t("storedetail_info5")}
                                     </div>
                                     <br />
 
                                     <div className='StoreDetail_left_Btm_textbox_title'>
-                                        Exchange / Refund (교환 / 환불)
+                                        {t("storedetail_info_exre")}
                                     </div>
                                     <br />
                                     <div className='StoreDetail_left_Btm_textbox_flex'>
 
 
 
-                                        - 반품/교환시 왕복택배비 6,000원이 부과됩니다. <br />
-                                        - 상품하자, 오배송인 경우 택배비 무료로 반품·교환이 가능합니다. <br />
-                                        - 고객 변심에 의한 반품·교환의 경우 배송비는 고객부담입니다. <br />
-                                        - 반품·교환은 미사용 제품에 한해 배송완료 후 7일 이내에 접수되어야 합니다. <br />
-                                        - 교환·반품을 원할 경우 고객센터 접수해주세요. <br />
-                                        - 사용흔적이 있거나 고객부주의로 상품이 훼손된 경우 반품·교환이 불가능합니다. <br />
-                                        - 취소·반품·교환은 전자상거래법 규정에 의거한 정책을 준수합니다.
+                                        - {t("storedetail_info6")} <br />
+                                        - {t("storedetail_info7")} <br />
+                                        - {t("storedetail_info8")} <br />
+                                        - {t("storedetail_info9")} <br />
+                                        - {t("storedetail_info10")} <br />
+                                        - {t("storedetail_info11")} <br />
+                                        - {t("storedetail_info12")}
                                     </div>
                                     <br />
                                     <div className='StoreDetail_left_Btm_textbox_title'>
-                                        Shipping (배송)
+                                        {t("storedetail_info_sh")}
                                     </div>
                                     <br />
                                     <div className='StoreDetail_left_Btm_textbox_flex'>
 
 
-                                        - 제작기간에 따라서 3~5일 정도 소요됩니다. <br />
-                                        - 택배사 사정이나 지역에 따라 소요기간에 차이가 있을 수 있습니다. <br />
-                                        - 공휴일 및 휴일은 배송이 불가합니다.
+                                        - {t("storedetail_info12")} <br />
+                                        - {t("storedetail_info13")} <br />
+                                        - {t("storedetail_info14")}
                                     </div>
 
 
@@ -224,7 +228,7 @@ function StoreDetail() {
 
                         <div className='StoreDetail_Right_Wrapper'>
                             <div className='StoreDetail_Right_Top'>
-                                이 상품은 어떠세요?
+                                {t("storedetail_reco")}
                             </div>
 
                             <div className='StoreDetail_Right_Btm'>

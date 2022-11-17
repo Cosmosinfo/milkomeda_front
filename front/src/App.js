@@ -33,6 +33,9 @@ import Signup6 from './pages/Signup/Signup6'
 import Signup7 from './pages/Signup/Signup7'
 
 function App() {
+
+
+
   return (
 
     <>

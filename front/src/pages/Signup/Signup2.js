@@ -33,7 +33,7 @@ function Signup2() {
                 <img className="Signup2_ItemRight_middle_user_Icon" src={artist} alt="artist" />
             </div>
             <div className="Signup2_ItemRight_middle_userTitle">
-                User
+                Artist
             </div>
 
             <div className="Signup2_ItemRight_middle_userDesBox">
@@ -61,7 +61,7 @@ function Signup2() {
 
     return (
         <>
-        < Topbar2 />
+            < Topbar2 />
             <div className='Signup2'>
                 <div className='Signup2_Wrapper'>
                     <div className='Signup2_Container'>

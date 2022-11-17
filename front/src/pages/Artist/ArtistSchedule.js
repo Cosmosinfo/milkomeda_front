@@ -7,7 +7,11 @@ import chevronright from '../../assets/icon/graw/chevron-right.svg'
 // import { ResponsiveCalendar } from 'react-responsive-calendar'
 // import Calendar from 'react-calendar';
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
+
 function ArtistSchedule() {
+
+    const { t } = useTranslation();
 
     return (
         <>
@@ -22,27 +26,27 @@ function ArtistSchedule() {
                             <ul className='ArtistSchedule_Rh_MemuBox'>
 
                                 <Link to="/artisthome" className="link">
-                                    <li className='ArtistSchedule_Rh_MemuBoxText'>아티스트 홈</li>
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>{t("artisttop_home")}</li>
                                 </Link>
                                 <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                                 <Link to="/artistnotice" className="link">
-                                    <li className='ArtistSchedule_Rh_MemuBoxText'>공지사항</li>
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>{t("artisttop_notice")}</li>
                                 </Link>
                                 <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                                 <Link to="/artiststage" className="link">
-                                    <li className='ArtistSchedule_Rh_MemuBoxText'>스테이지</li>
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>{t("artisttop_stage")}</li>
                                 </Link>
                                 <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                                 <Link to="/artistschedule" className="link">
-                                    <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>일정</li>
+                                    <li className='ArtistSchedule_Rh_MemuBoxTextSchedule'>{t("artisttop_sche")}</li>
                                 </Link>
                                 <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                                 <Link to="/artiststore" className="link">
-                                    <li className='ArtistSchedule_Rh_MemuBoxText'>스토어</li>
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>{t("artisttop_store")}</li>
                                 </Link>
                                 <div className='ArtistSchedule_Rh_MemuBox_Line'></div>
                                 <Link to="/artistpost" className="link">
-                                    <li className='ArtistSchedule_Rh_MemuBoxText'>팬 포스트</li>
+                                    <li className='ArtistSchedule_Rh_MemuBoxText'>{t("artisttop_post")}</li>
                                 </Link>
 
                             </ul>
@@ -69,25 +73,25 @@ function ArtistSchedule() {
                                 <div className="ArtistSchedule_Rh_btm_Schedulelf_btm">
                                     <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_date">
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SUN</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_sun")}</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">MON</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_mon")}</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">TUE</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_tue")}</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">WED</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_wed")}</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">THU</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_thu")}</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">FRI</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_fri")}</span>
                                         </div>
                                         <div className="ArtistSchedule_Rh_btm_Schedulelf_btm_dateBox">
-                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">SAT</span>
+                                            <span className="ArtistSchedule_Rh_btm_Schedulelf_btm_date_text">{t("artistsch_sat")}</span>
                                         </div>
 
 
@@ -176,7 +180,7 @@ function ArtistSchedule() {
                             <div className='ArtistSchedule_Rh_btm_ScheduleRh'>
 
                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container'>
-                                    <span className='ArtistSchedule_Rh_btm_ScheduleRh_container_text'>다가오는 일정</span>
+                                    <span className='ArtistSchedule_Rh_btm_ScheduleRh_container_text'>{t("artisthome_us")}</span>
 
                                     {/* 스케줄 박스 */}
 
@@ -190,17 +194,17 @@ function ArtistSchedule() {
 
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                        제목
+                                                        {t("artistsch_title")}
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                        18:00~19:30(KST/90분)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        18:00~19:30(KST/90{t("artistsch_min")})&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                        장소
+                                                        {t("artistsch_location")}
                                                     </spen>
                                                 </div>
                                             </div>
@@ -215,13 +219,13 @@ function ArtistSchedule() {
 
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                        제목
+                                                        {t("artistsch_title")}
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                        18:00~19:30(KST/90분)
+                                                        18:00~19:30(KST/90{t("artistsch_min")})
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                        장소
+                                                        {t("artistsch_location")}
                                                     </spen>
                                                 </div>
                                             </div>
@@ -236,13 +240,13 @@ function ArtistSchedule() {
 
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                        제목
+                                                        {t("artistsch_title")}
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                        18:00~19:30(KST/90분)
+                                                        18:00~19:30(KST/90{t("artistsch_min")})
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                        장소
+                                                        {t("artistsch_location")}
                                                     </spen>
                                                 </div>
                                             </div>
@@ -257,13 +261,13 @@ function ArtistSchedule() {
 
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                        제목
+                                                        {t("artistsch_title")}
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                        18:00~19:30(KST/90분)
+                                                        18:00~19:30(KST/90{t("artistsch_min")})
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                        장소
+                                                        {t("artistsch_location")}
                                                     </spen>
                                                 </div>
                                             </div>
@@ -278,13 +282,13 @@ function ArtistSchedule() {
 
                                                 <div className='ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript'>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_text">
-                                                        제목
+                                                        {t("artistsch_title")}
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_time">
-                                                        18:00~19:30(KST/90분)
+                                                        18:00~19:30(KST/90{t("artistsch_min")})
                                                     </spen>
                                                     <spen className="ArtistSchedule_Rh_btm_ScheduleRh_container_item_descript_location">
-                                                        장소
+                                                        {t("artistsch_location")}
                                                     </spen>
                                                 </div>
                                             </div>

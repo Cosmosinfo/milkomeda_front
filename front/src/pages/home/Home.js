@@ -8,9 +8,13 @@ import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
 import { Link } from "react-router-dom";
 import StageCardData from "../../Data/StageCardData"
 import Topbar from '../../components/topbar/Topbar'
-
+import { useTranslation } from "react-i18next";
 
 function Home() {
+
+  // 다국어처리
+  const { t } = useTranslation();
+
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4)
   const [noOfElement2, setnoOfElement2] = useState(4)
@@ -60,7 +64,7 @@ function Home() {
 
           >
 
-            <spen className="hr-sect_more">더 보기</spen>
+            <spen className="hr-sect_more">{t("home_more")}</spen>
             <img className="chevron" src={chevron} alt="chevron" />
           </button>
         </div>
@@ -100,7 +104,7 @@ function Home() {
 
           >
 
-            <spen className="hr-sect_more">더 보기</spen>
+            <spen className="hr-sect_more">{t("home_more")}</spen>
             <img className="chevron" src={chevron} alt="chevron" />
           </button>
         </div>
@@ -119,140 +123,140 @@ function Home() {
   return (
 
     <>
-    <Topbar />
-    <div className="home">
+      <Topbar />
+      <div className="home">
 
 
-      <div className='homeWrapper'>
-        {/* ====================  Carousel  ======================== */}
+        <div className='homeWrapper'>
+          {/* ====================  Carousel  ======================== */}
 
-        < HomeBanner />
+          < HomeBanner />
 
-        {/* ====================  New Artist  ======================== */}
+          {/* ====================  New Artist  ======================== */}
 
-        <div className="home_newArtist">
-          <span className="home_newArtistTitle">새로운 아티스트</span>
+          <div className="home_newArtist">
+            <span className="home_newArtistTitle">{t("home_newartist")}</span>
 
-          <div className="home_newArtistItem">
-            <ArtistNameCard />
+            <div className="home_newArtistItem">
+              <ArtistNameCard />
 
-            <ArtistNameCard />
+              <ArtistNameCard />
 
-            <ArtistNameCard />
+              <ArtistNameCard />
 
-            <ArtistNameCard />
+              <ArtistNameCard />
 
-            <ArtistNameCard />
+              <ArtistNameCard />
 
-            <ArtistNameCard />
+              <ArtistNameCard />
 
+            </div>
           </div>
+
+          {/* ====================  Live Stage  ======================== */}
+
+          <div className="home_LiveStage">
+            <div className="home_LiveStage_Title">
+              <p className='home_Stage'><span className="home_Live">{t("home_live")}</span> {t("home_stage")}</p>
+            </div>
+
+            <div className="home_LiveStage_Container">
+
+              {more.map((item, index) => {
+                return (
+                  <Link to="/StreamLive" className="link home_stageCard">
+                    <div className="home_Stage_Top">
+
+                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
+                    </div>
+
+                    <div className="home_Stage_btm">
+                      <div className="home_Stage_btm_Left">
+
+                        <img src={item.img} className="home_Stage_Artist_img" alt="" />
+
+
+                      </div>
+                      <div className="home_Stage_btm_Right">
+
+                        <div className="home_Stage_NameBox">
+
+                          <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
+
+                        </div>
+                        <div className="home_Stage_NameBox_ArtistName_Box">
+
+                          <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+
+
+
+
+            </div>
+          </div>
+
+
+
+          {Btnchevron()}
+
+
+
+          {/* ====================  Upcoming Stage  ======================== */}
+
+          <div className="home_UpComing_Stage">
+            <div className="home_UpComing_Stage_title">
+              {t("home_upcoming")}
+            </div>
+
+            <div className="home_UpComingStage_Container">
+              {more2.map((item, index) => {
+                return (
+                  <Link to="/StreamLive" className="link home_stageCard">
+                    <div className="home_Stage_Top">
+
+                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
+                    </div>
+
+                    <div className="home_Stage_btm">
+                      <div className="home_Stage_btm_Left">
+
+                        <img src={item.img} className="home_Stage_Artist_img" alt="" />
+
+
+                      </div>
+                      <div className="home_Stage_btm_Right">
+
+                        <div className="home_Stage_NameBox">
+
+                          <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
+
+                        </div>
+                        <div className="home_Stage_NameBox_ArtistName_Box">
+
+                          <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+
+
+
+            </div>
+          </div>
+
+
+          {Btnchevron2()}
+
         </div>
-
-        {/* ====================  Live Stage  ======================== */}
-
-        <div className="home_LiveStage">
-          <div className="home_LiveStage_Title">
-            <p className='home_Stage'><span className="home_Live">라이브</span> 스테이지</p>
-          </div>
-
-          <div className="home_LiveStage_Container">
-
-            {more.map((item, index) => {
-              return (
-                <Link to="/StreamLive" className="link home_stageCard">
-                  <div className="home_Stage_Top">
-
-                    <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
-                  </div>
-
-                  <div className="home_Stage_btm">
-                    <div className="home_Stage_btm_Left">
-
-                      <img src={item.img} className="home_Stage_Artist_img" alt="" />
-
-
-                    </div>
-                    <div className="home_Stage_btm_Right">
-
-                      <div className="home_Stage_NameBox">
-
-                        <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
-
-                      </div>
-                      <div className="home_Stage_NameBox_ArtistName_Box">
-
-                        <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              )
-            })}
-
-
-
-
-          </div>
-        </div>
-
-
-
-        {Btnchevron()}
-
-
-
-        {/* ====================  Upcoming Stage  ======================== */}
-
-        <div className="home_UpComing_Stage">
-          <div className="home_UpComing_Stage_title">
-            다가오는 스테이지
-          </div>
-
-          <div className="home_UpComingStage_Container">
-            {more2.map((item, index) => {
-              return (
-                <Link to="/StreamLive" className="link home_stageCard">
-                  <div className="home_Stage_Top">
-
-                    <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
-                  </div>
-
-                  <div className="home_Stage_btm">
-                    <div className="home_Stage_btm_Left">
-
-                      <img src={item.img} className="home_Stage_Artist_img" alt="" />
-
-
-                    </div>
-                    <div className="home_Stage_btm_Right">
-
-                      <div className="home_Stage_NameBox">
-
-                        <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
-
-                      </div>
-                      <div className="home_Stage_NameBox_ArtistName_Box">
-
-                        <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              )
-            })}
-
-
-
-          </div>
-        </div>
-
-
-        {Btnchevron2()}
-
       </div>
-    </div>
-    
+
     </>
   )
 }

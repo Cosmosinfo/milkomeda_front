@@ -10,6 +10,7 @@ import "../../assets/css/Stream/StreamLive.css"
 import ReactPlayer from 'react-player'
 import StreamChatBox from '../../components/StreamLiveChat/StreamChatBox'
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function StreamLive() {
     // function resize(obj) {
@@ -17,7 +18,8 @@ function StreamLive() {
     //     obj.style.height = (12+obj.scrollHeight)+"px";
     // }
 
-
+    // 다국어
+    const { t } = useTranslation();
 
     return (
         <>
@@ -56,12 +58,12 @@ function StreamLive() {
                                     <div className='StreamLive_Title_right'>
                                         <div className="StreamLive_Title_right_Share">
                                             <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
-                                            <span className="StreamLive_Title_right_Share_text">공유</span>
+                                            <span className="StreamLive_Title_right_Share_text">{t("streamlive_share")}</span>
                                         </div>
 
                                         <div className="StreamLive_Title_right_Report">
                                             <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
-                                            <span className="StreamLive_Title_right_Report_text">신고 </span>
+                                            <span className="StreamLive_Title_right_Report_text">{t("streamlive_report")}</span>
                                         </div>
 
                                     </div>
@@ -83,7 +85,7 @@ function StreamLive() {
 
                                                 <div className="StreamLive_address_Container_Namebox">
 
-                                                    <span className="StreamLive_address_Container_Namebox_Location">공연 장소</span>
+                                                    <span className="StreamLive_address_Container_Namebox_Location">{t("streamlive_location")}</span>
 
                                                 </div>
                                                 <div className="StreamLive_address_Container_Namebox_LocationAddr">
@@ -96,7 +98,7 @@ function StreamLive() {
                                     {/* Streaming 날짜 */}
                                     <div className='StreamLive_Content_Info_Date'>
                                         <div className='StreamLive_Content_Info_Date_textBox'>
-                                            <span className="StreamLive_Content_Info_Date_textBox_text">날짜 / 시간</span>
+                                            <span className="StreamLive_Content_Info_Date_textBox_text">{t("streamlive_date")}</span>
                                             <span className="StreamLive_Content_Info_year_textBox_text">2022.12.05.Mon<br />18:00~19:00(KST/90mins)</span>
                                         </div>
                                     </div>
@@ -120,7 +122,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
 
@@ -132,7 +134,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
 
@@ -144,7 +146,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
 
@@ -156,7 +158,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
 
@@ -168,7 +170,7 @@ function StreamLive() {
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
 
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
 
@@ -240,16 +242,16 @@ function StreamLive() {
                                         <div>
                                             밴드 러블레스 Lubless<br />
                                             "Lust bless you. Follow your heart."<br />
-                                            어딘가 고장 난 어른들을 위한 동화
+                                            {t("streamlive_descri_artist")}
                                         </div>
 
                                         <br />
 
                                         <div>
-                                            공식 홈페이지 - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
-                                            페이스북 - <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a><br />
-                                            인스타그램 - <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a><br />
-                                            트위터 - <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+                                            {t("streamlive_descri_homepage")} - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
+                                            페이스북 （Facebook）- <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a><br />
+                                            인스타그램 （Instagram）- <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a><br />
+                                            트위터 （Twitter）- <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
                                         </div>
 
 

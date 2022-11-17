@@ -1,18 +1,26 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import LiveMessageBox from '../LiveMessageBox/LiveMessageBox'
 import Gift from '../../assets/icon/graw/gift.svg'
 import Smile from '../../assets/icon/graw/smile.svg'
 import Send from '../../assets/icon/ping/send.svg'
 import './StreamChatBox.css'
+import { useTranslation } from "react-i18next";
 
 function StreamChatBox() {
-    const data = ['채팅','댓글'];
+
+    // 다국어
+    const { t } = useTranslation();
+
+
+    const data = [t("streamcb_live"), t("streamcb_comment")];
+
+    const placeholder = t("streamcb_message");
 
     const [btnActive, setBtnActive] = useState("");
 
     const toggleActive = (e) => {
         setBtnActive((prev) => {
-        return e.target.value;
+            return e.target.value;
         });
 
     }
@@ -40,128 +48,128 @@ function StreamChatBox() {
     }, [value]);
 
 
-  return (
+    return (
 
 
 
-    <>
-                    <div className="StreamChatBox_Right_Container">
-                        
-                            <div className="StreamChatBox_Right_topbox">
-                                <div className='StreamChatBox_Right_topbox_container'>
+        <>
+            <div className="StreamChatBox_Right_Container">
 
-
-
-
-
-                                    <div className='StreamChatBox_Right_flexbox'>
-                                        <div className='StreamChatBox_Right_top'>
-                                            <div className='StreamChatBox_ChatBtn'>
-                                                <div className='StreamChatBox_ChatBtn_LiveChat'>
-                                                {data.map((item, idx) => {
-                                                        return (
-                                                        <>
-                                                            <button
-                                                            value={idx}
-                                                            // eslint-disable-next-line
-                                                            className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")} 
-                                                            onClick={toggleActive}
-                                                            >
-                                                            {item}
-                                                            </button>
-                                                        </>
-                                                        );
-                                                    })}
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-
-                                        <div className="StreamChatBox_Right_middle">
-
-                                            <LiveMessageBox />
-
-                                            <LiveMessageBox />
-
-                                            <LiveMessageBox />
-
-                                            <LiveMessageBox />
-
-                                            <LiveMessageBox />
-
-                                            <LiveMessageBox />
+                <div className="StreamChatBox_Right_topbox">
+                    <div className='StreamChatBox_Right_topbox_container'>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-
+                        <div className='StreamChatBox_Right_flexbox'>
+                            <div className='StreamChatBox_Right_top'>
+                                <div className='StreamChatBox_ChatBtn'>
+                                    <div className='StreamChatBox_ChatBtn_LiveChat'>
+                                        {data.map((item, idx) => {
+                                            return (
+                                                <>
+                                                    <button
+                                                        value={idx}
+                                                        // eslint-disable-next-line
+                                                        className={"StreamChatBox_ChatBtn_text" + (idx == btnActive ? " active" : "")}
+                                                        onClick={toggleActive}
+                                                    >
+                                                        {item}
+                                                    </button>
+                                                </>
+                                            );
+                                        })}
                                     </div>
-
-
-
-
-
-
-
-                                    
-
-
-
-
-
                                 </div>
+                            </div>
 
-                                
+
+
+
+                            <div className="StreamChatBox_Right_middle">
+
+                                <LiveMessageBox />
+
+                                <LiveMessageBox />
+
+                                <LiveMessageBox />
+
+                                <LiveMessageBox />
+
+                                <LiveMessageBox />
+
+                                <LiveMessageBox />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                             </div>
 
-                            <div className="StreamChatBox_Right_btmbox">
-                                    <div className='StreamChatBox_MessageBox'>
+                        </div>
 
-                                        <div className='StreamChatBox_MessageBox_textContainer'>
 
-                                            <textarea
-                                                className="StreamChatBox_MessageBox_text"
-                                                onChange={onChange}
-                                                ref={textareaRef}
-                                                style={{
-                                                    minHeight: MIN_TEXTAREA_HEIGHT,
-                                                    resize: "none",
-                                                    height: MIN_TEXTAREA_HEIGHT
-                                                }}
-                                                value={value}
-                                                placeholder="메세지를 입력해주세요"
-                                            />
-                                            <div className="StreamChatBox_MessageBox_IconContainer">
-                                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
-                                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Smile} alt="Share" />
-                                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Send} alt="Share" />
-                                            </div>
-                                        </div>
-                                        </div>
 
-                            </div>
-                        
-                        
+
+
+
+
+
+
+
+
+
+
                     </div>
 
-    
-    </>
-  )
+
+
+                </div>
+
+                <div className="StreamChatBox_Right_btmbox">
+                    <div className='StreamChatBox_MessageBox'>
+
+                        <div className='StreamChatBox_MessageBox_textContainer'>
+
+                            <textarea
+                                className="StreamChatBox_MessageBox_text"
+                                onChange={onChange}
+                                ref={textareaRef}
+                                style={{
+                                    minHeight: MIN_TEXTAREA_HEIGHT,
+                                    resize: "none",
+                                    height: MIN_TEXTAREA_HEIGHT
+                                }}
+                                value={value}
+                                placeholder={placeholder}
+                            />
+                            <div className="StreamChatBox_MessageBox_IconContainer">
+                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
+                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Smile} alt="Share" />
+                                <img className="StreamChatBox_MessageBox_IconContainer_Icon" src={Send} alt="Share" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </>
+    )
 }
 
 export default StreamChatBox

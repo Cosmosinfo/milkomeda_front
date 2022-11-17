@@ -5,8 +5,14 @@ import StageCard from '../../components/StageCard/StageCard';
 import { Link } from "react-router-dom";
 import StreamSort from '../../components/Popup/StreamSort'
 import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function StreamMain() {
+
+    // 다국어 
+    const { t } = useTranslation();
+
+
     const dropdownRef = useRef(null);
     const curRef = useRef(true);
 
@@ -57,15 +63,15 @@ function StreamMain() {
                         <ul className='StreamMain_Top_lf'>
 
                             <Link to="/stream" className="link">
-                                <li className="StreamMain_Stage"><span className="StreamMain_Live">라이브</span>&nbsp;스테이지</li>
+                                <li className="StreamMain_Stage"><span className="StreamMain_Live">{t("stream_live")}</span>&nbsp;{t("stream_stage")}</li>
                             </Link>
 
                             <Link to="/streamup" className="Stream_link">
-                                <li className="StreamMain_LiveStage_us">다가오는&nbsp;스테이지</li>
+                                <li className="StreamMain_LiveStage_us">{t("stream_up")}</li>
                             </Link>
 
                             <Link to="/streampv" className="Stream_link">
-                                <li className="StreamMain_LiveStage_ps">지난&nbsp;스테이지</li>
+                                <li className="StreamMain_LiveStage_ps">{t("stream_pre")}</li>
                             </Link>
 
                         </ul>
@@ -76,7 +82,7 @@ function StreamMain() {
                                     setOpenSort(!openSort)
                                     curRef.current = true;
                                 }}>
-                                    정렬
+                                    {t("stream_sort")}
                                 </button>
 
                                 <nav

@@ -22,8 +22,13 @@ import Settings_gray from '../../assets/icon/graw/settings.svg'
 import Settings_pink from '../../assets/icon/ping/settings.svg'
 import Help_gray from '../../assets/icon/graw/help-circle.svg'
 import Help_pink from '../../assets/icon/ping/help-circle.svg'
+import { useTranslation } from "react-i18next";
+
 
 export default function Sidebar() {
+
+  // 다국어 번역
+  const { t } = useTranslation();
 
   const location = useLocation();
 
@@ -69,11 +74,11 @@ export default function Sidebar() {
             {
               curMenu === 'home' ? (
                 <Link to="/" className="item_link">
-                  <span className="home_title">홈</span>
+                  <span className="home_title">{t("side_home")}</span>
 
                 </Link>
               ) : (<Link to="/" className="item_link">
-                <span className="home_title_change">홈</span>
+                <span className="home_title_change">{t("side_home")}</span>
 
               </Link>)
 
@@ -98,11 +103,11 @@ export default function Sidebar() {
             {
               curMenu === 'stage' ? (
                 <Link to="/stream" className="item_link">
-                  <span className="home_title">스테이지</span>
+                  <span className="home_title">{t("side_stream")}</span>
 
                 </Link>
               ) : (<Link to="/stream" className="item_link">
-                <span className="home_title_change">스테이지</span>
+                <span className="home_title_change">{t("side_stream")}</span>
 
               </Link>)
 
@@ -123,11 +128,11 @@ export default function Sidebar() {
             {
               curMenu === 'artist' ? (
                 <Link to="/artist" className="item_link">
-                  <span className="home_title">아티스트</span>
+                  <span className="home_title">{t("side_artist")}</span>
 
                 </Link>
               ) : (<Link to="/artist" className="item_link">
-                <span className="home_title_change">아티스트</span>
+                <span className="home_title_change">{t("side_artist")}</span>
 
               </Link>)
 
@@ -147,11 +152,11 @@ export default function Sidebar() {
             {
               curMenu === 'store' ? (
                 <Link to="/store" className="item_link">
-                  <span className="home_title">스토어</span>
+                  <span className="home_title">{t("side_store")}</span>
 
                 </Link>
               ) : (<Link to="/store" className="item_link">
-                <span className="home_title_change">스토어</span>
+                <span className="home_title_change">{t("side_store")}</span>
 
               </Link>)
 
@@ -221,11 +226,11 @@ export default function Sidebar() {
             {
               curMenu === 'settings' ? (
                 <Link to="/setting" className="item_link">
-                  <span className="home_title">설정</span>
+                  <span className="home_title">{t("side_setting")}</span>
 
                 </Link>
               ) : (<Link to="/setting" className="item_link">
-                <span className="home_title_change">설정</span>
+                <span className="home_title_change">{t("side_setting")}</span>
 
               </Link>)
 
@@ -244,11 +249,11 @@ export default function Sidebar() {
             {
               curMenu === 'help' ? (
                 <Link to="/help" className="item_link">
-                  <span className="home_title">도움말</span>
+                  <span className="home_title">{t("side_help")}</span>
 
                 </Link>
               ) : (<Link to="/help" className="item_link">
-                <span className="home_title_change">도움말</span>
+                <span className="home_title_change">{t("side_help")}</span>
 
               </Link>)
 
