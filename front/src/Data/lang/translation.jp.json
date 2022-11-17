@@ -24,7 +24,13 @@
     "home_more" : "さらに表示",
     "home_upcoming" : "予定されているステージ",
     
-    
+
+    "popup_mypage1": "ユーザーネーム",
+    "popup_mypage2": "プロフィールを編集",
+    "popup_mypage3": "マイショッピング",
+    "popup_mypage4": "設定",
+
+
     "stream_live": "ライブ",
     "stream_stage": "ステージ",
     "stream_up": "予定されているステージ",
@@ -102,11 +108,11 @@
 
 
     "storemain_cate_1": "衣類",
-    "storemain_cate_2": "宝石類",
+    "storemain_cate_2": "ジュエリー",
     "storemain_cate_3": "生活",
     "storemain_cate_4": "音楽",
     "storemain_cate_5": "本",
-    "storemain_cate_6": "等等",
+    "storemain_cate_6": "その他",
 
 
     "storesort_menu_1": "新着順",
