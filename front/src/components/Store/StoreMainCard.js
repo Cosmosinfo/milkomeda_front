@@ -10,7 +10,7 @@ function StoreMainCard() {
             {StoreMainCardData.cardData.map((item, index) => {
                 return (
                     <div className='StoreMain_ContentItem'>
-                        <Link to="/Storehome" className="link StoreMainCard">
+                        <Link to="/storebrand" className="link StoreMainCard">
                             <div className='StoreMain_ContentItemContainer'>
                                 <div className='StoreMain_ContentItemContainerTop'>
                                     <img src={item.Brandimg} className="StoreMain_ContentItemContainerTop_Img" alt="" />

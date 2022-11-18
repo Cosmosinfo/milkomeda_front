@@ -1,0 +1,92 @@
+.StoreHome{
+    position: fixed;
+    
+    height: calc(100% - 13%) !important;
+    color: #FFFFFF;
+}
+
+.StoreHome_Wrapper{
+    height: 100%; 
+    padding: 30px 30px;
+    display: flex;
+
+    
+}
+
+
+.StoreHome_Rh{
+    height: 100%;
+    flex: 3;
+    margin-left: 27px;
+}
+
+.StoreHome_Rh_Memu{
+    width: 100%;
+    height: 42px;
+
+    background: #191922;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.StoreHome_Rh_MemuBox{
+    height: 22px;
+    padding: 10px 70px;;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.StoreHome_Rh_MemuBoxHome{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+    
+    
+}
+
+.StoreHome_Rh_MemuBoxTexthome{
+    color: #F3017F;
+    font-weight: 600;
+    
+}
+
+
+
+.StoreHome_Rh_MemuBoxText{
+    
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+
+
+
+.StoreHome_Rh_MemuBox_Line{
+    width: 19px;
+    height: 0px;
+    margin: 10px 0;
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    transform: rotate(90deg);
+}
+
+
+
+
+.StoreHome_Rh_btm{
+    /* width: 100%;
+    height: 792px; */
+    height : calc(100% - 8%);
+    overflow: scroll;
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+

@@ -145,6 +145,22 @@ const StoreCardData = {
             ItemMoney: '₩ 100,000'
         },
 
+        {
+            id: 19,
+            Itemimg: 'https://i.imgur.com/KTDKc2O.jpg',
+            ArtistName: 'SYLK',
+            ItemDetail: ' Hoku Earrings ',
+            ItemMoney: '₩ 120,000'
+        },
+
+        {
+            id: 20,
+            Itemimg: 'https://i.imgur.com/0eeJYv9.jpg',
+            ArtistName: 'SYLK',
+            ItemDetail: ' Meta DIY ',
+            ItemMoney: '₩ 60,000'
+        },
+
 
     ]
 
