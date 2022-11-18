@@ -1,16 +1,16 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import '../../assets/css/Store/StoreBrand.css'
 import StoreInfoCard from '../../components/ArtistInfoCard/StoreInfoCard';
-import StageCard from '../../components/StageCard/StageCard'
-import chevronright from '../../assets/icon/ping//chevron-right.svg'
+// import StageCard from '../../components/StageCard/StageCard'
+// import chevronright from '../../assets/icon/ping//chevron-right.svg'
 import StoreCategory from '../../components/Store/StoreCategory'
 import Topbar from '../../components/topbar/Topbar'
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 function StoreBrand() {
 
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
     <>
