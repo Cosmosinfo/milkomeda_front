@@ -1,7 +1,7 @@
 import { React, useState, useRef, useEffect } from "react";
 import '../../assets/css/Store/StoreMain.css'
 import filter from '../../assets/icon/graw/filter.svg'
-import StoreCategory from '../../components/Store/StoreCategory'
+import StoreMainCard from '../../components/Store/StoreMainCard'
 import StoreBanner from '../../components/Carousel/StoreBanner'
 import StoreSort from '../../components/Popup/StoreSort'
 import Topbar from '../../components/topbar/Topbar'
@@ -136,7 +136,9 @@ function StoreMain() {
 
           <div className='StoreMain_Content'>
 
-            <StoreCategory />
+            {/* <StoreCategory /> */}
+
+            < StoreMainCard />
 
 
 

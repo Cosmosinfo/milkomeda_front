@@ -7,6 +7,7 @@ import StreamUpcoming from './pages/stream/StreamUpcoming'
 import StreamPrevious from './pages/stream/StreamPrevious'
 import StreamLive from './pages/stream/StreamLive'
 import StoreMain from './pages/store/StoreMain'
+import StoreBrand from './pages/store/StoreBrand'
 import StoreDetail from './pages/store/StoreDetail'
 import StoreDetail2 from './pages/store/StoreDetail2'
 import StoreDetail3 from './pages/store/StoreDetail3'
@@ -60,19 +61,25 @@ function App() {
             <Route path="/signup7" element={<Signup7 />} />
 
 
-
             <Route path="/help" element={<Help />} />
             <Route path="/setting" element={<Settings />} />
             <Route path="/stream" element={<StreamMain />} />
             <Route path="/streamup" element={<StreamUpcoming />} />
             <Route path="/streampv" element={<StreamPrevious />} />
             <Route path="/streamlive" element={<StreamLive />} />
+
+
             <Route path="/store" element={<StoreMain />} />
+            <Route path="/storebrand" element={<StoreBrand />} />
             <Route path="/storeDetail" element={<StoreDetail />} />
             <Route path="/storeDetail2" element={<StoreDetail2 />} />
             <Route path="/storeDetail3" element={<StoreDetail3 />} />
             <Route path="/storeDetail4" element={<StoreDetail4 />} />
+
+
             <Route path="/*" element={<Error />} />
+
+
             <Route path="/artist" element={<ArtistMain />} />
             <Route path="/artisthome" element={<ArtistHome />} />
             <Route path="/artistnotice" element={<ArtistNotice />} />
