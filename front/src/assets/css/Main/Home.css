@@ -6,6 +6,7 @@
 }
 
 .homeWrapper{
+  width: auto;
   height: auto;
   padding: 30px 30px;
   
@@ -15,12 +16,12 @@
 
 .home_newArtist{
   width: 100%;
-  height: 122px;
+  height: 134px;
   padding: 12px 0;
 }
 
 .home_newArtistTitle{
-  width: 118px;
+  /* width: 118px; */
   height: 30px;
 
   font-style: normal;
@@ -35,23 +36,25 @@ color: #FFFFFF;
 
 .home_newArtistItem{
   width: 100%;
-  height: 80px;
+  height: 93px;
   margin-top: 12px;
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  overflow: hidden;
 }
 
 /* ====================  Live Stage  ======================== */
 
 .home_LiveStage{
-  width : 1600px;
-  height : 281px;
+  
 
   padding : 12px 0;
 }
 
 .home_LiveStage_Title{
-width: 100%;
+
 height: 30px;
 
 font-style: normal;
@@ -70,23 +73,90 @@ line-height: 30px;
 }
 
 .home_LiveStage_Container{
-width: 1600px;
-height: 240px;
-display: flex;
-margin-top: 12px;
-justify-content: space-between;
+    /* height: 276px; */
+    display: flex;
+    margin-top: 12px;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.hr-sects{
+  background: #8B8999;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  /* margin: 0px 44px 0px 0px; */
+  opacity: 20%;
+  margin: 12px 0 20px 0;
+}
+
+.hr-sects2{
+  background: #8B8999;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  /* margin: 0px 44px 0px 0px; */
+  opacity: 20%;
+  margin-top: 12px;
+}
+
+.more_btn{
+  border: 0;
+  outline: 0;
+  background-color: #15141B;
+  display: flex;
+  align-items: center;
+  cursor:pointer;
+}
+
+.hr-sect_more{
+  color: #F3017F;
+}
+
+.show-more{
+  width: 100%;
+  height : 21px;
+	display: flex;
+  margin: 12px 0;
+  align-items: center;
+}
+
+.hr-left{
+  background: #8B8999;
+  -webkit-box-flex: 1 !important;
+  flex-grow: 1 !important;
+  opacity: 20%;
+  height: 1px;
+}
+
+.hr-right{
+  background: #8B8999;
+  -webkit-box-flex: 1 !important;
+  flex-grow: 1 !important;
+  opacity: 20%;
+  height: 1px;
+}
+
+.hr-middle{
+  padding-left : 2.2rem;
+  padding-right : 2.2rem;
 }
 
 
 .hr-sect {
-  width : 1600px;
+  width: 100%;
   height : 21px;
 	display: flex;
 	flex-basis: 100%;
 	align-items: center;
-	color: #F3017F;
+	
 	font-size: 14px;
 	margin: 12px 0;
+  
+  
 }
 
 .hr-sect:last-of-type{
@@ -129,17 +199,104 @@ justify-content: space-between;
 }
 
 
+/* ============================================================== */
+
+.home_Stage_Item{
+  /* width: 382px;
+  height: 240px; */
+}
+
+.home_stageCard {
+  flex: 1;
+  flex-basis: calc(25% - 24px);
+}
+
+.home_Stage_Top{
+  /* width: 386px; */
+  /* height: 218px; */
+  border-radius: 6px;
+  /* background-color: #191922; */
+  aspect-ratio: 386/218;
+}
+
+.home_Stage_btm{
+  height : 46px;
+  
+  display: flex;
+  margin-top: 12px;
+}
+
+.home_Stage_btm_Left{
+  width: 46px;
+  height: 46px;
+  
+}
+
+.home_Stage_Top_thumbnailImg{
+  width: 100%;
+  
+  height : 100%;
+  border-radius: 6px
+}
+
+.home_Stage_Artist_img{
+  width: 46px;
+  height: 46px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.home_Stage_btm_Right{
+  /* width: 90px; */
+  height: 40px;
+  margin-left: 12px;
+
+}
+
+.home_Stage_NameBox{
+  /* width : 93px; */
+  height: 23px;
+    overflow: hidden;
+  
+  
+}
+
+.home_Stage_NameBox_ArtistTitle{
+  /* width : 93px; */
+  /* width : 21px; */
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.home_Stage_NameBox_ArtistName_Box{
+  /* width : 93px; */
+  height : 21px;
+  overflow: hidden;
+}
+
+
+.home_Stage_NameBox_ArtistName{
+  /* width : 93px;
+  width : 21px; */
+  font-size: 14px;
+  font-weight: 400;
+  color : #8b8999
+}
+
+
 
 /* ====================  Upcoming Stage  ======================== */
 .home_UpComing_Stage{
-  width : 1600px;
-  height : 281px;
+  width : 100%;
+  height : auto;
+  padding-bottom: 12px;
 
   
 }
 
 .home_UpComing_Stage_title{
-  width: 1600px;
+  /* width: 1600px; */
   height: 30px;
 
   font-weight: 600;
@@ -148,10 +305,12 @@ justify-content: space-between;
 }
 
 .home_UpComingStage_Container{
-  width: 1600px;
-  height: 240px;
-  display: flex;
-  margin-top: 12px;
-  justify-content: space-between;
+    /* height: 276px; */
+    display: flex;
+    margin-top: 12px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 24px;
+    overflow: hidden;
   }
   

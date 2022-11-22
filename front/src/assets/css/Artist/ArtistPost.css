@@ -1,0 +1,183 @@
+.ArtistPost{
+    position: fixed;
+    
+    height: calc(100% - 13%) !important;
+    color: #FFFFFF;
+}
+
+.ArtistPost_Wrapper{
+    height: 100%; 
+    padding: 30px 30px;
+    display: flex;
+
+    
+}
+
+
+.ArtistPost_Rh{
+    /* width: 1209px; */
+    height: 100%;
+    flex: 3;
+    margin-left: 27px;
+}
+
+.ArtistPost_Rh_Memu{
+    width: 100%;
+    height: 42px;
+
+    background: #191922;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.ArtistPost_Rh_MemuBox{
+    height: 22px;
+    padding: 10px 70px;;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.ArtistPost_Rh_MemuBoxHome{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+    
+    
+}
+
+.ArtistPost_Rh_MemuBoxText{
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+
+.ArtistPost_Rh_MemuBoxTextPost{
+    color: #F3017F;
+    font-weight: 600;
+}
+
+.ArtistPost_Rh_MemuBox_Line{
+    width: 19px;
+    height: 0px;
+    margin: 10px 0;
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    transform: rotate(90deg);
+}
+
+
+
+
+.ArtistPost_Rh_btm{
+    /* width: 100%;
+    height: 792px; */
+    height : calc(100% - 8%);
+    overflow: scroll;
+    padding-top: 12px;
+    
+
+}
+
+.ArtistPost_Rh_btm_Top_lf{
+    width: 493px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.ArtistPost_Rh_btm_Stage{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #8B8999;
+    
+}
+
+.ArtistPost_Rh_btm_LiveStage_us{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #8B8999;
+    
+}
+
+.ArtistPost_Rh_btm_LiveStage_ps{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+    
+}
+
+.ArtistPost_Rh_btm_btm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top:12px
+}
+
+.ArtistPost_Rh_btm_top{
+    height: 100px;
+    
+    background: #15141B;
+    border: 2px solid #191922;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.ArtistPost_Rh_btm_top_itembox{
+    padding : 27px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ArtistPost_Rh_btm_top_itembox_lf{
+    display: flex;
+    align-items: center;
+}
+
+.ArtistPost_Rh_btm_top_itembox_lf_img{
+    width:46px;
+    height: 46px
+}
+
+.ArtistPost_Rh_btm_top_itembox_lf_img_text{
+    width: 45rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    border:none;
+    background-color: #15141B;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.ArtistPost_Rh_btm_top_itembox_rh{
+    width: 114px;
+    height: 45px;
+    
+    background: #191922;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ArtistPost_Rh_btm_top_itembox_rh_text{
+    width: 493px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}

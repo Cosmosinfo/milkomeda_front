@@ -3,58 +3,81 @@ import { Link } from "react-router-dom";
 import Share from '../../assets/icon/graw/share-2.svg'
 import Report from '../../assets/icon/graw/alert-triangle.svg'
 import "../../assets/css/Stream/StreamLive.css"
-import Gift from '../../assets/icon/graw/gift.svg'
-import Smile from '../../assets/icon/graw/smile.svg'
-import Send from '../../assets/icon/ping/send.svg'
-import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
+// import Gift from '../../assets/icon/graw/gift.svg'
+// import Smile from '../../assets/icon/graw/smile.svg'
+// import Send from '../../assets/icon/ping/send.svg'
+// import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
+import ReactPlayer from 'react-player'
+import StreamChatBox from '../../components/StreamLiveChat/StreamChatBox'
+import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function StreamLive() {
+    // function resize(obj) {
+    //     obj.style.height = "1px";
+    //     obj.style.height = (12+obj.scrollHeight)+"px";
+    // }
+
+    // 다국어
+    const { t } = useTranslation();
+
     return (
         <>
+            <Topbar />
             <div className="StreamLive">
                 <div className="StreamLive_Wrapper">
-                    <div className="StreamLive_left">
-                        {/* Streaming 라이브 뷰 */}
-                        <div className="StreamLive_LiveView">
-                            Live
-                        </div>
+                    <div className="StreamLive_Wrapper_container">
+                        <div className="StreamLive_left">
+                            {/* Streaming 라이브 뷰 */}
+                            <div className="StreamLive_LiveView">
+                                <ReactPlayer
+                                    className='player'
+                                    url='https:www.youtube.com/watch?v=R3b4gX7mA78'
+                                    width='100%'
+                                    height='100%'
+                                    playing={true}
+                                    muted={true}
+                                    controls={true}
+                                />
 
-                        {/* Streaming 타이틀 및 내용 */}
-                        <div className="StreamLive_LiveDetails">
+                            </div>
 
-                            {/* Streaming 타이틀 */}
-                            <div className="StreamLive_Title">
-                                    <div className="ew">
-                                        <spen className='StreamLive_Title_text'>
-                                            Title
-                                        </spen>
+                            {/* Streaming 타이틀 및 내용 */}
+                            <div className="StreamLive_LiveDetails">
 
-                                    </div>
-                                   
-                                    
+                                {/* Streaming 타이틀 */}
+                                <div className="StreamLive_Title">
+
+                                    <span className='StreamLive_Title_text'>
+                                        러블레스(Lubless) X 투영(To.young) - I've gotta feelin' like (Lyric video)
+                                    </span>
+
+
+
+
                                     <div className='StreamLive_Title_right'>
                                         <div className="StreamLive_Title_right_Share">
-                                             <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
-                                             Share
+                                            <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
+                                            <span className="StreamLive_Title_right_Share_text">{t("streamlive_share")}</span>
                                         </div>
 
                                         <div className="StreamLive_Title_right_Report">
-                                             <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
-                                             Report
+                                            <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
+                                            <span className="StreamLive_Title_right_Report_text">{t("streamlive_report")}</span>
                                         </div>
-                                        
-                                    </div>
-                            </div>
 
-                            {/* Streaming 상세내용 */}
-                            
-                               <div className="StreamLive_Content_Info">
-                                     {/* Streaming 주소 */}
+                                    </div>
+                                </div>
+
+                                {/* Streaming 상세내용 */}
+
+                                <div className="StreamLive_Content_Info">
+                                    {/* Streaming 주소 */}
                                     <div className='StreamLive_Content_Info_address'>
                                         <div className="StreamLive_address_Container">
                                             <div className="StreamLive_address_Container_left">
 
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_address_img" />
+                                                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_address_img" />
 
 
                                             </div>
@@ -62,181 +85,191 @@ function StreamLive() {
 
                                                 <div className="StreamLive_address_Container_Namebox">
 
-                                                 <span className="StreamLive_address_Container_Namebox_Location">Location</span>
+                                                    <span className="StreamLive_address_Container_Namebox_Location">{t("streamlive_location")}</span>
 
                                                 </div>
                                                 <div className="StreamLive_address_Container_Namebox_LocationAddr">
 
-                                                    <span className="StreamLive_address_Container_Namebox_LocationAddr_text">Location Address</span>
+                                                    <span className="StreamLive_address_Container_Namebox_LocationAddr_text">서울 마포구 잔다리로 32 서문빌딩</span>
                                                 </div>
-                                        </div>
+                                            </div>
                                         </div>
                                     </div>
                                     {/* Streaming 날짜 */}
                                     <div className='StreamLive_Content_Info_Date'>
                                         <div className='StreamLive_Content_Info_Date_textBox'>
-                                            <span className="StreamLive_Content_Info_Date_textBox_text">Date / Time</span>
-                                            <span className="StreamLive_Content_Info_year_textBox_text">YYYY.MM.DD.Mon<br />18:00~19:00(KST/90mins)</span>
+                                            <span className="StreamLive_Content_Info_Date_textBox_text">{t("streamlive_date")}</span>
+                                            <span className="StreamLive_Content_Info_year_textBox_text">2022.12.05.Mon<br />18:00~19:00(KST/90mins)</span>
                                         </div>
                                     </div>
                                     {/* Streaming 아티스트 이름 */}
                                     <div className='StreamLive_Content_Info_ArtistName'>
 
-                                        <div className='StreamLive_Content_Info_ArtistName_top'>
-                                            <Link to="/artisthome" className="link">
+                                        <Link to="/artisthome" className="link">
                                             <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                                <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                                <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                    <span className="StreamLive_Content_Info_ArtistName_contanier_text">Lubless</span>
+                                                </div>
+
+
+                                            </div>
+                                        </Link>
+
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-                                            
+
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
-                                            
-                                            </div>
-                                            </Link>
-
-                                            <Link to="/artisthome" className="link">
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-                                            
-                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
-                                            </div>
-
-                                            
-                                            </div>
-                                            </Link>
-
-                                            <Link to="/artisthome" className="link">
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-                                            
-                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
-                                            </div>
-
-                                            
-                                            </div>
-                                            </Link>
-                                            
 
                                         </div>
 
-                                        <div className='StreamLive_Content_Info_ArtistName_top'>
-                                            <Link to="/artisthome" className="link">
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
                                             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-                                            
+
                                             <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
                                             </div>
 
-                                            
-                                            </div>
-                                            </Link>
-
-                                            <Link to="/artisthome" className="link">
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-                                            
-                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
-                                            </div>
-
-                                            
-                                            </div>
-                                            </Link>
-
-                                            <Link to="/artisthome" className="link">
-                                            <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
-                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
-                                            
-                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
-                                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Artist Name</span>
-                                            </div>
-
-                                            
-                                            </div>
-                                            </Link>
-                                            
 
                                         </div>
 
-                                        
-                           
 
-                                        
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                        <div className='StreamLive_Content_Info_ArtistName_contanierBox'>
+                                            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="StreamLive_Artist_img" />
+
+                                            <div className='StreamLive_Content_Info_ArtistName_contanier_textBox'>
+                                                <span className="StreamLive_Content_Info_ArtistName_contanier_text">{t("streamlive_artistname")}</span>
+                                            </div>
+
+
+                                        </div>
+
+
+
+
+
+
+
                                     </div>
-                               </div>
+                                </div>
 
-                               <div className="StreamLive_Content_Details">
+                                <div className="StreamLive_Content_Details">
                                     <div className='StreamLive_Content_Details_text'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br />
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br />
- dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit<br /> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br /> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                        <div>
+                                            [I've gotta feelin' like]
+                                        </div>
 
-                                    </div>
-                               </div>
-                            
-                        </div>
+                                        <br />
 
-                        
-                    </div>
+                                        <div>
+                                            Dust in the air, blurred sight and it makes me feel like high
+                                        </div>
 
-                    {/* ====================  StreamLive_Right  ======================== */}
+                                        <br />
 
-                    <div className="StreamLive_Right">
-                        <div className='StreamLive_Right_Wrapper'>
-                           <div className='StreamLive_Right_top'>
-                                <div className='StreamLive_ChatBtn'>
-                                    <div className='StreamLive_ChatBtn_LiveChat'>
-                                        <div className="StreamLive_ChatBtn_LiveChat_text">Live Chat</div>
-                                        <div className="StreamLive_ChatBtn_Comment_text">Comment</div>   
+                                        <div>
+                                            music :  https://linksalad.net/US06go_3Wf
+                                        </div>
+
+                                        <br />
+
+
+                                        <div>
+                                            PRODUCED BY BONGWOO, LENA, 투영<br />
+                                            COMPOSED BY BONGWOO, LENA, 투영<br />
+                                            LYRICS BY BONGWOO, LENA, 투영<br />
+                                            ARRANGED BY 투영
+                                        </div>
+
+                                        <br />
+
+                                        <div>
+                                            VOCAL & CHORUS BY LENA<br />
+                                            DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
+                                        </div>
+
+                                        <br />
+
+                                        <div>
+                                            RECORDED BY 오혜석 @MOL STUDIO<br />
+                                            MIXED BY 신유식, 투영<br />
+                                            MASTERED BY 강승희 @SONIC KOREA
+                                            <br />
+
+                                            LYRIC VIDEO BY BONGWOO
+                                        </div>
+
+                                        <br />
+
+                                        <div>
+                                            -------------------------------------------
+                                        </div>
+
+                                        <br />
+
+                                        <div>
+                                            밴드 러블레스 Lubless<br />
+                                            "Lust bless you. Follow your heart."<br />
+                                            {t("streamlive_descri_artist")}
+                                        </div>
+
+                                        <br />
+
+                                        <div>
+                                            {t("streamlive_descri_homepage")} - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
+                                            페이스북 （Facebook）- <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a><br />
+                                            인스타그램 （Instagram）- <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a><br />
+                                            트위터 （Twitter）- <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+                                        </div>
+
+
                                     </div>
                                 </div>
-                           </div>
 
-                           <div className="StreamLive_Right_middle">
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-
-                            <LiveMessageBox />
-                           
-
-                           </div>
-
-                           
-                           
-                           
-                            <div className='StreamLive_MessageBox'>
-                                <div className='StreamLive_MessageBox_textContainer'>
-                                     <div className="StreamLive_MessageBox_text">Message</div>
-
-                                     <div className="StreamLive_MessageBox_IconContainer">
-                                        <img className="StreamLive_MessageBox_IconContainer_Icon" src={Gift} alt="Share" />
-                                        <img className="StreamLive_MessageBox_IconContainer_Icon" src={Smile} alt="Share" />
-                                        <img className="StreamLive_MessageBox_IconContainer_Icon" src={Send} alt="Share" />
-                                    </div>
-                                </div>
                             </div>
 
 
                         </div>
-                        
+
+                        {/* ====================  StreamLive_Right  ======================== */}
+                        <div className="StreamLive_Right_Wrapper">
+                            <StreamChatBox />
+                        </div>
                     </div>
                 </div>
+
             </div>
         </>
     )

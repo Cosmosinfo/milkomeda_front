@@ -1,26 +1,39 @@
 .sidebar {
   position: fixed;
   width: 240px;
-  height: 1020px;
+  height: calc(100% - 60px);
   background-color: #191922;
-  color : #ffff;
+  /* color: #ffff; */
   top: 60px;
   z-index: 1;
-  box-sizing: border-box;
   
 }
 
 .sidebarWrapper {
-  /* width: 176px; */
-  height: 1020px;
-  padding: 0 0 0 32px;
+
+    /* height: 885px; */
+    height: 100%;
+    /* padding-bottom: 32px; */
+    position: relative;
+
 }
+
+
 
 .item_link{
   /* width : 87px;
   height : 21px; */
   text-decoration: none;
   color: inherit;
+  font-size: 16px;
+}
+
+.home_title{
+  color : #FFFFFF
+}
+
+.home_title_change{
+  color : #8B8999
 }
 
 
@@ -31,6 +44,7 @@
 
 }
 
+
 .side_item_2{
   width: 100%;
   height: auto;
@@ -40,28 +54,65 @@
 .side_item_3{
   width: 100%;
   height: auto;
+  position: absolute;
+  bottom: 32px;
 }
 
 .sidebarIcon{
   width: 20px;
   height: 20px;
   margin-right: 26px;
-
+  background-size: contain;
 }
 
+
 .item_name{
-  width : 100%;
+  height: 20px;
+  display: flex;
+  color: #8B8999;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 0;
+  margin-left: 32px;
+  
+    
+}
+
+.item_name:active{
+  color: #ffffff;
+}
+
+.item_name.selected{
+  color: #ffffff;
+}
+
+
+.item3_name{
   height : 20px;
   display: flex;
-  color: #ffff;
+  color: #8B8999;;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   padding : 20px 0;
-
-    
+  margin-left: 32px;
+  
 }
+
+.item3_name:last-of-type{
+  padding-bottom: 0;
+}
+
+.home.active{
+  /* background-image: url(/Icon/home.svg); */
+  
+
+}
+
+
 
 .item_nameBar{
   width: 4px;
@@ -72,34 +123,15 @@
   background: #F3017F;
 }
 
-
-.hr{
-  
-  width: 176px;
-  height: 0px;
-  opacity: 20%;
-  margin : 10px 0;
-}
-
-.hr2{
-  
-  width: 176px;
-  height: 0px;
-  opacity: 20%;
-  margin : 335px 0 10px 0 ;
+.side_hr{
+  background: #8B8999;
+    /* flex-grow: 1; */
+    opacity: 20%;
+    height: 1px;
+    margin: 10px 32px;
 }
 
 
-.side_hr::after {
-	content: "";
-	flex-grow: 1;
-	background: #8B8999;
-	height: 1px;
-	font-size: 0px;
-	line-height: 0px;
-	margin: 0px 0px 0px 44px;
-  opacity: 20%;
-}
 
 
 .Artist_logo{

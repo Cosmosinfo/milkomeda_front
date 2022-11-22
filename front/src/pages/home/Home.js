@@ -1,95 +1,263 @@
-import React from 'react'
+// eslint-disable-next-line
+import React, { useEffect, useState } from 'react'
 import '../../assets/css/Main/Home.css'
-import Carousel from "../../components/Carousel/Carousel"
+import HomeBanner from "../../components/Carousel/HomeBanner"
 import chevron from '../../assets/icon/ping//chevron-down.svg'
 import ArtistNameCard from '../../components/ArtistNameCard/ArtistNameCard'
-import StageCard from '../../components/StageCard/StageCard';
+// import StageCard from '../../components/StageCard/StageCard';
+import { Link } from "react-router-dom";
+import StageCardData from "../../Data/StageCardData"
+import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function Home() {
-  return (
-    <div className="home">
-      <div className='homeWrapper'>
-        {/* ====================  Carousel  ======================== */}
 
-        < Carousel />
+  // 다국어처리
+  const { t } = useTranslation();
 
-        {/* ====================  New Artist  ======================== */}
+  // eslint-disable-next-line
+  const [noOfElement, setnoOfElement] = useState(4)
+  const [noOfElement2, setnoOfElement2] = useState(4)
+  // const [moreBtn, setMoreBtn] = useState()
 
-        <div className="home_newArtist">
-          <div className="home_newArtistTitle">
-            New Artist
-          </div>
+  // const [btnActive, setBtnActive] = useState("");
 
-          <div className="home_newArtistItem">
-            <ArtistNameCard />
+  // const toggleActive = (e) => {
+  //   setBtnActive((prev) => {
+  //     return e.target.value;
+  //   });
+  // };
 
-            <ArtistNameCard />
+  const more = StageCardData.cardData.slice(0, noOfElement)
+  const more2 = StageCardData.cardData.slice(0, noOfElement2)
 
-            <ArtistNameCard />
+  function loadmore() {
+    setnoOfElement(noOfElement + noOfElement)
 
-            <ArtistNameCard />
+  }
 
-            <ArtistNameCard />
+  function loadmore2() {
+    setnoOfElement2(noOfElement2 + noOfElement2)
 
-            <ArtistNameCard />
+  }
 
-          </div>
-        </div>
-
-        {/* ====================  Live Stage  ======================== */}
-
-        <div className="home_LiveStage">
-          <div className="home_LiveStage_Title">
-            <p className='home_Stage'><span className="home_Live">Live</span> Stage</p>
-          </div>
-
-          <div className="home_LiveStage_Container">
-            <StageCard />
-
-            <StageCard />
-
-            <StageCard />
-
-            <StageCard />
-
-           
-
-          </div>
+  function Btnchevron() {
 
 
-        </div>
+    if (noOfElement > 4) {
 
-        <div className="hr-sect">
-          More
-          <img className="chevron" src={chevron} alt="chevron" />
-        </div>
-
-        {/* ====================  Upcoming Stage  ======================== */}
-
-        <div className="home_UpComing_Stage">
-          <div className="home_UpComing_Stage_title">
-            Upcoming Stage
-          </div>
-
-          <div className="home_UpComingStage_Container">
-          <StageCard />
-
-          <StageCard />
-
-          <StageCard />
-
-          <StageCard />
+      return <div className="hr-sects"> </div>
 
 
-          </div>
-        </div>
 
-        <div className="hr-sect">
-            More
+
+    } else {
+      return <div className="show-more">
+
+
+        <div className="hr-left"></div>
+
+        <div className="hr-middle">
+          <button
+            className="more_btn"
+            onClick={() => loadmore()}
+
+          >
+
+            <spen className="hr-sect_more">{t("home_more")}</spen>
             <img className="chevron" src={chevron} alt="chevron" />
-          </div>
+          </button>
+        </div>
+
+
+
+        <div className="hr-right"></div>
+
+
+
+
       </div>
-    </div>
+
+    }
+  }
+
+  function Btnchevron2() {
+
+
+    if (noOfElement2 > 4) {
+
+      return <div className="hr-sects2"> </div>
+
+
+
+
+    } else {
+      return <div className="show-more">
+
+
+        <div className="hr-left"></div>
+
+        <div className="hr-middle">
+          <button
+            className="more_btn"
+            onClick={() => loadmore2()}
+
+          >
+
+            <spen className="hr-sect_more">{t("home_more")}</spen>
+            <img className="chevron" src={chevron} alt="chevron" />
+          </button>
+        </div>
+
+
+
+        <div className="hr-right"></div>
+
+
+
+
+      </div>
+
+    }
+  }
+  return (
+
+    <>
+      <Topbar />
+      <div className="home">
+
+
+        <div className='homeWrapper'>
+          {/* ====================  Carousel  ======================== */}
+
+          < HomeBanner />
+
+          {/* ====================  New Artist  ======================== */}
+
+          <div className="home_newArtist">
+            <span className="home_newArtistTitle">{t("home_newartist")}</span>
+
+            <div className="home_newArtistItem">
+              <ArtistNameCard />
+
+              <ArtistNameCard />
+
+              <ArtistNameCard />
+
+              <ArtistNameCard />
+
+              <ArtistNameCard />
+
+              <ArtistNameCard />
+
+            </div>
+          </div>
+
+          {/* ====================  Live Stage  ======================== */}
+
+          <div className="home_LiveStage">
+            <div className="home_LiveStage_Title">
+              <p className='home_Stage'><span className="home_Live">{t("home_live")}</span> {t("home_stage")}</p>
+            </div>
+
+            <div className="home_LiveStage_Container">
+
+              {more.map((item, index) => {
+                return (
+                  <Link to="/StreamLive" className="link home_stageCard">
+                    <div className="home_Stage_Top">
+
+                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
+                    </div>
+
+                    <div className="home_Stage_btm">
+                      <div className="home_Stage_btm_Left">
+
+                        <img src={item.img} className="home_Stage_Artist_img" alt="" />
+
+
+                      </div>
+                      <div className="home_Stage_btm_Right">
+
+                        <div className="home_Stage_NameBox">
+
+                          <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
+
+                        </div>
+                        <div className="home_Stage_NameBox_ArtistName_Box">
+
+                          <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+
+
+
+
+            </div>
+          </div>
+
+
+
+          {Btnchevron()}
+
+
+
+          {/* ====================  Upcoming Stage  ======================== */}
+
+          <div className="home_UpComing_Stage">
+            <div className="home_UpComing_Stage_title">
+              {t("home_upcoming")}
+            </div>
+
+            <div className="home_UpComingStage_Container">
+              {more2.map((item, index) => {
+                return (
+                  <Link to="/StreamLive" className="link home_stageCard">
+                    <div className="home_Stage_Top">
+
+                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
+                    </div>
+
+                    <div className="home_Stage_btm">
+                      <div className="home_Stage_btm_Left">
+
+                        <img src={item.img} className="home_Stage_Artist_img" alt="" />
+
+
+                      </div>
+                      <div className="home_Stage_btm_Right">
+
+                        <div className="home_Stage_NameBox">
+
+                          <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
+
+                        </div>
+                        <div className="home_Stage_NameBox_ArtistName_Box">
+
+                          <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+
+
+
+            </div>
+          </div>
+
+
+          {Btnchevron2()}
+
+        </div>
+      </div>
+
+    </>
   )
 }
 

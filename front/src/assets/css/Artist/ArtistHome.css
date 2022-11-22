@@ -1,191 +1,26 @@
 .ArtistHome{
-    width: 100%;
-    height: auto;
+    position: fixed;
+    
+    height: calc(100% - 13%) !important;
     color: #FFFFFF;
 }
 
-.AritstHome_Wrapper{
-    width: 1600px;
-    height: 1020px;
-    display: flex;
+.ArtistHome_Wrapper{
+    height: 100%; 
     padding: 30px 30px;
-
-    
-}
-
-.AritstHome_Lf{
-    width: 340px;
-    height: 100%;
-
-    background: #191922;
-    border-radius: 10px;
-
-    box-sizing: border-box;
-}
-
-.AritstHome_Lf_Wrapper{
-    width: 276px;
-    height: 970px;
-    
-    padding: 25px 32px;
-
-}
-
-.AritstHome_ArtistImg{
-    width: 276px;
-    height: 176px;
-    
-    background: #8B8999;
-    border-radius: 6px;
-    margin-bottom: 12.5px;
-}
-
-.AritstHome_ArtistNameBox{
-    width: 100%;
-    height: 84px;
-
-    padding: 12.5px 0;
-}
-
-.AritstHome_ArtistName{
-    height: 30px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    
-    color: #FFFFFF;
-}
-
-.AritstHome_ArtistName2{
-    height: 22px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    
-    color: #8B8999;
-    margin-bottom: 12px;
-}
-
-.AritstHome_MusicGenre{
-    height: 18px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-    
-    color: #8B8999;
-}
-
-.AritstHome_ArtistSnsBox{
-    width: 249px;
-    height: 40px;
     display: flex;
-    justify-content: space-between;
-    padding: 12.5px 14px;
-}
 
-.AritstHome_ArtistSns{
-    width: 40px;
-    height: 40px;
-    background: #15141B;
-}
-
-.ArtistSnsIcon{
-    width: 20px;
-    height: 20px;
-
-    padding: 10px 10px;
-}
-
-.AritstHome_ArtistFollwer{
-    height: 21px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
     
-    color: #8B8999;
-    padding: 12.5px 0;
 }
 
-.AritstHome_ArtistFavoriteBox{
-    width: 138px;
-    height: 42px;
-    
-    
-    padding: 12.5px 69px;
 
-}
-
-.AritstHome_ArtistFavoriteText{
-    width: 57px;
-    height: 22px;
-    background: #15141B;
-    border-radius: 100px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    padding: 10px 40px;
-    color: #FFFFFF;
-}
-
-.AritstHome_Artist_Line{
-    width: 100%;
-    height: 0px;
-    
-    border: 1px solid rgba(139, 137, 153, 0.2);
-    margin: 12.5px 0;
-}
-
-.AritstHome_Artistdescription{
-    width: 100%;
-    height: auto;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    padding: 12.5px 0;
-    color: #FFFFFF;
-
-}
-
-.AritstHome_ArtistMetaBox{
-    width: 100%;
-    height: 42px;
-    background: #F3017F;
-    border-radius: 100px;
-    margin-top: 169px;
-}
-
-.AritstHome_ArtistMetaText{
-    height: 21px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    padding: 10px 76px;
-    color: #FFFFFF;
-}
-
-.AritstHome_Rh{
-    width: 100%;
+.ArtistHome_Rh{
     height: 100%;
-    
+    flex: 3;
     margin-left: 27px;
 }
 
-.AritstHome_Rh_Memu{
+.ArtistHome_Rh_Memu{
     width: 100%;
     height: 42px;
 
@@ -194,32 +29,44 @@
     margin-bottom: 12px;
 }
 
-.AritstHome_Rh_MemuBox{
-    width: 1035px;
+.ArtistHome_Rh_MemuBox{
     height: 22px;
-    padding: 10px 82px 10px 76px;
+    padding: 10px 70px;;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+    list-style: none;
 }
 
-.AritstHome_Rh_MemuBoxHome{
+.ArtistHome_Rh_MemuBoxHome{
     height: 22px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-   
+    
     
     
 }
 
-.AritstHome_Rh_MemuBoxText:hover{
+.ArtistHome_Rh_MemuBoxTexthome{
     color: #F3017F;
+    font-weight: 600;
     
 }
 
-.AritstHome_Rh_MemuBox_Line{
+
+
+.ArtistHome_Rh_MemuBoxText{
+    
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+
+
+
+.ArtistHome_Rh_MemuBox_Line{
     width: 19px;
     height: 0px;
     margin: 10px 0;
@@ -227,9 +74,257 @@
     transform: rotate(90deg);
 }
 
-.AritstHome_Rh_Container{
+
+
+
+.AritstHome_Rh_btm{
+    /* width: 100%;
+    height: 792px; */
+    height : calc(100% - 8%);
+    overflow: scroll;
+    padding-top: 12px;
+
+}
+
+.AritstHome_Rh_btm_topcard{
+   
+    /* height: 235px; */
+    display: flex;
+    gap: 24px;
+}
+
+.AritstHome_Rh_btm_topcard_item{
     width: 100%;
-    height: 966px;
+    height: 100%;
+    background: #191922;
+    border-radius: 6px;
+}
+
+.AritstHome_Rh_btm_topcard_item_wrapper{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.AritstHome_Rh_btm_topcard_item_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AritstHome_Rh_btm_topcard_item_top_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh_btm_topcard_item_top_morebox{
+    display: flex;
+    align-items: center;
+}
+
+.AritstHome_Rh_btm_topcard_item_top_moretext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #F3017F;
+}
+
+.chevronright{
+    width : 18px;
+    height : 18px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm{
+    height: 149px;
+    left: 704px;
+    top: 215px;
+    background: #15141B;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_rntextbox{
+    padding : 12px 12px
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox{
+    padding : 12px 12px
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox{
+    padding : 12px 12px
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_text{
+    min-width: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+    
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    
+
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container:last-of-type{
+    margin-top: 12px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_top{
+    display: flex;
+    align-items: center;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_lf{
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background: #F3017F;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh{
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* display: block; */
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #8B8999;
+    margin-left: 21px;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox_container{
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt{
+
+
+    
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 21px;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* overflow: hidden; */
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    overflow: hidden;
+    text-align: right;
+    color: #8B8999;
+}
+
+
+
+
+.AritstHome_Rh_btm_hr{
+    background: #8B8999;
+    /* flex-grow: 1; */
+    opacity: 20%;
+    height: 1px;
+    
+    margin : 24px 0;
+   
+}
+
+.AritstHome_Rh_btm_LiveStage{
+    width: 100%;
+}
+
+.AritstHome_Rh_btm_LiveStage_Title{
+    height: 30px;
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    gap: 24px;
+}
+
+.AritstHome_Rh_btm_Stage{
+    width : 32%;
+    color : #ffffff;
+}
+
+.AritstHome_Rh_btm_Live{
+    color : #f3017f;
+}
+
+.AritstHome_Rh_btm_Upcoming{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+   
+}
+
+.AritstHome_Rh_btm_LiveStage_Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.AritstHome_Rh_btm_Previous{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 

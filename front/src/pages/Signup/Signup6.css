@@ -1,0 +1,448 @@
+.Signup6{
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.Signup6_Wrapper{
+    height: 100%;
+    /* padding: 123px 167px 123px 143px; */
+    display: flex;
+    padding: 30px 167px 0 143px;
+
+    
+}
+
+.Signup6_Container{
+    width:100%;
+    display: flex;
+    gap: 200px;
+    /* width: 1370px;
+    height: 753px; */
+    
+}
+
+.Signup6_ItemLeft_imgbox{
+    flex: 1 1;
+}
+
+.Signup6_ItemLeft{
+
+    /* margin-right: 300px; */
+    flex: 1 1;
+    margin-top: 150px;
+}
+
+.Signup6_ItemLeft_img{
+    width: 100%;
+}
+
+.Signup6_ItemRight{
+    flex: 0.8;
+    /* height: 750px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.Signup6_ItemRight_top{
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Signup6_ItemRight_top_title_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.Signup6_ItemRight_middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px
+}
+
+.Signup6_ItemRight_middle_signpro{
+    height: 110px ;
+   
+    margin-bottom: 30px;
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Signup6_ItemRight_middle_signpro_hrbox{
+    
+    display: flex;
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_hr{
+    position: relative;
+    margin: 0 20px;
+    width : 70%;
+    border: 2px solid #F3017F;
+    top: 42px;
+    z-index: -1;
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_hr2{
+    position: relative;
+    margin: 0 20px;
+    width : 40%;
+    border: 2px solid #191922;
+    top: 42px;
+    z-index: -1;
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_box{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #191922;
+    border-radius: 100%;
+    border: 2px solid #F3017F;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Signup6_ItemRight_middle_signpro_IconContainer_box2{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #F3017F;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_box3{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #191922;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_Icon{
+    aspect-ratio: 35/35
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_textBox{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_textBox_text{
+    width: 84px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.Signup6_ItemRight_middle_CheckBoxContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox{
+    width : 100%;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+.Signup6_ItemRight_middle_CardItem_textBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #8B8999;
+    margin-top: 8px;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_textInput{
+    
+    background: #191922;
+    border: none;
+    border-radius: 3px;
+    
+    
+}
+
+.Signup6_ItemRight_middle_CardItem_hr{
+    margin: 0 14px;
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_textInput_wrapper{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_textInput_wrapperBox{
+    display: flex;
+    align-items: center;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_textInput_wrapperBox2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_textInput_Item{
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_nameInputBox{
+    width: 100%;
+    height: 35px;
+    padding : 0 10px;
+    color: #FFFFFF;
+    background: #191922;
+    border: none;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_name_input{
+    width : 100%;
+    height: 35px;
+    color: #FFFFFF;
+    background: #191922;
+    border-radius: 3px;
+    border: none;
+}
+
+.Signup6_ItemRight_middle_CardBoxItem_textBox_name_input{
+    width : 100%;
+    height: 35px;
+    color: #FFFFFF;
+    background: #191922;
+    border-radius: 3px;
+    border: none;
+}
+
+.Signup6_ItemRight_middle_CheckBoxItem_textBox_username_input{
+    width: 100%;
+    height: 35px;
+    
+    color: #FFFFFF;
+    background: #191922;
+    border: none;
+    border-radius: 3px;
+}
+
+.Signup6_ItemRight_middle_CardItem_textBox_username_input{
+    height: 35px;
+    width : 35px;
+    color: #FFFFFF;
+    background: #191922;
+    border: none;
+    border-radius: 3px;
+}
+.Signup6_ItemRight_middle_GB_Item_textBox_cardicon{
+    width :20px;
+    height :20px;
+    margin-right: 12px;
+}
+
+.Signup6_ItemRight_middle_EmailBoxItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    
+
+}
+
+.Signup6_ItemRight_middle_EmailBoxItem_textBox{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup6_ItemRight_middle_EmailBoxItem_textBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.Signup6_ItemRight_middle_EmailBoxItem_textBox_textInput{
+    height: 35px;
+    
+    color: #FFFFFF;
+    
+    width: 50%;
+   
+}
+.Signup6_ItemRight_middle_EmailBoxItem_textBox_textInput_wrapper{
+    height: 35px;
+    
+    color: #FFFFFF;
+    padding : 0 10px;
+    background: #191922;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.Signup6_ItemRight_middle_EmailBoxItem_textBox_username_input{
+    background: #191922;
+    border: none;
+    width: 100%;
+    height: 35px;
+    color: #ffffff;
+}
+
+/* ======= */
+.Signup6_ItemRight_middle_ExpiryItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.Signup6_ItemRight_middle_ExpiryItem_textBox{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup6_ItemRight_middle_ExpiryItem_textBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.Signup6_ItemRight_middle_ExpiryItem_textBox_textInput{
+    height: 35px;
+    color: #FFFFFF;
+    display: flex;
+    width: 50%;
+    gap: 12px;
+   
+}
+.Signup6_ItemRight_middle_ExpiryItem_textBox_textInput_wrapper{
+    height: 35px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    background: #191922;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.Signup6_ItemRight_middle_ExpiryItem_textBox_username_input{
+    width: 100%;
+    background: #191922;
+    border: none;
+    height: 35px;
+    color: #ffffff;
+}
+
+.Signup6_ItemRight_middle_GB_Item_textBox_cvvicon{
+    width: 20px;
+    height: 20px;
+}
+
+
+ 
+.Signup6_ItemRight_btm_BackBtn{
+    width: 123px;
+    height : 40px;
+    background: #191922;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup6_ItemRight_btm_NextBtn{
+    width: 123px;
+    height : 40px;
+    background: #F3017F;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Signup6_ItemRight_btm_Btn_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.Signu2p_ItemRight_btm_BtnBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 12px;
+}
+

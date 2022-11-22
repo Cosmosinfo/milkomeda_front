@@ -1,121 +1,290 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../../assets/css/Artist/ArtistHome.css'
-import Instagram from '../../assets/icon/graw/instagram.svg'
-import Facebook from '../../assets/icon/graw/facebook.svg'
-import Twitter from '../../assets/icon/graw/twitter.svg'
-import Youtube from '../../assets/icon/graw/youtube.svg'
-import Global from '../../assets/icon/graw/globe-w.svg'
+import ArtistInfoCard from '../../components/ArtistInfoCard/ArtistInfoCard';
+import StageCard from '../../components/StageCard/StageCard'
+import chevronright from '../../assets/icon/ping//chevron-right.svg'
+import Topbar from '../../components/topbar/Topbar'
+import { useTranslation } from "react-i18next";
 
 function ArtistHome() {
+
+  const { t } = useTranslation();
+
   return (
     <>
+      <Topbar />
+      <div className='ArtistHome'>
+        <div className='ArtistHome_Wrapper'>
+          <ArtistInfoCard />
 
-        <div className='ArtistHome'>
-            <div className='AritstHome_Wrapper'>
-              <div className='AritstHome_Lf'>
 
-                <div className='AritstHome_Lf_Wrapper'>
-                  <div className='AritstHome_ArtistImg'>
+          <div className='ArtistHome_Rh'>
+            <div className='ArtistHome_Rh_Memu'>
+              <div className='ArtistHome_Rh_MemuBox'>
 
-                  </div>
+                <Link to="/artisthome" className="link">
+                  <div className='ArtistHome_Rh_MemuBoxTexthome'>{t("artisttop_home")}</div>
+                </Link>
+                <div className='ArtistHome_Rh_MemuBox_Line'></div>
+                <Link to="/artistnotice" className="link">
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_notice")}</div>
+                </Link>
+                <div className='ArtistHome_Rh_MemuBox_Line'></div>
+                <Link to="/artiststage" className="link">
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_stage")}</div>
+                </Link>
+                <div className='ArtistHome_Rh_MemuBox_Line'></div>
+                <Link to="/artistschedule" className="link">
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_sche")}</div>
+                </Link>
+                <div className='ArtistHome_Rh_MemuBox_Line'></div>
+                <Link to="/artiststore" className="link">
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_store")}</div>
+                </Link>
+                <div className='ArtistHome_Rh_MemuBox_Line'></div>
+                <Link to="/artistpost" className="link">
+                  <div className='ArtistHome_Rh_MemuBoxText'>{t("artisttop_post")}</div>
+                </Link>
 
-                  <div className='AritstHome_ArtistNameBox'>
-                      <div className='AritstHome_ArtistName'>Artist Name</div>
-                      <div className='AritstHome_ArtistName2'>Name, Name, Name, Name</div>
-                      <div className='AritstHome_MusicGenre'>Music Genre</div>
-                  </div>
+              </div>
+            </div>
 
-                  <div className='AritstHome_ArtistSnsBox'>
-                      <div className='AritstHome_ArtistSns'>
-                          <img className="ArtistSnsIcon" src={Instagram} alt="Instargram" />
+
+            <div className='AritstHome_Rh_btm'>
+              <div className='AritstHome_Rh_btm_topcard'>
+                {/* <div className='AritstHome_Rh_btm_topcard_item'>
+                  <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
+                    <div className='AritstHome_Rh_btm_topcard_item_top'>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
+                      <Link to="/artistnotice" className="link">
+                                        <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
+                                            <img className="chevronright" src={chevronright} alt="chevronright" />
+                                        </div>
+                                      </Link>
+
+                    </div>
+
+                    <div className="AritstHome_Rh_btm_topcard_item_btm">
+                      <div className='AritstHome_Rh_btm_topcard_item_btm_rntextbox'>
+                        <spen className='AritstHome_Rh_btm_topcard_item_btm_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</spen>
                       </div>
-
-                      <div className='AritstHome_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Facebook} alt="Instargram" />
-                      </div>
-
-                      <div className='AritstHome_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Twitter} alt="Instargram" />
-                      </div>
-
-                      <div className='AritstHome_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Youtube} alt="Instargram" />
-                      </div>
-
-                      <div className='AritstHome_ArtistSns'>
-                        <img className="ArtistSnsIcon" src={Global} alt="Instargram" />
-                      </div>
-
-                      
-                  </div>
-
-                  <div className='AritstHome_ArtistFollwer'>Follower 0,000</div>
-
-                  <div className='AritstHome_ArtistFavoriteBox'>
-                    <div className='AritstHome_ArtistFavoriteText'>Favorite</div>
-
-                  </div>
-
-                  <div className='AritstHome_Artist_Line'></div>
-
-                  <div className='AritstHome_Artistdescription'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  </div>
-
-                  <div className='AritstHome_ArtistMetaBox'>
-                    <div className='AritstHome_ArtistMetaText'>
-                    Artist’s Metaverse
                     </div>
                   </div>
+                </div> */}
+
+                <div className='AritstHome_Rh_btm_topcard_item'>
+                  <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
+                    <div className='AritstHome_Rh_btm_topcard_item_top'>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>{t("artisthome_rn")}</span>
+                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                        <Link to="/artistnotice" className="link">
+                          <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>{t("artisthome_more")}</span>
+                            <img className="chevronright" src={chevronright} alt="chevronright" />
+                          </div>
+                        </Link>
+
+                      </div>
+                    </div>
+
+                    <div className="AritstHome_Rh_btm_topcard_item_btm">
+                      <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox'>
+
+
+                        <spen className='AritstHome_Rh_btm_topcard_item_btm_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</spen>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='AritstHome_Rh_btm_topcard_item'>
+                  <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
+                    <div className='AritstHome_Rh_btm_topcard_item_top'>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>{t("artisthome_us")}</span>
+                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                        <Link to="/artistschedule" className="link">
+                          <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>{t("artisthome_more")}</span>
+                            <img className="chevronright" src={chevronright} alt="chevronright" />
+                          </div>
+                        </Link>
+
+                      </div>
+                    </div>
+
+                    <div className="AritstHome_Rh_btm_topcard_item_btm">
+                      <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox'>
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox_container'>
+
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh">
+                            <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_top'>
+                              <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_lf"></div>
+                              <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_text">Lorem ipsum dolor sit amet</div>
+                            </div>
+
+
+
+                            <spen className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_time">YYYY/MM/DD 18:00(KST)</spen>
+                          </div>
+                        </div>
+
+
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox_container'>
+
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh">
+                            <div className='AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_top'>
+                              <div className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_lf"></div>
+                              <spen className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_text">Lorem ipsum dolor sit amet</spen>
+                            </div>
+
+
+
+                            <spen className="AritstHome_Rh_btm_topcard_item_btm_ustextbox_container_rh_time">YYYY/MM/DD 18:00(KST)</spen>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='AritstHome_Rh_btm_topcard_item'>
+                  <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
+                    <div className='AritstHome_Rh_btm_topcard_item_top'>
+                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>{t("artisthome_fp")}</span>
+                      <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                        <Link to="/artistpost" className="link">
+                          <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
+                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>{t("artisthome_more")}</span>
+                            <img className="chevronright" src={chevronright} alt="chevronright" />
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+
+                    <div className="AritstHome_Rh_btm_topcard_item_btm">
+                      <div className='AritstHome_Rh_btm_topcard_item_btm_fptextbox'>
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_fptextbox_container'>
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt">
+                            Lorem ipsum dolor sit amet
+                          </div>
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
+                            2{t("artisthome_time")}
+                          </div>
+                        </div>
+
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_fptextbox_container'>
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt">
+                            Lorem ipsum dolor sit amet
+                          </div>
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
+                            4{t("artisthome_time")}
+                          </div>
+                        </div>
+
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_fptextbox_container'>
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt">
+                            Lorem ipsum dolor sit amet
+                          </div>
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
+                            6{t("artisthome_time")}
+                          </div>
+                        </div>
+
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_fptextbox_container'>
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt">
+                            Lorem ipsum dolor sit amet
+                          </div>
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
+                            8{t("artisthome_time")}
+                          </div>
+                        </div>
+
+                        <div className='AritstHome_Rh_btm_topcard_item_btm_fptextbox_container'>
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_descipt">
+                            Lorem ipsum dolor sit amet
+                          </div>
+
+                          <div className="AritstHome_Rh_btm_topcard_item_btm_fptextbox_container_time">
+                            10{t("artisthome_time")}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+
+              <div className='AritstHome_Rh_btm_hr'></div>
+
+
+              <div className="AritstHome_Rh_btm_LiveStage">
+                <div className="AritstHome_Rh_btm_LiveStage_Title">
+                  <p className='AritstHome_Rh_btm_Stage'><span className="AritstHome_Rh_btm_Live">{t("home_live")}</span> {t("home_stage")}</p>
+                  <span className="AritstHome_Rh_btm_Upcoming">{t("stream_up")}</span>
+                </div>
+
+                <div className="AritstHome_Rh_btm_LiveStage_Container">
+                  <StageCard />
+
+                  <StageCard />
+
+                  <StageCard />
+
+
+
+
 
                 </div>
-                
-
-                  
-              </div>
-
-              <div className='AritstHome_Rh'>
-                  <div className='AritstHome_Rh_Memu'>
-                        <div className='AritstHome_Rh_MemuBox'>
-                            
-                        <Link to="/artisthome" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Home</div>
-                        </Link>
-                        <div className='AritstHome_Rh_MemuBox_Line'></div>       
-                        <Link to="/artistnotice" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Notice</div>
-                        </Link> 
-                        <div className='AritstHome_Rh_MemuBox_Line'></div>
-                        <Link to="/artiststage" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Stage</div>
-                        </Link>
-                        <div className='AritstHome_Rh_MemuBox_Line'></div>
-                        <Link to="/artistschedule" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Schedule</div>
-                        </Link>
-                        <div className='AritstHome_Rh_MemuBox_Line'></div>
-                        <Link to="/artiststore" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Store</div>
-                        </Link>
-                        <div className='AritstHome_Rh_MemuBox_Line'></div>
-                        <Link to="/artistpost" className="link">
-                          <div className='AritstHome_Rh_MemuBoxText'>Post</div>
-                        </Link>
-                        </div>
-                  </div>
-
-                  <div className='AritstHome_Rh_Container'>
-                      home
-                  </div>
 
 
               </div>
-                
+
+              <div className='AritstHome_Rh_btm_hr'></div>
+
+
+
+              <div className="AritstHome_Rh_btm_LiveStage">
+                <div className="AritstHome_Rh_btm_LiveStage_Title">
+                  <span className="AritstHome_Rh_btm_Previous">{t("stream_pre")}</span>
+                </div>
+
+                <div className="AritstHome_Rh_btm_LiveStage_Container">
+                  <StageCard />
+
+                  <StageCard />
+
+                  <StageCard />
+
+
+
+
+
+                </div>
+
+
+              </div>
+
             </div>
+
+          </div>
+
         </div>
-    
-    
+      </div>
+
+
     </>
   )
 }

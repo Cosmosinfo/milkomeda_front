@@ -1,7 +1,7 @@
 import React from 'react'
 import './terms.css'
 
-function terms() {
+function Terms() {
     return (
         <>
             <div className='terms-popWrapper'>
@@ -73,4 +73,4 @@ function terms() {
     )
 }
 
-export default terms
+export default Terms
