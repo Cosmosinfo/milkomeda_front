@@ -36,11 +36,11 @@ import Signup7 from './pages/Signup/Signup7'
 function App() {
 
 
-
   return (
 
     <>
 
+    
       <BrowserRouter>
 
         <Sidebar />
