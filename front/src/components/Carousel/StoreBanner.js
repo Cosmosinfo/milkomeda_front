@@ -1,24 +1,18 @@
-import React from 'react'
-
+import React from "react";
 import { Carousel } from "./Carousel";
 
 function StoreBanner() {
-    const images = [
-        {
-        
-          image: "./img/img4.jpg",
-         
-        },
-        {
-          image: "./img/img5.jpg",
-          
-        },
-       
-      ];
-    return (
-        <>
-
-        <Carousel
+  const images = [
+    {
+      image: "./img/img4.jpg",
+    },
+    {
+      image: "./img/img5.jpg",
+    },
+  ];
+  return (
+    <>
+      <Carousel
         //accepts news data
         data={images}
         //time interval milliseconds between each picture
@@ -33,13 +27,13 @@ function StoreBanner() {
         automatic={true}
         //enables visual dots between slides
         dots={true}
-        showNavBtn = {true}
+        showNavBtn={true}
         //changes object fit I used cover to avoud stretching
         slideImageFit="cover"
         thumbnailWidth="100px"
       />
-       </>
-    )
+    </>
+  );
 }
 
-export default StoreBanner
+export default StoreBanner;

@@ -1,27 +1,22 @@
-import React from 'react'
-import './HomeBanner.css'
+import React from "react";
+import styled from "styled-components";
 import { Carousel } from "./Carousel";
 
 function HomeBanner() {
-    const images = [
-        {
-       
-          image: "./img/img1.jpg",
-         
-        },
-        {
-          image: "./img/img2.jpg",
-          
-        },
-        {
-          image: "./img/img3.jpg",
-         
-        }
-      ];
-    return (
-        <div className="HomeBanner">
-
-<Carousel
+  const images = [
+    {
+      image: "./img/img1.jpg",
+    },
+    {
+      image: "./img/img2.jpg",
+    },
+    {
+      image: "./img/img3.jpg",
+    },
+  ];
+  return (
+    <Banner>
+      <Carousel
         //accepts news data
         data={images}
         //time interval milliseconds between each picture
@@ -36,13 +31,17 @@ function HomeBanner() {
         automatic={true}
         //enables visual dots between slides
         dots={true}
-        showNavBtn = {true}
+        showNavBtn={true}
         //changes object fit I used cover to avoud stretching
         slideImageFit="cover"
         thumbnailWidth="100px"
       />
-        </div>
-    )
+    </Banner>
+  );
 }
 
-export default HomeBanner
+const Banner = styled.div`
+  margin-bottom: 12px;
+`;
+
+export default HomeBanner;
