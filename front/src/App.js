@@ -43,6 +43,7 @@ function App() {
       <BrowserRouter>
 
         <Sidebar />
+
         <div className="App-content">
 
           <Routes>
