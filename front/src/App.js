@@ -39,11 +39,10 @@ function App() {
   return (
 
     <>
-
       <BrowserRouter>
 
         <Sidebar />
-    
+
         <div className="App-content">
 
           <Routes>
