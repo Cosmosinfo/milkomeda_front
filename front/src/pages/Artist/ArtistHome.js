@@ -53,26 +53,7 @@ function ArtistHome() {
 
             <div className='AritstHome_Rh_btm'>
               <div className='AritstHome_Rh_btm_topcard'>
-                {/* <div className='AritstHome_Rh_btm_topcard_item'>
-                  <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
-                    <div className='AritstHome_Rh_btm_topcard_item_top'>
-                      <span className='AritstHome_Rh_btm_topcard_item_top_text'>최근&nbsp;공지사항</span>
-                      <Link to="/artistnotice" className="link">
-                                        <div className="AritstHome_Rh_btm_topcard_item_top_morebox">
-                                            <span className='AritstHome_Rh_btm_topcard_item_top_moretext'>더 보기</span>
-                                            <img className="chevronright" src={chevronright} alt="chevronright" />
-                                        </div>
-                                      </Link>
 
-                    </div>
-
-                    <div className="AritstHome_Rh_btm_topcard_item_btm">
-                      <div className='AritstHome_Rh_btm_topcard_item_btm_rntextbox'>
-                        <spen className='AritstHome_Rh_btm_topcard_item_btm_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</spen>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className='AritstHome_Rh_btm_topcard_item'>
                   <div className='AritstHome_Rh_btm_topcard_item_wrapper'>
