@@ -145,7 +145,7 @@ const PopFooterContentItem = styled.div`
   }
 `;
 
-const PopFooterContentItemText = styled.div`
+const PopFooterContentItemText = styled.span`
   cursor: pointer;
   &:hover {
     color: #ffffff;
