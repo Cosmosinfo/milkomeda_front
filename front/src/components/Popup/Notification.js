@@ -1,5 +1,5 @@
 import React from "react";
-import "./Notification.css";
+import styled from "styled-components";
 
 function Notification() {
   return (
