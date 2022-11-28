@@ -1,0 +1,95 @@
+
+  .StoreMain_Contents_Box{
+    height: 332px;
+    padding: 6px 0 ;
+    /* border-radius: 6px;
+    background-color : #191922; */
+
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .store_link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .StoreMain_Contents_Item{
+    /* width: 250px; */
+    /* height: 100%; */
+    flex: 1;
+    flex-basis: calc(19% - 24px);
+    
+  }
+
+  .StoreMain_Contents_Item:last-of-type{
+    margin: 0;
+  }
+
+  .StoreMain_Contents_Item_img{
+    /* width: 250px;
+    height: 250px; */
+    border-radius: 6px;
+    /* background-color : #191922; */
+    aspect-ratio: 250/250;
+
+  }
+
+  .StoreMain_Contents_Item_TextBox{
+    width: 100%;
+    
+
+    
+  }
+
+  .StoreMain_Contents_Item_TextBox_Contanier{
+    /* width: 215px; */
+    /* height: 66px; */
+    padding: 12px 16px 0;
+    text-align: center;
+}
+
+.StoreMain_Contents_Item_TextBox_Contanier_text{
+    width: 100%;
+    /* height: 41px; */
+    display: grid;
+}
+
+.StoreMain_Contents_Item_TextBox_Contanier_text_ArtistName{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+    color: #8B8999;
+}
+
+.StoreMain_Contents_Item_TextBox_Contanier_text_Detail{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: #FFFFFF;
+}
+
+
+
+.StoreMain_Contents_Item_TextBox_Contanier_Money{
+    width: 100%;
+    /* height: 21px; */
+
+    margin-top: 6px;
+}
+
+.StoreMain_Contents_Item_TextBox_Contanier_Money_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+   
+    
+    color: #FFFFFF;
+}
+
+
+  

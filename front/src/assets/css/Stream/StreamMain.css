@@ -1,0 +1,223 @@
+.StreamMain{
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    /* padding: 30px; */
+  }
+  
+  .StreamMain_Wrapper{
+    
+    height: auto;
+    padding: 24px 30px 30px 30px;
+    
+  }
+ 
+
+  .StreamMain_Top{
+    width : 100%;
+    height : 30px;
+    display: flex;
+    /* line-height: 30px; */
+  }
+
+  .StreamMain_Top_lf{
+    display: flex;
+    list-style:none;
+    padding-left:0px;
+    align-items: center;
+  }
+
+  .StreamMain_Top_Rh{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+  .Stream_link{
+    margin-left: 32px;
+    text-decoration: none;
+  }
+  
+  .StreamMain_Live{
+    
+    font-size: 20px;
+    color : #f3017f;
+    font-weight : 600;
+  }
+  .StreamMain_Stage{
+    
+    font-size: 20px;
+    color : #ffffff;
+    font-weight : 600;
+  }
+
+  .StreamMain_LiveStage_us{
+    
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    display: flex;
+    
+    color: #8B8999;
+    }
+    
+    .StreamMain_LiveStage_ps{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #8B8999;
+    }
+    
+ 
+    
+    .Stream_LiveStage_filter{
+        display: flex;
+        align-items: center;
+        
+        
+        
+    }
+    
+    .Stream_LiveStage_filterIcon{
+        width : 24px;
+        height: 24px;
+        
+    }
+
+    .Stream_LiveStage_filter_text{
+      font-weight: 400;
+      line-height: 21px;
+      font-size: 14px;
+      color: #ffffff;
+      margin-left: 12px;
+
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .StreamMain_btm{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 12px;
+        
+    }
+  
+  .StreamMain_LiveStage_Container{
+ 
+  /* height: 240px; */
+  display: flex;
+  margin: 12px 0 24px ;
+  justify-content: space-between;
+  }
+
+  .StreamMain_LiveStage_Container:last-of-type{
+    margin-bottom: 0;
+  }
+  
+  .home_LiveStage_Item{
+    width: 100%;
+    height: 240px;
+  
+    margin-right: 24px;
+  }
+  
+  .home_LiveStage_Top{
+    width : 382px;
+    height : 187px;
+  
+    border-radius: 6px;
+    background-color : #191922;
+  
+  }
+  
+  .home_LiveStage_btm{
+    width : 382px;
+    height : 40px;
+    
+    display: flex;
+    margin-top: 12px;
+  }
+  
+  .home_LiveStage_btm_Left{
+    width: 40px;
+    height: 40px;
+    
+  }
+  
+  .home_LiveStage_Artist_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .home_LiveStage_btm_Right{
+    width: 90px;
+    height: 40px;
+    margin-left: 12px;
+  
+  }
+  
+  .home_LiveStage_NameBox{
+    width : 93px;
+    height : 21px;
+    
+    
+    
+  }
+  
+  .home_LiveStage_NameBox_ArtistTitle{
+    width : 93px;
+    width : 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .home_LiveStage_NameBox_ArtistName_Box{
+    width : 93px;
+    height : 21px;
+  }
+  
+  
+  .home_LiveStage_NameBox_ArtistName{
+    width : 93px;
+    width : 21px;
+    font-size: 13px;
+    font-weight: 400;
+    color : #8b8999
+  }
+
+  .Stream_menus {
+    /* background: #ffff; */
+    border-radius: 8px;
+    position: absolute;
+    top: 120px;
+    right: 6px;
+    width: 100px;
+    /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  }
+  
+  
+  .Stream_menus.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  
+

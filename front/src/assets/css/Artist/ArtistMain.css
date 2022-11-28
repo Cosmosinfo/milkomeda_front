@@ -1,0 +1,107 @@
+.ArtistMain{
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.ArtistMain_Wrapper{
+    /* width: 1620px; */
+    /* height: 1020px; */
+   
+    padding: 24px 30px 30px 30px;
+
+    
+}
+
+
+.ArtistMain_top{
+    /* width: 100%; */
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ArtistMain_top_lf{
+    height: 30px;
+}
+
+.ArtistMain_topText{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.ArtistMain_top_rh{
+    
+    display: flex;
+   
+}
+
+.ArtistMain_imgBox{
+    width: 100%;
+    height: 30px;
+    
+    
+}
+
+.ArtistMain_sortimg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.ArtistMain_imgBox_text{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    color: #ffffff;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.ArtistMain_btm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 24px;
+    /* column-gap: 24px; */
+    /* grid-column-gap: 24px; */
+    /* grid-row-gap: 24px; */
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.Stream_menus {
+    /* background: #ffff; */
+    border-radius: 8px;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    width: 110px;
+    /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  }
+  
+  
+  .Stream_menus.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+

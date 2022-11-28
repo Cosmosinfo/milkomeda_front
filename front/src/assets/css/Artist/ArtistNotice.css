@@ -1,0 +1,232 @@
+.ArtistNotice{
+    /* width: 100%;
+    height: 100%; */
+    position: fixed;
+    
+    height: calc(100% - 13%) !important;
+    color: #FFFFFF;
+}
+
+.ArtistNotice_Wrapper{
+    height: 100%; 
+   /* width: 1620px;
+    height: 857px; */
+    padding: 30px 30px;
+    display: flex;
+
+    
+}
+
+
+.ArtistNotice_Rh{
+    /* width: 1209px; */
+    height: 100%;
+    flex: 3;
+    margin-left: 27px;
+}
+
+.ArtistNotice_Rh_Memu{
+    /* width: 100%; */
+    height: 42px;
+
+    background: #191922;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.ArtistNotice_Rh_MemuBox{
+    height: 22px;
+    padding: 10px 70px;;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.ArtistNotice_Rh_MemuBoxHome{
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+    
+    
+}
+
+.ArtistNotice_Rh_MemuBoxText{
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+
+.ArtistNotice_Rh_MemuBoxTextNotice{
+    
+    color: #F3017F;
+    font-weight: 600;
+}
+
+
+.ArtistNotice_Rh_MemuBox_Line{
+    width: 19px;
+    height: 0px;
+    margin: 10px 0;
+    border: 1px solid rgba(139, 137, 153, 0.2);
+    transform: rotate(90deg);
+}
+
+
+
+
+.AritstHome_Rh_btm{
+    /* width: 100%;
+    height: 792px; */
+    height : calc(100% - 8%);
+    overflow: scroll;
+    padding-top: 12px;
+    
+
+}
+
+.AritstHome_Rh_btm_noticecard{
+    /* width: 1209px; */
+    height: 207px;
+    background: #191922;
+    border-radius: 6px;
+    margin-bottom: 24px;
+
+}
+
+.AritstHome_Rh_btm_ncitembox{
+    height: 153px;
+    padding: 27px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AritstHome_Rh_btm_ncitembox_left{
+    /* width: 813px; */
+    height: 100%;
+    margin-right: 70px;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox{
+    /* width:237px; */
+    height : 45px;
+    display: flex;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_lt{
+    width: 45px;
+    height: 45px;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_lt_img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_rh{
+    margin-left: 18px;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_rh_artistName{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_rh_btm{
+    display: flex;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_rh_day{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #8B8999;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_artistbox_rh_time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #8B8999;
+    margin-left: 12px;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_descripbox{
+    height: 44px;
+    margin-top: 12px;
+    margin-left: 63px;
+    text-overflow: clip;
+    /* white-space: nowrap; */
+    overflow: hidden;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_descrip{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+.AritstHome_Rh_btm_ncitembox_left_Iconbox{
+    /* width : 89px; */
+    height : 22px;
+    margin-top: 24px;
+    margin-left: 63px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+.AritstHome_Rh_btm_ncitembox_right{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.AritstHome_Rh_btm_ncitembox_right_itembox{
+    /* width: 250px;
+    height: 100%; */
+    background: #8B8999;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8B8999;
+    aspect-ratio: 250/153;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_Icon{
+    width: 15px;
+    height : 15px;
+    margin-right: 6px;
+}
+
+.AritstHome_Rh_btm_ncitembox_left_messageIcon{
+    width: 15px;
+    height : 15px;
+    margin-left: 13px;
+    margin-right: 6px;
+    cursor: pointer;
+}

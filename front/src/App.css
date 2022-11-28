@@ -1,0 +1,29 @@
+.App-content{
+  display: flex;
+  width: auto;
+  height: 100%;
+  padding-left: 240px;
+  padding-top: 60px;
+
+  
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* ::-webkit-scrollbar{
+  width: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 80%; 
+  background: #191922; 
+  
+  border-radius: 10px;
+} */

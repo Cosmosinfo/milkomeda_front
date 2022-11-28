@@ -1,0 +1,291 @@
+.Signup5{
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.Signup5_Wrapper{
+    height: 100%;
+    /* padding: 123px 167px 123px 143px; */
+    display: flex;
+    padding: 30px 167px 0 143px;
+
+    
+}
+
+
+.Signup5_Container{
+    width:100%;
+    display: flex;
+    gap: 200px;
+    /* width: 1370px;
+    height: 753px; */
+    
+}
+
+.Signup5_ItemLeft_imgbox{
+    flex: 1 1;
+}
+
+.Signup5_ItemLeft{
+
+    /* margin-right: 300px; */
+    flex: 1 1;
+    margin-top: 150px;
+}
+
+.Signup5_ItemLeft_img{
+    width: 100%;
+}
+
+.Signup5_ItemRight{
+    flex: 0.8;
+    /* height: 750px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.Signup5_ItemRight_top{
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Signup5_ItemRight_top_title_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.Signup5_ItemRight_middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px
+}
+
+.Signup5_ItemRight_middle_signpro{
+    height: 110px ;
+   
+    margin-bottom: 30px;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Signup5_ItemRight_middle_signpro_hrbox{
+    
+    display: flex;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_hr{
+    position: relative;
+    margin: 0 20px;
+    width : 40%;
+    border: 2px solid #F3017F;
+    top: 42px;
+    z-index: -1;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_hr2{
+    position: relative;
+    margin: 0 20px;
+    width : 65%;
+    border: 2px solid #191922;
+    top: 42px;
+    z-index: -1;
+}
+
+
+.Signup5_ItemRight_middle_signpro_IconContainer_box{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #191922;
+    border-radius: 100%;
+    border: 2px solid #F3017F;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Signup5_ItemRight_middle_signpro_IconContainer_box2{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #F3017F;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_box3{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #191922;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_Icon{
+    aspect-ratio: 35/35
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_textBox{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_textBox_text{
+    width: 84px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.Signup5_ItemRight_middle_TextBox{
+    display: flex;
+    margin: 10px 0 20px 0;
+    flex-direction: column;
+}
+
+.Signup5_ItemRight_middle_TextBox_Favoritetext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.Signup5_ItemRight_middle_TextBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #8B8999;
+}
+
+.Signup5_ItemRight_middle_GenreContainer{
+    margin-bottom: 24px;
+}
+
+.Signup5_ItemRight_middle_GenreContainer_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.Signup5_ItemRight_middle_GenreContainer_Item{
+    
+    height: 46px;
+    background: #191922;
+    /* border: 1px solid #191922; */
+    border-radius: 100px;
+    display: flex;
+    flex-basis: calc(25% - 20px);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.Signup5_ItemRight_middle_GenreContainer_Item2{
+    height: 46px;
+    background: #F3017F;
+    
+    border-radius: 100px;
+    display: flex;
+    flex-basis: calc(25% - 20px);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.Signup5_ItemRight_middle_GenreContainer_Item_TextBox{
+    
+}
+
+.Signup5_ItemRight_middle_GenreContainer_Item_TextBox_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+ 
+.Signup5_ItemRight_btm_BackBtn{
+    width: 123px;
+    height : 40px;
+    background: #191922;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup5_ItemRight_btm_NextBtn{
+    width: 123px;
+    height : 40px;
+    background: #F3017F;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Signup5_ItemRight_btm_Btn_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.Signu2p_ItemRight_btm_BtnBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 12px;
+}
+
