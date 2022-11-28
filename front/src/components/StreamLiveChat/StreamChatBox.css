@@ -1,176 +1,153 @@
-.StreamChatBox_Right_Container{
-  position: fixed;
-    /* width: calc(100% - 70%); */
-    height: calc(100% - 12%);
-    display: flex;
-    background-color: #191922;
-    /* padding: 24px 36px 0 36px; */
-    /* padding-right: 91px; */
-    flex-direction: column;
-    margin-right: 30px;
-    /* aspect-ratio: 364/783 !important; */
-   
-
+.StreamChatBox_Right_Container {
+  position: sticky;
+  top: 11%;
+  /* width: calc(100% - 70%); */
+  /* height: calc(100% - 12%); */
+  display: flex;
+  background-color: #191922;
+  /* padding: 24px 36px 0 36px; */
+  /* padding-right: 91px; */
+  flex-direction: column;
+  /* aspect-ratio: 364/783 !important; */
 }
 
-.StreamChatBox_Right_topbox{
-    /* height: 812px; */
-    border-radius: 6px;
-    /* background-color: #191922; */
-    text-align: center;
-    flex: 1 1;
-    padding: 24px 36px 0 36px;
-     /* aspect-ratio: 344/812; */
-  }
+.StreamChatBox_Right_topbox {
+  /* height: 812px; */
+  border-radius: 6px;
+  /* background-color: #191922; */
+  text-align: center;
+  flex: 1 1;
+  padding: 24px 36px 0 36px;
+  /* aspect-ratio: 344/812; */
+}
 
-  
+.StreamChatBox_Right_topbox_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  .StreamChatBox_Right_topbox_container{
-    height : 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.StreamChatBox_Right_flexbox {
+}
 
-    
-    
-  }
+.StreamChatBox_Right_top {
+  /* width: 308px; */
+  height: 42px;
 
-  .StreamChatBox_Right_flexbox{
+  margin-bottom: 12px;
+}
 
-  }
-
- 
-
-  .StreamChatBox_Right_top{
-    /* width: 308px; */
-    height: 42px;
-
-    margin-bottom: 12px;
-  }
-
-
-
-  .StreamChatBox_ChatBtn{
+.StreamChatBox_ChatBtn {
   /* width: 308px;
   height: 42px; */
 
-  background: #15141B;
+  background: #15141b;
   border-radius: 100px;
-  
-  }
+}
 
-  .StreamChatBox_ChatBtn_LiveChat{
-    /* width: 154px;  */
-    height: 42px;
-    display: flex;
-    /* display: -webkit-box; */
-    /* background: #F3017F; */
-    border-radius: 100px;
-    align-items: center;
-  }
+.StreamChatBox_ChatBtn_LiveChat {
+  /* width: 154px;  */
+  height: 42px;
+  display: flex;
+  /* display: -webkit-box; */
+  /* background: #F3017F; */
+  border-radius: 100px;
+  align-items: center;
+}
 
-  .StreamChatBox_ChatBtn_text{
-    font-style: normal;
-    padding: 10px 40px 10px 40px;
-    border-radius: 100px;
-    background: #F3017F;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    flex: 1;
-    cursor: pointer;
-    border: none;
-    background: none;
-   
-  }
+.StreamChatBox_ChatBtn_text {
+  font-style: normal;
+  padding: 10px 40px 10px 40px;
+  border-radius: 100px;
+  background: #f3017f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  flex: 1;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
 
-  .StreamChatBox_ChatBtn_text.active{
-    background: #F3017F;
-  }
+.StreamChatBox_ChatBtn_text.active {
+  background: #f3017f;
+}
 
-  .StreamChatBox_ChatBtn_Comment_text{
-    /* width: 81px;  */
-    /* height: 22px; */
-    padding: 10px 37px;
-    border-radius: 100px;
-    font-style: normal;
-    /* background: #F3017F; */
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    flex: 1;
-    
-    border: none;
-    background: none;
-    
-  }
+.StreamChatBox_ChatBtn_Comment_text {
+  /* width: 81px;  */
+  /* height: 22px; */
+  padding: 10px 37px;
+  border-radius: 100px;
+  font-style: normal;
+  /* background: #F3017F; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  flex: 1;
 
-  .StreamChatBox_Right_middle{
-    /* width:100%; */
-    overflow: overlay;
-    aspect-ratio: 344/650;
-  }
+  border: none;
+  background: none;
+}
 
-  /* .StreamChatBox_Right_middle::-webkit-scrollbar{
+.StreamChatBox_Right_middle {
+  /* width:100%; */
+  overflow: overlay;
+  aspect-ratio: 344/650;
+}
+
+/* .StreamChatBox_Right_middle::-webkit-scrollbar{
     display: none;
   } */
 
+.StreamChatBox_Right_btmbox {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
 
-  .StreamChatBox_Right_btmbox{
-    
-    border-radius: 6px;
-    margin-bottom: 10px;
-  }
- 
+.StreamChatBox_MessageBox {
+  /* width: 100%; */
+  /* height: 80px; */
+  padding: 12px 36px 12px 36px;
+  margin-bottom: 10px;
+  /* background: #191922; */
+}
 
-  
+.StreamChatBox_MessageBox_textContainer {
+  /* height: 20px; */
+  display: flex;
+  /* padding: 4px 4px; */
+}
 
-  .StreamChatBox_MessageBox{
-    /* width: 100%; */
-    /* height: 80px; */
-    padding: 12px 36px 12px 36px;
-    margin-bottom: 10px;
-    /* background: #191922; */
-  }
+.StreamChatBox_MessageBox_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  flex: 1;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #191922;
+  border: none;
+}
 
+.StreamChatBox_MessageBox_IconContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 6px;
+}
 
-  .StreamChatBox_MessageBox_textContainer{
-    
-    /* height: 20px; */
-    display: flex;
-    /* padding: 4px 4px; */
-  }
+.StreamChatBox_MessageBox_IconContainer_Icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 16px;
+  /* vertical-align: middle; */
+}
 
-  .StreamChatBox_MessageBox_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    flex: 1;
-    line-height: 20px;
-    color: #ffffff;
-    background-color: #191922;;
-    border: none;
-  }
-
-  .StreamChatBox_MessageBox_IconContainer{
-
-    display: flex;
-    align-items:flex-end;
-    margin-left: 6px;
-  }
-
-  .StreamChatBox_MessageBox_IconContainer_Icon{
-    width : 20px;
-    height: 20px;
-    cursor: pointer;
-    margin-right: 16px;
-    /* vertical-align: middle; */
-  }
-
-  .StreamChatBox_MessageBox_IconContainer_Icon:last-of-type{
-    margin: 0;
-  }
+.StreamChatBox_MessageBox_IconContainer_Icon:last-of-type {
+  margin: 0;
+}
