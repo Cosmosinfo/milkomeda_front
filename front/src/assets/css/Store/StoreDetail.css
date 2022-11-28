@@ -429,6 +429,16 @@ color: #FFFFFF;
     border-bottom: 2px solid #F3017F;
   }
 
+  .StoreDetail_left_Btm_imgBoxText{
+    display: flex;
+    justify-content: center;
+  }
+
+  .StoreDetail_right_Btm_imgBoxTitle{
+    display: flex;
+    justify-content: center;
+  }
+
 
 
   

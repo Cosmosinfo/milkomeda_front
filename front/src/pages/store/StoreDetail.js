@@ -14,16 +14,7 @@ function StoreDetail() {
 
     const { t } = useTranslation();
 
-    // const data = ['{t("storedetail_detail")}','{t("storedetail_review")} 0','Q&A 0','{t("storedetail_info")}'];
-    // const [btnActive, setBtnActive] = useState("");
 
-    // const toggleActive = (e) => {
-    //     setBtnActive((prev) => {
-    //     return e.target.value;
-    //     });
-
-
-    // }
 
     return (
         <>
@@ -115,23 +106,7 @@ function StoreDetail() {
                         <div className='StoreDetail_left_Btm'>
                             <div className='StoreDetail_left_Btm_SelectBox'>
 
-                                {/* {data.map((item, idx) => {
-                                                return (
-                                                <>
-                                                    <button
-                                                    value={idx}
-                                                    // eslint-disable-next-line
-                                                    className={"StoreDetail_left_Btm_SelectBox_Item" + (idx == btnActive ? " active" : "")}
-                                                    onClick={toggleActive}
-                                                    
-                                                    >
-                                                    {item}
-                                                    </button>
 
-                                                    
-                                                </>
-                                                );
-                            })} */}
                                 <Link to="/storeDetail" className="link flex">
                                     <div className='StoreDetail_left_Btm_SelectBox_Item2'>
                                         {t("storedetail_detail")}
@@ -159,21 +134,80 @@ function StoreDetail() {
 
                             </div>
 
-                            <div className=''></div>
+                            {/* <div className=''></div> */}
 
 
 
-                            {/* {StoreTapContent.map((item, idx) => {
-                                            return (
-                                            <li className={styles.top_category} 
-                                                key={idx} onClick={() => tapClick(idx)}> {item.name}
-                                            </li>)
-                                            }
-                                            )} */}
+
 
                             <div className='StoreDetail_left_Btm_imgBox2'>
                                 <img className="StoreDetail_left_Btm_imgBoxItem" src="https://i.imgur.com/yFXnI7Y.jpg" alt="" />
                             </div>
+                            <br />
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>SYLK의 Signet Ring Art Class에서는</div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>여러가지 텍스쳐링 기법을</div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>시도해볼거예요.</div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div className='StoreDetail_right_Btm_imgBoxTitle'>
+                                <h3>
+                                    1. 헤어라인 텍스쳐링
+                                </h3>
+
+                            </div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBox2'>
+                                <img className="StoreDetail_left_Btm_imgBoxItem" src="https://i.imgur.com/9p0bK1g.png" alt="" />
+                            </div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBox2'>
+                                <img className="StoreDetail_left_Btm_imgBoxItem" src="https://i.imgur.com/jgv754h.png" alt="" />
+                            </div>
+                            <br />
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>왁스 줄을 활용하여</div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>러스틱한 텍스쳐를 표현합니다</div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div className='StoreDetail_right_Btm_imgBoxTitle'>
+                                <h3>
+                                    2. 조각 텍스쳐링
+                                </h3>
+
+                            </div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBox2'>
+                                <img className="StoreDetail_left_Btm_imgBoxItem" src="https://i.imgur.com/lAOO2jz.png" alt="" />
+                            </div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBox2'>
+                                <img className="StoreDetail_left_Btm_imgBoxItem" src="https://i.imgur.com/4qvRMyM.png" alt="" />
+                            </div>
+                            <br />
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>보석의 결정 형태나</div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>돌, 나무와 같은</div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>자연물의 질감을 흉내낸</div>
+                            <br />
+                            <div className='StoreDetail_left_Btm_imgBoxText'>텍스쳐도 표현 가능해요.</div>
+                            <br />
+                            <br />
+
+
+
+
 
 
                         </div>

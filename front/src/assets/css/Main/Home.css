@@ -42,7 +42,7 @@ color: #FFFFFF;
   gap: 24px;
   /* justify-content: space-between; */
   /* flex-wrap: wrap; */
-  overflow: hidden;
+  overflow: scroll;
 }
 
 /* ====================  Live Stage  ======================== */
