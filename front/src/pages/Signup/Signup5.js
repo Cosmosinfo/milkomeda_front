@@ -8,13 +8,16 @@ import shield from '../../assets/icon/signup/shield 1.svg'
 
 import Topbar2 from '../../components/topbar/Topbar2'
 
+import { useTranslation } from "react-i18next";
 
 function Signup5() {
+
+    const { t } = useTranslation();
 
 
     return (
         <>
-        < Topbar2 />
+            < Topbar2 />
             <div className='Signup5'>
                 <div className='Signup5_Wrapper'>
                     <div className='Signup5_Container'>
@@ -30,7 +33,7 @@ function Signup5() {
                         <div className="Signup5_ItemRight">
                             <div className="Signup5_ItemRight_top">
 
-                                <span className="Signup5_ItemRight_top_title_text">일반 회원 (팬)</span>
+                                <span className="Signup5_ItemRight_top_title_text">{t("signup3_title")}</span>
 
 
 
@@ -66,25 +69,25 @@ function Signup5() {
                                     </div>
                                     <div className="Signup5_ItemRight_middle_signpro_IconContainer_textBox">
                                         <div className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">약관동의</span>
+                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_1")}</span>
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">개인정보입력</span>
+                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_2")}</span>
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">결제정보입력</span>
+                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_3")}</span>
                                         </div>
 
                                         <div className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">가입완료</span>
+                                            <span className="Signup5_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_4")}</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="Signup5_ItemRight_middle_TextBox">
-                                    <span className="Signup5_ItemRight_middle_TextBox_Favoritetext">Favorite Music Genre</span>
+                                    <span className="Signup5_ItemRight_middle_TextBox_Favoritetext">{t("signup5_1")}</span>
                                     <span className="Signup5_ItemRight_middle_TextBox_text">Lorem ipsum dolor sit amet</span>
 
                                 </div>
@@ -216,14 +219,14 @@ function Signup5() {
                                 <Link to="/signup4" className="link">
                                     <div className="Signup2_ItemRight_btm_BackBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Back</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_back")}</span>
 
                                     </div>
                                 </Link>
                                 <Link to="/signup6" className="link">
                                     <div className="Signup2_ItemRight_btm_NextBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Next</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_next")}</span>
 
                                     </div>
                                 </Link>

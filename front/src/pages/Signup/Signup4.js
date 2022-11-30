@@ -14,8 +14,13 @@ import { grey } from "@mui/material/colors";
 import Radio from "@mui/material/Radio";
 import Topbar2 from '../../components/topbar/Topbar2'
 
+import { useTranslation } from "react-i18next";
+
 
 function Signup4() {
+
+    const { t } = useTranslation();
+
     const [selectedValue, setSelectedValue] = React.useState("a");
 
     const handleChange = (event) => {
@@ -33,7 +38,7 @@ function Signup4() {
 
     return (
         <>
-        < Topbar2 />
+            < Topbar2 />
             <div className='Signup4'>
                 <div className='Signup4_Wrapper'>
                     <div className='Signup4_Container'>
@@ -49,7 +54,7 @@ function Signup4() {
                         <div className="Signup4_ItemRight">
                             <div className="Signup4_ItemRight_top">
 
-                                <span className="Signup4_ItemRight_top_title_text">일반 회원 (팬)</span>
+                                <span className="Signup4_ItemRight_top_title_text">{t("signup3_title")}</span>
 
 
 
@@ -80,19 +85,19 @@ function Signup4() {
                                     </div>
                                     <div className="Signup4_ItemRight_middle_signpro_IconContainer_textBox">
                                         <div className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">약관동의</span>
+                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_1")}</span>
                                         </div>
 
                                         <div className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">개인정보입력</span>
+                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_2")}</span>
                                         </div>
 
                                         <div className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">결제정보입력</span>
+                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_3")}</span>
                                         </div>
 
                                         <div className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">가입완료</span>
+                                            <span className="Signup4_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_4")}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +107,7 @@ function Signup4() {
                                     {/* User Name */}
                                     <div className="Signup4_ItemRight_middle_CheckBoxItem">
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox">
-                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">user name</span>
+                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">{t("signup4_1")}</span>
                                         </div>
 
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_textInput">
@@ -117,15 +122,15 @@ function Signup4() {
                                     {/* Name  */}
                                     <div className="Signup4_ItemRight_middle_CheckBoxItem">
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox">
-                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">Name</span>
+                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">{t("signup4_2")}</span>
                                         </div>
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_textInput_Item">
                                             <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_nameInputBox">
-                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder="Last Name" name="LastName" />
+                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder={t("signup4_3")} name="LastName" />
                                             </div>
 
                                             <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_nameInputBox">
-                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder="First Name" name="FirstName" />
+                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder={t("signup4_4")} name="FirstName" />
                                             </div>
 
                                         </div>
@@ -139,7 +144,7 @@ function Signup4() {
                                         <div className="Signup4_ItemRight_middle_GB_Item_container">
 
                                             <div className="Signup4_ItemRight_middle_GB_Item_GenderBox">
-                                                <span className='Signup4_ItemRight_middle_GB_Item_GenderText'>Gender</span>
+                                                <span className='Signup4_ItemRight_middle_GB_Item_GenderText'>{t("signup4_5")}</span>
                                             </div>
 
                                             <div className="Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox">
@@ -155,7 +160,7 @@ function Signup4() {
                                                         },
                                                     }}
                                                 />
-                                                <span className="Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox_text" >Male</span>
+                                                <span className="Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox_text" >{t("signup4_6")}</span>
 
                                                 <Radio
                                                     className="Gender_radio"
@@ -170,14 +175,14 @@ function Signup4() {
                                                     }}
                                                 />
 
-                                                <span className="Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox_text">Female</span>
+                                                <span className="Signup4_ItemRight_middle_GB_Item_textBox_GenderInputBox_text">{t("signup4_7")}</span>
                                             </div>
                                         </div>
 
                                         <div className="Signup4_ItemRight_middle_GB_Item_container">
 
                                             <div className='Signup4_ItemRight_middle_GB_Item_BirthTextBox'>
-                                                <span className='Signup4_ItemRight_middle_GB_Item_BirthText'>Birth</span>
+                                                <span className='Signup4_ItemRight_middle_GB_Item_BirthText'>{t("signup4_8")}</span>
                                             </div>
                                             <div className="Signup4_ItemRight_middle_GB_Item_textBox_birthInputBox">
                                                 <input className="Signup4_ItemRight_middle_GB_Item_textBox_birthinput" type="text" placeholder="YYYY/MM/DD" name="LastName" />
@@ -192,15 +197,15 @@ function Signup4() {
 
                                     <div className="Signup4_ItemRight_middle_CheckBoxItem">
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox">
-                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">Address</span>
+                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">{t("signup4_9")}</span>
                                         </div>
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_textInput_Item">
                                             <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_nameInputBox">
-                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder="Country" name="Country" />
+                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder={t("signup4_10")} name="Country" />
                                             </div>
 
                                             <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox_nameInputBox">
-                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder="Town/City" name="TownCity" />
+                                                <input className="Signup4_ItemRight_middle_CheckBoxItem_textBox_name_input" type="text" placeholder={t("signup4_11")} name="TownCity" />
                                             </div>
 
                                         </div>
@@ -212,7 +217,7 @@ function Signup4() {
 
                                     <div className="Signup4_ItemRight_middle_CheckBoxItem">
                                         <div className="Signup4_ItemRight_middle_CheckBoxItem_textBox">
-                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">E-mail</span>
+                                            <span className="Signup4_ItemRight_middle_CheckBoxItem_textBox_text">{t("signup4_12")}</span>
                                         </div>
 
 
@@ -229,7 +234,7 @@ function Signup4() {
 
                                     <div className="Signup4_ItemRight_middle_CountryItem">
                                         <div className="Signup4_ItemRight_middle_CountryItem_textBox">
-                                            <span className="Signup4_ItemRight_middle_CountryItem_textBox_text">Phone Number</span>
+                                            <span className="Signup4_ItemRight_middle_CountryItem_textBox_text">{t("signup4_13")}</span>
                                         </div>
                                         <div className="Signup4_ItemRight_middle_CountryItem_textBox_textInput_Item">
                                             <div className="Signup4_ItemRight_middle_CountryItem_textBox_conInputBox">
@@ -256,14 +261,14 @@ function Signup4() {
                                 <Link to="/signup3" className="link">
                                     <div className="Signup2_ItemRight_btm_BackBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Back</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_back")}</span>
 
                                     </div>
                                 </Link>
                                 <Link to="/signup5" className="link">
                                     <div className="Signup2_ItemRight_btm_NextBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Next</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_next")}</span>
 
                                     </div>
                                 </Link>

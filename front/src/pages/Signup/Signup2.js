@@ -4,14 +4,20 @@ import { Link } from "react-router-dom";
 import pan from '../../assets/icon/signup/pan.svg'
 import artist from '../../assets/icon/signup/artist.svg'
 import Topbar2 from '../../components/topbar/Topbar2'
+
+import { useTranslation } from "react-i18next";
+
 function Signup2() {
+
+    const { t } = useTranslation();
+
     const data = [
         <div className="Signup2_ItemRight_middle_ItemBox_wrapper">
             <div className="Signup2_ItemRight_middle_user_Iconbox">
                 <img className="Signup2_ItemRight_middle_user_Icon" src={pan} alt="pan" />
             </div>
             <div className="Signup2_ItemRight_middle_userTitle">
-                User
+                {t("signup2_user")}
             </div>
 
             <div className="Signup2_ItemRight_middle_userDesBox">
@@ -33,7 +39,7 @@ function Signup2() {
                 <img className="Signup2_ItemRight_middle_user_Icon" src={artist} alt="artist" />
             </div>
             <div className="Signup2_ItemRight_middle_userTitle">
-                Artist
+                {t("signup2_artist")}
             </div>
 
             <div className="Signup2_ItemRight_middle_userDesBox">
@@ -77,9 +83,9 @@ function Signup2() {
                         <div className="Signup2_ItemRight">
                             <div className="Signup2_ItemRight_top">
 
-                                <span className="Signup2_ItemRight_top_title_text">회원 유형</span>
+                                <span className="Signup2_ItemRight_top_title_text">{t("signup2_type")}</span>
 
-                                <span className="Signup2_ItemRight_top_subtitle_text">회원 유형을 선택해 주세요</span>
+                                <span className="Signup2_ItemRight_top_subtitle_text">{t("signup2_typedes")}</span>
 
                             </div>
 
@@ -112,14 +118,14 @@ function Signup2() {
                                 <Link to="/signup" className="link">
                                     <div className="Signup2_ItemRight_btm_BackBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Back</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup2_back")}</span>
 
                                     </div>
                                 </Link>
                                 <Link to="/signup3" className="link">
                                     <div className="Signup2_ItemRight_btm_NextBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Next</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup2_next")}</span>
 
                                     </div>
                                 </Link>
