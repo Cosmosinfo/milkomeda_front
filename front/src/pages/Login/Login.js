@@ -7,7 +7,13 @@ import naver from '../../assets/icon/social/naver.svg'
 import './Login.css'
 import Topbar2 from '../../components/topbar/Topbar2'
 
+
+import { useTranslation } from "react-i18next";
+
 function Login() {
+
+    const { t } = useTranslation();
+
     return (
         <>
             < Topbar2 />
@@ -26,13 +32,13 @@ function Login() {
                         <div className="Login_ItemRight">
                             <div className="Login_ItemRight_top">
 
-                                <span className="Login_ItemRight_top_title_text">로그인</span>
+                                <span className="Login_ItemRight_top_title_text">{t("home_more")}</span>
 
                             </div>
 
                             <div className="Login_ItemRight_btm">
                                 <div className="Login_ItemRight_btm_usernameBox">
-                                    <span className="Login_ItemRight_btm_usernameBox_title">Email address or username</span>
+                                    <span className="Login_ItemRight_btm_usernameBox_title">{t("login_input1")}</span>
                                     <div className="Login_ItemRight_btm_usernameBox_Input">
                                         <input className="Login_username_input" type="text" placeholder="" name="username" />
                                     </div>
@@ -42,13 +48,13 @@ function Login() {
                                 </div>
 
                                 <div className="Login_ItemRight_btm_passwordBox">
-                                    <span className="Login_ItemRight_btm_passwordBox_title">Password</span>
+                                    <span className="Login_ItemRight_btm_passwordBox_title">{t("login_input2")}</span>
                                     <div className="Login_ItemRight_btm_passwordBox_Input">
                                         <input className="password_input" type="text" placeholder="" name="password" />
                                     </div>
 
 
-                                    <span className="Login_ItemRight_btm_passwordBox_forget">Forgot your password?</span>
+                                    <span className="Login_ItemRight_btm_passwordBox_forget">{t("login_password")}?</span>
 
 
 
@@ -67,7 +73,7 @@ function Login() {
                                             <img className="social_icon" src={google} alt="google" />
                                         </div>
                                         <div className="Login_ItemRight_btm_textbox">
-                                            <span className="Login_ItemRight_btm_text">Continue with Google</span>
+                                            <span className="Login_ItemRight_btm_text">{t("login_google")}</span>
                                         </div>
                                     </div>
 
@@ -78,7 +84,7 @@ function Login() {
                                             <img className="social_icon" src={apple} alt="apple" />
                                         </div>
                                         <div className="Login_ItemRight_btm_textbox">
-                                            <span className="Login_ItemRight_btm_text">Continue with Apple</span>
+                                            <span className="Login_ItemRight_btm_text">{t("login_apple")}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +95,7 @@ function Login() {
                                         </div>
 
                                         <div className="Login_ItemRight_btm_textbox">
-                                            <span className="Login_ItemRight_btm_text_kakao">Continue with Kakao</span>
+                                            <span className="Login_ItemRight_btm_text_kakao">{t("login_kakao")}</span>
                                         </div>
 
                                     </div>
@@ -101,7 +107,7 @@ function Login() {
                                             <img className="social_icon" src={naver} alt="naver" />
                                         </div>
                                         <div className="Login_ItemRight_btm_textbox">
-                                            <span className="Login_ItemRight_btm_text_naver">Continue with Naver</span>
+                                            <span className="Login_ItemRight_btm_text_naver">{t("login_naver")}</span>
                                         </div>
                                     </div>
 
@@ -111,12 +117,12 @@ function Login() {
                                 <div className="Login_ItemRight_btm_hr"></div>
 
                                 <div className="Login_ItemRight_btm_accountbox">
-                                    <span className="Login_ItemRight_btm_account_text">Don’t have an account?</span>
+                                    <span className="Login_ItemRight_btm_account_text">{t("login_account")}</span>
                                 </div>
                                 <Link to="/signup" className="link">
                                     <div className="Login_ItemRight_btm_milko">
 
-                                        <span className="Login_ItemRight_btm_text_milko">Sign up for MILKOMEDA</span>
+                                        <span className="Login_ItemRight_btm_text_milko">{t("login_signup")}</span>
 
                                     </div>
                                 </Link>

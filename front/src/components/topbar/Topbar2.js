@@ -2,6 +2,7 @@ import { React, useState, useRef, useEffect } from "react";
 import "../../assets/css/Top/Topbar2.css";
 import { Link } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
 import { ReactComponent as More } from "../../assets/icon/graw/more-vertical.svg";
 
 import Terms from "../Popup/Term"
@@ -9,6 +10,9 @@ import search from '../../assets/icon/graw/search.svg'
 
 
 export default function Topbar2() {
+
+  const { t } = useTranslation();
+
   const dropdownRef = useRef(null);
   const curRef = useRef(true);
 
@@ -58,11 +62,11 @@ export default function Topbar2() {
     const pageClickEvent2 = (e) => {
       if (curRef2.current) {
         curRef2.current = false;
-        
+
         return;
       } else {
         curRef2.current = true;
-      
+
       }
 
       // If the active element exists and is clicked outside of
@@ -89,18 +93,18 @@ export default function Topbar2() {
   useEffect(() => {
     console.log('useEffect')
     const pageClickEvent3 = (e) => {
-      if (curRef3.current ) {
+      if (curRef3.current) {
         curRef3.current = false;
         return;
       } else {
         curRef3.current = true;
-        
+
       }
 
       // If the active element exists and is clicked outside of
       if (dropdownRef3.current !== null && !dropdownRef3.current.contains(e.target)) {
         setOpenProfile(!openProfile);
-        
+
 
       }
     };
@@ -112,7 +116,7 @@ export default function Topbar2() {
     }
     return (openTerms, openNoti) => {
       window.removeEventListener('click', pageClickEvent3);
-      
+
     }
 
 
@@ -121,9 +125,9 @@ export default function Topbar2() {
 
   }, [openProfile]);
 
-  
 
-  
+
+
 
 
   return (
@@ -150,13 +154,13 @@ export default function Topbar2() {
           <div className="topbarRight">
 
             <div className="Icon_box">
-            <More className="more" onClick={() => {
-              setOpenTerms(!openTerms)
-              curRef2.current = true;
-            }} />
+              <More className="more" onClick={() => {
+                setOpenTerms(!openTerms)
+                curRef2.current = true;
+              }} />
 
             </div>
-            
+
             <nav
               ref={dropdownRef}
               className={`menus ${openTerms ? "active" : "inactive"}`}
@@ -165,11 +169,11 @@ export default function Topbar2() {
             </nav>
 
             <Link to="/login" className="link loginbtm">
-            <div className="topbarRight_loginBox">
-                <span className="topbarRight_loginBox_text">Login</span>
-            </div>
+              <div className="topbarRight_loginBox">
+                <span className="topbarRight_loginBox_text">{t("login_login")}</span>
+              </div>
             </Link>
-            
+
 
 
 

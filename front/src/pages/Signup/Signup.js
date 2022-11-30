@@ -6,10 +6,16 @@ import apple from '../../assets/icon/social/apple.svg'
 import kakao from '../../assets/icon/social/kakao.svg'
 import naver from '../../assets/icon/social/naver.svg'
 import Topbar2 from '../../components/topbar/Topbar2'
+
+import { useTranslation } from "react-i18next";
+
 function Signup() {
+
+    const { t } = useTranslation();
+
     return (
         <>
-        < Topbar2 />
+            < Topbar2 />
             <div className='Signup'>
                 <div className='Signup_Wrapper'>
                     <div className='Signup_Container'>
@@ -25,7 +31,7 @@ function Signup() {
                         <div className="Signup_ItemRight">
                             <div className="Signup_ItemRight_top">
 
-                                <span className="Signup_ItemRight_top_title_text">회원가입</span>
+                                <span className="Signup_ItemRight_top_title_text">{t("signup_signup")}</span>
 
                             </div>
 
@@ -36,7 +42,7 @@ function Signup() {
                                             <img className="social_icon" src={google} alt="google" />
                                         </div>
                                         <div className="Signup_ItemRight_btm_textbox">
-                                            <span className="Signup_ItemRight_btm_text">Continue with Google</span>
+                                            <span className="Signup_ItemRight_btm_text">{t("signup_google")}</span>
                                         </div>
                                     </div>
 
@@ -47,7 +53,7 @@ function Signup() {
                                             <img className="social_icon" src={apple} alt="apple" />
                                         </div>
                                         <div className="Signup_ItemRight_btm_textbox">
-                                            <span className="Signup_ItemRight_btm_text">Continue with Apple</span>
+                                            <span className="Signup_ItemRight_btm_text">{t("signup_apple")}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +64,7 @@ function Signup() {
                                         </div>
 
                                         <div className="Signup_ItemRight_btm_textbox">
-                                            <span className="Signup_ItemRight_btm_text_kakao">Continue with Kakoa</span>
+                                            <span className="Signup_ItemRight_btm_text_kakao">{t("signup_kakao")}</span>
                                         </div>
 
                                     </div>
@@ -69,7 +75,7 @@ function Signup() {
                                             <img className="social_icon" src={naver} alt="naver" />
                                         </div>
                                         <div className="Signup_ItemRight_btm_textbox">
-                                            <span className="Signup_ItemRight_btm_text_naver">Continue with Naver</span>
+                                            <span className="Signup_ItemRight_btm_text_naver">{t("signup_naver")}</span>
                                         </div>
                                     </div>
 
@@ -82,19 +88,19 @@ function Signup() {
                                 </div>
 
                                 <div className="Signup_ItemRight_btm_Email">
-                                    <span className="Signup_ItemRight_btm_Email_text">Sign up with Email</span>
+                                    <span className="Signup_ItemRight_btm_Email_text">{t("signup_email")}</span>
                                 </div>
 
                                 <div className="Signup_ItemRight_btm_usernameBox">
                                     <div className="Signup_ItemRight_btm_usernameBox_container">
-                                        <span className="Signup_ItemRight_btm_usernameBox_title">Email address</span>
+                                        <span className="Signup_ItemRight_btm_usernameBox_title">{t("signup_input1")}</span>
                                         <div className="Signup_ItemRight_btm_usernameBox_Input">
                                             <input className="Signup_username_input" type="text" placeholder="" name="username" />
                                         </div>
                                     </div>
 
                                     <div className="Signup_ItemRight_btm_usernameBox_container">
-                                        <span className="Signup_ItemRight_btm_usernameCheckBox_title">Check your Email address</span>
+                                        <span className="Signup_ItemRight_btm_usernameCheckBox_title">{t("signup_input2")}</span>
                                         <div className="Signup_ItemRight_btm_usernameCheckBox__Input">
                                             <input className="Signup_username_input" type="text" placeholder="" name="username" />
                                         </div>
@@ -106,7 +112,7 @@ function Signup() {
                                 </div>
 
                                 <div className="Signup_ItemRight_btm_passwordBox">
-                                    <span className="Signup_ItemRight_btm_passwordBox_title">Password</span>
+                                    <span className="Signup_ItemRight_btm_passwordBox_title">{t("signup_input3")}</span>
                                     <div className="Signup_ItemRight_btm_passwordBox_Input">
                                         <input className="password_input" type="text" placeholder="" name="password" />
                                     </div>
@@ -122,7 +128,7 @@ function Signup() {
                                     <div className="Signup_ItemRight_btm_NextBox">
                                         <div className="Signup_ItemRight_btm_NextBtn">
 
-                                            <span className="Signup_ItemRight_btm_NextBtn_text">Next</span>
+                                            <span className="Signup_ItemRight_btm_NextBtn_text">{t("signup_next")}</span>
 
                                         </div>
 
