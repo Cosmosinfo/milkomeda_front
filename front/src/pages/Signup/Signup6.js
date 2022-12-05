@@ -10,14 +10,16 @@ import oksign from '../../assets/icon/signup/oksign.svg'
 import keypad from '../../assets/icon/signup/keypad.svg'
 import Topbar2 from '../../components/topbar/Topbar2'
 
+import { useTranslation } from "react-i18next";
 
 
 function Signup6() {
 
+    const { t } = useTranslation();
 
     return (
         <>
-        < Topbar2 />
+            < Topbar2 />
             <div className='Signup6'>
                 <div className='Signup6_Wrapper'>
                     <div className='Signup6_Container'>
@@ -33,7 +35,7 @@ function Signup6() {
                         <div className="Signup6_ItemRight">
                             <div className="Signup6_ItemRight_top">
 
-                                <span className="Signup6_ItemRight_top_title_text">결제정보 입력</span>
+                                <span className="Signup6_ItemRight_top_title_text">{t("signup6_1")}</span>
 
 
 
@@ -67,19 +69,19 @@ function Signup6() {
                                     </div>
                                     <div className="Signup6_ItemRight_middle_signpro_IconContainer_textBox">
                                         <div className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">약관동의</span>
+                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_1")}</span>
                                         </div>
 
                                         <div className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">개인정보입력</span>
+                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_2")}</span>
                                         </div>
 
                                         <div className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">결제정보입력</span>
+                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_3")}</span>
                                         </div>
 
                                         <div className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">가입완료</span>
+                                            <span className="Signup6_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_4")}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -89,8 +91,8 @@ function Signup6() {
                                     {/* Card Number */}
                                     <div className="Signup6_ItemRight_middle_CheckBoxItem">
                                         <div className="Signup6_ItemRight_middle_CheckBoxItem_textBox">
-                                            <span className="Signup6_ItemRight_middle_CheckBoxItem_textBox_text">Card Number</span>
-                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">Enter the 16-digit card number on the card</span>
+                                            <span className="Signup6_ItemRight_middle_CheckBoxItem_textBox_text">{t("signup6_2")}</span>
+                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">{t("signup6_3")}</span>
                                         </div>
 
                                         <div className="Signup6_ItemRight_middle_CheckBoxItem_textBox_textInput">
@@ -122,8 +124,8 @@ function Signup6() {
 
                                     <div className="Signup6_ItemRight_middle_EmailBoxItem">
                                         <div className="Signup6_ItemRight_middle_EmailBoxItem_textBox">
-                                            <span className="Signup6_ItemRight_middle_EmailBoxItem_textBox_text">CVV number</span>
-                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">Enter the 16-digit card number on the card</span>
+                                            <span className="Signup6_ItemRight_middle_EmailBoxItem_textBox_text">{t("signup6_4")}</span>
+                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">{t("signup6_5")}</span>
                                         </div>
 
 
@@ -140,8 +142,8 @@ function Signup6() {
                                     {/* Expiry Date */}
                                     <div className="Signup6_ItemRight_middle_ExpiryItem">
                                         <div className="Signup6_ItemRight_middle_ExpiryItem_textBox">
-                                            <span className="Signup6_ItemRight_middle_ExpiryItem_textBox_text">Expiry Date</span>
-                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">Enter the expiration date of the card</span>
+                                            <span className="Signup6_ItemRight_middle_ExpiryItem_textBox_text">{t("signup6_7")}</span>
+                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">{t("signup6_8")}</span>
                                         </div>
 
 
@@ -165,8 +167,8 @@ function Signup6() {
                                     {/* Password */}
                                     <div className="Signup6_ItemRight_middle_EmailBoxItem">
                                         <div className="Signup6_ItemRight_middle_EmailBoxItem_textBox">
-                                            <span className="Signup6_ItemRight_middle_EmailBoxItem_textBox_text">Password</span>
-                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">Enter your Dynamic password</span>
+                                            <span className="Signup6_ItemRight_middle_EmailBoxItem_textBox_text">{t("signup6_9")}</span>
+                                            <span className="Signup6_ItemRight_middle_CardItem_textBox_text">{t("signup6_10")}</span>
                                         </div>
 
 
@@ -189,14 +191,14 @@ function Signup6() {
                                 <Link to="/signup5" className="link">
                                     <div className="Signup2_ItemRight_btm_BackBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Back</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_back")}</span>
 
                                     </div>
                                 </Link>
                                 <Link to="/signup7" className="link">
                                     <div className="Signup2_ItemRight_btm_NextBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Next</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_next")}</span>
 
                                     </div>
                                 </Link>

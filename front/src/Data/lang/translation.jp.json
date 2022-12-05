@@ -152,6 +152,83 @@
     "storedetail_info_sh": "Shipping (発送)",
     "storedetail_info13": "製作期間によって3~5日ほどかかります。",
     "storedetail_info14": "宅配業者の事情や地域によって所要期間に差がある場合があります。",
-    "storedetail_info15": "祝日及び休日は配送ができません。"
+    "storedetail_info15": "祝日及び休日は配送ができません。",
 
+
+    "login_login": "ログイン",
+    "login_input1": "Eメールアドレスまたはユーザーネーム",
+    "login_input2": "パスワード",
+    "login_password": "パスワードを忘れた場合はこちら,",
+    "login_google": "Googleでログイン",
+    "login_apple": "Appleアカウントでログイン",
+    "login_kakao": "Ｋakaotalkでログイン",
+    "login_naver": "Naverでログイン",
+    "login_account": "アカウントをお持ちでない場合は",
+    "login_signup": "Milkomedaの会員登録",
+
+
+    "signup_signup": "会員登録",
+    "signup_google": "Googleで会員登録",
+    "signup_apple": "Appleアカウントで会員登録",
+    "signup_kakao": "Ｋakaotalkで会員登録",
+    "signup_naver": "Naverで会員登録",
+    "signup_email": "Eメールアドレスで会員登録",
+    "signup_input1": "Eメールアドレス",
+    "signup_input2": "Eメールアドレス（確認用）",
+    "signup_input3": "パスワード",
+    "signup_next": "次へ",
+
+
+    "signup2_type": "会員タイプ",
+    "signup2_typedes": "会員タイプを選択してください",
+    "signup2_user": "ユーザー",
+    "signup2_artist": "アーティスト",
+    "signup2_next": "次へ",
+    "signup2_back": "戻る",
+
+
+    "signup_1": "規約に同意",
+    "signup_2": "個人情報入力",
+    "signup_3": "決済情報入力",
+    "signup_4": "入会完了",
+
+    "signup3_title": "一般会員(ファン)",
+    "signup3_1": "必須",
+    "signup3_2": "任意",
+    "signup3_agree": "規約に同意しました",
+    "signup3_agree2": "規約に同意しました（任意）",
+    "signup3_next": "次へ",
+    "signup3_back": "戻る",
+
+
+    "signup4_1": "ユーザーネーム",
+    "signup4_2": "氏名",
+    "signup4_3": "姓",
+    "signup4_4": "名",
+    "signup4_5": "性別",
+    "signup4_6": "男",
+    "signup4_7": "女",
+    "signup4_8": "生年月日",
+    "signup4_9": "住所",
+    "signup4_10": "国",
+    "signup4_11": "都道府県",
+    "signup4_12": "Eメールアドレス",
+    "signup4_13": "携帯電話番号",
+
+
+    "signup5_1": "好きな音楽のジャンル",
+    
+
+    "signup6_1": "決済情報入力",
+    "signup6_2": "クレジットカード番号",
+    "signup6_3": "クレジットカードに記載されている16桁の番号を入力してください",
+    "signup6_4": "CVC/セキュリティコード",
+    "signup6_5": "クレジットカード裏面に記載されている3桁もしくは4桁の番号を入力してください",
+    "signup6_7": "有効期限",
+    "signup6_8": "クレジットカードに記載されている有効期限を入力してください",
+    "signup6_9": "パスワード",
+    "signup6_10": "パスワードを入力してください",
+
+
+    "signup7_1": "メインページへ"
 }

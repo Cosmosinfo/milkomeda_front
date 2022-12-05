@@ -7,11 +7,14 @@ import creditcard from '../../assets/icon/signup/credit-cardW.svg'
 import shield from '../../assets/icon/signup/shield2.svg'
 import Topbar2 from '../../components/topbar/Topbar2'
 
+import { useTranslation } from "react-i18next";
 
 
 
 function Signup7() {
 
+
+    const { t } = useTranslation();
 
     return (
         <>
@@ -31,7 +34,7 @@ function Signup7() {
                         <div className="Signup7_ItemRight">
                             <div className="Signup7_ItemRight_top">
 
-                                <span className="Signup7_ItemRight_top_title_text">가입완료</span>
+                                <span className="Signup7_ItemRight_top_title_text">{t("signup_4")}</span>
 
 
 
@@ -65,19 +68,19 @@ function Signup7() {
                                     </div>
                                     <div className="Signup7_ItemRight_middle_signpro_IconContainer_textBox">
                                         <div className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">약관동의</span>
+                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_1")}</span>
                                         </div>
 
                                         <div className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">개인정보입력</span>
+                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_2")}</span>
                                         </div>
 
                                         <div className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">결제정보입력</span>
+                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_3")}</span>
                                         </div>
 
                                         <div className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_text">
-                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">가입완료</span>
+                                            <span className="Signup7_ItemRight_middle_signpro_IconContainer_textBox_textinline">{t("signup_4")}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -95,14 +98,14 @@ function Signup7() {
                                 <Link to="/signup6" className="link">
                                     <div className="Signup2_ItemRight_btm_BackBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Back</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup3_back")}</span>
 
                                     </div>
                                 </Link>
                                 <Link to="/" className="link">
                                     <div className="Signup2_ItemRight_btm_NextBtn">
 
-                                        <span className="Signup2_ItemRight_btm_Btn_text">Main</span>
+                                        <span className="Signup2_ItemRight_btm_Btn_text">{t("signup7_1")}</span>
 
                                     </div>
                                 </Link>
