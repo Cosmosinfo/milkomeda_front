@@ -9,6 +9,8 @@ import Topbar2 from "../../components/topbar/Topbar2";
 import { loginUser } from "../../_actions/userAction";
 import { useDispatch } from "react-redux";
 
+import { useTranslation } from "react-i18next";
+
 function Login() {
   const dispatch = useDispatch();
 

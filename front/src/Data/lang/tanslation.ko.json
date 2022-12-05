@@ -152,6 +152,85 @@
     "storedetail_info_sh": "Shipping (배송)",
     "storedetail_info13": "제작기간에 따라서 3~5일 정도 소요됩니다.",
     "storedetail_info14": "택배사 사정이나 지역에 따라 소요기간에 차이가 있을 수 있습니다.",
-    "storedetail_info15": "공휴일 및 휴일은 배송이 불가합니다."
+    "storedetail_info15": "공휴일 및 휴일은 배송이 불가합니다.",
+    
+
+    "login_login": "로그인",
+    "login_input1": "Email address or username",
+    "login_input2": "Password",
+    "login_password": "Forgot your password?",
+    "login_google": "Continue with Google",
+    "login_apple": "Continue with Apple",
+    "login_kakao": "Continue with Kakao",
+    "login_naver": "Continue with Naver",
+    "login_account": "Don’t have an account?",
+    "login_signup": "Sign up for MILKOMEDA",
+
+
+    "signup_signup": "회원가입",
+    "signup_google": "Continue with Google",
+    "signup_apple": "Continue with Apple",
+    "signup_kakao": "Continue with Kakao",
+    "signup_naver": "Continue with Naver",
+    "signup_email": "Sign up with Email",
+    "signup_input1": "Email address",
+    "signup_input2": "Check your Email address",
+    "signup_input3": "Password",
+    "signup_next": "Next",
+
+
+    "signup2_type": "회원 유형",
+    "signup2_typedes": "회원 유형을 선택해 주세요",
+    "signup2_user": "User",
+    "signup2_artist": "Artist",
+    "signup2_next": "Next",
+    "signup2_back": "Back",
+
+
+    "signup_1": "약관동의",
+    "signup_2": "개인정보입력",
+    "signup_3": "결제정보입력",
+    "signup_4": "가입완료",
+
+    "signup3_title": "일반 회원 (팬)",
+    "signup3_1": "Mandatory",
+    "signup3_2": "Optional",
+    "signup3_agree": "I agree to the Terms and Conditions",
+    "signup3_agree2": "I agree to the Terms and Conditions (Optional)",
+    "signup3_next": "Next",
+    "signup3_back": "Back",
+
+
+    "signup4_1": "user name",
+    "signup4_2": "Name",
+    "signup4_3": "Last Name",
+    "signup4_4": "First Name",
+    "signup4_5": "Gender",
+    "signup4_6": "Male",
+    "signup4_7": "Female",
+    "signup4_8": "Birth",
+    "signup4_9": "Address",
+    "signup4_10": "Country",
+    "signup4_11": "Town/City",
+    "signup4_12": "E-mail",
+    "signup4_13": "Phone Number",
+
+
+    "signup5_1": "Favorite Music Genre",
+
+
+    "signup6_1": "결재정보입력",
+    "signup6_2": "Card Number",
+    "signup6_3": "Enter the 16-digit card number on the card",
+    "signup6_4": "CVV number",
+    "signup6_5": "Enter the 16-digit card number on the card",
+    "signup6_7": "Expiry Date",
+    "signup6_8": "Enter the expiration date of the card",
+    "signup6_9": "Password",
+    "signup6_10": "Enter your Dynamic password",
+   
+
+    "signup7_1": "Main"
+    
     
 }

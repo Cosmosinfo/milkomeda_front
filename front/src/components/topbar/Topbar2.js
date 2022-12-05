@@ -2,12 +2,15 @@ import { React, useState, useRef, useEffect } from "react";
 import "../../assets/css/Top/Topbar2.css";
 import { Link } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
 import { ReactComponent as More } from "../../assets/icon/graw/more-vertical.svg";
 
 import Terms from "../Popup/Term";
 import search from "../../assets/icon/graw/search.svg";
 
 export default function Topbar2() {
+  const { t } = useTranslation();
+
   const dropdownRef = useRef(null);
   const curRef = useRef(true);
 
