@@ -1,337 +1,316 @@
-.Signup{
-    width: 100%;
-    height: 100%;
-    color: #FFFFFF;
+.Signup {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
 }
 
-.Signup_Wrapper{
-    height: 100%;
-    /* padding: 123px 167px 123px 143px; */
-    display: flex;
-    padding: 30px 167px 0 143px;
-
-    
+.Signup_Wrapper {
+  height: 100%;
+  /* padding: 123px 167px 123px 143px; */
+  display: flex;
+  padding: 30px 167px 0 143px;
 }
 
-
-.Signup_Container{
-    width:100%;
-    display: flex;
-    gap: 200px;
-    /* width: 1370px;
+.Signup_Container {
+  width: 100%;
+  display: flex;
+  gap: 200px;
+  /* width: 1370px;
     height: 753px; */
-    
 }
 
-.Signup_ItemLeft_imgbox{
-    flex: 1 1;
+.Signup_ItemLeft_imgbox {
+  flex: 1 1;
 }
 
-.Signup_ItemLeft{
-
-    
-    flex: 1 1;
-    margin-top: 150px;
+.Signup_ItemLeft {
+  flex: 1 1;
+  margin-top: 150px;
 }
 
-.Signup_ItemLeft_img{
-    width: 100%;
+.Signup_ItemLeft_img {
+  width: 100%;
 }
 
-.Signup_ItemRight{
-    flex: 0.8;
-    /* height: 750px; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+.Signup_ItemRight {
+  flex: 0.8;
+  /* height: 750px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
-.Signup_ItemRight_top{
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
+.Signup_ItemRight_top {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-
-
-.Signup_ItemRight_top_title_text{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
+.Signup_ItemRight_top_title_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 /* ================================== form ================================== */
 
-.Signup_ItemRight_btm{
-    display: flex;
-    flex-direction: column;
+.Signup_ItemRight_btm {
+  display: flex;
+  flex-direction: column;
 }
 
-.Signup_ItemRight_btm_usernameBox{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
+.Signup_ItemRight_btm_usernameBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
 }
 
-.Signup_ItemRight_btm_usernameBox_title{
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
+.Signup_ItemRight_btm_usernameBox_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
-.Signup_ItemRight_btm_usernameBox_Input{
-    margin-top: 6px;
-    border-radius: 3px;
-    
+.Signup_ItemRight_btm_usernameBox_Input {
+  margin-top: 6px;
+  border-radius: 3px;
 }
 
-.Signup_ItemRight_btm_usernameCheckBox_title{
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
+.Signup_ItemRight_btm_usernameCheckBox_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
-.Signup_ItemRight_btm_usernameCheckBox__Input{
-    
-    border-radius: 3px;
-    margin-top: 6px;
-    
+.Signup_ItemRight_btm_usernameCheckBox__Input {
+  border-radius: 3px;
+  margin-top: 6px;
 }
 
-.Signup_username_input{
-    width: 100%;
-    height: 40px;
-    background: #191922;
-    color: #ffffff;
-    border: none;
+.Signup_username_input {
+  width: 100%;
+  height: 40px;
+  background: #191922;
+  color: #ffffff;
+  border: none;
 }
 
-.Signup_ItemRight_btm_passwordBox{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 48px
-    
+.Signup_ItemRight_btm_passwordBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
 }
 
-.Signup_ItemRight_btm_passwordBox_title{
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
+.Signup_ItemRight_btm_passwordBox_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
-.Signup_ItemRight_btm_passwordBox_Input{
-    border-radius: 3px;
-    margin-top: 6px;
+.Signup_ItemRight_btm_passwordBox_Input {
+  border-radius: 3px;
+  margin-top: 6px;
 }
 
-.password_input{
-    width: 100%;
-    height: 40px;
-    background: #191922;
-    border: none;
+.password_input {
+  width: 100%;
+  height: 40px;
+  background: #191922;
+  border: none;
 }
 
-.Signup_ItemRight_btm_passwordBox_forget{
-    margin-top: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-decoration-line: underline;
-    cursor: pointer;
-    color: #8B8999;
+.Signup_ItemRight_btm_passwordBox_forget {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  color: #8b8999;
 }
 
-.Signup_ItemRight_btm_orBox{
-    display: flex;
-    margin : 24px 0;
-    align-items: center;
+.Signup_ItemRight_btm_orBox {
+  display: flex;
+  margin: 24px 0;
+  align-items: center;
 }
 
-.Signup_ItemRight_btm_orBox_hrlf{
-    background: #8B8999;
-    flex-grow: 1 !important;
-    opacity: 20%;
-    height: 1px;
+.Signup_ItemRight_btm_orBox_hrlf {
+  background: #8b8999;
+  flex-grow: 1 !important;
+  opacity: 20%;
+  height: 1px;
 }
 
-.Signup_ItemRight_btm_orBox_hrmd{
-margin: 0 34px;
-cursor: pointer;
+.Signup_ItemRight_btm_orBox_hrmd {
+  margin: 0 34px;
+  cursor: pointer;
 }
 
-.Signup_ItemRight_btm_orBox_hrrh{
-    background: #8B8999;
-    flex-grow: 1 !important;
-    opacity: 20%;
-    height: 1px;
+.Signup_ItemRight_btm_orBox_hrrh {
+  background: #8b8999;
+  flex-grow: 1 !important;
+  opacity: 20%;
+  height: 1px;
 }
 
-.Signup_ItemRight_btm_google{
-    
-    padding: 0px 70px;
-    height : 40px;
-    background: #191922;
-    border-radius: 100px;
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Signup_ItemRight_btm_google {
+  padding: 0px 70px;
+  height: 40px;
+  background: #191922;
+  border-radius: 100px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Signup_ItemRight_btm_Itembox{
-    width: 223px;
-    height: 21px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+.Signup_ItemRight_btm_Itembox {
+  width: 211px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
-.Signup_ItemRight_btm_Iconbox{
-    width:30px;
-    height: 30px;
-    margin-right: 27px;
-    display: flex;
-    align-items: center;
+.Signup_ItemRight_btm_Iconbox {
+  width: 30px;
+  height: 30px;
+  margin-right: 27px;
+  display: flex;
+  align-items: center;
 }
 
-.social_icon{
-    margin-right: 27px;
+.social_icon {
+  margin-right: 27px;
 }
 
-.social_icon_apple{
-    
-    margin-right: 30px;
+.social_icon_apple {
+  margin-right: 30px;
 }
 
-
-.Signup_ItemRight_btm_textbox{
-
+.Signup_ItemRight_btm_textbox {
 }
 
-.Signup_ItemRight_btm_usernameBox_container{
-    margin-bottom: 24px;
+.Signup_ItemRight_btm_usernameBox_container {
+  margin-bottom: 24px;
 }
 
-.Signup_ItemRight_btm_usernameBox_container:last-of-type{
-    margin-bottom: 0
+.Signup_ItemRight_btm_usernameBox_container:last-of-type {
+  margin-bottom: 0;
 }
 
-.Signup_ItemRight_btm_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+.Signup_ItemRight_btm_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
-.Signup_ItemRight_btm_apple{
-    width: 100%;
-    height : 40px;
-    background: #191922;
-    border-radius: 100px;
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Signup_ItemRight_btm_kakao{
-    width: 100%;
-    height : 40px;
-    background: #FAE100;
-    border-radius: 100px;
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    
+.Signup_ItemRight_btm_apple {
+  width: 100%;
+  height: 40px;
+  background: #191922;
+  border-radius: 100px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Signup_ItemRight_btm_Naver{
-    width: 100%;
-    height : 40px;
-    background: #06BE34;
-    font-weight: 400;
-    border-radius: 100px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.Signup_ItemRight_btm_kakao {
+  width: 100%;
+  height: 40px;
+  background: #fae100;
+  border-radius: 100px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
 }
 
-.Signup_ItemRight_btm_text_kakao{
-    font-style: normal;
-    
-    font-size: 14px;
-    line-height: 21px;
-    color: #15141B;
+.Signup_ItemRight_btm_Naver {
+  width: 100%;
+  height: 40px;
+  background: #06be34;
+  font-weight: 400;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Signup_ItemRight_btm_text_naver{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    color: #15141B;
+.Signup_ItemRight_btm_text_kakao {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 21px;
+  color: #15141b;
 }
 
-.Signup_ItemRight_btm_hr{
-    background: #8B8999;
-    flex-grow: 1 !important;
-    opacity: 20%;
-    height: 1px;
-    margin : 24px 0;
+.Signup_ItemRight_btm_text_naver {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #15141b;
 }
 
-.Signup_ItemRight_btm_Email{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 24px;
+.Signup_ItemRight_btm_hr {
+  background: #8b8999;
+  flex-grow: 1 !important;
+  opacity: 20%;
+  height: 1px;
+  margin: 24px 0;
 }
 
-.Signup_ItemRight_btm_Email_text{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    cursor: pointer;
-    color: #FFFFFF;
+.Signup_ItemRight_btm_Email {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
 }
 
-.Signup_ItemRight_btm_NextBtn{
-    width: 123px;
-    height : 40px;
-    background: #F3017F;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.Signup_ItemRight_btm_Email_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ffffff;
 }
 
-.Signup_ItemRight_btm_NextBtn_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    cursor: pointer;
-    color: #FFFFFF;
+.Signup_ItemRight_btm_NextBtn {
+  width: 123px;
+  height: 40px;
+  background: #f3017f;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Signup_ItemRight_btm_NextBox{
-    display: flex;
-    justify-content: center;
+.Signup_ItemRight_btm_NextBtn_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #f3017f;
+  border: none;
 }
 
+.Signup_ItemRight_btm_NextBox {
+  display: flex;
+  justify-content: center;
+}
