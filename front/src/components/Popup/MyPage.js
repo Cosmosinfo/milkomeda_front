@@ -3,7 +3,9 @@ import styled from "styled-components";
 import edit from "../../assets/icon/graw/edit-2.svg";
 import myshop from "../../assets/icon/graw/shopping-cart.svg";
 import setting from "../../assets/icon/graw/settings.svg";
+import user from "../../assets/icon/signup/user 1.svg";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
 
 function MyPage(open) {
   const { t } = useTranslation();
@@ -11,6 +13,12 @@ function MyPage(open) {
   if (!open) {
     return null;
   }
+
+  const onClickLogout = () => {
+    axios.post("api/users/logout").then((res) => console.log("success"));
+    console.log("asdasd");
+  };
+
   return (
     <>
       <PopWrapper>
@@ -43,6 +51,10 @@ function MyPage(open) {
                 <img src={setting} alt="setting" />
                 <PopFooterContentItemText>{t("popup_mypage4")}</PopFooterContentItemText>
               </PopFooterContentItem>
+              <PopFooterContentItem onClick={onClickLogout}>
+                <img src={user} alt="logout" />
+                <PopFooterContentItemText>{t("popup_mypage5")}</PopFooterContentItemText>
+              </PopFooterContentItem>
             </PopFooterContent>
           </PopFooterContainer>
         </PopFooter>
@@ -53,7 +65,7 @@ function MyPage(open) {
 
 const PopWrapper = styled.div`
   width: 250px;
-  height: 230px;
+  height: 270px;
   background: #191922;
   border-radius: 10px;
   box-sizing: border-box;
@@ -131,12 +143,14 @@ const PopFooterContent = styled.div`
   box-sizing: border-box;
 `;
 
-const PopFooterContentItem = styled.div`
+const PopFooterContentItem = styled.button`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 40px;
   color: #8b8999;
+  background: #191922;
+  border: none;
   img {
     width: 20px;
     height: 20px;

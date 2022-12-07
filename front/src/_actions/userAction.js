@@ -13,10 +13,11 @@
 // }
 
 import axios from "axios";
-import { LOGIN_USER, REGISTER_USER } from "../_actions/types";
+import { LOGIN_USER, REGISTER_USER, FETCH_STREAM, FETCH_STREAMS } from "../_actions/types";
+import streams from "../apis/streams";
 
 export function loginUser(dataToSubmit) {
-  const request = axios.post("/api/users/login", dataToSubmit).then((response) => response.data);
+  const request = axios.post("http://54.215.251.144:8080/api/user/login", dataToSubmit).then((response) => response.data);
 
   return {
     type: LOGIN_USER,
@@ -25,10 +26,24 @@ export function loginUser(dataToSubmit) {
 }
 
 export function registerUser(dataToSubmit) {
-  const request = axios.post("/api/users/register", dataToSubmit).then((response) => response.data);
+  const request = axios.post("http://54.215.251.144:8080/api/user/join", dataToSubmit).then((response) => response.data);
 
   return {
     type: REGISTER_USER,
     payload: request,
   };
 }
+
+export const fetchStreams = () => async (dispatch) => {
+  const response = await streams.get("/streams");
+  console.log("res", response);
+
+  dispatch({ type: FETCH_STREAMS, payload: response.data });
+};
+
+export const fetchStream = (id) => async (dispatch) => {
+  const response = await streams.get(`/streams/${id}`);
+  console.log("res", response);
+
+  dispatch({ type: FETCH_STREAM, payload: response.data });
+};

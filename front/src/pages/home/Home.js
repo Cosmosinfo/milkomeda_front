@@ -8,11 +8,16 @@ import ArtistNameCard from "../../components/ArtistNameCard/ArtistNameCard";
 import { Link } from "react-router-dom";
 import StageCardData from "../../Data/StageCardData";
 import Topbar2 from "../../components/topbar/Topbar2";
+import Topbar from "../../components/topbar/Topbar";
 import { useTranslation } from "react-i18next";
+import { useSelector } from "react-redux";
 
 function Home() {
   // 다국어처리
   const { t } = useTranslation();
+
+  const user = useSelector((state) => state.user);
+  console.log(user);
 
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4);
@@ -81,7 +86,7 @@ function Home() {
   }
   return (
     <>
-      <Topbar2 />
+      {user ? <Topbar /> : <Topbar2 />}
       <div className="home">
         <div className="homeWrapper">
           {/* ====================  Carousel  ======================== */}
