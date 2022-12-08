@@ -38,7 +38,6 @@ function App() {
     <>
       <BrowserRouter>
         <Sidebar />
-
         <div className="App-content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -59,7 +58,7 @@ function App() {
             <Route path="/stream" element={<StreamMain />} />
             <Route path="/streamup" element={<StreamUpcoming />} />
             <Route path="/streampv" element={<StreamPrevious />} />
-            <Route path="/streamLive/:id" element={<StreamLive />} />
+            <Route path="/streamLive/0001" element={<StreamLive />} />
 
             <Route path="/store" element={<StoreMain />} />
             <Route path="/storebrand" element={<StoreBrand />} />

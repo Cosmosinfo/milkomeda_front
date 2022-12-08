@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function StageCard() {
   return (
     <>
-      <StyleLink to="/StreamLive" style={{ textDecoration: "none" }}>
+      <StyleLink to="/streamLive/0001" style={{ textDecoration: "none" }}>
         <StageTop>
           <img src="https://i.imgur.com/Vkuhwil.jpg" alt="" />
         </StageTop>

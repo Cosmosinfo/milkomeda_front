@@ -8,7 +8,7 @@ import "./Login.css";
 import Topbar2 from "../../components/topbar/Topbar2";
 // import { loginUser } from "../../_actions/userAction";
 import { useDispatch } from "react-redux";
-import { setToken } from "../../_reducers/AuthReducer";
+import { setToken } from "../../_reducers/authReducer";
 import * as Yup from "yup";
 import { Formik, ErrorMessage } from "formik";
 import axios from "axios";
@@ -51,8 +51,6 @@ function Login() {
         userEmail,
         userPassword,
       });
-      console.log(data);
-      console.log(data.jwt);
       dispatch(setToken(data.jwt));
       toast.success(<h3>로그인 성공😎</h3>, {
         position: "top-center",

@@ -11,8 +11,9 @@ import StreamChatBox from "../../components/StreamLiveChat/StreamChatBox";
 import Topbar from "../../components/topbar/Topbar";
 // import { useTranslation } from "react-i18next";
 import flv from "flv.js";
-import { connect } from "react-redux";
-import { fetchStream } from "../../_actions/userAction";
+// import { connect } from "react-redux";
+import axios from "axios";
+// import { fetchStream } from "../../_actions/userAction";
 
 class StreamLive extends React.Component {
   // function resize(obj) {
@@ -24,20 +25,17 @@ class StreamLive extends React.Component {
 
   constructor(props) {
     super(props);
-
     this.videoRef = React.createRef();
   }
 
   componentDidMount() {
-    console.log(this.props.match);
-
-    const { id } = this.props.match.params;
-
-    this.props.fetchStream(id);
+    // const { id } = this.props.match.params;
+    // this.props.fetchStream(id);
     this.buildPlayer();
   }
 
   componentDidUpdate() {
+    console.log("asdasdasd");
     this.buildPlayer();
   }
 
@@ -45,15 +43,19 @@ class StreamLive extends React.Component {
     this.player.destroy();
   }
 
-  buildPlayer() {
-    if (this.player || !this.props.stream) {
+  async buildPlayer() {
+    console.log("동작1");
+
+    // const { id } = this.props.match.params;
+    const response = await axios.get(`http://54.215.251.144:8080/api/stage/findIdLiveList/0001`);
+    if (this.player || !response.data.streams[0]) {
       return;
     }
-
-    const { id } = this.props.match.params;
+    console.log("동작2");
+    // const { id } = this.props.match.params;
     this.player = flv.createPlayer({
       type: "flv",
-      url: `http://54.215.251.144:8000/live/${id}.flv`,
+      url: `http://54.215.251.144:8000/live/0001.flv`,
     });
     this.player.attachMediaElement(this.videoRef.current);
     this.player.load();
@@ -61,10 +63,9 @@ class StreamLive extends React.Component {
   }
 
   render() {
-    console.log(this.props.match);
-    if (!this.props.stream) {
-      return <div>Loading...</div>;
-    }
+    // if (!response.data.streams[0]) {
+    //   return <div>Loading...</div>;
+    // }
     return (
       <>
         <Topbar />
@@ -296,9 +297,9 @@ class StreamLive extends React.Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  console.log(state);
-  return { stream: state.streams[ownProps.match.params.id] };
-};
+// const mapStateToProps = (state, ownProps) => {
+//   console.log(state);
+//   return { stream: state.streams[ownProps.match.params.id] };
+// };
 
-export default connect(mapStateToProps, { fetchStream })(StreamLive);
+export default StreamLive;

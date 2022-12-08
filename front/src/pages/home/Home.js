@@ -16,8 +16,8 @@ function Home() {
   // 다국어처리
   const { t } = useTranslation();
 
-  const user = useSelector((state) => state.user);
-  console.log(user);
+  const token = useSelector((state) => state.Auth.token);
+  console.log(token === "Test");
 
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4);
@@ -50,7 +50,6 @@ function Home() {
       return (
         <div className="show-more">
           <div className="hr-left"></div>
-
           <div className="hr-middle">
             <button className="more_btn" onClick={() => loadmore()}>
               <spen className="hr-sect_more">{t("home_more")}</spen>
@@ -86,7 +85,7 @@ function Home() {
   }
   return (
     <>
-      {user ? <Topbar /> : <Topbar2 />}
+      {token === "Test" ? <Topbar /> : <Topbar2 />}
       <div className="home">
         <div className="homeWrapper">
           {/* ====================  Carousel  ======================== */}

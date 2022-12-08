@@ -1,5 +1,5 @@
 import { persistReducer } from "redux-persist";
-import { AuthReducer } from "../src/_reducers/AuthReducer";
+import { authReducer } from "./_reducers/authReducer";
 import { createStore, combineReducers } from "redux";
 // local storage 사용
 import storage from "redux-persist/lib/storage";
@@ -11,7 +11,7 @@ const persistConfig = {
 };
 
 const allReducers = combineReducers({
-  Auth: AuthReducer,
+  Auth: authReducer,
 });
 
 const store = createStore(
