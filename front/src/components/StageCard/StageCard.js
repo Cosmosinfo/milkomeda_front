@@ -2,23 +2,31 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+const cardData = {
+  id: 1,
+  youtubethumbnail: "https://imgur.com/9zyTF13.jpg",
+  img: "https://t1.daumcdn.net/cfile/tistory/210CF04F57C4390F2B",
+  title: "테스트 방송 중입니다.",
+  artistName: "테스트 방송 중입니다.",
+};
+
 function StageCard() {
   return (
     <>
       <StyleLink to="/streamLive/0001" style={{ textDecoration: "none" }}>
         <StageTop>
-          <img src="https://i.imgur.com/Vkuhwil.jpg" alt="" />
+          <img src={cardData.img} alt="" />
         </StageTop>
         <StageBtm>
           <StageBtmLeft>
-            <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+            <img src={cardData.img} alt="" />
           </StageBtmLeft>
           <StageBtmRight>
             <StageNameBox>
-              <StageNameBoxArtistTitle>I have gotta feelin like</StageNameBoxArtistTitle>
+              <StageNameBoxArtistTitle>{cardData.title} </StageNameBoxArtistTitle>
             </StageNameBox>
             <StageNameBoxArtistNameBox>
-              <StageNameBoxArtistName>러블레스(Lubless) X 투영(To.young)</StageNameBoxArtistName>
+              <StageNameBoxArtistName>{cardData.artistName}</StageNameBoxArtistName>
             </StageNameBoxArtistNameBox>
           </StageBtmRight>
         </StageBtm>

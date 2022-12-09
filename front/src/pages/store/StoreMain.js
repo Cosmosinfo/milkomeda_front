@@ -7,13 +7,12 @@ import StoreSort from "../../components/Popup/StoreSort";
 import Topbar from "../../components/topbar/Topbar";
 import { useTranslation } from "react-i18next";
 import { Navigate } from "react-router-dom";
-import { jwtUtils } from "../../utils/jwtUtils";
+// import { jwtUtils } from "../../utils/jwtUtils";
 import { useSelector } from "react-redux";
 
 function StoreMain() {
   const { t } = useTranslation();
   const token = useSelector((state) => state.Auth.token);
-  console.log("token", token);
 
   const data = [
     t("storemain_cate_1"),
@@ -61,7 +60,7 @@ function StoreMain() {
     };
   }, [openstSort]);
 
-  if (!jwtUtils.isAuth(token)) {
+  if (token !== "Test") {
     alert("로그인이 필요한 페이지입니다");
     return <Navigate to={"/login"} />;
   }
