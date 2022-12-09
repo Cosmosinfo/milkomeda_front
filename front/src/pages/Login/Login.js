@@ -1,43 +1,70 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import google from "../../assets/icon/social/google.svg";
 import apple from "../../assets/icon/social/apple.svg";
 import kakao from "../../assets/icon/social/kakao.svg";
 import naver from "../../assets/icon/social/naver.svg";
 import "./Login.css";
 import Topbar2 from "../../components/topbar/Topbar2";
-import { loginUser } from "../../_actions/userAction";
+// import { loginUser } from "../../_actions/userAction";
 import { useDispatch } from "react-redux";
+import { setToken } from "../../_reducers/authReducer";
+import * as Yup from "yup";
+import { Formik, ErrorMessage } from "formik";
+import axios from "axios";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 function Login() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
-  const [inputs, setInputs] = useState({
-    email: "",
-    password: "",
+  const validationSchema = Yup.object().shape({
+    userEmail: Yup.string().email("올바른 이메일 형식이 아닙니다").required("이메일을 입력하세요"),
+    userPassword: Yup.string().required("패스워드를 입력하세요"),
   });
 
-  const { email, password } = inputs;
+  // const onChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setInputs({
+  //     ...inputs,
+  //     [name]: value,
+  //   });
+  // };
 
-  const onChange = (e) => {
-    const { name, value } = e.target;
-    setInputs({
-      ...inputs,
-      [name]: value,
-    });
-  };
+  // const onSubmitHandler = (e) => {
+  //   e.preventDefault();
+  //   let body = {
+  //     email: email,
+  //     password: password,
+  //   };
 
-  const onSubmitHandler = (e) => {
-    e.preventDefault();
-    console.log("asdasd");
-    let body = {
-      email: email,
-      password: password,
-    };
+  //   dispatch(loginUser(body));
+  // };
 
-    dispatch(loginUser(body));
+  const submit = async (values) => {
+    const { userEmail, userPassword } = values;
+    try {
+      const { data } = await axios.post("http://54.215.251.144:8080/api/user/login", {
+        userEmail,
+        userPassword,
+      });
+      dispatch(setToken(data.jwt));
+      toast.success(<h3>로그인 성공😎</h3>, {
+        position: "top-center",
+        autoClose: 2000,
+      });
+      setTimeout(() => {
+        navigate("/");
+      }, 1000);
+    } catch (e) {
+      // 서버에서 받은 에러 메시지 출력
+      toast.error(e.response.data.message + "😭", {
+        position: "top-center",
+      });
+    }
   };
 
   return (
@@ -57,24 +84,56 @@ function Login() {
                 <span className="Login_ItemRight_top_title_text">로그인</span>
               </div>
               <div className="Login_ItemRight_btm">
-                <form onSubmit={onSubmitHandler}>
-                  <div className="Login_ItemRight_btm_usernameBox">
-                    <span className="Login_ItemRight_btm_usernameBox_title">Email address or username</span>
-                    <div className="Login_ItemRight_btm_usernameBox_Input">
-                      <input className="Login_username_input" type="text" placeholder="" name="email" onChange={onChange} />
-                    </div>
-                  </div>
-                  <div className="Login_ItemRight_btm_passwordBox">
-                    <span className="Login_ItemRight_btm_passwordBox_title">Password</span>
-                    <div className="Login_ItemRight_btm_passwordBox_Input">
-                      <input className="password_input" type="text" placeholder="" name="password" onChange={onChange} />
-                    </div>
-                    <span className="Login_ItemRight_btm_passwordBox_forget">Forgot your password?</span>
-                  </div>
-                  <button className="Login_ItemRight_btm_milko" formAction="">
-                    <span className="Login_ItemRight_btm_text_milko">Login</span>
-                  </button>
-                </form>
+                <Formik
+                  initialValues={{
+                    userEmail: "",
+                    userPassword: "",
+                  }}
+                  validationSchema={validationSchema}
+                  onSubmit={submit}
+                >
+                  {({ values, handleSubmit, handleChange }) => (
+                    <form onSubmit={handleSubmit}>
+                      <ToastContainer />
+                      <div className="Login_ItemRight_btm_usernameBox">
+                        <span className="Login_ItemRight_btm_usernameBox_title">Email address or username</span>
+                        <div className="Login_ItemRight_btm_usernameBox_Input">
+                          <input
+                            className="Login_username_input"
+                            type="text"
+                            placeholder=""
+                            name="userEmail"
+                            onChange={handleChange}
+                            value={values.userEmail}
+                          />
+                        </div>
+                        <div className="error-message">
+                          <ErrorMessage name="userEmail" />
+                        </div>
+                      </div>
+                      <div className="Login_ItemRight_btm_passwordBox">
+                        <span className="Login_ItemRight_btm_passwordBox_title">Password</span>
+                        <div className="Login_ItemRight_btm_passwordBox_Input">
+                          <input
+                            className="password_input"
+                            type="password"
+                            placeholder=""
+                            name="userPassword"
+                            onChange={handleChange}
+                            value={values.userPassword}
+                          />
+                        </div>
+                        <div className="error-message">
+                          <ErrorMessage name="userPassword" />
+                        </div>
+                        <span className="Login_ItemRight_btm_passwordBox_forget">Forgot your password?</span>
+                      </div>
+                      <button className="Login_ItemRight_btm_milko" type="submit">
+                        <span className="Login_ItemRight_btm_text_milko">Login</span>
+                      </button>
+                    </form>
+                  )}
+                </Formik>
                 <div className="Login_ItemRight_btm_orBox">
                   <div className="Login_ItemRight_btm_orBox_hrlf"></div>
                   <div className="Login_ItemRight_btm_orBox_hrmd">or</div>

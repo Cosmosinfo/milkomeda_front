@@ -5,17 +5,24 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./Data/lang/i18n";
 import { Provider } from "react-redux";
-import { applyMiddleware, createStore } from "redux";
-import promiseMiddleware from "redux-promise";
-import ReduxThunk from "redux-thunk";
-import Reducer from "./_reducers";
+// import { applyMiddleware, createStore } from "redux";
+// import promiseMiddleware from "redux-promise";
+// import ReduxThunk from "redux-thunk";
+// import Reducer from "./_reducers";
+import { PersistGate } from "redux-persist/integration/react";
+import persistStore from "redux-persist/es/persistStore";
+import store from "../src/configStore";
 
-const createStoreWithMiddleware = applyMiddleware(promiseMiddleware, ReduxThunk)(createStore);
+const persistor = persistStore(store);
+
+// const createStoreWithMiddleware = applyMiddleware(promiseMiddleware, ReduxThunk)(createStore);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Provider store={createStoreWithMiddleware(Reducer, window.__REDUX_DEVTOOLS_EXTENSION_ && window.__REDUX_DEVTOOLS_EXTENSION_())}>
-    <App />
+  <Provider store={store}>
+    <PersistGate persistor={persistor}>
+      <App />
+    </PersistGate>
   </Provider>
 );
 
