@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Signup.css";
 // import { Link } from "react-router-dom";
 import google from "../../assets/icon/social/google.svg";
@@ -142,6 +142,7 @@ function Signup() {
                 >
                   {({ values, handleSubmit, handleChange, errors }) => (
                     <form onSubmit={handleSubmit}>
+                      <ToastContainer />
                       <div className="Signup_ItemRight_btm_usernameBox">
                         <div className="Signup_ItemRight_btm_usernameBox_container">
                           <span className="Signup_ItemRight_btm_usernameBox_title">Email address</span>
@@ -154,7 +155,9 @@ function Signup() {
                               onChange={handleChange}
                               value={values.userEmail}
                             />
-                            <div className="error-message">{errors.userEmail}</div>
+                            <div className="error-message">
+                              <ErrorMessage name="userEmail" />
+                            </div>
                           </div>
                         </div>
                         <div className="Signup_ItemRight_btm_usernameBox_container">
@@ -168,7 +171,9 @@ function Signup() {
                               onChange={handleChange}
                               value={values.userChkEmail}
                             />
-                            <div className="error-message">{errors.userChkEmail}</div>
+                            <div className="error-message">
+                              <ErrorMessage name="userChkEmail" />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -183,7 +188,9 @@ function Signup() {
                             onChange={handleChange}
                             value={values.userPassword}
                           />
-                          <div className="error-message">{errors.userPassword}</div>
+                          <div className="error-message">
+                            <ErrorMessage name="userPassword" />
+                          </div>
                         </div>
                       </div>
                       {/* <Link to="/signup2" className="link"> */}

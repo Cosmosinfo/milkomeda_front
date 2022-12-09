@@ -5,7 +5,6 @@ import myshop from "../../assets/icon/graw/shopping-cart.svg";
 import setting from "../../assets/icon/graw/settings.svg";
 import user from "../../assets/icon/signup/user 1.svg";
 import { useTranslation } from "react-i18next";
-import axios from "axios";
 
 function MyPage(open) {
   const { t } = useTranslation();
@@ -15,8 +14,8 @@ function MyPage(open) {
   }
 
   const onClickLogout = () => {
-    axios.post("api/users/logout").then((res) => console.log("success"));
-    console.log("asdasd");
+    window.localStorage.clear();
+    window.location.replace("/");
   };
 
   return (

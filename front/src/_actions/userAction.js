@@ -35,6 +35,7 @@ export function registerUser(dataToSubmit) {
 }
 
 export const fetchStreams = () => async (dispatch) => {
+  console.log("asdasd");
   const response = await streams.get("/streams");
   console.log("res", response);
 

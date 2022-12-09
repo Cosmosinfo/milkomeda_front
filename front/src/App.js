@@ -32,13 +32,15 @@ import Signup4 from "./pages/Signup/Signup4";
 import Signup5 from "./pages/Signup/Signup5";
 import Signup6 from "./pages/Signup/Signup6";
 import Signup7 from "./pages/Signup/Signup7";
+import { useSelector } from "react-redux";
 
 function App() {
+  const token = useSelector((state) => state.Auth.token);
+
   return (
     <>
       <BrowserRouter>
         <Sidebar />
-
         <div className="App-content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -59,7 +61,7 @@ function App() {
             <Route path="/stream" element={<StreamMain />} />
             <Route path="/streamup" element={<StreamUpcoming />} />
             <Route path="/streampv" element={<StreamPrevious />} />
-            <Route path="/streamLive/:id" element={<StreamLive />} />
+            <Route path="/streamLive/0001" element={<StreamLive />} token={token} />
 
             <Route path="/store" element={<StoreMain />} />
             <Route path="/storebrand" element={<StoreBrand />} />

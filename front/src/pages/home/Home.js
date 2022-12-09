@@ -12,12 +12,19 @@ import Topbar from "../../components/topbar/Topbar";
 import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 
+const cardData = {
+  id: 1,
+  youtubethumbnail: "https://imgur.com/9zyTF13.jpg",
+  img: "https://t1.daumcdn.net/cfile/tistory/210CF04F57C4390F2B",
+  title: "테스트 방송 중입니다.",
+  artistName: "테스트 방송 중입니다.",
+};
+
 function Home() {
   // 다국어처리
   const { t } = useTranslation();
 
-  const user = useSelector((state) => state.user);
-  console.log(user);
+  const token = useSelector((state) => state.Auth.token);
 
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4);
@@ -32,7 +39,7 @@ function Home() {
   //   });
   // };
 
-  const more = StageCardData.cardData.slice(0, noOfElement);
+  // const more = StageCardData.cardData.slice(0, noOfElement);
   const more2 = StageCardData.cardData.slice(0, noOfElement2);
 
   function loadmore() {
@@ -50,7 +57,6 @@ function Home() {
       return (
         <div className="show-more">
           <div className="hr-left"></div>
-
           <div className="hr-middle">
             <button className="more_btn" onClick={() => loadmore()}>
               <spen className="hr-sect_more">{t("home_more")}</spen>
@@ -86,7 +92,7 @@ function Home() {
   }
   return (
     <>
-      {user ? <Topbar /> : <Topbar2 />}
+      {token === "Test" ? <Topbar /> : <Topbar2 />}
       <div className="home">
         <div className="homeWrapper">
           {/* ====================  Carousel  ======================== */}
@@ -123,29 +129,25 @@ function Home() {
             </div>
 
             <div className="home_LiveStage_Container">
-              {more.map((item, index) => {
-                return (
-                  <Link to="/StreamLive" className="link home_stageCard">
-                    <div className="home_Stage_Top">
-                      <img src={item.youtubethumbnail} className="home_Stage_Top_thumbnailImg" alt="" />
-                    </div>
+              <Link to="/StreamLive/0001" className="link home_stageCard">
+                <div className="home_Stage_Top">
+                  <img src={cardData.img} className="home_Stage_Top_thumbnailImg" alt="" />
+                </div>
 
-                    <div className="home_Stage_btm">
-                      <div className="home_Stage_btm_Left">
-                        <img src={item.img} className="home_Stage_Artist_img" alt="" />
-                      </div>
-                      <div className="home_Stage_btm_Right">
-                        <div className="home_Stage_NameBox">
-                          <span className="home_Stage_NameBox_ArtistTitle">{item.title}</span>
-                        </div>
-                        <div className="home_Stage_NameBox_ArtistName_Box">
-                          <span className="home_Stage_NameBox_ArtistName">{item.artistName}</span>
-                        </div>
-                      </div>
+                <div className="home_Stage_btm">
+                  <div className="home_Stage_btm_Left">
+                    <img src={cardData.img} className="home_Stage_Artist_img" alt="" />
+                  </div>
+                  <div className="home_Stage_btm_Right">
+                    <div className="home_Stage_NameBox">
+                      <span className="home_Stage_NameBox_ArtistTitle">{cardData.title}</span>
                     </div>
-                  </Link>
-                );
-              })}
+                    <div className="home_Stage_NameBox_ArtistName_Box">
+                      <span className="home_Stage_NameBox_ArtistName">{cardData.artistName}</span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
 

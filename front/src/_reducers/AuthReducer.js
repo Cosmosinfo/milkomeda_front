@@ -1,15 +1,11 @@
-const SET_TOKEN = "set_toekn";
-
-const AuthInitialState = {
-  token: null,
-};
+import { SET_TOKEN } from "../_actions/types";
 
 export const setToken = (token) => ({
   type: SET_TOKEN,
   token,
 });
 
-export const AuthReducer = (state = AuthInitialState, action) => {
+export const authReducer = (state = {}, action) => {
   switch (action.type) {
     case SET_TOKEN:
       return {

@@ -3,37 +3,25 @@ import { Link } from "react-router-dom";
 import Share from "../../assets/icon/graw/share-2.svg";
 import Report from "../../assets/icon/graw/alert-triangle.svg";
 import "../../assets/css/Stream/StreamLive.css";
-// import Gift from '../../assets/icon/graw/gift.svg'
-// import Smile from '../../assets/icon/graw/smile.svg'
-// import Send from '../../assets/icon/ping/send.svg'
-// import LiveMessageBox from '../../components/LiveMessageBox/LiveMessageBox'
 import StreamChatBox from "../../components/StreamLiveChat/StreamChatBox";
 import Topbar from "../../components/topbar/Topbar";
-// import { useTranslation } from "react-i18next";
 import flv from "flv.js";
-import { connect } from "react-redux";
-import { fetchStream } from "../../_actions/userAction";
+import axios from "axios";
 
 class StreamLive extends React.Component {
-  // function resize(obj) {
-  //     obj.style.height = "1px";
-  //     obj.style.height = (12+obj.scrollHeight)+"px";
-  // }
-
-  // 다국어
-
   constructor(props) {
     super(props);
-
     this.videoRef = React.createRef();
   }
 
   componentDidMount() {
-    console.log(this.props.match);
-
-    const { id } = this.props.match.params;
-
-    this.props.fetchStream(id);
+    // const { id } = this.props.match.params;
+    // this.props.fetchStream(id);
+    const token = this.props;
+    if (token !== "Test") {
+      alert("로그인이 필요한 페이지입니다");
+      return (window.location.href = "/login");
+    }
     this.buildPlayer();
   }
 
@@ -45,15 +33,17 @@ class StreamLive extends React.Component {
     this.player.destroy();
   }
 
-  buildPlayer() {
-    if (this.player || !this.props.stream) {
+  async buildPlayer() {
+    // const { id } = this.props.match.params;
+    const response = axios.get(`http://54.215.251.144:8080/api/stage/findIdLiveList/0001`);
+    if (this.player || !response.data.streams[0]) {
       return;
     }
-
-    const { id } = this.props.match.params;
+    console.log("동작2");
+    // const { id } = this.props.match.params;
     this.player = flv.createPlayer({
       type: "flv",
-      url: `http://54.215.251.144:8000/live/${id}.flv`,
+      url: `http://54.215.251.144:8000/live/0001.flv`,
     });
     this.player.attachMediaElement(this.videoRef.current);
     this.player.load();
@@ -61,10 +51,9 @@ class StreamLive extends React.Component {
   }
 
   render() {
-    console.log(this.props.match);
-    if (!this.props.stream) {
-      return <div>Loading...</div>;
-    }
+    // if (!response.data.streams[0]) {
+    //   return <div>Loading...</div>;
+    // }
     return (
       <>
         <Topbar />
@@ -81,9 +70,7 @@ class StreamLive extends React.Component {
                 <div className="StreamLive_LiveDetails">
                   {/* Streaming 타이틀 */}
                   <div className="StreamLive_Title">
-                    <span className="StreamLive_Title_text">
-                      러블레스(Lubless) X 투영(To.young) - I've gotta feelin' like (Lyric video)
-                    </span>
+                    <span className="StreamLive_Title_text">테스트 방송 중입니다.</span>
 
                     <div className="StreamLive_Title_right">
                       <div className="StreamLive_Title_right_Share">
@@ -134,7 +121,7 @@ class StreamLive extends React.Component {
                     </div>
                     {/* Streaming 아티스트 이름 */}
                     <div className="StreamLive_Content_Info_ArtistName">
-                      <Link to="/artisthome" className="link">
+                      <Link to="/login" className="link">
                         <div className="StreamLive_Content_Info_ArtistName_contanierBox">
                           <img
                             src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
@@ -296,9 +283,9 @@ class StreamLive extends React.Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  console.log(state);
-  return { stream: state.streams[ownProps.match.params.id] };
-};
+// const mapStateToProps = (state, ownProps) => {
+//   console.log(state);
+//   return { stream: state.streams[ownProps.match.params.id] };
+// };
 
-export default connect(mapStateToProps, { fetchStream })(StreamLive);
+export default StreamLive;
