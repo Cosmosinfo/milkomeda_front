@@ -39,6 +39,15 @@ function Signup() {
         userEmail,
         userChkEmail,
         userPassword,
+        userAccess: "P",
+        userNickname: "",
+        userAge: "",
+        userName: "",
+        userPhone: "",
+        userProfileImage: "",
+        userGender: "",
+        userNation: "",
+        userAddress: "",
       });
       toast.success(
         <h3>
@@ -51,9 +60,7 @@ function Signup() {
           autoClose: 2000,
         }
       );
-      setTimeout(() => {
-        navigate("/login");
-      }, 1000);
+      navigate("/signup2");
     } catch (e) {
       // 서버에서 받은 에러 메시지 출력
       toast.error(e.response.data.message + "😭", {

@@ -16,46 +16,46 @@ function StoreInfoCard() {
   const Gb = "https://sylk.kr/";
   return (
     <>
-      <ArtistInfoCard_Lf>
-        <ArtistInfoCard_Lf_Wrapper>
-          <ArtistInfoCard_top>
-            <ArtistInfoCard_ArtistImg>
+      <ArtistInfoCardLf>
+        <ArtistInfoCardLfWrapper>
+          <ArtistInfoCardtop>
+            <ArtistInfoCardArtistImg>
               <img src="https://i.imgur.com/g4jSQhv.png" alt="" />
-            </ArtistInfoCard_ArtistImg>
-            <ArtistInfoCard_ArtistNameBox>
-              <ArtistInfoCard_ArtistName>SYLK</ArtistInfoCard_ArtistName>
-              <ArtistInfoCard_MusicGenre>Jewelry</ArtistInfoCard_MusicGenre>
-            </ArtistInfoCard_ArtistNameBox>
-            <ArtistInfoCard_ArtistSnsBox>
-              <ArtistInfoCard_ArtistSns
+            </ArtistInfoCardArtistImg>
+            <ArtistInfoCardArtistNameBox>
+              <ArtistInfoCardArtistName>SYLK</ArtistInfoCardArtistName>
+              <ArtistInfoCardMusicGenre>Jewelry</ArtistInfoCardMusicGenre>
+            </ArtistInfoCardArtistNameBox>
+            <ArtistInfoCardArtistSnsBox>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(In);
                 }}
               >
                 <img src={Instagram} alt="Instargram" />
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns>
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns>
                 <img src={Facebook} alt="Facebook"></img>
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns>
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns>
                 <img src={Twitter} alt="Twitter" />
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns>
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns>
                 <img src={Youtube} alt="Youtube" />
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(Gb);
                 }}
               >
                 <img src={Global} alt="Global" />
-              </ArtistInfoCard_ArtistSns>
-            </ArtistInfoCard_ArtistSnsBox>
-            <ArtistInfoCard_ArtistFollwer>{t("artistcard_follow")} 97</ArtistInfoCard_ArtistFollwer>
-            <ArtistInfoCard_ArtistFavoriteBox>
-              <ArtistInfoCard_ArtistFavoriteText>{t("artistcard_favar")}</ArtistInfoCard_ArtistFavoriteText>
-            </ArtistInfoCard_ArtistFavoriteBox>
-            <ArtistInfoCard_Artist_Line></ArtistInfoCard_Artist_Line>
+              </ArtistInfoCardArtistSns>
+            </ArtistInfoCardArtistSnsBox>
+            <ArtistInfoCardArtistFollwer>{t("artistcard_follow")} 97</ArtistInfoCardArtistFollwer>
+            <ArtistInfoCardArtistFavoriteBox>
+              <ArtistInfoCardArtistFavoriteText>{t("artistcard_favar")}</ArtistInfoCardArtistFavoriteText>
+            </ArtistInfoCardArtistFavoriteBox>
+            <ArtistInfoCardArtistLine></ArtistInfoCardArtistLine>
             <Aat>
               <div>SYLK is an artistic experience.</div>
               <br />
@@ -73,7 +73,7 @@ function StoreInfoCard() {
               <div>아티스트와 SYLK가 만나</div>
               <div>내 삶에 새로운 가치를 제안합니다.</div>
             </Aat>
-          </ArtistInfoCard_top>
+          </ArtistInfoCardtop>
           {/* <div className='ArtistInfoCard_btm'>
             <div className='ArtistInfoCard_ArtistMetaBox'>
               <div className='ArtistInfoCard_ArtistMetaText'>
@@ -81,13 +81,13 @@ function StoreInfoCard() {
               </div>
             </div>
           </div> */}
-        </ArtistInfoCard_Lf_Wrapper>
-      </ArtistInfoCard_Lf>
+        </ArtistInfoCardLfWrapper>
+      </ArtistInfoCardLf>
     </>
   );
 }
 
-const ArtistInfoCard_Lf = styled.div`
+const ArtistInfoCardLf = styled.div`
   background: #191922;
   /* height: 100%; */
   border-radius: 10px;
@@ -95,7 +95,7 @@ const ArtistInfoCard_Lf = styled.div`
   flex: 1 1;
 `;
 
-const ArtistInfoCard_Lf_Wrapper = styled.div`
+const ArtistInfoCardLfWrapper = styled.div`
   height: 807px;
   /* position: relative; */
   display: flex;
@@ -104,9 +104,9 @@ const ArtistInfoCard_Lf_Wrapper = styled.div`
   justify-content: space-between;
 `;
 
-const ArtistInfoCard_top = styled.div``;
+const ArtistInfoCardtop = styled.div``;
 
-const ArtistInfoCard_ArtistImg = styled.div`
+const ArtistInfoCardArtistImg = styled.div`
   /* width: 276px; */
   /* height: 176px;
      */
@@ -121,13 +121,13 @@ const ArtistInfoCard_ArtistImg = styled.div`
   }
 `;
 
-const ArtistInfoCard_ArtistNameBox = styled.div`
+const ArtistInfoCardArtistNameBox = styled.div`
   width: 100%;
   /* height: 84px; */
   padding: 0 0 12px 0; ;
 `;
 
-const ArtistInfoCard_ArtistName = styled.div`
+const ArtistInfoCardArtistName = styled.div`
   height: 30px;
   font-style: normal;
   font-weight: 600;
@@ -138,7 +138,7 @@ const ArtistInfoCard_ArtistName = styled.div`
   color: #ffffff;
 `;
 
-const ArtistInfoCard_MusicGenre = styled.div`
+const ArtistInfoCardMusicGenre = styled.div`
   height: 18px;
   font-style: normal;
   font-weight: 400;
@@ -148,7 +148,7 @@ const ArtistInfoCard_MusicGenre = styled.div`
   color: #8b8999;
 `;
 
-const ArtistInfoCard_ArtistSnsBox = styled.div`
+const ArtistInfoCardArtistSnsBox = styled.div`
   height: 40px;
   display: flex;
   justify-content: center;
@@ -156,7 +156,7 @@ const ArtistInfoCard_ArtistSnsBox = styled.div`
   gap: 12px;
 `;
 
-const ArtistInfoCard_ArtistSns = styled.button`
+const ArtistInfoCardArtistSns = styled.button`
   width: 40px;
   height: 40px;
   background: #15141b;
@@ -170,7 +170,7 @@ const ArtistInfoCard_ArtistSns = styled.button`
   }
 `;
 
-const ArtistInfoCard_ArtistFollwer = styled.div`
+const ArtistInfoCardArtistFollwer = styled.div`
   height: 21px;
   font-style: normal;
   font-weight: 400;
@@ -181,7 +181,7 @@ const ArtistInfoCard_ArtistFollwer = styled.div`
   padding: 0 0 12px 0;
 `;
 
-const ArtistInfoCard_ArtistFavoriteBox = styled.div`
+const ArtistInfoCardArtistFavoriteBox = styled.div`
   /* width: 138px; */
   height: 42px;
   display: flex;
@@ -189,7 +189,7 @@ const ArtistInfoCard_ArtistFavoriteBox = styled.div`
   justify-content: center;
 `;
 
-const ArtistInfoCard_ArtistFavoriteText = styled.div`
+const ArtistInfoCardArtistFavoriteText = styled.div`
   /* width: 57px; */
   height: 22px;
   background: #15141b;
@@ -205,7 +205,7 @@ const ArtistInfoCard_ArtistFavoriteText = styled.div`
   cursor: pointer;
 `;
 
-const ArtistInfoCard_Artist_Line = styled.div`
+const ArtistInfoCardArtistLine = styled.div`
   background: #8b8999;
   opacity: 20%;
   height: 1px;
