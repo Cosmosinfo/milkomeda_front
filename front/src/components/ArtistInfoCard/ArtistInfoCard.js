@@ -18,68 +18,68 @@ function ArtistInfoCard() {
   const Gb = "https://www.lublessofficial.com/";
   return (
     <>
-      <ArtistInfoCard_Lf>
-        <ArtistInfoCard_Lf_Wrapper>
-          <ArtistInfoCard_top>
-            <ArtistInfoCard_ArtistImg>
+      <ArtistInfoCardLf>
+        <ArtistInfoCardLfWrapper>
+          <ArtistInfoCardtop>
+            <ArtistInfoCardArtistImg>
               <img src="https://i.imgur.com/PWcLqjm.jpg" alt="" />
-            </ArtistInfoCard_ArtistImg>
-            <ArtistInfoCard_ArtistNameBox>
-              <ArtistInfoCard_ArtistName>Lubless Official</ArtistInfoCard_ArtistName>
-              <ArtistInfoCard_ArtistName2>리나 (보컬), 제이 (베이스), 봉우 (기타)</ArtistInfoCard_ArtistName2>
-              <ArtistInfoCard_MusicGenre>Indie music</ArtistInfoCard_MusicGenre>
-            </ArtistInfoCard_ArtistNameBox>
-            <ArtistInfoCard_ArtistSnsBox>
-              <ArtistInfoCard_ArtistSns
+            </ArtistInfoCardArtistImg>
+            <ArtistInfoCardArtistNameBox>
+              <ArtistInfoCardArtistName>Lubless Official</ArtistInfoCardArtistName>
+              <ArtistInfoCardArtistName2>리나 (보컬), 제이 (베이스), 봉우 (기타)</ArtistInfoCardArtistName2>
+              <ArtistInfoCardMusicGenre>Indie music</ArtistInfoCardMusicGenre>
+            </ArtistInfoCardArtistNameBox>
+            <ArtistInfoCardArtistSnsBox>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(In);
                 }}
               >
                 <img src={Instagram} alt="Instargram" />
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(Fb);
                 }}
               >
                 <img src={Facebook} alt="Facebook"></img>
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(Tw);
                 }}
               >
                 <img src={Twitter} alt="Twitter" />
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(Yt);
                 }}
               >
                 <img src={Youtube} alt="Youtube" />
-              </ArtistInfoCard_ArtistSns>
-              <ArtistInfoCard_ArtistSns
+              </ArtistInfoCardArtistSns>
+              <ArtistInfoCardArtistSns
                 onClick={() => {
                   window.open(Gb);
                 }}
               >
                 <img src={Global} alt="Global" />
-              </ArtistInfoCard_ArtistSns>
-            </ArtistInfoCard_ArtistSnsBox>
-            <ArtistInfoCard_ArtistFollwer>{t("artistcard_follow")} 97</ArtistInfoCard_ArtistFollwer>
-            <ArtistInfoCard_ArtistFavoriteBox>
-              <ArtistInfoCard_ArtistFavoriteText>{t("artistcard_favar")}</ArtistInfoCard_ArtistFavoriteText>
-            </ArtistInfoCard_ArtistFavoriteBox>
-            <ArtistInfoCard_Artist_Line></ArtistInfoCard_Artist_Line>
-            <ArtistInfoCard_Artistdescription>
+              </ArtistInfoCardArtistSns>
+            </ArtistInfoCardArtistSnsBox>
+            <ArtistInfoCardArtistFollwer>{t("artistcard_follow")} 97</ArtistInfoCardArtistFollwer>
+            <ArtistInfoCardArtistFavoriteBox>
+              <ArtistInfoCardArtistFavoriteText>{t("artistcard_favar")}</ArtistInfoCardArtistFavoriteText>
+            </ArtistInfoCardArtistFavoriteBox>
+            <ArtistInfoCardArtistLine></ArtistInfoCardArtistLine>
+            <ArtistInfoCardArtistdescription>
               <div>𝕝𝕦𝕤𝕥 𝕓𝕝𝕖𝕤𝕤 𝕪𝕠𝕦 💔 𝕗𝕠𝕝𝕝𝕠𝕨 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥</div>
               <br />
               <div>{t("artistcard_descrip")}</div>
               <br />
               <div>💜Lubless X to.young - I’ve gotta feelin’ like🖤</div>
               <div>🌖I’ve gotta feelin’ like (Lyric video)✨</div>
-            </ArtistInfoCard_Artistdescription>
-          </ArtistInfoCard_top>
+            </ArtistInfoCardArtistdescription>
+          </ArtistInfoCardtop>
           {/* <div className='ArtistInfoCard_btm'>
             <div className='ArtistInfoCard_ArtistMetaBox'>
               <div className='ArtistInfoCard_ArtistMetaText'>
@@ -87,13 +87,13 @@ function ArtistInfoCard() {
               </div>
             </div>
           </div> */}
-        </ArtistInfoCard_Lf_Wrapper>
-      </ArtistInfoCard_Lf>
+        </ArtistInfoCardLfWrapper>
+      </ArtistInfoCardLf>
     </>
   );
 }
 
-const ArtistInfoCard_Lf = styled.div`
+const ArtistInfoCardLf = styled.div`
   background: #191922;
   /* height: 100%; */
   border-radius: 10px;
@@ -101,7 +101,7 @@ const ArtistInfoCard_Lf = styled.div`
   flex: 1 1;
 `;
 
-const ArtistInfoCard_Lf_Wrapper = styled.div`
+const ArtistInfoCardLfWrapper = styled.div`
   height: 807px;
   /* position: relative; */
   display: flex;
@@ -110,9 +110,9 @@ const ArtistInfoCard_Lf_Wrapper = styled.div`
   justify-content: space-between;
 `;
 
-const ArtistInfoCard_top = styled.div``;
+const ArtistInfoCardtop = styled.div``;
 
-const ArtistInfoCard_ArtistImg = styled.div`
+const ArtistInfoCardArtistImg = styled.div`
   /* width: 276px; */
   /* height: 176px;
      */
@@ -127,13 +127,13 @@ const ArtistInfoCard_ArtistImg = styled.div`
   }
 `;
 
-const ArtistInfoCard_ArtistNameBox = styled.div`
+const ArtistInfoCardArtistNameBox = styled.div`
   width: 100%;
   /* height: 84px; */
   padding: 0 0 12px 0; ;
 `;
 
-const ArtistInfoCard_ArtistName = styled.div`
+const ArtistInfoCardArtistName = styled.div`
   height: 30px;
   font-style: normal;
   font-weight: 600;
@@ -144,7 +144,7 @@ const ArtistInfoCard_ArtistName = styled.div`
   color: #ffffff;
 `;
 
-const ArtistInfoCard_ArtistName2 = styled.div`
+const ArtistInfoCardArtistName2 = styled.div`
   height: 22px;
   font-style: normal;
   font-weight: 400;
@@ -155,7 +155,7 @@ const ArtistInfoCard_ArtistName2 = styled.div`
   margin: 0 0 12px 0;
 `;
 
-const ArtistInfoCard_MusicGenre = styled.div`
+const ArtistInfoCardMusicGenre = styled.div`
   height: 18px;
   font-style: normal;
   font-weight: 400;
@@ -165,7 +165,7 @@ const ArtistInfoCard_MusicGenre = styled.div`
   color: #8b8999;
 `;
 
-const ArtistInfoCard_ArtistSnsBox = styled.div`
+const ArtistInfoCardArtistSnsBox = styled.div`
   height: 40px;
   display: flex;
   justify-content: center;
@@ -173,7 +173,7 @@ const ArtistInfoCard_ArtistSnsBox = styled.div`
   gap: 12px;
 `;
 
-const ArtistInfoCard_ArtistSns = styled.button`
+const ArtistInfoCardArtistSns = styled.button`
   width: 40px;
   height: 40px;
   background: #15141b;
@@ -187,7 +187,7 @@ const ArtistInfoCard_ArtistSns = styled.button`
   }
 `;
 
-const ArtistInfoCard_ArtistFollwer = styled.div`
+const ArtistInfoCardArtistFollwer = styled.div`
   height: 21px;
   font-style: normal;
   font-weight: 400;
@@ -198,7 +198,7 @@ const ArtistInfoCard_ArtistFollwer = styled.div`
   padding: 0 0 12px 0;
 `;
 
-const ArtistInfoCard_ArtistFavoriteBox = styled.div`
+const ArtistInfoCardArtistFavoriteBox = styled.div`
   /* width: 138px; */
   height: 42px;
   display: flex;
@@ -206,7 +206,7 @@ const ArtistInfoCard_ArtistFavoriteBox = styled.div`
   justify-content: center;
 `;
 
-const ArtistInfoCard_ArtistFavoriteText = styled.div`
+const ArtistInfoCardArtistFavoriteText = styled.div`
   /* width: 57px; */
   height: 22px;
   background: #15141b;
@@ -222,14 +222,14 @@ const ArtistInfoCard_ArtistFavoriteText = styled.div`
   cursor: pointer;
 `;
 
-const ArtistInfoCard_Artist_Line = styled.div`
+const ArtistInfoCardArtistLine = styled.div`
   background: #8b8999;
   opacity: 20%;
   height: 1px;
   margin: 12px 0;
 `;
 
-const ArtistInfoCard_Artistdescription = styled.div`
+const ArtistInfoCardArtistdescription = styled.div`
   width: 100%;
   height: auto;
   font-style: normal;
