@@ -17,11 +17,6 @@ class StreamLive extends React.Component {
   componentDidMount() {
     // const { id } = this.props.match.params;
     // this.props.fetchStream(id);
-    const token = this.props;
-    if (token !== "Test") {
-      alert("로그인이 필요한 페이지입니다");
-      return (window.location.href = "/login");
-    }
     this.buildPlayer();
   }
 
@@ -35,7 +30,7 @@ class StreamLive extends React.Component {
 
   async buildPlayer() {
     // const { id } = this.props.match.params;
-    const response = axios.get(`http://54.215.251.144:8080/api/stage/findIdLiveList/0001`);
+    const response = await axios.get("http://54.215.251.144:8080/api/stage/findIdLiveList/0001");
     if (this.player || !response.data.streams[0]) {
       return;
     }
@@ -43,7 +38,7 @@ class StreamLive extends React.Component {
     // const { id } = this.props.match.params;
     this.player = flv.createPlayer({
       type: "flv",
-      url: `http://54.215.251.144:8000/live/0001.flv`,
+      url: `http://54.215.251.144:8000/live/${response.data.streams[0].id}.flv`,
     });
     this.player.attachMediaElement(this.videoRef.current);
     this.player.load();
