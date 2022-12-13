@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const cardData = {
   id: 1,
@@ -11,9 +12,21 @@ const cardData = {
 };
 
 function StageCard() {
+  const navigate = useNavigate();
+  const token = useSelector((state) => state.Auth.token);
+
+  const tokenPath = () => {
+    if (token !== "Test") {
+      navigate("/login");
+      alert("로그인이 필요한 페이지입니다");
+    } else {
+      navigate("/streamLive/0001");
+    }
+  };
+
   return (
     <>
-      <StyleLink to="/streamLive/0001" style={{ textDecoration: "none" }}>
+      <Stage onClick={tokenPath}>
         <StageTop>
           <img src={cardData.img} alt="" />
         </StageTop>
@@ -30,14 +43,15 @@ function StageCard() {
             </StageNameBoxArtistNameBox>
           </StageBtmRight>
         </StageBtm>
-      </StyleLink>
+      </Stage>
     </>
   );
 }
 
-const StyleLink = styled(Link)`
+const Stage = styled.div`
   flex: 1;
   flex-basis: calc(25% - 24px);
+  cursor: pointer;
 `;
 
 const StageTop = styled.div`
