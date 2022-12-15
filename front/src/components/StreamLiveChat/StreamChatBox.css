@@ -131,8 +131,9 @@
   line-height: 20px;
   color: #ffffff;
   background-color: #191922;
-  border: none;
-}
+  border: 1px solid #f3077f;
+  font-size: 18px;
+  border-radius: 8px;}
 
 .StreamChatBox_MessageBox_IconContainer {
   display: flex;
