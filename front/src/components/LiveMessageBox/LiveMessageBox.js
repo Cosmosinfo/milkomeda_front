@@ -2,8 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
-function LiveMessageBox() {
+function LiveMessageBox(msg) {
   const { t } = useTranslation();
+
+  console.log(msg.msg);
 
   return (
     <>
@@ -14,10 +16,10 @@ function LiveMessageBox() {
               <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
             </StreamLiveChatBoxUserNameImg>
             <StreamLiveChatBoxUserNameText>{t("streamcb_usermain")}</StreamLiveChatBoxUserNameText>
-            <StreamLiveChatBoxtimeText>17:00</StreamLiveChatBoxtimeText>
+            <StreamLiveChatBoxtimeText></StreamLiveChatBoxtimeText>
           </StreamLiveChatBoxUserName>
           <StreamLiveChatBoxChatContainer>
-            <StreamLiveChatBoxChatContainerText>Lorem ipsum dolor sit amet, consectetur adipiscing elit</StreamLiveChatBoxChatContainerText>
+            <StreamLiveChatBoxChatContainerText>{msg.msg}</StreamLiveChatBoxChatContainerText>
           </StreamLiveChatBoxChatContainer>
         </StreamLiveChatBox>
       </StreamLiveRightbtm>

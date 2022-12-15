@@ -14,10 +14,15 @@ class StreamLive extends React.Component {
     this.videoRef = React.createRef();
   }
 
+  state = {
+    data: null,
+  };
+
   componentDidMount() {
     // const { id } = this.props.match.params;
     // this.props.fetchStream(id);
     this.buildPlayer();
+    this.data();
   }
 
   componentDidUpdate() {
@@ -28,13 +33,17 @@ class StreamLive extends React.Component {
     this.player.destroy();
   }
 
+  async data() {
+    await axios.post("http://54.215.251.144:8080/api/stage/findIdLiveList", { stageId: "asd" }).then((res) => this.setState({ data: res }));
+  }
+
   async buildPlayer() {
     // const { id } = this.props.match.params;
-    const response = await axios.get("http://54.215.251.144:8080/api/stage/findIdLiveList/0001");
+    const response = await axios.post("http://54.215.251.144:8080/api/stage/findIdLiveList", { stageId: "asd" });
+
     if (this.player || !response.data.streams[0]) {
       return;
     }
-    console.log("동작2");
     // const { id } = this.props.match.params;
     this.player = flv.createPlayer({
       type: "flv",
@@ -46,77 +55,94 @@ class StreamLive extends React.Component {
   }
 
   render() {
-    // if (!response.data.streams[0]) {
-    //   return <div>Loading...</div>;
-    // }
+    const { data } = this.state;
+    console.log(data);
+
     return (
       <>
         <Topbar />
-        <div className="StreamLive">
-          <div className="StreamLive_Wrapper">
-            <div className="StreamLive_Wrapper_container">
-              <div className="StreamLive_left">
-                {/* Streaming 라이브 뷰 */}
-                <div className="StreamLive_LiveView">
-                  <video className="player" ref={this.videoRef} style={{ width: "100%" }} controls />
-                </div>
-
-                {/* Streaming 타이틀 및 내용 */}
-                <div className="StreamLive_LiveDetails">
-                  {/* Streaming 타이틀 */}
-                  <div className="StreamLive_Title">
-                    <span className="StreamLive_Title_text">테스트 방송 중입니다.</span>
-
-                    <div className="StreamLive_Title_right">
-                      <div className="StreamLive_Title_right_Share">
-                        <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
-                        <span className="StreamLive_Title_right_Share_text">공유</span>
-                      </div>
-
-                      <div className="StreamLive_Title_right_Report">
-                        <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
-                        <span className="StreamLive_Title_right_Report_text">신고</span>
-                      </div>
-                    </div>
+        {data && (
+          <div className="StreamLive">
+            <div className="StreamLive_Wrapper">
+              <div className="StreamLive_Wrapper_container">
+                <div className="StreamLive_left">
+                  {/* Streaming 라이브 뷰 */}
+                  <div className="StreamLive_LiveView">
+                    <video
+                      className="player"
+                      ref={this.videoRef}
+                      style={{ width: "100%" }}
+                      poster="https://image.sbs.co.kr/news/m/thum_m_offair.jpg"
+                      controls
+                    />
                   </div>
 
-                  {/* Streaming 상세내용 */}
+                  {/* Streaming 타이틀 및 내용 */}
+                  <div className="StreamLive_LiveDetails">
+                    {/* Streaming 타이틀 */}
+                    <div className="StreamLive_Title">
+                      <span className="StreamLive_Title_text">{data.data.streams[0].stageTitle}</span>
+                      <div className="StreamLive_Title_right">
+                        <div className="StreamLive_Title_right_Share">
+                          <img className="StreamLive_Title_right_ShareIcon" src={Share} alt="Share" />
+                          <span className="StreamLive_Title_right_Share_text">공유</span>
+                        </div>
 
-                  <div className="StreamLive_Content_Info">
-                    {/* Streaming 주소 */}
-                    <div className="StreamLive_Content_Info_address">
-                      <div className="StreamLive_address_Container">
-                        <div className="StreamLive_address_Container_left">
-                          <img
-                            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                            alt=""
-                            className="StreamLive_address_img"
-                          />
-                        </div>
-                        <div className="StreamLive_address_Container_right">
-                          <div className="StreamLive_address_Container_Namebox">
-                            <span className="StreamLive_address_Container_Namebox_Location">공연 장소</span>
-                          </div>
-                          <div className="StreamLive_address_Container_Namebox_LocationAddr">
-                            <span className="StreamLive_address_Container_Namebox_LocationAddr_text">서울 마포구 잔다리로 32 서문빌딩</span>
-                          </div>
+                        <div className="StreamLive_Title_right_Report">
+                          <img className="StreamLive_Title_right_ReportIcon" src={Report} alt="Report" />
+                          <span className="StreamLive_Title_right_Report_text">신고</span>
                         </div>
                       </div>
                     </div>
-                    {/* Streaming 날짜 */}
-                    <div className="StreamLive_Content_Info_Date">
-                      <div className="StreamLive_Content_Info_Date_textBox">
-                        <span className="StreamLive_Content_Info_Date_textBox_text">날짜/시간</span>
-                        <span className="StreamLive_Content_Info_year_textBox_text">
-                          2022.12.05.Mon
-                          <br />
-                          18:00~19:00(KST/90mins)
-                        </span>
+
+                    {/* Streaming 상세내용 */}
+
+                    <div className="StreamLive_Content_Info">
+                      {/* Streaming 주소 */}
+                      <div className="StreamLive_Content_Info_address">
+                        <div className="StreamLive_address_Container">
+                          <div className="StreamLive_address_Container_left">
+                            <img
+                              src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                              alt=""
+                              className="StreamLive_address_img"
+                            />
+                          </div>
+                          <div className="StreamLive_address_Container_right">
+                            <div className="StreamLive_address_Container_Namebox">
+                              <span className="StreamLive_address_Container_Namebox_Location">공연 장소</span>
+                            </div>
+                            <div className="StreamLive_address_Container_Namebox_LocationAddr">
+                              <span className="StreamLive_address_Container_Namebox_LocationAddr_text">
+                                {data.data.streams[0].stageLocation}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    {/* Streaming 아티스트 이름 */}
-                    <div className="StreamLive_Content_Info_ArtistName">
-                      <Link to="/login" className="link">
+                      {/* Streaming 날짜 */}
+                      <div className="StreamLive_Content_Info_Date">
+                        <div className="StreamLive_Content_Info_Date_textBox">
+                          <span className="StreamLive_Content_Info_Date_textBox_text">날짜/시간</span>
+                          <span className="StreamLive_Content_Info_year_textBox_text">{data.data.streams[0].stageTimestamp}</span>
+                        </div>
+                      </div>
+                      {/* Streaming 아티스트 이름 */}
+                      <div className="StreamLive_Content_Info_ArtistName">
+                        <Link to="/login" className="link">
+                          <div className="StreamLive_Content_Info_ArtistName_contanierBox">
+                            <img
+                              src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                              alt=""
+                              className="StreamLive_Artist_img"
+                            />
+
+                            <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
+                              <span className="StreamLive_Content_Info_ArtistName_contanier_text">Lubless</span>
+                            </div>
+                          </div>
+                        </Link>
+
                         <div className="StreamLive_Content_Info_ArtistName_contanierBox">
                           <img
                             src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
@@ -125,154 +151,142 @@ class StreamLive extends React.Component {
                           />
 
                           <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
-                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">Lubless</span>
+                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
                           </div>
                         </div>
-                      </Link>
 
-                      <div className="StreamLive_Content_Info_ArtistName_contanierBox">
-                        <img
-                          src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                          alt=""
-                          className="StreamLive_Artist_img"
-                        />
+                        <div className="StreamLive_Content_Info_ArtistName_contanierBox">
+                          <img
+                            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            alt=""
+                            className="StreamLive_Artist_img"
+                          />
 
-                        <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
-                          <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
+                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          </div>
                         </div>
-                      </div>
 
-                      <div className="StreamLive_Content_Info_ArtistName_contanierBox">
-                        <img
-                          src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                          alt=""
-                          className="StreamLive_Artist_img"
-                        />
+                        <div className="StreamLive_Content_Info_ArtistName_contanierBox">
+                          <img
+                            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            alt=""
+                            className="StreamLive_Artist_img"
+                          />
 
-                        <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
-                          <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
+                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          </div>
                         </div>
-                      </div>
 
-                      <div className="StreamLive_Content_Info_ArtistName_contanierBox">
-                        <img
-                          src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                          alt=""
-                          className="StreamLive_Artist_img"
-                        />
+                        <div className="StreamLive_Content_Info_ArtistName_contanierBox">
+                          <img
+                            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            alt=""
+                            className="StreamLive_Artist_img"
+                          />
 
-                        <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
-                          <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
+                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          </div>
                         </div>
-                      </div>
 
-                      <div className="StreamLive_Content_Info_ArtistName_contanierBox">
-                        <img
-                          src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                          alt=""
-                          className="StreamLive_Artist_img"
-                        />
+                        <div className="StreamLive_Content_Info_ArtistName_contanierBox">
+                          <img
+                            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            alt=""
+                            className="StreamLive_Artist_img"
+                          />
 
-                        <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
-                          <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
-                        </div>
-                      </div>
-
-                      <div className="StreamLive_Content_Info_ArtistName_contanierBox">
-                        <img
-                          src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                          alt=""
-                          className="StreamLive_Artist_img"
-                        />
-
-                        <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
-                          <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          <div className="StreamLive_Content_Info_ArtistName_contanier_textBox">
+                            <span className="StreamLive_Content_Info_ArtistName_contanier_text">아티스트</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div className="StreamLive_Content_Details">
-                    <div className="StreamLive_Content_Details_text">
-                      <div>[I've gotta feelin' like]</div>
+                    <div className="StreamLive_Content_Details">
+                      <div className="StreamLive_Content_Details_text">
+                        <div>[I've gotta feelin' like]</div>
 
-                      <br />
-
-                      <div>Dust in the air, blurred sight and it makes me feel like high</div>
-
-                      <br />
-
-                      <div>music : https://linksalad.net/US06go_3Wf</div>
-
-                      <br />
-
-                      <div>
-                        PRODUCED BY BONGWOO, LENA, 투영
                         <br />
-                        COMPOSED BY BONGWOO, LENA, 투영
-                        <br />
-                        LYRICS BY BONGWOO, LENA, 투영
-                        <br />
-                        ARRANGED BY 투영
-                      </div>
 
-                      <br />
+                        <div>Dust in the air, blurred sight and it makes me feel like high</div>
 
-                      <div>
-                        VOCAL & CHORUS BY LENA
                         <br />
-                        DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
-                      </div>
 
-                      <br />
+                        <div>music : https://linksalad.net/US06go_3Wf</div>
 
-                      <div>
-                        RECORDED BY 오혜석 @MOL STUDIO
                         <br />
-                        MIXED BY 신유식, 투영
-                        <br />
-                        MASTERED BY 강승희 @SONIC KOREA
-                        <br />
-                        LYRIC VIDEO BY BONGWOO
-                      </div>
 
-                      <br />
+                        <div>
+                          PRODUCED BY BONGWOO, LENA, 투영
+                          <br />
+                          COMPOSED BY BONGWOO, LENA, 투영
+                          <br />
+                          LYRICS BY BONGWOO, LENA, 투영
+                          <br />
+                          ARRANGED BY 투영
+                        </div>
 
-                      <div>-------------------------------------------</div>
-
-                      <br />
-
-                      <div>
-                        밴드 러블레스 Lubless
                         <br />
-                        "Lust bless you. Follow your heart."
-                        <br />
-                        어딘가 고장 난 어른들을 위한 동화
-                      </div>
 
-                      <br />
+                        <div>
+                          VOCAL & CHORUS BY LENA
+                          <br />
+                          DRUM, BASS, KEYBOARD, SYNTHESISER BY 투영
+                        </div>
 
-                      <div>
-                        공식 홈페이지 - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
-                        페이스북 （Facebook）- <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a>
                         <br />
-                        인스타그램 （Instagram）-{" "}
-                        <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a>
+
+                        <div>
+                          RECORDED BY 오혜석 @MOL STUDIO
+                          <br />
+                          MIXED BY 신유식, 투영
+                          <br />
+                          MASTERED BY 강승희 @SONIC KOREA
+                          <br />
+                          LYRIC VIDEO BY BONGWOO
+                        </div>
+
                         <br />
-                        트위터 （Twitter）- <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+
+                        <div>-------------------------------------------</div>
+
+                        <br />
+
+                        <div>
+                          밴드 러블레스 Lubless
+                          <br />
+                          "Lust bless you. Follow your heart."
+                          <br />
+                          어딘가 고장 난 어른들을 위한 동화
+                        </div>
+
+                        <br />
+
+                        <div>
+                          공식 홈페이지 - <a href="https://lublessofficial.com">https://lublessofficial.com</a> <br />
+                          페이스북 （Facebook）- <a href="https://facebook.com/lublessofficial">https://facebook.com/lublessofficial</a>
+                          <br />
+                          인스타그램 （Instagram）-{" "}
+                          <a href="https://instagram.com/lubless_official">https://instagram.com/lubless_official</a>
+                          <br />
+                          트위터 （Twitter）- <a href="https://twitter.com/lublessoffical">https://twitter.com/lublessoffical</a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              {/* ====================  StreamLive_Right  ======================== */}
-              <div className="StreamLive_Right_Wrapper">
-                <StreamChatBox />
+                {/* ====================  StreamLive_Right  ======================== */}
+                <div className="StreamLive_Right_Wrapper">
+                  <StreamChatBox />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
       </>
     );
   }

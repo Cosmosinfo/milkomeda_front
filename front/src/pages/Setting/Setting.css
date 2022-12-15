@@ -1,0 +1,91 @@
+.form {
+  width: 80%;
+}
+
+.Signup_ItemRight_btm_usernameBox {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 100px;
+}
+
+.Signup_ItemRight_btm_usernameBox_Bigtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.Signup_ItemRight_btm_usernameBox_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  user-select: text;
+}
+
+.Signup_ItemRight_btm_usernameBox_container {
+  margin-bottom: 24px;
+}
+
+.inputHalf {
+  width: 50%;
+}
+
+.inputHalf:nth-child(2) {
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.Signup_ItemRight_btm_usernameBox_container > a {
+  color: rgb(201, 197, 197);
+}
+
+.Signup_ItemRight_btm_usernameBox_Input {
+  margin-top: 6px;
+  border-radius: 3px;
+}
+
+.Signup_username_input {
+  width: 100%;
+  height: 40px;
+  background: #191922;
+  color: #ffffff;
+  border: none;
+}
+
+.Signup_ItemRight_btm_NextBox {
+  display: flex;
+  justify-content: center;
+}
+
+.Signup_ItemRight_btm_NextBtn {
+  width: 123px;
+  height: 40px;
+  background: #f3017f;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Signup_ItemRight_btm_NextBtn_text {
+  width: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #f3017f;
+  border: none;
+}
+
+.obs_image {
+}

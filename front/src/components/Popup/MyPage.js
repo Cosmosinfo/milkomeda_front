@@ -1,13 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import edit from "../../assets/icon/graw/edit-2.svg";
-import myshop from "../../assets/icon/graw/shopping-cart.svg";
+// import edit from "../../assets/icon/graw/edit-2.svg";
+// import myshop from "../../assets/icon/graw/shopping-cart.svg";
 import setting from "../../assets/icon/graw/settings.svg";
 import user from "../../assets/icon/signup/user 1.svg";
 import { useTranslation } from "react-i18next";
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 function MyPage(open) {
   const { t } = useTranslation();
+  const admin = useSelector((state) => state.Auth.admin);
+  const navigate = useNavigate();
 
   if (!open) {
     return null;
@@ -16,6 +20,10 @@ function MyPage(open) {
   const onClickLogout = () => {
     window.localStorage.clear();
     window.location.replace("/");
+  };
+
+  const adminPath = () => {
+    navigate("/setting");
   };
 
   return (
@@ -38,18 +46,20 @@ function MyPage(open) {
         <PopFooter>
           <PopFooterContainer>
             <PopFooterContent>
-              <PopFooterContentItem>
+              {/* <PopFooterContentItem>
                 <img src={edit} alt="edit" />
                 <PopFooterContentItemText>{t("popup_mypage2")}</PopFooterContentItemText>
               </PopFooterContentItem>
               <PopFooterContentItem>
                 <img src={myshop} alt="myshop" />
                 <PopFooterContentItemText>{t("popup_mypage3")}</PopFooterContentItemText>
-              </PopFooterContentItem>
-              <PopFooterContentItem>
-                <img src={setting} alt="setting" />
-                <PopFooterContentItemText>{t("popup_mypage4")}</PopFooterContentItemText>
-              </PopFooterContentItem>
+              </PopFooterContentItem> */}
+              {admin === "1" && (
+                <PopFooterContentItem onClick={adminPath}>
+                  <img src={setting} alt="setting" />
+                  <PopFooterContentItemText>{t("popup_mypage4")}</PopFooterContentItemText>
+                </PopFooterContentItem>
+              )}
               <PopFooterContentItem onClick={onClickLogout}>
                 <img src={user} alt="logout" />
                 <PopFooterContentItemText>{t("popup_mypage5")}</PopFooterContentItemText>
@@ -64,7 +74,7 @@ function MyPage(open) {
 
 const PopWrapper = styled.div`
   width: 250px;
-  height: 270px;
+  height: auto;
   background: #191922;
   border-radius: 10px;
   box-sizing: border-box;
@@ -131,7 +141,7 @@ const PopFooter = styled.div`
 `;
 
 const PopFooterContainer = styled.div`
-  width: 100%;
+  width: 60%;
   height: 120px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -140,6 +150,8 @@ const PopFooterContainer = styled.div`
 const PopFooterContent = styled.div`
   height: 40px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 `;
 
 const PopFooterContentItem = styled.button`

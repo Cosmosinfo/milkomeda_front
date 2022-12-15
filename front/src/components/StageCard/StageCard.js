@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-
-const cardData = {
-  id: 1,
-  youtubethumbnail: "https://imgur.com/9zyTF13.jpg",
-  img: "https://t1.daumcdn.net/cfile/tistory/210CF04F57C4390F2B",
-  title: "테스트 방송 중입니다.",
-  artistName: "테스트 방송 중입니다.",
-};
+import axios from "axios";
 
 function StageCard() {
   const navigate = useNavigate();
   const token = useSelector((state) => state.Auth.token);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    getLiveData();
+  }, []);
+
+  const getLiveData = async () => {
+    await axios.get("http://54.215.251.144:8080/api/stage/liveList").then((res) => setData(res));
+  };
 
   const tokenPath = () => {
     if (token !== "Test") {
@@ -26,24 +28,26 @@ function StageCard() {
 
   return (
     <>
-      <Stage onClick={tokenPath}>
-        <StageTop>
-          <img src={cardData.img} alt="" />
-        </StageTop>
-        <StageBtm>
-          <StageBtmLeft>
-            <img src={cardData.img} alt="" />
-          </StageBtmLeft>
-          <StageBtmRight>
-            <StageNameBox>
-              <StageNameBoxArtistTitle>{cardData.title} </StageNameBoxArtistTitle>
-            </StageNameBox>
-            <StageNameBoxArtistNameBox>
-              <StageNameBoxArtistName>{cardData.artistName}</StageNameBoxArtistName>
-            </StageNameBoxArtistNameBox>
-          </StageBtmRight>
-        </StageBtm>
-      </Stage>
+      {data && (
+        <Stage onClick={tokenPath}>
+          <StageTop>
+            <img src={data.data.streams[0].stageThumbnailImage} alt="" />
+          </StageTop>
+          <StageBtm>
+            <StageBtmLeft>
+              <img src={data.data.streams[0].stageThumbnailImage} alt="" />
+            </StageBtmLeft>
+            <StageBtmRight>
+              <StageNameBox>
+                <StageNameBoxArtistTitle>{data.data.streams[0].stageTitletitle} </StageNameBoxArtistTitle>
+              </StageNameBox>
+              <StageNameBoxArtistNameBox>
+                <StageNameBoxArtistName>{data.data.streams[0].stageDescription}</StageNameBoxArtistName>
+              </StageNameBoxArtistNameBox>
+            </StageBtmRight>
+          </StageBtm>
+        </Stage>
+      )}
     </>
   );
 }
