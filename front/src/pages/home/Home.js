@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../assets/css/Main/Home.css";
 import HomeBanner from "../../components/Carousel/HomeBanner";
 import chevron from "../../assets/icon/ping//chevron-down.svg";
@@ -12,20 +12,14 @@ import Topbar from "../../components/topbar/Topbar";
 import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-
-const cardData = {
-  id: 1,
-  youtubethumbnail: "https://imgur.com/9zyTF13.jpg",
-  img: "https://t1.daumcdn.net/cfile/tistory/210CF04F57C4390F2B",
-  title: "테스트 방송 중입니다.",
-  artistName: "테스트 방송 중입니다.",
-};
+import axios from "axios";
 
 function Home() {
   // 다국어처리
   const { t } = useTranslation();
   const navigate = useNavigate();
   const token = useSelector((state) => state.Auth.token);
+  const [data, setData] = useState(null);
 
   // eslint-disable-next-line
   const [noOfElement, setnoOfElement] = useState(4);
@@ -39,6 +33,14 @@ function Home() {
     } else {
       navigate("/streamLive/0001");
     }
+  };
+
+  useEffect(() => {
+    getLiveData();
+  }, []);
+
+  const getLiveData = async () => {
+    await axios.get("http://54.215.251.144:8080/api/stage/liveList").then((res) => setData(res));
   };
 
   // const [btnActive, setBtnActive] = useState("");
@@ -136,26 +138,28 @@ function Home() {
                 <span className="home_Live">{t("home_live")}</span> {t("home_stage")}
               </p>
             </div>
-            <div className="home_LiveStage_Container">
-              <div className="link home_stageCard" onClick={tokenPath}>
-                <div className="home_Stage_Top">
-                  <img src={cardData.img} className="home_Stage_Top_thumbnailImg" alt="" />
-                </div>
-                <div className="home_Stage_btm">
-                  <div className="home_Stage_btm_Left">
-                    <img src={cardData.img} className="home_Stage_Artist_img" alt="" />
+            {data && (
+              <div className="home_LiveStage_Container">
+                <div className="link home_stageCard" onClick={tokenPath}>
+                  <div className="home_Stage_Top">
+                    <img src={data.data.streams[0].stageThumbnailImage} className="home_Stage_Top_thumbnailImg" alt="" />
                   </div>
-                  <div className="home_Stage_btm_Right">
-                    <div className="home_Stage_NameBox">
-                      <span className="home_Stage_NameBox_ArtistTitle">{cardData.title}</span>
+                  <div className="home_Stage_btm">
+                    <div className="home_Stage_btm_Left">
+                      <img src={data.data.streams[0].stageThumbnailImage} className="home_Stage_Artist_img" alt="" />
                     </div>
-                    <div className="home_Stage_NameBox_ArtistName_Box">
-                      <span className="home_Stage_NameBox_ArtistName">{cardData.artistName}</span>
+                    <div className="home_Stage_btm_Right">
+                      <div className="home_Stage_NameBox">
+                        <span className="home_Stage_NameBox_ArtistTitle">{data.data.streams[0].stageTitle}</span>
+                      </div>
+                      <div className="home_Stage_NameBox_ArtistName_Box">
+                        <span className="home_Stage_NameBox_ArtistName">{data.data.streams[0].stageDescription}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
           </div>
 
           {Btnchevron()}

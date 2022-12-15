@@ -6,21 +6,16 @@
   /* color: #ffff; */
   top: 60px;
   z-index: 1;
-  
 }
 
 .sidebarWrapper {
-
-    /* height: 885px; */
-    height: 100%;
-    /* padding-bottom: 32px; */
-    position: relative;
-
+  /* height: 885px; */
+  height: 100%;
+  /* padding-bottom: 32px; */
+  position: relative;
 }
 
-
-
-.item_link{
+.item_link {
   /* width : 87px;
   height : 21px; */
   text-decoration: none;
@@ -28,119 +23,99 @@
   font-size: 16px;
 }
 
-.home_title{
-  color : #FFFFFF
+.home_title {
+  color: #ffffff;
+  width: 50%;
 }
 
-.home_title_change{
-  color : #8B8999
+.home_title_change {
+  color: #8b8999;
 }
 
-
-.side_item_1{
+.side_item_1 {
   width: 100%;
   height: auto;
   /* padding: 24px 0 24px 0; */
-
 }
 
-
-.side_item_2{
+.side_item_2 {
   width: 100%;
   height: auto;
-
 }
 
-.side_item_3{
+.side_item_3 {
   width: 100%;
   height: auto;
   position: absolute;
   bottom: 32px;
 }
 
-.sidebarIcon{
+.sidebarIcon {
   width: 20px;
   height: 20px;
   margin-right: 26px;
   background-size: contain;
 }
 
-
-.item_name{
+.item_name {
   height: 20px;
   display: flex;
-  color: #8B8999;
+  color: #8b8999;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   padding: 20px 0;
   margin-left: 32px;
-  
-    
 }
 
-.item_name:active{
+.item_name:active {
   color: #ffffff;
 }
 
-.item_name.selected{
+.item_name.selected {
   color: #ffffff;
 }
 
-
-.item3_name{
-  height : 20px;
+.item3_name {
+  height: 20px;
   display: flex;
-  color: #8B8999;;
+  color: #8b8999;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  padding : 20px 0;
+  padding: 20px 0;
   margin-left: 32px;
-  
 }
 
-.item3_name:last-of-type{
+.item3_name:last-of-type {
   padding-bottom: 0;
 }
 
-.home.active{
+.home.active {
   /* background-image: url(/Icon/home.svg); */
-  
-
 }
 
-
-
-.item_nameBar{
+.item_nameBar {
   width: 4px;
   height: 24px;
   left: 236px;
   top: 102px;
   position: sticky;
-  background: #F3017F;
+  background: #f3017f;
 }
 
-.side_hr{
-  background: #8B8999;
-    /* flex-grow: 1; */
-    opacity: 20%;
-    height: 1px;
-    margin: 10px 32px;
+.side_hr {
+  background: #8b8999;
+  /* flex-grow: 1; */
+  opacity: 20%;
+  height: 1px;
+  margin: 10px 32px;
 }
 
-
-
-
-.Artist_logo{
+.Artist_logo {
   width: 40px;
   height: 40px;
   border-radius: 100%;
 }
-
-
-
-
-

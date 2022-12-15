@@ -56,11 +56,14 @@ export default function Sidebar() {
     curMenu = "home";
   } else if (urlObj.stage.indexOf(location.pathname) > -1) {
     curMenu = "stage";
-  } else if (urlObj.artist.indexOf(location.pathname) > -1) {
-    curMenu = "artist";
-  } else if (urlObj.store.indexOf(location.pathname) > -1) {
-    curMenu = "store";
-  } else if (urlObj.settings.indexOf(location.pathname) > -1) {
+  }
+  // else if (urlObj.artist.indexOf(location.pathname) > -1) {
+  //   curMenu = "artist";
+  // }
+  // else if (urlObj.store.indexOf(location.pathname) > -1) {
+  //   curMenu = "store";
+  // }
+  else if (urlObj.settings.indexOf(location.pathname) > -1) {
     curMenu = "settings";
   } else if (urlObj.help.indexOf(location.pathname) > -1) {
     curMenu = "help";
