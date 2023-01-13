@@ -61,7 +61,7 @@ function App() {
             <Route path="/stream" element={<StreamMain />} />
             <Route path="/streamup" element={<StreamUpcoming />} />
             <Route path="/streampv" element={<StreamPrevious />} />
-            <Route path="/streamLive/0001" element={<StreamLive />} token={token} />
+            <Route path="/streamLive" element={<StreamLive />} token={token} />
 
             <Route path="/store" element={<StoreMain />} />
             <Route path="/storebrand" element={<StoreBrand />} />

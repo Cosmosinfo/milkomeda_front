@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import Modal from "../../components/Modal/Modal";
 
 function ArtistNameCard() {
   const { t } = useTranslation();
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(!modalOpen);
+  };
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
+  console.log(modalOpen);
 
   return (
     <>
-      <StyledLink to="/artisthome" style={{ textDecoration: "none" }}>
+      <StyledLink onClick={openModal}>
+        <Modal open={modalOpen} close={closeModal} header="Modal heading">
+          팝업창입니다. 쉽게 만들 수 있어요. 같이 만들어봐요!
+        </Modal>
         <NewArtistItemContainer>
           <NewArtistItemContainerBox>
             <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
@@ -27,8 +41,9 @@ function ArtistNameCard() {
   );
 }
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.div`
   flex: 1;
+  cursor: pointer;
 `;
 
 const NewArtistItemContainer = styled.div`
