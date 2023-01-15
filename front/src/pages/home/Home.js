@@ -4,6 +4,11 @@ import "../../assets/css/Main/Home.css";
 import HomeBanner from "../../components/Carousel/HomeBanner";
 // import chevron from "../../assets/icon/ping//chevron-down.svg";
 import ArtistNameCard from "../../components/ArtistNameCard/ArtistNameCard";
+import ArtistNameCard1 from "../../components/ArtistNameCard/ArtistNameCard1";
+import ArtistNameCard2 from "../../components/ArtistNameCard/ArtistNameCard2";
+import ArtistNameCard3 from "../../components/ArtistNameCard/ArtistNameCard3";
+import ArtistNameCard4 from "../../components/ArtistNameCard/ArtistNameCard4";
+import ArtistNameCard5 from "../../components/ArtistNameCard/ArtistNameCard5";
 // import StageCard from '../../components/StageCard/StageCard';
 // import { Link } from "react-router-dom";
 // import StageCardData from "../../Data/StageCardData";
@@ -13,6 +18,51 @@ import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
+// const artists = [
+//   {
+//     id: 1,
+//     imgUrl: "/assets/icon/lubbless_poster.png",
+//     logo: "/assets/icon/lubbless.png",
+//     name: "Lubbless",
+//     type: "Synth POP, EDM",
+//   },
+//   {
+//     id: 2,
+//     imgUrl: "/assets/icon/nekiru_poster.png",
+//     logo: "/assets/icon/nekiru.png",
+//     name: "Nekiru",
+//     type: "Synth Rock",
+//   },
+//   {
+//     id: 3,
+//     imgUrl: "/assets/icon/Tiech_poster.png",
+//     logo: "/assets/icon/tiech.png",
+//     name: "Tiech",
+//     type: "Hard Rock",
+//   },
+//   {
+//     id: 4,
+//     imgUrl: "/assets/icon/Deathdate_poster.png",
+//     logo: "/assets/icon/deathdate.png",
+//     name: "Death Date",
+//     type: "Metal",
+//   },
+//   {
+//     id: 5,
+//     imgUrl: "/assets/icon/Clitz_poster.png",
+//     logo: "/assets/icon/clitz.png",
+//     name: "C.LITZ",
+//     type: "Metal",
+//   },
+//   {
+//     id: 6,
+//     imgUrl: "/assets/icon/lucidream_poster.png",
+//     logo: "/assets/icon/Lucidream.png",
+//     name: "Luci Dream",
+//     type: "Hard Rock, Synth Rock",
+//   },
+// ];
 
 function Home() {
   // 다국어처리
@@ -118,15 +168,15 @@ function Home() {
             <div className="home_newArtistItem">
               <ArtistNameCard />
 
-              <ArtistNameCard />
+              <ArtistNameCard1 />
 
-              <ArtistNameCard />
+              <ArtistNameCard2 />
 
-              <ArtistNameCard />
+              <ArtistNameCard3 />
 
-              <ArtistNameCard />
+              <ArtistNameCard4 />
 
-              <ArtistNameCard />
+              <ArtistNameCard5 />
             </div>
           </div>
           {/* ====================  Live Stage  ======================== */}

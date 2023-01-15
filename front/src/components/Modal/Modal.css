@@ -14,6 +14,13 @@
   cursor: pointer;
   border: 0;
 }
+.name {
+  margin-left: 20px;
+}
+.name_type {
+  margin-top: 10px;
+  font-size: 14px;
+}
 .container {
   display: flex;
 }
@@ -56,7 +63,7 @@
   padding-top: 20px;
 }
 .modal > section > main {
-  height: 500px;
+  height: 300px;
   padding: 16px;
   border-bottom: 1px solid #dee2e6;
   border-top: 1px solid #dee2e6;

@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "../../assets/icon/lubbless_poster.png";
+import Icon from "../../assets/icon/Clitz_poster.png";
 import "./Modal.css";
 
 export default function Modal(props) {
@@ -23,11 +23,11 @@ export default function Modal(props) {
                 <img src={Icon} alt="" />
               </div>
               <div className="name">
-                <div>Lubbless</div>
-                <div className="name_type">Synth POP, EDM</div>
+                <div>C.LITZ</div>
+                <div className="name_type">Metal</div>
               </div>
             </div>
-            <div className="footer">Synth POP과 EDM을 전문적으로 하며 현재 주요 활동 영역은 일본과 한국이다.</div>
+            <div className="footer">2인조 여성 그룹으로 이루어져있으며 Metal을 전문적으로 하며 현재 주요 활동 영역은 일본과 한국이다.</div>
           </main>
           {/* <footer>
             <button className="close" onClick={close}>
