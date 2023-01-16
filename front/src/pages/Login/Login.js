@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import google from "../../assets/icon/social/google.svg";
-import apple from "../../assets/icon/social/apple.svg";
-import kakao from "../../assets/icon/social/kakao.svg";
-import naver from "../../assets/icon/social/naver.svg";
+// import google from "../../assets/icon/social/google.svg";
+// import apple from "../../assets/icon/social/apple.svg";
+// import kakao from "../../assets/icon/social/kakao.svg";
+// import naver from "../../assets/icon/social/naver.svg";
 import "./Login.css";
 import Topbar2 from "../../components/topbar/Topbar2";
 // import { loginUser } from "../../_actions/userAction";
@@ -47,7 +47,7 @@ function Login() {
   const submit = async (values) => {
     const { userEmail, userPassword } = values;
     try {
-      const { data } = await axios.post("http://54.215.251.144:8080/api/user/login", {
+      const { data } = await axios.post("http://52.53.207.20:8080/api/user/login", {
         userEmail,
         userPassword,
       });
@@ -135,13 +135,13 @@ function Login() {
                     </form>
                   )}
                 </Formik>
-                <div className="Login_ItemRight_btm_orBox">
+                {/* <div className="Login_ItemRight_btm_orBox">
                   <div className="Login_ItemRight_btm_orBox_hrlf"></div>
                   <div className="Login_ItemRight_btm_orBox_hrmd">or</div>
                   <div className="Login_ItemRight_btm_orBox_hrrh"></div>
-                </div>
+                </div> */}
 
-                <div className="Login_ItemRight_btm_google">
+                {/* <div className="Login_ItemRight_btm_google">
                   <div className="Login_ItemRight_btm_Itembox">
                     <div className="Login_ItemRight_btm_Iconbox">
                       <img className="social_icon" src={google} alt="google" />
@@ -171,9 +171,9 @@ function Login() {
                       <span className="Login_ItemRight_btm_text_kakao">Continue with Kakao</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="Login_ItemRight_btm_Naver">
+                {/* <div className="Login_ItemRight_btm_Naver">
                   <div className="Login_ItemRight_btm_Itembox">
                     <div className="Login_ItemRight_btm_Iconbox">
                       <img className="social_icon" src={naver} alt="naver" />
@@ -182,7 +182,7 @@ function Login() {
                       <span className="Login_ItemRight_btm_text_naver">Continue with Naver</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="Login_ItemRight_btm_hr"></div>
 

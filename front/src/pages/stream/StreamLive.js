@@ -7,6 +7,7 @@ import StreamChatBox from "../../components/StreamLiveChat/StreamChatBox";
 import Topbar from "../../components/topbar/Topbar";
 import flv from "flv.js";
 import axios from "axios";
+import queryString from "query-string";
 
 class StreamLive extends React.Component {
   constructor(props) {
@@ -21,11 +22,12 @@ class StreamLive extends React.Component {
   componentDidMount() {
     // const { id } = this.props.match.params;
     // this.props.fetchStream(id);
-    this.buildPlayer();
     this.data();
+    this.buildPlayer();
   }
 
   componentDidUpdate() {
+    this.videoRef = React.createRef();
     this.buildPlayer();
   }
 
@@ -34,29 +36,38 @@ class StreamLive extends React.Component {
   }
 
   async data() {
-    await axios.post("http://54.215.251.144:8080/api/stage/findIdLiveList", { stageId: "asd" }).then((res) => this.setState({ data: res }));
+    let qs = queryString.parse(window.location.search);
+
+    await axios
+      .post("http://52.53.207.20:8080/api/stage/findIdLiveList", { stageStreamKey: qs.streamKey })
+      .then((res) => this.setState({ data: res }));
   }
 
-  async buildPlayer() {
-    // const { id } = this.props.match.params;
-    const response = await axios.post("http://54.215.251.144:8080/api/stage/findIdLiveList", { stageId: "asd" });
+  buildPlayer() {
+    // let qs = queryString.parse(window.location.search);
+    // // const { id } = this.props.match.params;
+    // const response = await axios.post("http://52.53.207.20:8080/api/stage/findIdLiveList", { stageStreamKey: qs.streamKey });
 
-    if (this.player || !response.data.streams[0]) {
+    // console.log(response);
+
+    if (this.player) {
       return;
     }
-    // const { id } = this.props.match.params;
+
     this.player = flv.createPlayer({
       type: "flv",
-      url: `http://54.215.251.144:8000/live/${response.data.streams[0].id}.flv`,
+      url: `http://52.53.207.20:8000/live/cb792f82-fbce-48f4-a5b2-b30fcae31d59.flv`,
     });
     this.player.attachMediaElement(this.videoRef.current);
     this.player.load();
-    this.player.play();
+
+    // const { id } = this.props.match.params;
+
+    // this.player.play();
   }
 
   render() {
     const { data } = this.state;
-    console.log(data);
 
     return (
       <>
@@ -69,7 +80,6 @@ class StreamLive extends React.Component {
                   {/* Streaming 라이브 뷰 */}
                   <div className="StreamLive_LiveView">
                     <video
-                      className="player"
                       ref={this.videoRef}
                       style={{ width: "100%" }}
                       poster="https://image.sbs.co.kr/news/m/thum_m_offair.jpg"

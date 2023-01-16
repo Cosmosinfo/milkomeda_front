@@ -1,23 +1,9 @@
-// import { REGISTER_USER } from "./types";
-// import { request } from "../utils/axios";
-
-// const USER_URL = "/api/user";
-
-// export function registerUser(dataToSubmit) {
-//   const data = request("post", USER_URL + "/register", dataToSubmit);
-
-//   return {
-//     type: REGISTER_USER,
-//     payload: data,
-//   };
-// }
-
 import axios from "axios";
 import { LOGIN_USER, REGISTER_USER, FETCH_STREAM, FETCH_STREAMS } from "../_actions/types";
 import streams from "../apis/streams";
 
 export function loginUser(dataToSubmit) {
-  const request = axios.post("http://54.215.251.144:8080/api/user/login", dataToSubmit).then((response) => response.data);
+  const request = axios.post("http://52.53.207.20:8080/api/user/login", dataToSubmit).then((response) => response.data);
 
   return {
     type: LOGIN_USER,
@@ -26,7 +12,7 @@ export function loginUser(dataToSubmit) {
 }
 
 export function registerUser(dataToSubmit) {
-  const request = axios.post("http://54.215.251.144:8080/api/user/join", dataToSubmit).then((response) => response.data);
+  const request = axios.post("http://52.53.207.20:8080/api/user/join", dataToSubmit).then((response) => response.data);
 
   return {
     type: REGISTER_USER,

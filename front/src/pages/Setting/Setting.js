@@ -43,7 +43,7 @@ function Setting() {
     <>
       <Topbar />
       {checked ? (
-        <div className="Signup_ItemRight_btm_usernameBox">
+        <div className="Signup_ItemRight_btm_usernameBox_demo">
           <div className="Signup_ItemRight_btm_usernameBox_Bigtitle">OBS Setting</div>
           <div className="Signup_ItemRight_btm_usernameBox_container">
             <span className="Signup_ItemRight_btm_usernameBox_title">Rtmp Server : rtmp://54.215.251.144/live</span>
@@ -94,7 +94,7 @@ function Setting() {
           {({ values, handleSubmit, handleChange }) => (
             <form onSubmit={handleSubmit} className="form">
               <ToastContainer />
-              <div className="Signup_ItemRight_btm_usernameBox">
+              <div className="Signup_ItemRight_btm_usernameBox_demo">
                 <div className="Signup_ItemRight_btm_usernameBox_Bigtitle">스테이지 등록</div>
                 <div className="Signup_ItemRight_btm_usernameBox_container">
                   <span className="Signup_ItemRight_btm_usernameBox_title">공연 날짜 / 시간</span>

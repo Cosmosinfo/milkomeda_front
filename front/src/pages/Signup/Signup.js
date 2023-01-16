@@ -1,10 +1,10 @@
 import React from "react";
 import "./Signup.css";
 // import { Link } from "react-router-dom";
-import google from "../../assets/icon/social/google.svg";
-import apple from "../../assets/icon/social/apple.svg";
-import kakao from "../../assets/icon/social/kakao.svg";
-import naver from "../../assets/icon/social/naver.svg";
+// import google from "../../assets/icon/social/google.svg";
+// import apple from "../../assets/icon/social/apple.svg";
+// import kakao from "../../assets/icon/social/kakao.svg";
+// import naver from "../../assets/icon/social/naver.svg";
 import Topbar2 from "../../components/topbar/Topbar2";
 // import { useDispatch } from "react-redux";
 // import { registerUser } from "../../_actions/userAction";
@@ -35,7 +35,7 @@ function Signup() {
   const submit = async (values) => {
     const { userEmail, userChkEmail, userPassword } = values;
     try {
-      await axios.post("http://54.215.251.144:8080/api/user/join", {
+      await axios.post("http://52.53.207.20:8080/api/user/join", {
         userEmail,
         userChkEmail,
         userPassword,
@@ -86,7 +86,7 @@ function Signup() {
               </div>
 
               <div className="Signup_ItemRight_btm">
-                <div className="Signup_ItemRight_btm_google">
+                {/* <div className="Signup_ItemRight_btm_google">
                   <div className="Signup_ItemRight_btm_Itembox">
                     <div className="Signup_ItemRight_btm_Iconbox">
                       <img className="social_icon" src={google} alt="google" />
@@ -95,8 +95,8 @@ function Signup() {
                       <span className="Signup_ItemRight_btm_text">Continue with Google</span>
                     </div>
                   </div>
-                </div>
-                <div className="Signup_ItemRight_btm_apple">
+                </div> */}
+                {/* <div className="Signup_ItemRight_btm_apple">
                   <div className="Signup_ItemRight_btm_Itembox">
                     <div className="Signup_ItemRight_btm_Iconbox">
                       <img className="social_icon" src={apple} alt="apple" />
@@ -126,16 +126,16 @@ function Signup() {
                       <span className="Signup_ItemRight_btm_text_naver">Continue with Naver</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="Signup_ItemRight_btm_orBox">
+                {/* <div className="Signup_ItemRight_btm_orBox">
                   <div className="Signup_ItemRight_btm_orBox_hrlf"></div>
                   <div className="Signup_ItemRight_btm_orBox_hrmd">or</div>
                   <div className="Signup_ItemRight_btm_orBox_hrrh"></div>
-                </div>
+                </div> */}
 
                 <div className="Signup_ItemRight_btm_Email">
-                  <span className="Signup_ItemRight_btm_Email_text">Sign up with Email</span>
+                  {/* <span className="Signup_ItemRight_btm_Email_text">Sign up with Email</span> */}
                 </div>
                 <Formik
                   initialValues={{

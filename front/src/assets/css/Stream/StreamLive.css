@@ -1,381 +1,341 @@
-.StreamLive{
+.StreamLive {
   width: 100%;
   /* height: 100%; */
-  color: #FFFFFF;
-    
-  }
-  
-  .StreamLive_Wrapper{
-    /* width: 1620px; */
-    height: calc(100% - 44%);
-    padding: 30px 30px;
-    
-    
-  }
-  .StreamLive_Wrapper_container{
-    display: flex;
-  }
+  color: #ffffff;
+}
 
-  .StreamLive_left{
-    /* width: 1214px; */
-    height: 100%;
-    overflow: overlay;
-    margin-right: 24px;
-    flex: 2.85;
-  }
+.StreamLive_Wrapper {
+  /* width: 1620px; */
+  height: calc(100% - 44%);
+  padding: 30px 30px;
+}
+.StreamLive_Wrapper_container {
+  display: flex;
+}
 
-  /* .StreamLive_left::-webkit-scrollbar {
+.StreamLive_left {
+  /* width: 1214px; */
+  height: 100%;
+  overflow: overlay;
+  margin-right: 24px;
+  flex: 2.85;
+}
+
+/* .StreamLive_left::-webkit-scrollbar {
     display: none;
     } */
 
-  
-
-  
-
-  .StreamLive_LiveView{
-    /* width : 100%;
+.StreamLive_LiveView {
+  /* width : 100%;
     height : 626px; */
-    border-radius: 6px;
-    background-color : #191922;
-    
-    
-    text-align: center;
-    aspect-ratio: 1214/626;
+  border-radius: 6px;
+  background-color: #191922;
 
-  }
+  text-align: center;
+  aspect-ratio: 1214/626;
+}
 
-  .StreamLive_LiveDetails{
-    width : 100%;
-    /* height : 369px; */
+.StreamLive_LiveDetails {
+  width: 100%;
+  /* height : 369px; */
 
-    margin-top: 24px;
-  }
+  margin-top: 24px;
+}
 
-  .StreamLive_Title{
-    width : 100%;
-    /* height : 30px; */
+.StreamLive_Title {
+  width: 100%;
+  /* height : 30px; */
 
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
+}
 
- 
-  
- 
+.StreamLive_Title_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 
-  .StreamLive_Title_text{
-    
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+  color: #ffffff;
+}
 
-    color: #ffffff;
-  }
+.StreamLive_Title_right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  align-items: center;
+}
+.StreamLive_Title_right_ShareIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
 
-  .StreamLive_Title_right{
-    width: 100%;
-    display:  flex;
-    justify-content: flex-end;
-    flex : 1;
-    align-items: center;
-    
-  }
-  .StreamLive_Title_right_ShareIcon{
-    width : 20px;
-    height: 20px;
-    margin-right: 12px;
-    vertical-align: middle;
-  }
+.StreamLive_Title_right_Share {
+  height: 100%;
 
-  .StreamLive_Title_right_Share{
-    height: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  color: #ffffff;
 
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 30px;
-    display: flex;
-color: #FFFFFF;
+  margin-right: 30px;
+  align-items: center;
+}
 
-    margin-right: 30px;
-    align-items: center;
-  }
+.StreamLive_Title_right_ReportIcon {
+  width: 20px;
+  height: 20px;
 
-  .StreamLive_Title_right_ReportIcon{
-    width : 20px;
-    height: 20px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
 
-    margin-right: 12px;
-    vertical-align: middle;
-  }
+.StreamLive_Title_right_Share_text {
+  cursor: pointer;
+}
 
-  .StreamLive_Title_right_Share_text{
-    cursor: pointer;
-  }
+.StreamLive_Title_right_Report {
+  height: 100%;
 
-  .StreamLive_Title_right_Report{
-    
-    height: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
 
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
 
-color: #FFFFFF;
-display: flex;
-align-items: center;
-  }
+.StreamLive_Title_right_Report_text {
+  cursor: pointer;
+}
 
-  .StreamLive_Title_right_Report_text{
-    cursor: pointer;
-  }
+.StreamLive_content {
+  width: 100%;
+  height: 312px;
+}
 
-  
+.StreamLive_Content_Info {
+  height: 104px;
+  display: flex;
+  margin: 24px 0px;
+  gap: 24px;
+}
 
-
-
-  .StreamLive_content{
-    width : 100%;
-    height : 312px;
-  }
-
-  .StreamLive_Content_Info{
-    height: 104px;
-    display: flex;
-    margin: 24px 0px;
-    gap: 24px;
-
-  }
-
-  .StreamLive_Content_Info_address{
-    /* width: 355px; */
-    height: 100%;
-    flex: 0.8;
-    border-radius: 6px;
-    background-color: #191922;
-    
-    
-  }
+.StreamLive_Content_Info_address {
+  /* width: 355px; */
+  height: 100%;
+  flex: 0.8;
+  border-radius: 6px;
+  background-color: #191922;
+}
 
 /* ============================================================= */
 
-
-.StreamLive_address_Container{
+.StreamLive_address_Container {
   /* width: 250px; */
   border-radius: 6px;
-    background-color: #191922;
-    padding: 24px 24px;
-    display: flex;
+  background-color: #191922;
+  padding: 24px 24px;
+  display: flex;
   /* justify-content: center; */
 }
 
-.StreamLive_address_Container_left{
+.StreamLive_address_Container_left {
   /* width: 60px; */
   height: 60px;
   /* padding: 20px 0px 20px 24px; */
   align-self: center;
-  
 }
 
-.StreamLive_address_Container_right{
+.StreamLive_address_Container_right {
   /* width: 120px; */
   margin-left: 24px;
   display: flex;
   flex-direction: column;
- 
 }
 
-.StreamLive_address_img{
+.StreamLive_address_img {
   width: 60px;
   height: 60px;
   border-radius: 100px;
   cursor: pointer;
 }
 
-.StreamLive_address_Container_Namebox{
+.StreamLive_address_Container_Namebox {
   /* width : 93px; */
-  height : 21px;
+  height: 21px;
   /* margin-top: 20px; */
   text-overflow: clip;
-    /* white-space: nowrap; */
-    overflow: hidden;
+  /* white-space: nowrap; */
+  overflow: hidden;
 }
 
-.StreamLive_address_Container_Namebox_Location{
+.StreamLive_address_Container_Namebox_Location {
   /* width : 93px; */
-  width : 21px;
+  width: 21px;
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
-  
 }
 
-.StreamLive_address_Container_Namebox_LocationAddr{
+.StreamLive_address_Container_Namebox_LocationAddr {
   /* width : 150px; */
-  height : 21px;
+  height: 21px;
   text-overflow: clip;
-    white-space: nowrap;
-    overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.StreamLive_address_Container_Namebox_LocationAddr_text{
+.StreamLive_address_Container_Namebox_LocationAddr_text {
   /* width : 150px; */
-  width : 21px;
+  width: 21px;
   font-size: 14px;
   font-weight: 400;
-  color : #8b8999
+  color: #8b8999;
 }
 
 /* ============================================================= */
 
-  .StreamLive_Content_Info_Date{
-    /* width: 250px;
+.StreamLive_Content_Info_Date {
+  /* width: 250px;
     height: 100%; */
-    border-radius: 6px;
-    background-color: #191922;
-    /* margin-right: 24px; */
-  }
-  
-.StreamLive_Content_Info_Date_textBox{
+  border-radius: 6px;
+  background-color: #191922;
+  /* margin-right: 24px; */
+}
+
+.StreamLive_Content_Info_Date_textBox {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px 38px 20px 24px;
 }
 
-.StreamLive_Content_Info_Date_textBox_text{
+.StreamLive_Content_Info_Date_textBox_text {
   /* width: 82px; */
   height: 20px;
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 21px;
-/* identical to box height */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.StreamLive_Content_Info_year_textBox_text{
+.StreamLive_Content_Info_year_textBox_text {
   /* width: 150px; */
   height: 40px;
   font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 
-color: #8B8999;
+  color: #8b8999;
 }
 
+.StreamLive_Content_Info_ArtistName {
+  display: flex;
+  overflow: hidden;
+  flex: 1 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 6px 0;
+  width: 100%;
+}
 
+.StreamLive_Content_Info_ArtistName_top {
+  width: 100%;
+  height: 40px;
 
-  .StreamLive_Content_Info_ArtistName{
-    display: flex;
-    overflow: hidden;
-    flex: 1 1;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding: 6px 0;
-    width: 100%;
-   
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+.StreamLive_Content_Info_ArtistName_btm {
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+}
+
+.StreamLive_Content_Info_ArtistName_contanierBox {
+  /* width: 158px;  */
+  /* height: 40px; */
+  display: flex;
+  border-radius: 100px;
+  background-color: #191922;
+  /* aspect-ratio: 158/40; */
+}
+
+.StreamLive_Content_Info_ArtistName_contanierBoxLast {
+  width: 172px;
+  height: 40px;
+  display: flex;
+  border-radius: 100px;
+  background-color: #191922;
+}
+
+.StreamLive_Artist_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.StreamLive_Content_Info_ArtistName_contanier_textBox {
+  padding-left: 12px;
+
+  padding-right: 12px;
+}
+
+.StreamLive_Content_Info_ArtistName_contanier_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1680px) {
+  .StreamLive_Content_Info_ArtistName_contanier_text {
+    font-size: 10px !important;
   }
+}
 
-  .StreamLive_Content_Info_ArtistName_top{
-    width: 100%;
-    height: 40px;
+.StreamLive_Content_Details {
+  width: 100%;
+  /* height: 188px; */
 
-    display: flex;
-    gap: 12px;
-    margin-bottom : 12px;
-    justify-content: space-between;
-  }
+  border-radius: 6px;
+  background-color: #191922;
+}
+.StreamLive_Content_Details_text {
+  box-sizing: border-box;
+  padding: 25px 25px 25px 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 
-  .StreamLive_Content_Info_ArtistName_btm{
-    width: 100%;
-    height: 40px;
+  color: #ffffff;
+}
 
-    display: flex;
-  }
-
-  .StreamLive_Content_Info_ArtistName_contanierBox{
-    /* width: 158px;  */
-    /* height: 40px; */
-    display: flex;
-    border-radius: 100px;
-    background-color: #191922;
-    /* aspect-ratio: 158/40; */
-
-    
-  }
-
-  .StreamLive_Content_Info_ArtistName_contanierBoxLast{
-    width: 172px;
-    height: 40px;
-    display: flex;
-    border-radius: 100px;
-    background-color : #191922;
-  }
-
-  .StreamLive_Artist_img{
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    cursor: pointer;
-  }
-
-  .StreamLive_Content_Info_ArtistName_contanier_textBox{
-    padding-left: 12px;
-   
-    padding-right: 12px;
-  }
-
-  .StreamLive_Content_Info_ArtistName_contanier_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 40px;
-
-    color: #FFFFFF;
-  }
-
-  @media only screen and (max-width: 1680px) {
-    .StreamLive_Content_Info_ArtistName_contanier_text
-    {
-      font-size: 10px !important;
-    }
-  }
-
-  .StreamLive_Content_Details{
-    width: 100%;
-    /* height: 188px; */
-    
-    
-    border-radius: 6px;
-    background-color : #191922;
-  }
-  .StreamLive_Content_Details_text{
-    box-sizing: border-box;
-    padding: 25px 25px 25px 25px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    
-    color: #FFFFFF;
-    
-  }
-
-  
 /* =============================== StreamLive Chat  ============================== */
 
-.StreamLive_Right_Wrapper{
+.StreamLive_Right_Wrapper {
   /* width: 416px; */
   flex: 1;
   /* padding: 24px 36px 0 36px; */
   /* background-color: #191922; */
-  
-} 
-
-
-  
+}

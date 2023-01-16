@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Modal from "../../components/Modal/Modal";
-import Icon from "../../assets/icon/lubbless.png";
+import Modal4 from "../../components/Modal/Modal4";
+import Icon from "../../assets/icon/deathdate.png";
 
-function ArtistNameCard() {
+function ArtistNameCard4() {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -16,18 +16,18 @@ function ArtistNameCard() {
   return (
     <>
       <StyledLink onClick={openModal}>
-        <Modal open={modalOpen} close={closeModal} header="Artist Description">
+        <Modal4 open={modalOpen} close={closeModal} header="Artist Description">
           팝업창입니다. 쉽게 만들 수 있어요. 같이 만들어봐요!
-        </Modal>
+        </Modal4>
         <NewArtistItemContainer>
           <NewArtistItemContainerBox>
             <img src={Icon} alt="" />
             <NewArtistItemContainerRight>
               <NewArtistItemContainerNameBox>
-                <NewArtistItemContainerArtistName>Lubbless</NewArtistItemContainerArtistName>
+                <NewArtistItemContainerArtistName>Death Date</NewArtistItemContainerArtistName>
               </NewArtistItemContainerNameBox>
               <NewArtistItemContainerMusicGenreBox>
-                <NewArtistItemContainerMusicGenre>Synth POP, EDM</NewArtistItemContainerMusicGenre>
+                <NewArtistItemContainerMusicGenre>Metal</NewArtistItemContainerMusicGenre>
               </NewArtistItemContainerMusicGenreBox>
             </NewArtistItemContainerRight>
           </NewArtistItemContainerBox>
@@ -97,4 +97,4 @@ const NewArtistItemContainerMusicGenre = styled.span`
   color: #8b8999;
 `;
 
-export default ArtistNameCard;
+export default ArtistNameCard4;
