@@ -81,7 +81,6 @@ function Home() {
       navigate("/login");
       alert("로그인이 필요한 페이지입니다");
     } else {
-      console.log("sex", data);
       navigate(`/streamLive?streamKey=${data}`);
     }
   };
@@ -93,8 +92,6 @@ function Home() {
   const getLiveData = async () => {
     await axios.get("http://52.53.207.20:8080/api/main/mainInfo").then((res) => setData(res.data.stageStartInfo));
   };
-
-  console.log(data);
 
   // const [btnActive, setBtnActive] = useState("");
 

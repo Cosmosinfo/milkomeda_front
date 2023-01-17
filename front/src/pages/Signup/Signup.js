@@ -32,6 +32,10 @@ function Signup() {
     // ),
   });
 
+  const asd = process.env.NEXT_PUBLIC_SERCER_URL;
+
+  console.log(asd);
+
   const submit = async (values) => {
     const { userEmail, userChkEmail, userPassword } = values;
     try {
@@ -39,15 +43,15 @@ function Signup() {
         userEmail,
         userChkEmail,
         userPassword,
-        userAccess: "P",
-        userNickname: "",
-        userAge: "",
-        userName: "",
-        userPhone: "",
-        userProfileImage: "",
-        userGender: "",
-        userNation: "",
-        userAddress: "",
+        userAccess: "N",
+        userNickname: "test",
+        userBirth: "2000-02-02",
+        userName: "test",
+        userPhone: "test",
+        userProfileImage: "test",
+        userGender: "M",
+        userNation: "test",
+        userAddress: "test",
       });
       toast.success(
         <h3>
@@ -60,7 +64,7 @@ function Signup() {
           autoClose: 2000,
         }
       );
-      navigate("/signup2");
+      navigate("/login");
     } catch (e) {
       // 서버에서 받은 에러 메시지 출력
       toast.error(e.response.data.message + "😭", {
@@ -204,7 +208,7 @@ function Signup() {
                       <div className="Signup_ItemRight_btm_NextBox">
                         <div className="Signup_ItemRight_btm_NextBtn">
                           <button type="submit" className="Signup_ItemRight_btm_NextBtn_text">
-                            Next
+                            Confirm
                           </button>
                         </div>
                       </div>
