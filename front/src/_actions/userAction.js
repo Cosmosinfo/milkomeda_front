@@ -3,7 +3,9 @@ import { LOGIN_USER, REGISTER_USER, FETCH_STREAM, FETCH_STREAMS } from "../_acti
 import streams from "../apis/streams";
 
 export function loginUser(dataToSubmit) {
-  const request = axios.post("http://52.53.207.20:8080/api/user/login", dataToSubmit).then((response) => response.data);
+  const request = axios
+    .post("http://118.63.182.3:8880/api/user/login", dataToSubmit)
+    .then((response) => console.log("response", response.data));
 
   return {
     type: LOGIN_USER,

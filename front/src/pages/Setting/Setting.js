@@ -13,7 +13,7 @@ function Setting() {
   const submit = async (values) => {
     const { stageTitle, stageDescription, stageLocation } = values;
     try {
-      await axios.post("http://54.215.251.144:8080/api/stage/stageInsert", {
+      await axios.post("http://118.63.182.3:8880/api/stage/stageInsert", {
         stageId: "0001",
         stageMakeUserId: "vboi2323",
         stageTitle,
