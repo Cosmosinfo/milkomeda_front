@@ -71,6 +71,8 @@ export default function Sidebar() {
     curMenu = "help";
   }
 
+  console.log(admin === "1");
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">

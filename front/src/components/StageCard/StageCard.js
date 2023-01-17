@@ -14,7 +14,7 @@ function StageCard() {
   }, []);
 
   const getLiveData = async () => {
-    await axios.get("http://54.215.251.144:8080/api/stage/liveList").then((res) => setData(res));
+    await axios.get("http://118.63.182.3:8080/api/stage/liveList").then((res) => setData(res));
   };
 
   const tokenPath = () => {
