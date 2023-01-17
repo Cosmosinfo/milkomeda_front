@@ -44,19 +44,20 @@ class StreamLive extends React.Component {
   }
 
   buildPlayer() {
-    // let qs = queryString.parse(window.location.search);
-    // // const { id } = this.props.match.params;
+    let qs = queryString.parse(window.location.search);
+    console.log(qs.streamKey);
+    // const { id } = this.props.match.params;
     // const response = await axios.post("http://52.53.207.20:8080/api/stage/findIdLiveList", { stageStreamKey: qs.streamKey });
 
     // console.log(response);
 
-    if (this.player) {
-      return;
-    }
+    // if (this.player) {
+    //   return;
+    // }
 
     this.player = flv.createPlayer({
       type: "flv",
-      url: `http://52.53.207.20:8000/live/cb792f82-fbce-48f4-a5b2-b30fcae31d59.flv`,
+      url: `http://52.53.207.20:8000/live/${qs.streamKey}`,
     });
     this.player.attachMediaElement(this.videoRef.current);
     this.player.load();
@@ -68,6 +69,8 @@ class StreamLive extends React.Component {
 
   render() {
     const { data } = this.state;
+
+    console.log(this.videoRef);
 
     return (
       <>

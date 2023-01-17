@@ -23,12 +23,14 @@ import Settings_pink from "../../assets/icon/ping/settings.svg";
 import Help_gray from "../../assets/icon/graw/help-circle.svg";
 import Help_pink from "../../assets/icon/ping/help-circle.svg";
 import { useTranslation } from "react-i18next";
+import { useSelector } from "react-redux";
 
 export default function Sidebar() {
   // 다국어 번역
   const { t } = useTranslation();
 
   const location = useLocation();
+  const admin = useSelector((state) => state.Auth.admin);
 
   const urlObj = {
     home: ["/", "/login", "/signup", "/signup2", "/signup3", "/signup4", "/signup5", "/signup6", "/signup7", "/*"],
@@ -178,20 +180,21 @@ export default function Sidebar() {
 
         <ul className="side_item_3">
           <div className="side_hr"></div>
-
-          <li className="item3_name">
-            <img className="sidebarIcon" src={curMenu === "settings" ? Settings_pink : Settings_gray} alt="Settings" />
-            {curMenu === "settings" ? (
-              <Link to="/setting" className="item_link">
-                <span className="home_title">{t("side_setting")}</span>
-              </Link>
-            ) : (
-              <Link to="/setting" className="item_link">
-                <span className="home_title_change">{t("side_setting")}</span>
-              </Link>
-            )}
-            {curMenu === "settings" ? <div className="item_nameBar"></div> : <></>}
-          </li>
+          {admin === "1" && (
+            <li className="item3_name">
+              <img className="sidebarIcon" src={curMenu === "settings" ? Settings_pink : Settings_gray} alt="Settings" />
+              {curMenu === "settings" ? (
+                <Link to="/setting" className="item_link">
+                  <span className="home_title">{t("side_setting")}</span>
+                </Link>
+              ) : (
+                <Link to="/setting" className="item_link">
+                  <span className="home_title_change">{t("side_setting")}</span>
+                </Link>
+              )}
+              {curMenu === "settings" ? <div className="item_nameBar"></div> : <></>}
+            </li>
+          )}
 
           <li className="item3_name">
             <img className="sidebarIcon" src={curMenu === "help" ? Help_pink : Help_gray} alt="Help" />

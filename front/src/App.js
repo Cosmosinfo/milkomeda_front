@@ -55,7 +55,6 @@ function App() {
             <Route path="/signup5" element={<Signup5 />} />
             <Route path="/signup6" element={<Signup6 />} />
             <Route path="/signup7" element={<Signup7 />} />
-
             <Route path="/help" element={<Help />} />
             <Route path="/setting" element={<Settings />} />
             <Route path="/stream" element={<StreamMain />} />
